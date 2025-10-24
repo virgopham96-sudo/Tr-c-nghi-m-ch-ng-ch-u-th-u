@@ -13,6 +13,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setNumber }) =
     const [selectedAnswers, setSelectedAnswers] = useState<UserAnswers>({});
     const [timeRemaining, setTimeRemaining] = useState(15 * 60); // 15 minutes in seconds
     const [isFading, setIsFading] = useState(false); // State for fade transition
+    const [showHint, setShowHint] = useState(false); // State for hint visibility
 
     // Ref to hold the latest answers to avoid stale closure in setInterval
     const answersRef = useRef(selectedAnswers);
@@ -49,6 +50,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setNumber }) =
     const handleJumpToQuestion = (index: number) => {
         if (index !== currentQuestionIndex) {
             setIsFading(true);
+            setShowHint(false); // Hide hint when changing question
             setTimeout(() => {
                 setCurrentQuestionIndex(index);
                 setIsFading(false);
@@ -66,6 +68,10 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setNumber }) =
         if (currentQuestionIndex > 0) {
             handleJumpToQuestion(currentQuestionIndex - 1);
         }
+    };
+
+    const toggleHint = () => {
+        setShowHint(prev => !prev);
     };
 
     const formatTime = (seconds: number) => {
@@ -130,6 +136,20 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setNumber }) =
                                 </label>
                             ))}
                         </div>
+                         <div className="mt-4 text-right">
+                            <button
+                                onClick={toggleHint}
+                                className="text-cyan-600 hover:text-cyan-500 font-semibold text-sm py-1 px-3 rounded-md bg-gray-100 hover:bg-gray-200 transition-all"
+                            >
+                                {showHint ? 'Ẩn gợi ý' : 'Xem gợi ý'}
+                            </button>
+                        </div>
+                        {showHint && (
+                            <div className="mt-2 p-4 bg-gray-50 rounded-md border border-cyan-500/30 animate-fade-in">
+                               <p className="font-bold text-cyan-600">Gợi ý:</p>
+                               <p className="text-gray-700">{currentQuestion.explanation}</p>
+                            </div>
+                        )}
                     </div>
                 )}
                 <div className="flex justify-between items-center mt-8">

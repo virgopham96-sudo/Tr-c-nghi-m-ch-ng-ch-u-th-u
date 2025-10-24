@@ -1,18 +1,15 @@
-
 import React, { useState, useMemo } from 'react';
 import SetSelector from './components/SetSelector';
 import Quiz from './components/Quiz';
 import Results from './components/Results';
-import { allQuestions } from './data/questions';
+import { allSetsData } from './data/sets';
 import { Question, UserAnswers } from './types';
-
-const QUESTIONS_PER_SET = 10;
 
 function App() {
     const [currentSetIndex, setCurrentSetIndex] = useState<number | null>(null);
     const [submittedAnswers, setSubmittedAnswers] = useState<UserAnswers | null>(null);
 
-    const totalSets = Math.ceil(allQuestions.length / QUESTIONS_PER_SET);
+    const totalSets = allSetsData.length;
 
     const handleSelectSet = (setIndex: number) => {
         setCurrentSetIndex(setIndex);
@@ -30,14 +27,7 @@ function App() {
 
     const currentQuestions: Question[] = useMemo(() => {
         if (currentSetIndex === null) return [];
-        const start = currentSetIndex * QUESTIONS_PER_SET;
-        const end = start + QUESTIONS_PER_SET;
-        // In a real app with more questions, you would slice allQuestions.
-        // Since we only have 10 sample questions, we'll use them for all sets.
-        // To simulate, we could do:
-        // return allQuestions.slice(start, end);
-        // For now, let's just use the sample data for any selected set.
-        return allQuestions.slice(0, 10);
+        return allSetsData[currentSetIndex] || [];
     }, [currentSetIndex]);
 
 
@@ -62,7 +52,7 @@ function App() {
                 />
             );
         }
-        return <SetSelector totalSets={20} onSelectSet={handleSelectSet} />; // Hardcode 20 sets as requested
+        return <SetSelector totalSets={totalSets} onSelectSet={handleSelectSet} />;
     };
 
     return (

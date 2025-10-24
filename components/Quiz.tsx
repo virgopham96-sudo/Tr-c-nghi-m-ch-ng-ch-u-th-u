@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Question, UserAnswers } from '../types';
 
@@ -12,7 +11,7 @@ interface QuizProps {
 const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setNumber }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [selectedAnswers, setSelectedAnswers] = useState<UserAnswers>({});
-    const [timeRemaining, setTimeRemaining] = useState(20 * 60); // 20 minutes in seconds
+    const [timeRemaining, setTimeRemaining] = useState(15 * 60); // 15 minutes in seconds
     const [isFading, setIsFading] = useState(false); // State for fade transition
 
     // Ref to hold the latest answers to avoid stale closure in setInterval
@@ -47,23 +46,25 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setNumber }) =
         onSubmit(selectedAnswers);
     };
 
-    const handleNextQuestion = () => {
-        if (currentQuestionIndex < questions.length - 1) {
+    const handleJumpToQuestion = (index: number) => {
+        if (index !== currentQuestionIndex) {
             setIsFading(true);
             setTimeout(() => {
-                setCurrentQuestionIndex(prev => prev + 1);
+                setCurrentQuestionIndex(index);
                 setIsFading(false);
-            }, 150); // Match duration of transition
+            }, 150);
+        }
+    };
+    
+    const handleNextQuestion = () => {
+        if (currentQuestionIndex < questions.length - 1) {
+            handleJumpToQuestion(currentQuestionIndex + 1);
         }
     };
 
     const handlePrevQuestion = () => {
         if (currentQuestionIndex > 0) {
-            setIsFading(true);
-            setTimeout(() => {
-                setCurrentQuestionIndex(prev => prev - 1);
-                setIsFading(false);
-            }, 150); // Match duration of transition
+            handleJumpToQuestion(currentQuestionIndex - 1);
         }
     };
 
@@ -79,9 +80,37 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setNumber }) =
 
     const currentQuestion = questions[currentQuestionIndex];
 
+    const getQuestionNavClasses = (index: number) => {
+        const baseClasses = "w-10 h-10 flex items-center justify-center rounded-md font-bold text-sm transition-all duration-200 border";
+        if (index === currentQuestionIndex) {
+            return `${baseClasses} bg-cyan-500 text-white border-cyan-600 shadow-md`;
+        }
+        if (selectedAnswers[questions[index].id]) {
+            return `${baseClasses} bg-green-500 text-white border-green-600 hover:bg-green-600`;
+        }
+        return `${baseClasses} bg-white text-gray-700 border-gray-300 hover:bg-gray-100 hover:border-gray-400`;
+    };
+
+
     return (
         <div className="p-4 md:p-8 max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-6 text-cyan-600">Bộ đề {setNumber}</h2>
+            
+            {/* Question Navigation Grid */}
+            <div className="mb-6">
+                <div className="grid grid-cols-5 md:grid-cols-10 gap-2">
+                    {questions.map((_, index) => (
+                        <button
+                            key={index}
+                            onClick={() => handleJumpToQuestion(index)}
+                            className={getQuestionNavClasses(index)}
+                        >
+                            {index + 1}
+                        </button>
+                    ))}
+                </div>
+            </div>
+
             <div className="pb-24"> {/* Add padding-bottom to avoid overlap with sticky footer */}
                 {currentQuestion && (
                     <div className={`bg-white rounded-lg p-6 shadow-lg border border-gray-200 min-h-[250px] transition-opacity duration-150 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>

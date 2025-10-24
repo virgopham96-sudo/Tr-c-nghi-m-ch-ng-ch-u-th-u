@@ -57,11 +57,9 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
                         <div className="space-y-3 mb-4">
                             {Object.entries(q.options).map(([key, value]) => {
                                 const isCorrect = key === q.correctAnswer;
-                                const isSelected = userAnswers[q.id] === key;
                                 return (
                                 <div key={key} className={`flex items-center p-3 rounded-md border ${getOptionClasses(q, key)}`}>
-                                    {isCorrect && <CheckIcon />}
-                                    {isSelected && !isCorrect && <XIcon />}
+                                    {isCorrect ? <CheckIcon /> : <XIcon />}
                                     <span className="ml-3">{key}. {value}</span>
                                 </div>
                             )})}

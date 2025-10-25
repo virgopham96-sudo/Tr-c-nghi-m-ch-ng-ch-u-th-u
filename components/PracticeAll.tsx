@@ -13,6 +13,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     const [isFading, setIsFading] = useState(false);
     const [showGoToTop, setShowGoToTop] = useState(false);
     const [isGridVisible, setIsGridVisible] = useState(false);
+    const [showHint, setShowHint] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -26,6 +27,10 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
         setIsGridVisible(prev => !prev);
     };
 
+    const toggleHint = () => {
+        setShowHint(prev => !prev);
+    };
+
     const handleGoToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
@@ -33,6 +38,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     const handleJumpToQuestion = useCallback((index: number) => {
         if (index >= 0 && index < questions.length && index !== currentQuestionIndex) {
             setIsFading(true);
+            setShowHint(false);
             setTimeout(() => {
                 setCurrentQuestionIndex(index);
                 setIsFading(false);
@@ -169,43 +175,57 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
 
             {/* Question Display */}
             {currentQuestion && (
-                <div className={`bg-white rounded-xl p-6 sm:p-8 shadow-xl border border-slate-200 min-h-[300px] transition-opacity duration-150 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
-                    <p className="text-lg font-semibold mb-6 text-slate-800">
-                        <span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}
-                    </p>
-                    <div className="space-y-4">
-                        {Object.entries(currentQuestion.options).map(([key, value]) => {
-                            const optionKey = key as 'A' | 'B' | 'C' | 'D';
-                            const isCorrectAnswer = optionKey === currentQuestion.correctAnswer;
-                            const isSelectedAnswer = userAnswers[currentQuestion.id] === optionKey;
+                <div className={`bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 transition-opacity duration-150 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
+                    <div className="max-h-[60vh] overflow-y-auto pr-2">
+                        <p className="text-lg font-semibold mb-4 text-slate-800">
+                            <span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}
+                        </p>
+                        <div className="space-y-3">
+                            {Object.entries(currentQuestion.options).map(([key, value]) => {
+                                const optionKey = key as 'A' | 'B' | 'C' | 'D';
+                                const isCorrectAnswer = optionKey === currentQuestion.correctAnswer;
+                                const isSelectedAnswer = userAnswers[currentQuestion.id] === optionKey;
 
-                            return (
-                                <div 
-                                    key={key} 
-                                    className={getOptionClasses(currentQuestion, optionKey)}
-                                    onClick={() => { if (!isAnswered) handleOptionChange(currentQuestion.id, optionKey); }}
-                                >
-                                    <span>{key}. {value}</span>
-                                     {isAnswered && (
-                                        <div className="shrink-0">
-                                            { isSelectedAnswer && !isCorrectAnswer ? <XIcon /> : (isCorrectAnswer ? <CheckIcon /> : null) }
-                                        </div>
-                                    )}
-                                </div>
-                            );
-                        })}
-                    </div>
-                    {isAnswered && (
-                        <div className="mt-6 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200 animate-fade-in">
-                           <p className="font-bold text-cyan-700">Lý giải:</p>
-                           <p className="text-slate-800">{currentQuestion.explanation}</p>
+                                return (
+                                    <div 
+                                        key={key} 
+                                        className={getOptionClasses(currentQuestion, optionKey)}
+                                        onClick={() => { if (!isAnswered) handleOptionChange(currentQuestion.id, optionKey); }}
+                                    >
+                                        <span>{key}. {value}</span>
+                                         {isAnswered && (
+                                            <div className="shrink-0">
+                                                { isSelectedAnswer && !isCorrectAnswer ? <XIcon /> : (isCorrectAnswer ? <CheckIcon /> : null) }
+                                            </div>
+                                        )}
+                                    </div>
+                                );
+                            })}
                         </div>
-                    )}
+                        {isAnswered && (
+                            <>
+                                <div className="mt-6 text-right">
+                                    <button
+                                        onClick={toggleHint}
+                                        className="text-cyan-600 hover:text-cyan-800 font-semibold text-sm py-1 px-3 rounded-full bg-cyan-50 hover:bg-cyan-100 transition-all"
+                                    >
+                                        {showHint ? 'Ẩn gợi ý' : 'Xem gợi ý'}
+                                    </button>
+                                </div>
+                                {showHint && (
+                                    <div className="mt-4 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200 animate-fade-in">
+                                       <p className="font-bold text-cyan-700">Lý giải:</p>
+                                       <p className="text-slate-800">{currentQuestion.explanation}</p>
+                                    </div>
+                                )}
+                            </>
+                        )}
+                    </div>
                 </div>
             )}
             
              {/* Sequential Navigation */}
-            <div className="flex justify-between items-center mt-8">
+            <div className="flex justify-between items-center mt-6">
                  <button
                         onClick={handlePrevQuestion}
                         disabled={currentQuestionIndex === 0}

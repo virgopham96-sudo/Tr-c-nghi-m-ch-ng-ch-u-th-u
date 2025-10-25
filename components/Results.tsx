@@ -141,25 +141,27 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
 
             {/* Single Question View */}
             {currentQuestion && (
-                <div key={currentQuestion.id} className="bg-white rounded-xl p-6 sm:p-8 shadow-xl border border-slate-200 animate-fade-in">
-                    <p className="text-lg font-semibold mb-4 text-slate-800"><span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}</p>
-                    <div className="space-y-3 mb-6">
-                        {Object.entries(currentQuestion.options).map(([key, value]) => {
-                             const isCorrectAnswer = key === currentQuestion.correctAnswer;
-                             const isSelectedAnswer = userAnswers[currentQuestion.id] === key;
+                <div key={currentQuestion.id} className="bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 animate-fade-in">
+                    <div className="max-h-[60vh] overflow-y-auto pr-2">
+                        <p className="text-lg font-semibold mb-4 text-slate-800"><span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}</p>
+                        <div className="space-y-3 mb-6">
+                            {Object.entries(currentQuestion.options).map(([key, value]) => {
+                                 const isCorrectAnswer = key === currentQuestion.correctAnswer;
+                                 const isSelectedAnswer = userAnswers[currentQuestion.id] === key;
 
-                            return (
-                            <div key={key} className={`flex items-center justify-between p-4 rounded-lg border-2 transition-all duration-300 ${getOptionClasses(currentQuestion, key)}`}>
-                                <span>{key}. {value}</span>
-                                <div className="shrink-0">
-                                    { isSelectedAnswer && !isCorrectAnswer ? <XIcon /> : (isCorrectAnswer ? <CheckIcon /> : null) }
+                                return (
+                                <div key={key} className={`flex items-center justify-between p-4 rounded-lg border-2 transition-all duration-300 ${getOptionClasses(currentQuestion, key)}`}>
+                                    <span>{key}. {value}</span>
+                                    <div className="shrink-0">
+                                        { isSelectedAnswer && !isCorrectAnswer ? <XIcon /> : (isCorrectAnswer ? <CheckIcon /> : null) }
+                                    </div>
                                 </div>
-                            </div>
-                        )})}
-                    </div>
-                    <div className="mt-4 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200">
-                       <p className="font-bold text-cyan-700">Lý giải:</p>
-                       <p className="text-slate-800">{currentQuestion.explanation}</p>
+                            )})}
+                        </div>
+                        <div className="mt-4 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200">
+                           <p className="font-bold text-cyan-700">Lý giải:</p>
+                           <p className="text-slate-800">{currentQuestion.explanation}</p>
+                        </div>
                     </div>
                 </div>
             )}

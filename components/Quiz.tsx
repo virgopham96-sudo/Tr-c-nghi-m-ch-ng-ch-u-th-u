@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import { Question, UserAnswers } from '../types';
-import { ArrowUpIcon } from './icons';
+import { ArrowUpIcon, ChevronLeftIcon, ChevronRightIcon } from './icons';
 
 interface QuizProps {
     questions: Question[];
@@ -177,38 +177,38 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
 
     const timerClasses = timeRemaining < 60 
         ? 'text-red-500 font-bold animate-pulse' 
-        : 'text-blue-600';
+        : 'text-slate-800';
 
     const currentQuestion = questions[currentQuestionIndex];
 
     const getQuestionNavClasses = (index: number) => {
-        let baseClasses = "w-10 h-10 flex items-center justify-center rounded-md font-bold text-sm transition-all duration-200 border transform hover:-translate-y-0.5 hover:shadow-lg hover:ring-2 hover:ring-cyan-400";
+        let baseClasses = "w-10 h-10 flex items-center justify-center rounded-lg font-bold text-sm transition-all duration-200 border transform hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400";
         if (index === currentQuestionIndex) {
             return `${baseClasses} bg-cyan-500 text-white border-cyan-600 shadow-md`;
         }
         if (selectedAnswers[questions[index].id]) {
             return `${baseClasses} bg-green-500 text-white border-green-600`;
         }
-        return `${baseClasses} bg-white text-gray-700 border-gray-300`;
+        return `${baseClasses} bg-white text-slate-700 border-slate-300`;
     };
 
 
     return (
         <div className="p-4 md:p-8 max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-6 text-gray-900">{setTitle}</h2>
+            <h2 className="text-3xl font-bold text-center mb-6 text-slate-900">{setTitle}</h2>
             
-            <div className="text-center mb-4">
+            <div className="text-center mb-6">
                 <button
                     onClick={toggleGridVisibility}
-                    className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-lg transition-colors"
+                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-5 rounded-full transition-colors border border-slate-200 shadow-sm"
                 >
                     {isGridVisible ? 'Ẩn danh sách câu hỏi' : 'Hiển thị danh sách câu hỏi'}
                 </button>
             </div>
             
             {isGridVisible && (
-                 <div className="mb-6 animate-fade-in">
-                    <div className="flex flex-wrap justify-center gap-1">
+                 <div className="mb-8 p-4 bg-white/50 rounded-xl border border-slate-200 animate-fade-in">
+                    <div className="flex flex-wrap justify-center gap-2">
                         {questions.map((_, index) => (
                             <button
                                 key={index}
@@ -222,58 +222,55 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
                 </div>
             )}
 
-            <div className="pb-24"> {/* Add padding-bottom to avoid overlap with sticky footer */}
+            <div className="pb-40"> {/* Add padding-bottom to avoid overlap with sticky footer */}
                 {currentQuestion && (
-                    <div className={`bg-white rounded-lg p-6 shadow-lg border border-gray-200 min-h-[250px] transition-opacity duration-150 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
-                        <p className="text-lg font-semibold mb-4"><span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}</p>
-                        <div className="space-y-3 quiz-options-container">
+                    <div className={`bg-white rounded-xl p-6 sm:p-8 shadow-xl border border-slate-200 min-h-[300px] transition-opacity duration-150 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
+                        <p className="text-lg font-semibold mb-6 text-slate-800"><span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}</p>
+                        <div className="space-y-4 quiz-options-container">
                             {Object.entries(currentQuestion.options).map(([key, value]) => (
-                                <label key={key} className="flex items-center p-3 rounded-md hover:bg-gray-100 cursor-pointer transition-colors focus-within:ring-2 focus-within:ring-cyan-500">
-                                    <input
-                                        type="radio"
-                                        name={`question-${currentQuestion.id}`}
-                                        value={key}
-                                        checked={selectedAnswers[currentQuestion.id] === key}
-                                        onChange={() => handleOptionChange(currentQuestion.id, key as 'A' | 'B' | 'C' | 'D')}
-                                        className="h-5 w-5 text-cyan-600 bg-gray-100 border-gray-300 focus:outline-none focus:ring-0"
-                                    />
-                                    <span className="ml-4 text-gray-700">{key}. {value}</span>
-                                </label>
+                                <div
+                                    key={key}
+                                    onClick={() => handleOptionChange(currentQuestion.id, key as 'A' | 'B' | 'C' | 'D')}
+                                    className={`flex items-center p-4 rounded-lg border-2 transition-all cursor-pointer ${selectedAnswers[currentQuestion.id] === key ? 'bg-cyan-50 border-cyan-500 ring-2 ring-cyan-200' : 'bg-white border-slate-200 hover:bg-cyan-50/50 hover:border-cyan-300'}`}>
+                                    <span className="text-slate-700">{key}. {value}</span>
+                                </div>
                             ))}
                         </div>
-                         <div className="mt-4 text-right">
+                         <div className="mt-6 text-right">
                             <button
                                 onClick={toggleHint}
-                                className="text-cyan-600 hover:text-cyan-500 font-semibold text-sm py-1 px-3 rounded-md bg-gray-100 hover:bg-gray-200 transition-all"
+                                className="text-cyan-600 hover:text-cyan-800 font-semibold text-sm py-1 px-3 rounded-full bg-cyan-50 hover:bg-cyan-100 transition-all"
                             >
                                 {showHint ? 'Ẩn gợi ý' : 'Xem gợi ý'}
                             </button>
                         </div>
                         {showHint && (
-                            <div className="mt-2 p-4 bg-gray-50 rounded-md border border-cyan-500/30 animate-fade-in">
-                               <p className="font-bold text-cyan-600">Gợi ý:</p>
-                               <p className="text-gray-700">{currentQuestion.explanation}</p>
+                            <div className="mt-4 p-4 bg-slate-50 rounded-lg border border-cyan-200 animate-fade-in">
+                               <p className="font-bold text-cyan-700">Gợi ý:</p>
+                               <p className="text-slate-700">{currentQuestion.explanation}</p>
                             </div>
                         )}
                     </div>
                 )}
-                <div className="flex justify-center items-center mt-8 gap-x-8 md:gap-x-16">
+                <div className="flex justify-between items-center mt-8">
                     <button
                         onClick={handlePrevQuestion}
                         disabled={currentQuestionIndex === 0}
-                        className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-2 px-6 rounded-lg transition-colors border border-gray-300 disabled:bg-gray-100/50 disabled:text-gray-400 disabled:cursor-not-allowed"
+                        className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-2"
                     >
+                        <ChevronLeftIcon />
                         Câu trước
                     </button>
-                    <span className="font-semibold text-lg text-gray-600">
+                    <span className="font-semibold text-lg text-slate-600">
                         {currentQuestionIndex + 1} / {questions.length}
                     </span>
                     <button
                         onClick={handleNextQuestion}
                         disabled={currentQuestionIndex === questions.length - 1}
-                        className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-2 px-6 rounded-lg transition-colors border border-gray-300 disabled:bg-gray-100/50 disabled:text-gray-400 disabled:cursor-not-allowed"
+                        className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-2"
                     >
                         Câu tiếp theo
+                        <ChevronRightIcon />
                     </button>
                 </div>
             </div>
@@ -281,48 +278,48 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
             {showGoToTop && (
                 <button
                     onClick={handleGoToTop}
-                    className="fixed bottom-28 right-4 md:right-8 z-20 p-3 bg-cyan-500 text-white rounded-full shadow-lg hover:bg-cyan-600 transition-all duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-opacity-50 animate-fade-in"
+                    className="fixed bottom-32 right-4 md:right-8 z-20 p-3 bg-cyan-500 text-white rounded-full shadow-lg hover:bg-cyan-600 transition-all duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-opacity-50 animate-fade-in"
                     aria-label="Lên đầu trang"
                 >
                     <ArrowUpIcon />
                 </button>
             )}
 
-            <div className="fixed bottom-0 left-0 right-0 bg-white/80 backdrop-blur-sm border-t border-gray-200">
-                <div className="max-w-7xl mx-auto p-4 flex justify-center items-center gap-x-8 md:gap-x-16">
+            <div className="fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-md border-t border-slate-200 rounded-t-xl shadow-[0_-4px_16px_rgba(0,0,0,0.05)]">
+                <div className="max-w-7xl mx-auto p-4 flex justify-between items-center">
                     <button
                         onClick={onBack}
-                        className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-6 rounded-lg transition-colors"
+                        className="bg-slate-200 hover:bg-slate-300 text-slate-800 font-bold py-3 px-6 rounded-lg transition-colors"
                     >
-                        Quay lại
+                        Thoát
                     </button>
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-center flex-grow text-center px-2">
                          {!isPracticeMode ? (
                              <>
-                                <div className={`text-xl font-mono ${timerClasses}`}>{formatTime(timeRemaining)}</div>
-                                <div className="text-sm text-gray-500">Đã trả lời: {answeredCount}/{questions.length}</div>
+                                <div className={`text-2xl font-mono font-bold ${timerClasses}`}>{formatTime(timeRemaining)}</div>
+                                <div className="text-sm text-slate-500">Đã trả lời: {answeredCount}/{questions.length}</div>
                              </>
                          ) : (
                              <>
-                                <div className="text-lg font-semibold text-gray-700 h-7 flex items-center">Chế độ Luyện tập</div>
-                                <div className="text-sm text-gray-500">Đã trả lời: {answeredCount}/{questions.length}</div>
+                                <div className="text-lg font-semibold text-slate-700 h-7 flex items-center">Chế độ Luyện tập</div>
+                                <div className="text-sm text-slate-500">Đã trả lời: {answeredCount}/{questions.length}</div>
                              </>
                          )}
-                         <div className="mt-1">
-                            <label className="flex items-center justify-center text-sm text-gray-600 cursor-pointer select-none">
+                         <div className="mt-1 hidden sm:block">
+                            <label className="flex items-center justify-center text-sm text-slate-600 cursor-pointer select-none">
                                 <input
                                     type="checkbox"
                                     checked={autoNext}
                                     onChange={(e) => setAutoNext(e.target.checked)}
-                                    className="h-4 w-4 rounded text-cyan-600 focus:ring-cyan-500 border-gray-300"
+                                    className="h-4 w-4 rounded text-cyan-600 focus:ring-cyan-500 border-slate-300"
                                 />
-                                <span className="ml-2">Tự động chuyển câu khi chọn đáp án</span>
+                                <span className="ml-2">Tự động chuyển câu</span>
                             </label>
                         </div>
                     </div>
                     <button
                         onClick={handleSubmit}
-                        className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-6 rounded-lg transition-colors"
+                        className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                     >
                         Nộp bài
                     </button>

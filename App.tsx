@@ -1,4 +1,5 @@
-import React, { useState, useMemo } from 'react';
+
+import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import ModeSelector from './components/ModeSelector';
 import SetSelector from './components/SetSelector';
 import Quiz from './components/Quiz';
@@ -28,6 +29,31 @@ function App() {
 
     const totalSets = allSetsData.length;
     const allQuestions = useMemo(() => allSetsData.flat(), []);
+    
+    const quizTitle = useMemo(() => {
+        const mode = isPracticeMode ? 'Luyện tập' : 'Thi';
+        if (currentSetIndex === null) return '';
+        if (currentSetIndex === -1) return `${mode} ngẫu nhiên`;
+        return `${mode} bộ đề ${currentSetIndex + 1}`;
+    }, [currentSetIndex, isPracticeMode]);
+    
+    const currentQuestions: Question[] = useMemo(() => {
+        if (currentSetIndex === null) return [];
+        
+        if (currentSetIndex === -1) { // Random quiz mode
+            const shuffled = shuffleArray(allQuestions);
+            return shuffled.slice(0, 70);
+        }
+
+        return allSetsData[currentSetIndex] || [];
+    }, [currentSetIndex, allQuestions]);
+
+    const handleSubmitQuiz = useCallback((answers: UserAnswers, timeTaken: number) => {
+        setSubmittedAnswers(answers);
+        setCompletionTime(timeTaken);
+        setView('results');
+    }, []);
+
 
     const handleSelectPracticeAll = () => {
         setView('practice-all');
@@ -50,13 +76,7 @@ function App() {
         setSubmittedAnswers(null);
         setView('quiz');
     };
-
-    const handleSubmitQuiz = (answers: UserAnswers, timeTaken: number) => {
-        setSubmittedAnswers(answers);
-        setCompletionTime(timeTaken);
-        setView('results');
-    };
-
+    
     const handleGoBackToMainMenu = () => {
         setView('mode-select');
         setCurrentSetIndex(null);
@@ -65,17 +85,6 @@ function App() {
         setCompletionTime(null);
     };
 
-    const currentQuestions: Question[] = useMemo(() => {
-        if (currentSetIndex === null) return [];
-        
-        if (currentSetIndex === -1) { // Random quiz mode
-            const shuffled = shuffleArray(allQuestions);
-            return shuffled.slice(0, 70);
-        }
-
-        return allSetsData[currentSetIndex] || [];
-    }, [currentSetIndex, allQuestions]);
-    
     const quizTotalTime = useMemo(() => {
         if (currentSetIndex === -1) { // Random quiz
             return 60 * 60; // 60 minutes
@@ -85,13 +94,6 @@ function App() {
         }
         return 0;
     }, [currentSetIndex]);
-
-    const quizTitle = useMemo(() => {
-        const mode = isPracticeMode ? 'Luyện tập' : 'Thi';
-        if (currentSetIndex === null) return '';
-        if (currentSetIndex === -1) return `${mode} ngẫu nhiên`;
-        return `${mode} bộ đề ${currentSetIndex + 1}`;
-    }, [currentSetIndex, isPracticeMode]);
 
 
     const renderContent = () => {
@@ -108,14 +110,7 @@ function App() {
                     <Quiz
                         questions={currentQuestions}
                         onSubmit={handleSubmitQuiz}
-                        onBack={() => {
-                            setSubmittedAnswers(null);
-                            if (currentSetIndex !== -1) {
-                                setView('set-select');
-                            } else {
-                                handleGoBackToMainMenu();
-                            }
-                        }}
+                        onBack={handleGoBackToMainMenu}
                         setTitle={quizTitle}
                         isPracticeMode={isPracticeMode}
                         totalTime={quizTotalTime}
@@ -153,16 +148,16 @@ function App() {
     };
 
     return (
-        <div className="min-h-screen bg-gray-100 text-gray-800 font-sans flex flex-col">
-            <header className="bg-white/80 backdrop-blur-sm shadow-md sticky top-0 z-10 border-b border-gray-200">
+        <div className="min-h-screen font-sans flex flex-col">
+            <header className="bg-white/95 backdrop-blur-sm shadow-md sticky top-0 z-10 border-b border-slate-200">
                 <div className="container mx-auto px-4 py-4">
-                    <h1 className="text-2xl md:text-3xl font-bold text-center text-gray-900">ÔN THI CHỨNG CHỈ ĐẤU THẦU 2025</h1>
+                    <h1 className="text-2xl md:text-3xl font-bold text-center text-slate-900 tracking-tight">ÔN THI CHỨNG CHỈ ĐẤU THẦU 2025</h1>
                 </div>
             </header>
-            <main className="mx-auto px-4 py-4 flex-grow w-full">
+            <main className="mx-auto px-4 py-4 sm:py-6 md:py-8 flex-grow w-full">
                 {renderContent()}
             </main>
-            <footer className="text-center p-4 text-gray-500 text-sm">
+            <footer className="text-center p-6 text-slate-500 text-sm border-t border-slate-200 bg-white/30">
                 Bản quyền thuộc về "Phạm Văn Bình - Phòng CĐVT - Công ty 790"
             </footer>
         </div>

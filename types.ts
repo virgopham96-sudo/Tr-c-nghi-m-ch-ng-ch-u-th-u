@@ -1,4 +1,3 @@
-
 export interface Question {
   id: number;
   question: string;
@@ -13,3 +12,14 @@ export interface Question {
 }
 
 export type UserAnswers = Record<number, 'A' | 'B' | 'C' | 'D'>;
+
+// FIX: Add the exported member 'HistoryEntry' to fix the import error in components/History.tsx.
+export interface HistoryEntry {
+  id: number;
+  setTitle: string;
+  date: string;
+  score: number;
+  correctCount: number;
+  totalQuestions: number;
+  completionTime: number;
+}

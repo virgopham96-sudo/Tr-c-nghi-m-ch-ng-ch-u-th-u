@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Question, UserAnswers } from '../types';
-import { CheckIcon, XIcon } from './icons';
+import { CheckIcon, XIcon, TrophyIcon, ClockIcon } from './icons';
 
 interface ResultsProps {
     questions: Question[];
@@ -59,17 +59,17 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
     }, [handlePrevQuestion, handleNextQuestion]);
     
     const getQuestionNavClasses = (index: number) => {
-        const baseClasses = "w-10 h-10 flex items-center justify-center rounded-md font-bold text-sm transition-all duration-200 border";
+        const baseClasses = "w-10 h-10 flex items-center justify-center rounded-lg font-bold text-sm transition-all duration-200 border transform hover:-translate-y-0.5";
         const question = questions[index];
         const isCorrect = userAnswers[question.id] === question.correctAnswer;
 
         if (index === currentQuestionIndex) {
-            return `${baseClasses} bg-cyan-500 text-white border-cyan-600 shadow-md scale-110`;
+            return `${baseClasses} bg-cyan-500 text-white border-cyan-600 shadow-md scale-110 ring-2 ring-offset-2 ring-cyan-400`;
         }
         if (isCorrect) {
-            return `${baseClasses} bg-green-100 text-green-800 border-green-400 hover:bg-green-200`;
+            return `${baseClasses} bg-green-100 text-green-800 border-green-300 hover:bg-green-200`;
         }
-        return `${baseClasses} bg-red-100 text-red-800 border-red-400 hover:bg-red-200`;
+        return `${baseClasses} bg-red-100 text-red-800 border-red-300 hover:bg-red-200`;
     };
 
     const getOptionClasses = (question: Question, optionKey: string): string => {
@@ -78,51 +78,55 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
         const wasAnswered = userAnswers[question.id] !== undefined;
 
         if (isCorrect) {
-            return 'bg-green-100 border-green-400 text-green-800 ring-2 ring-green-500';
+            return 'bg-green-100 border-green-500 text-green-900 ring-2 ring-green-300';
         }
         if (isSelected && !isCorrect) {
-            return 'bg-red-100 border-red-400 text-red-800';
+            return 'bg-red-100 border-red-500 text-red-900';
         }
         if (!isSelected && wasAnswered){
-            return 'border-gray-200 text-gray-500 opacity-75';
+            return 'border-slate-200 text-slate-500 opacity-60';
         }
-        return 'border-gray-200 text-gray-700';
+        return 'border-slate-200 text-slate-700';
     };
 
     const currentQuestion = questions[currentQuestionIndex];
 
     return (
         <div className="p-4 md:p-8 max-w-7xl mx-auto">
-            <div className="bg-white rounded-lg p-6 mb-8 text-center shadow-lg border border-gray-200 animate-fade-in">
-                <h2 className="text-2xl font-bold mb-4 text-gray-900">Kết quả {setTitle}</h2>
+            <div className="bg-white rounded-xl p-6 mb-8 text-center shadow-xl border border-slate-200 animate-fade-in">
+                <h2 className="text-3xl font-bold mb-2 text-slate-900">Kết quả {setTitle}</h2>
+                <p className="text-slate-500 mb-6">Dưới đây là tổng kết bài làm của bạn.</p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
-                    <div className="p-4 bg-gray-50 rounded-lg">
-                        <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider">Điểm số</p>
-                        <p className="text-3xl font-bold text-cyan-600">{finalScore} / 100</p>
+                    <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 flex flex-col items-center justify-center">
+                        <TrophyIcon className="h-10 w-10 text-cyan-500 mb-2"/>
+                        <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider">Điểm số</p>
+                        <p className="text-4xl font-bold text-cyan-600">{finalScore}<span className="text-2xl text-slate-400">/100</span></p>
                     </div>
-                    <div className="p-4 bg-gray-50 rounded-lg">
-                        <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider">Số câu đúng</p>
-                        <p className="text-3xl font-bold text-gray-800">{score} / {questions.length}</p>
+                    <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 flex flex-col items-center justify-center">
+                        <CheckIcon />
+                        <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mt-2">Số câu đúng</p>
+                        <p className="text-4xl font-bold text-slate-800">{score}<span className="text-2xl text-slate-400">/{questions.length}</span></p>
                     </div>
-                    <div className="p-4 bg-gray-50 rounded-lg">
-                        <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider">Thời gian hoàn thành</p>
-                        <p className="text-3xl font-bold text-gray-800">{formatTime(completionTime)}</p>
+                    <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 flex flex-col items-center justify-center">
+                        <ClockIcon className="h-10 w-10 text-cyan-500 mb-2"/>
+                        <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider">Thời gian</p>
+                        <p className="text-3xl font-bold text-slate-800">{formatTime(completionTime)}</p>
                     </div>
                 </div>
 
                  <button
                     onClick={onRestart}
-                    className="mt-4 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-6 rounded-lg transition-colors"
+                    className="mt-4 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                 >
                     Về màn hình chính
                 </button>
             </div>
 
             {/* Question Navigation Grid */}
-            <div className="mb-6">
-                <h3 className="text-lg font-semibold mb-3 text-gray-700 text-center">Xem lại câu trả lời</h3>
-                <div className="flex flex-wrap justify-center items-center gap-1">
+            <div className="mb-8 p-4 bg-white rounded-xl border border-slate-200 shadow-lg">
+                <h3 className="text-lg font-semibold mb-4 text-slate-800 text-center">Xem lại câu trả lời</h3>
+                <div className="flex flex-wrap justify-center items-center gap-2">
                     {questions.map((_, index) => (
                         <button
                             key={index}
@@ -137,23 +141,25 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
 
             {/* Single Question View */}
             {currentQuestion && (
-                <div key={currentQuestion.id} className="bg-white rounded-lg p-6 shadow-lg border border-gray-200 animate-fade-in">
-                    <p className="text-lg font-semibold mb-4"><span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}</p>
-                    <div className="space-y-3 mb-4">
+                <div key={currentQuestion.id} className="bg-white rounded-xl p-6 sm:p-8 shadow-xl border border-slate-200 animate-fade-in">
+                    <p className="text-lg font-semibold mb-4 text-slate-800"><span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}</p>
+                    <div className="space-y-3 mb-6">
                         {Object.entries(currentQuestion.options).map(([key, value]) => {
                              const isCorrectAnswer = key === currentQuestion.correctAnswer;
                              const isSelectedAnswer = userAnswers[currentQuestion.id] === key;
 
                             return (
-                            <div key={key} className={`flex items-center p-3 rounded-md border transition-all duration-300 ${getOptionClasses(currentQuestion, key)}`}>
-                                { isSelectedAnswer && !isCorrectAnswer ? <XIcon /> : (isCorrectAnswer ? <CheckIcon /> : <div className="w-5 h-5" />) }
-                                <span className="ml-3">{key}. {value}</span>
+                            <div key={key} className={`flex items-center justify-between p-4 rounded-lg border-2 transition-all duration-300 ${getOptionClasses(currentQuestion, key)}`}>
+                                <span>{key}. {value}</span>
+                                <div className="shrink-0">
+                                    { isSelectedAnswer && !isCorrectAnswer ? <XIcon /> : (isCorrectAnswer ? <CheckIcon /> : null) }
+                                </div>
                             </div>
                         )})}
                     </div>
-                    <div className="mt-4 p-4 bg-cyan-50/50 rounded-md border border-cyan-500/30">
+                    <div className="mt-4 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200">
                        <p className="font-bold text-cyan-700">Lý giải:</p>
-                       <p className="text-gray-800">{currentQuestion.explanation}</p>
+                       <p className="text-slate-800">{currentQuestion.explanation}</p>
                     </div>
                 </div>
             )}
@@ -163,17 +169,17 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
                 <button
                     onClick={handlePrevQuestion}
                     disabled={currentQuestionIndex === 0}
-                    className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-2 px-6 rounded-lg transition-colors border border-gray-300 disabled:bg-gray-100/50 disabled:text-gray-400 disabled:cursor-not-allowed"
+                    className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-6 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed"
                 >
                     Câu trước
                 </button>
-                <span className="font-semibold text-lg text-gray-600">
+                <span className="font-semibold text-lg text-slate-600">
                     {currentQuestionIndex + 1} / {questions.length}
                 </span>
                 <button
                     onClick={handleNextQuestion}
                     disabled={currentQuestionIndex === questions.length - 1}
-                    className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-2 px-6 rounded-lg transition-colors border border-gray-300 disabled:bg-gray-100/50 disabled:text-gray-400 disabled:cursor-not-allowed"
+                    className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-6 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed"
                 >
                     Câu tiếp theo
                 </button>

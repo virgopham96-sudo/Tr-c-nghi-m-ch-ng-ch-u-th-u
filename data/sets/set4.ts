@@ -2,123 +2,123 @@ import { Question } from '../../types';
 
 export const set4: Question[] = [
     {
-        id: 31,
-        question: "Gói thầu lựa chọn tư vấn là tổ chức có giá gói thầu là 500 triệu đồng áp dụng hình thức lựa chọn nhà thầu nào?",
-        options: {
-            A: "Chỉ được áp dụng hình thức chỉ định thầu",
-            B: "Được áp dụng hình thức chỉ định thầu hoặc đấu thầu rộng rãi",
-            C: "Áp dụng hình thức chào hàng cạnh tranh",
-            D: "Được áp dụng hình thức chỉ định thầu hoặc đấu thầu rộng rãi hoặc chào hàng cạnh tranh"
+        "id": 31,
+        "question": "Gói thầu nào sau đây thuộc trường hợp được áp dụng chào hàng cạnh tranh?",
+        "options": {
+            "A": "Tất cả gói thầu mua sắm hàng hoá có giá không quá 10 tỷ đồng",
+            "B": "Gói thầu dịch vụ phi tư vấn thông dụng, đơn giản có giá không quá 10 tỷ đồng",
+            "C": "Gói thầu dịch vụ tư vấn thông dụng, đơn giản có giá không quá 10 tỷ đồng",
+            "D": "Gói thầu xây lắp công trình đơn giản đã có dự toán được phê duyệt có giá không quá 15 tỷ đồng"
         },
-        correctAnswer: "D",
-        explanation: "Gói thầu này có giá trị nằm trong hạn mức chỉ định thầu theo quy định của Chính phủ (căn cứ điểm e, khoản 1, Điều 23). Tuy nhiên, chủ đầu tư vẫn có quyền lựa chọn đấu thầu rộng rãi (Điều 21) hoặc chào hàng cạnh tranh (nếu là dịch vụ phi tư vấn thông dụng, đơn giản - Điều 24) để tăng tính cạnh tranh. Do đó, có thể áp dụng một trong các hình thức này."
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Điều 24, khoản 1, điểm a của Luật Đấu thầu và các quy định về hạn mức trong Nghị định của Chính phủ. Chào hàng cạnh tranh áp dụng cho các gói thầu dịch vụ phi tư vấn thông dụng, đơn giản. Hạn mức giá gói thầu được quy định cụ thể trong văn bản dưới luật. Phương án A, C, D không chính xác về loại gói thầu hoặc hạn mức."
     },
     {
-        id: 32,
-        question: "Chọn phương án đúng về hạn mức đối với đấu thầu rộng rãi?",
-        options: {
-            A: "Không quy định hạn mức áp dụng",
-            B: "Trên 20 tỷ đồng",
-            C: "Trên 10 tỷ đồng",
-            D: "Trên 20 tỷ đồng đối với xây lắp, hàng hoá, trên 10 tỷ đồng đối với gói thầu dịch vụ tư vấn, phi tư vấn"
+        "id": 32,
+        "question": "Đối với gói thầu mua sắm hàng hóa thông dụng, sẵn có trên thị trường có giá gói thầu 05 tỷ đồng thì kế hoạch lựa chọn nhà thầu phê duyệt áp dụng hình thức lựa chọn nhà thầu nào sau đây?",
+        "options": {
+            "A": "Chỉ được áp dụng hình thức chào hàng cạnh tranh",
+            "B": "Được áp dụng hình thức chào hàng cạnh tranh hoặc đấu thầu rộng rãi",
+            "C": "Bắt buộc áp dụng hình thức chỉ định thầu",
+            "D": "Được áp dụng hình thức chỉ định thầu hoặc chào hàng cạnh tranh hoặc đấu thầu rộng rãi"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ khoản 1, Điều 21, \"Đấu thầu rộng rãi là hình thức lựa chọn nhà thầu trong đó không hạn chế số lượng nhà thầu tham dự.\" Hình thức này không bị giới hạn bởi giá trị của gói thầu."
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Điều 24 và Điều 29b của Luật Đấu thầu. Gói thầu này đáp ứng điều kiện để áp dụng chào hàng cạnh tranh (hàng hóa thông dụng, sẵn có, giá trị trong hạn mức). Theo nguyên tắc tại Điều 29b, khoản 2, chủ đầu tư có thể chọn áp dụng hình thức đấu thầu rộng rãi thay cho các hình thức khác như chào hàng cạnh tranh. Do đó, cả hai hình thức đều có thể được áp dụng."
     },
     {
-        id: 33,
-        question: "Chọn phương án đúng về loại gói thầu đối với hình thức mua sắm trực tiếp?",
-        options: {
-            A: "Chỉ gói thầu hàng hoá",
-            B: "Chỉ gói thầu xây lắp",
-            C: "Chỉ gói thầu phi tư vấn",
-            D: "Gói thầu hàng hóa và phi tư vấn"
+        "id": 33,
+        "question": "Hạn mức chỉ định thầu đối với gói thầu không hình thành dự án thuộc dự toán mua sắm thường xuyên là?",
+        "options": {
+            "A": "500 triệu đồng",
+            "B": "800 triệu đồng",
+            "C": "01 tỷ đồng",
+            "D": "300 triệu đồng"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ khoản 1, Điều 25, \"Mua sắm trực tiếp được áp dụng đối với gói thầu mua sắm hàng hóa tương tự thuộc dự án, dự toán mua sắm của cùng một chủ đầu tư hoặc chủ đầu tư khác...\". Luật chỉ quy định áp dụng hình thức này cho gói thầu mua sắm hàng hóa."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 23, khoản 1, điểm e và quy định chi tiết của Chính phủ. Hạn mức chỉ định thầu được quy định cụ thể tại Nghị định hướng dẫn Luật Đấu thầu. Mức phổ biến cho mua sắm thường xuyên là không quá 500 triệu đồng."
     },
     {
-        id: 34,
-        question: "Đâu không phải là điều kiện để áp dụng mua sắm trực tiếp?",
-        options: {
-            A: "Nhà thầu đã trúng thầu thông qua đấu thầu rộng rãi, đấu thầu hạn chế và đã ký hợp đồng gói thầu thực hiện gói thầu trước đó",
-            B: "Thời gian từ khi ký hợp đồng gói thầu trước đến ngày phê duyệt kết quả mua sắm trực tiếp không quá 12 tháng",
-            C: "Đơn giá các phần việc thuộc gói thầu mua sắm trực tiếp không vượt đơn giá phần việc tương ứng của gói thầu đã ký trước đó thuộc gói thầu tương tự đã ký hợp đồng trước đó, đồng thời, phù hợp với giá thị trường tại thời điểm hoàn thiện hợp đồng",
-            D: "Chủ đầu tư được áp dụng mua sắm trực tiếp nhiều lần đối với các loại hàng hóa thuộc gói thầu"
+        "id": 34,
+        "question": "Hạn mức chỉ định thầu đối với gói thầu mua sắm hàng hóa thuộc dự án đầu tư là?",
+        "options": {
+            "A": "800 triệu đồng",
+            "B": "500 triệu đồng",
+            "C": "01 tỷ đồng",
+            "D": "02 tỷ đồng"
         },
-        correctAnswer: "D",
-        explanation: "Căn cứ điểm b, khoản 2, Điều 25, quy định rõ: \"Chủ đầu tư chỉ được áp dụng mua sắm trực tiếp một lần đối với các loại hàng hóa thuộc gói thầu...\". Do đó, việc áp dụng nhiều lần là không đúng điều kiện. Các phương án A, B, C đều là các điều kiện được quy định tại khoản 2, Điều 25."
+        "correctAnswer": "C",
+        "explanation": "Căn cứ pháp lý: Điều 23, khoản 1, điểm e và quy định chi tiết của Chính phủ. Hạn mức chỉ định thầu được quy định cụ thể tại Nghị định hướng dẫn Luật Đấu thầu. Mức phổ biến cho mua sắm thường xuyên là không quá 500 triệu đồng. Hạn mức chỉ định thầu cho gói thầu thuộc dự án đầu tư thường cao hơn và được quy định tại Nghị định hướng dẫn. Mức phổ biến là không quá 01 tỷ đồng."
     },
     {
-        id: 35,
-        question: "Hãy chọn phương án đúng về hình thức đặt hàng?",
-        options: {
-            A: "Là một trong các hình thức lựa chọn nhà thầu",
-            B: "Pháp luật quản lý ngành, lĩnh vực quy định về quy trình, thủ tục đặt hàng khác với quy trình, thủ tục của pháp luật về đấu thầu thì áp dụng quy định của pháp luật về đấu thầu.",
-            C: "Đặt hàng chỉ được áp dụng cho sản phẩm, dịch vụ công",
-            D: "Đặt hàng chỉ áp dụng đối với nguồn chi thường xuyên ngân sách nhà nước, không được áp dụng đối với nguồn vốn khác"
+        "id": 35,
+        "question": "Phương án nào không phải là một trong các hình thức lựa chọn nhà thầu được phê duyệt trong kế hoạch lựa chọn nhà thầu?",
+        "options": {
+            "A": "Đấu thầu rộng rãi",
+            "B": "Đấu thầu hạn chế",
+            "C": "Mua sắm trực tiếp",
+            "D": "Đấu thầu qua mạng"
         },
-        correctAnswer: "C",
-        explanation: "Căn cứ Điều 29a, \"Đặt hàng là hình thức giao trực tiếp cho tổ chức, doanh nghiệp, cá nhân thực hiện cung cấp hàng hóa, dịch vụ thuộc các trường hợp sau đây: a) Sản phẩm, dịch vụ công ích, dịch vụ sự nghiệp công;...\". Phương án A không đầy đủ, B sai vì nếu pháp luật chuyên ngành quy định khác thì ưu tiên áp dụng luật chuyên ngành. Phương án D sai vì đặt hàng có thể áp dụng cho nhiều nguồn vốn khác nhau, không chỉ chi thường xuyên."
+        "correctAnswer": "D",
+        "explanation": "Căn cứ pháp lý: Điều 20 của Luật Đấu thầu. Đấu thầu rộng rãi, đấu thầu hạn chế, mua sắm trực tiếp đều là các 'hình thức lựa chọn nhà thầu'. 'Đấu thầu qua mạng' là 'phương thức' thực hiện hoạt động đấu thầu, không phải là một 'hình thức lựa chọn nhà thầu' riêng biệt. Đấu thầu rộng rãi, hạn chế, chào hàng cạnh tranh có thể được tổ chức theo phương thức qua mạng hoặc không qua mạng."
     },
     {
-        id: 36,
-        question: "Kế hoạch lựa chọn nhà thầu của dự án thuộc đối tượng áp dụng của Luật Đấu thầu bắt buộc phải đăng tải ở đâu?",
-        options: {
-            A: "Hệ thống mạng đấu thầu quốc gia",
-            B: "Báo Tài chính-Đầu tư",
-            C: "Cổng Thông tin điện tử của Bộ, ngành",
-            D: "Phương án A và B đều đúng"
+        "id": 36,
+        "question": "Gói thầu lựa chọn tư vấn là tổ chức có giá gói thầu là 500 triệu đồng áp dụng hình thức lựa chọn nhà thầu nào?",
+        "options": {
+            "A": "Bắt buộc áp dụng hình thức chỉ định thầu",
+            "B": "Được áp dụng hình thức chỉ định thầu hoặc đấu thầu rộng rãi",
+            "C": "Được áp dụng hình thức chào hàng cạnh tranh hoặc đấu thầu rộng rãi",
+            "D": "Được áp dụng hình thức chỉ định thầu hoặc đấu thầu rộng rãi hoặc chào hàng cạnh tranh"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ điểm a, khoản 1, Điều 7 và khoản 3, Điều 7, thông tin về kế hoạch lựa chọn nhà thầu là một trong các thông tin phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia."
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Điều 23, khoản 1, điểm e và quy định chi tiết của Chính phủ. Gói thầu dịch vụ tư vấn có giá trị không quá 500 triệu đồng thuộc hạn mức được áp dụng chỉ định thầu. Tuy nhiên, chủ đầu tư luôn có quyền lựa chọn hình thức cạnh tranh hơn là đấu thầu rộng rãi."
     },
     {
-        id: 37,
-        question: "Chậm nhất là bao nhiêu ngày thì kế hoạch lựa chọn nhà thầu phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia?",
-        options: {
-            A: "05 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
-            B: "07 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
-            C: "07 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
-            D: "10 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành"
+        "id": 37,
+        "question": "Chọn phương án đúng về hạn mức đối với đấu thầu rộng rãi?",
+        "options": {
+            "A": "Không quy định hạn mức áp dụng",
+            "B": "Giá gói thầu trên 20 tỷ đồng",
+            "C": "Giá gói thầu trên 10 tỷ đồng",
+            "D": "Giá gói thầu trên 20 tỷ đồng đối với xây lắp, hàng hoá; trên 10 tỷ đồng đối với gói thầu dịch vụ tư vấn, phi tư vấn"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ khoản 4, Điều 8, \"Thông tin quy định tại các điểm a, d, g, h, i khoản 1... của Luật này phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia chậm nhất là 05 ngày làm việc kể từ ngày văn bản được ban hành...\". Thông tin về kế hoạch lựa chọn nhà thầu thuộc điểm a, khoản 1, Điều 7."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 21 của Luật Đấu thầu. Đấu thầu rộng rãi là hình thức lựa chọn nhà thầu không hạn chế số lượng nhà thầu tham dự và không có quy định về hạn mức giá trị gói thầu. Đây là hình thức được khuyến khích áp dụng cho mọi gói thầu."
     },
     {
-        id: 38,
-        question: "Kế hoạch lựa chọn nhà thầu bao gồm nội dung nào sau đây?",
-        options: {
-            A: "Giá gói thầu",
-            B: "Thời gian thực hiện hợp đồng",
-            C: "Giám sát hoạt động đấu thầu",
-            D: "Cả 3 phương án trên đều đúng"
+        "id": 38,
+        "question": "Chọn phương án đúng về loại gói thầu đối với hình thức mua sắm trực tiếp?",
+        "options": {
+            "A": "Chỉ gói thầu mua sắm hàng hoá",
+            "B": "Chỉ gói thầu xây lắp",
+            "C": "Chỉ gói thầu dịch vụ phi tư vấn",
+            "D": "Gói thầu mua sắm hàng hóa và dịch vụ phi tư vấn"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ Điều 39, Nội dung kế hoạch lựa chọn nhà thầu bao gồm: Tên gói thầu, Giá gói thầu, Nguồn vốn, Hình thức và phương thức lựa chọn nhà thầu, Thời gian tổ chức lựa chọn nhà thầu, Loại hợp đồng, và Thời gian thực hiện gói thầu. Do đó, \"Giá gói thầu\" là một nội dung bắt buộc. \"Thời gian thực hiện hợp đồng\" (B) cũng đúng nhưng câu hỏi chỉ yêu cầu chọn một. \"Giám sát hoạt động đấu thầu\" (C) là một hoạt động trong quản lý đấu thầu, không phải nội dung của kế hoạch lựa chọn nhà thầu."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 25, khoản 1 của Luật Đấu thầu. Luật quy định rõ: 'Mua sắm trực tiếp được áp dụng đối với gói thầu mua sắm hàng hóa tương tự...'"
     },
     {
-        id: 39,
-        question: "Đối với nội dung mua sắm có giá không quá 50 triệu đồng thì được thực hiện như thế nào?",
-        options: {
-            A: "Không phải lập kế hoạch lựa chọn nhà thầu nhưng phải thực hiện mua sắm trên cơ sở tiết kiệm, hiệu quả, bảo đảm đầy đủ hoá đơn, chứng từ",
-            B: "Không phải lập kế hoạch lựa chọn nhà thầu nhưng phải thực hiện mua sắm theo giá công khai, giá niêm yết và không cần hoá đơn, chứng từ",
-            C: "Được hình thành gói thầu để thực hiện lựa chọn nhà thầu theo một trong hình thức lựa chọn nhà thầu (đấu thầu rộng rãi, chào hàng cạnh tranh, chỉ định thầu....) nhưng phải lập kế hoạch lựa chọn nhà thầu",
-            D: "Phương án A và C đúng"
+        "id": 39,
+        "question": "Phương án nào không phải là điều kiện để được áp dụng hình thức mua sắm trực tiếp?",
+        "options": {
+            "A": "Nhà thầu đã trúng thầu thông qua đấu thầu rộng rãi, đấu thầu hạn chế và đã ký hợp đồng gói thầu thực hiện gói thầu trước đó",
+            "B": "Thời gian từ khi ký hợp đồng gói thầu trước đến ngày phê duyệt kết quả mua sắm trực tiếp không quá 12 tháng",
+            "C": "Đơn giá các phần việc thuộc gói thầu mua sắm trực tiếp không vượt đơn giá phần việc tương ứng của gói thầu đã ký trước đó, đồng thời, phù hợp với giá thị trường tại thời điểm hoàn thiện hợp đồng",
+            "D": "Chủ đầu tư được áp dụng mua sắm trực tiếp nhiều lần đối với các loại hàng hóa thuộc gói thầu"
         },
-        correctAnswer: "A",
-        explanation: "Đây là trường hợp mua sắm giá trị nhỏ. Theo quy định chung về quản lý ngân sách và mua sắm công, đối với các khoản mua sắm dưới một hạn mức nhất định (thường được quy định trong các văn bản dưới luật), thủ trưởng đơn vị được tự quyết định và chịu trách nhiệm, không cần lập kế hoạch lựa chọn nhà thầu theo quy trình đầy đủ của Luật Đấu thầu nhưng phải đảm bảo nguyên tắc hiệu quả và có đầy đủ chứng từ tài chính."
+        "correctAnswer": "D",
+        "explanation": "Căn cứ pháp lý: Điều 25, khoản 2, điểm b của Luật Đấu thầu. Luật quy định rõ: 'Chủ đầu tư chỉ được áp dụng mua sắm trực tiếp một lần đối với các loại hàng hóa thuộc gói thầu...'. Do đó, việc áp dụng nhiều lần là không đúng điều kiện. Các phương án A, B, C đều là các điều kiện để áp dụng mua sắm trực tiếp được quy định tại Điều 25, khoản 2."
     },
     {
-        id: 40,
-        question: "Bảo đảm cạnh tranh trong đấu thầu thuộc nội dung đánh giá về?",
-        options: {
-            A: "Tư cách hợp lệ",
-            B: "Năng lực, kinh nghiệm",
-            C: "Kỹ thuật",
-            D: "Tài chính"
+        "id": 40,
+        "question": "Hãy chọn phương án đúng về hình thức đặt hàng?",
+        "options": {
+            "A": "Là một trong các hình thức lựa chọn nhà thầu",
+            "B": "Pháp luật quản lý ngành, lĩnh vực quy định về quy trình, thủ tục đặt hàng khác với quy trình, thủ tục của pháp luật về đấu thầu thì áp dụng quy định của pháp luật về đấu thầu.",
+            "C": "Đặt hàng chỉ được áp dụng cho sản phẩm, dịch vụ công",
+            "D": "Đặt hàng chỉ áp dụng đối với nguồn chi thường xuyên ngân sách nhà nước, không được áp dụng đối với nguồn vốn khác"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ điểm đ, khoản 1, Điều 5, một trong các điều kiện về tư cách hợp lệ của nhà thầu là \"Bảo đảm cạnh tranh trong đấu thầu theo quy định tại Điều 6 của Luật này\"."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 29a của Luật Đấu thầu. Khoản 1, Điều 29a định nghĩa đặt hàng là một hình thức giao trực tiếp. Khoản 2 quy định: 'Hàng hóa, dịch vụ đặt hàng theo quy định của pháp luật quản lý ngành, lĩnh vực thì thực hiện theo quy định của pháp luật quản lý ngành, lĩnh vực; trường hợp pháp luật quản lý ngành, lĩnh vực không quy định về quy trình, thủ tục thì áp dụng quy định của pháp luật về đấu thầu.' Điều này có nghĩa là luật đấu thầu được ưu tiên áp dụng nếu luật chuyên ngành không có quy định. Phương án B nói ngược lại, do đó nó không đúng. Xem xét lại: Câu hỏi yêu cầu chọn phương án đúng. A. Đặt hàng là một trong các hình thức lựa chọn nhà thầu (Đúng, theo Điều 20, điểm a). B. Sai như phân tích ở trên. C. Sai, đặt hàng áp dụng cho nhiều lĩnh vực chiến lược, công nghệ... không chỉ dịch vụ công (Điều 29a, khoản 1). D. Sai, không có quy định giới hạn nguồn vốn. Vậy Đáp án đúng là A. Là một trong các hình thức lựa chọn nhà thầu."
     }
 ];

@@ -2,123 +2,123 @@ import { Question } from '../../types';
 
 export const set8: Question[] = [
     {
-        id: 71,
-        question: "Đối với gói thầu mua sắm hàng hóa tổ chức đấu thầu rộng rãi qua mạng, kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự được xét trên cơ sở nào sau đây?",
-        options: {
-            A: "Hàng hóa có cùng chủng loại với gói thầu đang xét",
-            B: "Hàng hóa thuộc cùng lĩnh vực tổng quát với hàng hóa của gói thầu",
-            C: "Hàng hóa có 4 số đầu tiên mã HS cùng với mã HS của hàng hóa thuộc gói thầu",
-            D: "Cả 2 phương án B và C đều đúng"
+        "id": 71,
+        "question": "Đối với đấu thầu quốc tế, hồ sơ mời thầu phải quy định sử dụng lao động trong nước trong trường hợp nào?",
+        "options": {
+            "A": "Những vị trí công việc mà lao động trong nước đáp ứng được và có khả năng cung cấp",
+            "B": "Những vị trí công việc mà lao động trong nước không đáp ứng được nhưng cần tạo điều kiện để tiếp nhận công nghệ từ nước ngoài được chuyển giao",
+            "C": "Lao động phổ thông",
+            "D": "Phương án A và C đều đúng"
         },
-        correctAnswer: "C",
-        explanation: "Mã HS (Hệ thống hài hòa mô tả và mã hóa hàng hóa) là một hệ thống phân loại hàng hóa được chuẩn hóa quốc tế. Việc so sánh các số đầu tiên của mã HS là một phương pháp khách quan, chính xác để xác định tính tương tự của hàng hóa. Thông thường, 4 đến 6 số đầu tiên của mã HS cho biết nhóm hàng và chủng loại hàng hóa. Đây là tiêu chí kỹ thuật được áp dụng phổ biến trong đấu thầu qua mạng để tự động hóa việc đánh giá."
+        "correctAnswer": "A",
+        "explanation": "Đây là một trong những chính sách nhằm bảo hộ lao động trong nước và phát triển nguồn nhân lực quốc gia. Khi tổ chức đấu thầu quốc tế, hồ sơ mời thầu thường yêu cầu nhà thầu nước ngoài phải ưu tiên sử dụng lao động địa phương cho những vị trí mà lao động địa phương có đủ khả năng đáp ứng."
     },
     {
-        id: 72,
-        question: "Gói thầu dịch vụ phi tư vấn chia thành nhiều phần thì việc đánh giá về doanh thu đối với nhà thầu tham dự nhiều phần được thực hiện như thế nào?",
-        options: {
-            A: "Việc đánh giá về doanh thu căn cứ trên tổng giá trị doanh thu bình quân yêu cầu đối với các phần mà nhà thầu tham dự",
-            B: "Việc đánh giá về doanh thu căn cứ trên từng phần mà nhà thầu tham dự, nhà thầu không phải đáp ứng tổng doanh thu đối với các phần mà nhà thầu tham dự",
-            C: "Việc đánh giá về doanh thu căn cứ trên phần có giá trị lớn nhất trong tổng số các phần nhà thầu tham dự",
-            D: "Các phương án trên đều sai"
+        "id": 72,
+        "question": "Trường hợp hồ sơ mời thầu có quy định về xuất xứ theo nhóm nước, vùng lãnh thổ mà không bao gồm xuất xứ Việt Nam, nhà thầu chào hàng hóa có xuất xứ Việt Nam sẽ bị đánh giá như thế nào?",
+        "options": {
+            "A": "Hàng hóa của nhà thầu không được xem xét, đánh giá",
+            "B": "Hàng hóa của nhà thầu vẫn được xem xét, đánh giá",
+            "C": "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu nhưng phải cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu",
+            "D": "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu, không phải đáp ứng cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu"
         },
-        correctAnswer: "A",
-        explanation: "Khi một nhà thầu tham dự nhiều phần, năng lực tài chính của nhà thầu phải được chứng minh là đủ để thực hiện đồng thời tất cả các phần đó nếu trúng thầu. Do đó, yêu cầu về doanh thu phải được tính bằng tổng yêu cầu doanh thu của tất cả các phần mà nhà thầu tham dự."
+        "correctAnswer": "A",
+        "explanation": "Nhà thầu phải tuân thủ tuyệt đối các yêu cầu của hồ sơ mời thầu. Nếu HSMT đã quy định rõ về xuất xứ hàng hóa (dù việc quy định này có thể hạn chế cạnh tranh) và hàng hóa nhà thầu chào không thuộc danh mục xuất xứ cho phép, thì hàng hóa đó sẽ bị coi là không đáp ứng yêu cầu và bị loại."
     },
     {
-        id: 73,
-        question: "Gói thầu mua sắm hàng hóa chia thành nhiều phần thì việc đánh giá về quy mô hợp đồng tương tự đối với nhà thầu tham dự nhiều phần được thực hiện như thế nào?",
-        options: {
-            A: "Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự",
-            B: "Việc đánh giá về quy mô hợp đồng tương tự tương ứng với từng phần mà nhà thầu tham dự, nhà thầu không phải đáp ứng tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự",
-            C: "Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên phần có giá trị nhỏ nhất trong tổng số các phần mà nhà thầu tham dự",
-            D: "Các phương án trên đều sai"
+        "id": 73,
+        "question": "Gói thầu mua sắm 20 máy điều hòa, tổ chức đấu thầu rộng rãi qua mạng, một giai đoạn một túi hồ sơ, trường hợp E-HSMT có quy định về kinh nghiệm thực hiện hợp đồng tương tự thì tính chất tương tự được quy định như thế nào?",
+        "options": {
+            "A": "Quy định hàng hóa thuộc cùng lĩnh vực tổng quát với máy điều hòa (thiết bị điện...)",
+            "B": "Chỉ quy định hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
+            "C": "Được quy định hàng hóa thuộc cùng chủng loại hoặc hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
+            "D": "Tất cả đáp án trên đều đúng"
         },
-        correctAnswer: "B",
-        explanation: "Khác với năng lực tài chính (doanh thu), kinh nghiệm thực hiện hợp đồng tương tự thường được đánh giá riêng cho từng phần. Nhà thầu chỉ cần chứng minh có kinh nghiệm thực hiện hợp đồng tương tự với phần có yêu cầu cao nhất (hoặc theo quy định cụ thể của HSMT), không cần phải cộng dồn giá trị các hợp đồng tương tự cho tất cả các phần."
+        "correctAnswer": "C",
+        "explanation": "Để đảm bảo tính cạnh tranh nhưng vẫn đánh giá được kinh nghiệm của nhà thầu, quy định về tính chất tương tự thường được mở rộng ra 'cùng chủng loại' hoặc dựa trên hệ thống mã HS (Hệ thống hài hòa mô tả và mã hóa hàng hóa). Việc chỉ quy định 'cùng lĩnh vực tổng quát' (A) là quá rộng, còn chỉ quy định 'cùng mã Chương, mã Nhóm' (B) có thể quá hẹp. Phương án C là cách tiếp cận hợp lý và phổ biến nhất."
     },
     {
-        id: 74,
-        question: "Trường hợp E-HSMT của gói thầu mua sắm hàng hóa có yêu cầu về cam kết, hợp đồng nguyên tắc bảo hành, bảo trì, duy tu, bảo dưỡng mà E-HSDT của nhà thầu không đính kèm các tài liệu này thì Chủ đầu tư xử lý như thế nào?",
-        options: {
-            A: "Hồ sơ dự thầu của nhà thầu bị loại, không được xem xét, đánh giá",
-            B: "Chủ đầu tư yêu cầu nhà thầu làm rõ, bổ sung tài liệu trong một khoảng thời gian phù hợp nhưng không ít hơn 03 ngày làm việc để làm cơ sở đánh giá E-HSDT",
-            C: "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu trên cơ sở bảo đảm các mục tiêu của công tác đấu thầu",
-            D: "Tiếp tục đánh giá E-HSDT, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
+        "id": 74,
+        "question": "Tiêu chuẩn đánh giá về kỹ thuật gói thầu dịch vụ phi tư vấn không bao gồm nội dung nào sau đây?",
+        "options": {
+            "A": "Nhà thầu bị đánh giá về uy tín trong việc tham dự thầu",
+            "B": "Bảo đảm điều kiện vệ sinh môi trường và các điều kiện khác như phòng cháy, chữa cháy, an toàn lao động.",
+            "C": "Mức độ đáp ứng các yêu cầu về bảo hành, bảo trì (nếu có);",
+            "D": "Tất cả đáp án trên đều sai"
         },
-        correctAnswer: "B",
-        explanation: "Đây là trường hợp thiếu sót các tài liệu không cơ bản trong hồ sơ dự thầu. Theo nguyên tắc xử lý tình huống và làm rõ hồ sơ dự thầu, nếu việc thiếu sót không làm thay đổi bản chất của hồ sơ dự thầu (như giá chào, các nội dung kỹ thuật chính), bên mời thầu được phép yêu cầu nhà thầu làm rõ, bổ sung để hoàn thiện hồ sơ. Việc loại ngay nhà thầu (phương án A) là quá cứng nhắc và có thể làm giảm cạnh tranh."
+        "correctAnswer": "A",
+        "explanation": "Uy tín của nhà thầu là một tiêu chí đánh giá, nhưng nó thường được xem xét như một phần của năng lực, kinh nghiệm chung chứ không phải là một 'tiêu chuẩn kỹ thuật' của gói thầu. Tiêu chuẩn kỹ thuật tập trung vào giải pháp, phương pháp luận, nhân sự, và các yêu cầu cụ thể để thực hiện công việc. Các phương án B, C là các yêu cầu kỹ thuật hoặc liên quan đến kỹ thuật thực hiện."
     },
     {
-        id: 75,
-        question: "Đối với gói thầu mua sắm hàng hóa áp dụng đấu thầu rộng rãi, trong hồ sơ dự thầu nhà thầu không đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất thì xử lý như thế nào?",
-        options: {
-            A: "Chủ đầu tư yêu cầu nhà thầu làm rõ các thông tin này để làm cơ sở đánh giá trên cơ sở không được thay đổi giá dự thầu",
-            B: "Tổ chuyên gia căn cứ theo cataloge, đề xuất kỹ thuật kèm theo để làm cơ sở đánh giá",
-            C: "Hồ sơ dự thầu của nhà thầu không được xem xét, đánh giá",
-            D: "Tiếp tục đánh giá hồ sơ dự thầu, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ các thông tin này"
+        "id": 75,
+        "question": "Nhận định nào sau đây là đúng về tiêu chuẩn đánh giá E-HSDT gói thầu dịch vụ tư vấn tổ chức đấu thầu rộng rãi qua mạng?",
+        "options": {
+            "A": "Có thể không quy định về tiêu chuẩn kinh nghiệm và năng lực trong tiêu chuẩn đánh giá về kỹ thuật",
+            "B": "Không được quy định mức điểm tối thiểu về kinh nghiệm và năng lực trong tiêu chuẩn đánh giá về kỹ thuật",
+            "C": "Không được quy định uy tín của nhà thầu thông qua việc tham dự thầu trong tiêu chuẩn đánh giá về kỹ thuật",
+            "D": "Hợp đồng tương tự được xác định trên cơ sở tương tự cả về tính chất và quy mô (giá trị hợp đồng)"
         },
-        correctAnswer: "D",
-        explanation: "Theo quy định, hàng hóa nhà thầu chào phải đáp ứng các thông số kỹ thuật trong hồ sơ mời thầu. Việc không ghi rõ nhãn hiệu, xuất xứ không phải là lý do để loại hồ sơ dự thầu ngay lập tức, miễn là các tài liệu kỹ thuật kèm theo (catalogue, thông số kỹ thuật...) chứng minh được hàng hóa đáp ứng yêu cầu. Đây là nội dung có thể yêu cầu nhà thầu làm rõ trong quá trình đánh giá hoặc trước khi ký hợp đồng."
+        "correctAnswer": "D",
+        "explanation": "Đây là nguyên tắc cơ bản khi xác định hợp đồng tương tự. 'Tương tự' phải được hiểu là tương tự về cả bản chất công việc (tính chất) và độ lớn, phức tạp của công việc (quy mô, thường được thể hiện qua giá trị). A và B sai vì năng lực và kinh nghiệm là yêu cầu bắt buộc đối với gói thầu tư vấn. C sai vì uy tín là một tiêu chí có thể được sử dụng để đánh giá."
     },
     {
-        id: 76,
-        question: "Hồ sơ mời thầu của gói thầu xây lắp có quy định cho phép sử dụng nhà thầu phụ, trường hợp nhà thầu đề xuất sử dụng thầu phụ thì việc đánh giá năng lực kinh nghiệm của nhà thầu phụ được thực hiện như thế nào?",
-        options: {
-            A: "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu không phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận",
-            B: "Không đánh giá năng lực, kinh nghiệm của nhà thầu phụ, nhà thầu tham dự thầu vẫn phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận",
-            C: "Do chủ đầu tư quyết định có đánh giá hoặc không đánh giá năng lực, kinh nghiệm nhà thầu phụ",
-            D: "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu cũng phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận"
+        "id": 76,
+        "question": "Đối với gói thầu xây dựng 'Trường trung học phổ thông A”, bao gồm tổ hợp các công trình: + Nhà A1 (Nhà học): Cao 10 tầng, tổng diện tích sàn 8.000 m2, có giá trị theo dự toán được duyệt là (2X) VND. Nhà A1 là công trình kết cấu dạng nhà cấp II theo quy định của Thông tư số 06/2021/TT-BXD. + Nhà A2 (Nhà học): Cao 6 tầng, tổng diện tích sàn 1.000 m2, có giá trị theo dự toán được duyệt là (Y) VND. Nhà A2 là công trình kết cấu dạng nhà cấp III theo quy định của Thông tư số 06/2021/TT-BXD. + Hàng rào bảo vệ: Cao 3m + Nhà bảo vệ: Cao 1 tầng, diện tích sàn 12 m2. Kinh nghiệm thi công công trình tương tự được quy định trong hồ sơ mời thầu như thế nào là phù hợp?",
+        "options": {
+            "A": "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp II, có giá trị tối thiểu là 50% x (2X) VND",
+            "B": "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp II, có giá trị tối thiểu là 50% x (2X) VND, trong đó phải bao gồm hạng mục hàng rào bảo vệ, nhà bảo vệ",
+            "C": "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND",
+            "D": "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND, trong đó phải bao gồm hạng mục hàng rào bảo vệ, nhà bảo vệ"
         },
-        correctAnswer: "A",
-        explanation: "Nhà thầu chính (nhà thầu tham dự thầu) chịu trách nhiệm toàn bộ về chất lượng, tiến độ của gói thầu trước chủ đầu tư. Khi nhà thầu chính sử dụng nhà thầu phụ, nhà thầu chính phải chứng minh nhà thầu phụ đó có đủ năng lực, kinh nghiệm để thực hiện phần công việc được giao. Đồng thời, năng lực, kinh nghiệm của nhà thầu chính sẽ được đánh giá cho phần công việc mà nhà thầu chính thực hiện. Tổng hợp lại, năng lực và kinh nghiệm của liên hợp (nhà thầu chính + nhà thầu phụ) phải đáp ứng yêu cầu của gói thầu. Do đó, phương án A là hợp lý nhất."
+        "correctAnswer": "A",
+        "explanation": "Nguyên tắc xác định công trình tương tự là phải tương tự về cấp công trình và quy mô. Gói thầu đang xét có công trình chính là Nhà A1, cấp II. Do đó, yêu cầu về công trình tương tự phải là công trình cấp II. Về quy mô, yêu cầu giá trị tối thiểu bằng 50% giá trị của công trình chính (Nhà A1) là hợp lý. Các phương án khác sai về cấp công trình (C, D) hoặc yêu cầu không cần thiết (B)."
     },
     {
-        id: 77,
-        question: "Khi tham dự thầu đấu thầu qua mạng, nhà thầu có được ủy quyền cho Giám đốc chi nhánh tham dự thầu hay không?",
-        options: {
-            A: "Được ủy quyền bằng giấy ủy quyền",
-            B: "Không được ủy quyền",
-            C: "Được ủy quyền không cần giấy ủy quyền nhưng nhà thầu phải tạo tài khoản nghiệp vụ cho giám đốc chi nhánh",
-            D: "Các phương án trên đều sai"
+        "id": 77,
+        "question": "Đối với gói thầu áp dụng chào hàng cạnh tranh, việc đánh giá về kỹ thuật thực hiện theo phương án nào sau đây?",
+        "options": {
+            "A": "Phải sử dụng phương pháp đánh giá “đạt”, “không đạt”",
+            "B": "Phải sử dụng phương pháp chấm điểm",
+            "C": "Được sử dụng một trong hai phương pháp “đạt”, “không đạt” hoặc chấm điểm",
+            "D": "Chỉ cần yêu cầu nhà thầu cam kết đáp ứng yêu cầu về kỹ thuật"
         },
-        correctAnswer: "A",
-        explanation: "Pháp luật doanh nghiệp và pháp luật dân sự cho phép người đại diện theo pháp luật của doanh nghiệp (ví dụ: Giám đốc/Tổng Giám đốc) được ủy quyền cho người khác (ví dụ: Giám đốc chi nhánh) thực hiện các giao dịch nhân danh công ty. Việc tham dự thầu là một giao dịch như vậy. Miễn là có giấy ủy quyền hợp lệ, được lập theo đúng quy định của pháp luật, thì Giám đốc chi nhánh hoàn toàn có thể đại diện cho công ty tham dự thầu."
+        "correctAnswer": "A",
+        "explanation": "Chào hàng cạnh tranh là hình thức lựa chọn nhà thầu đơn giản, áp dụng cho các gói thầu có yêu cầu kỹ thuật không phức tạp. Do đó, phương pháp đánh giá kỹ thuật thường là 'đạt' hoặc 'không đạt' theo các yêu cầu cơ bản đã nêu trong hồ sơ yêu cầu."
     },
     {
-        id: 78,
-        question: "Hợp đồng theo theo tỷ lệ phần trăm có thể được áp dụng đối với gói thầu nào sau đây?",
-        options: {
-            A: "Mua sắm thiết bị y tế",
-            B: "Xây dựng công trình",
-            C: "Bảo hiểm công trình mà giá trị hợp đồng được xác định chính xác trên cơ sở giá trị công trình thực tế được nghiệm thu",
-            D: "Tư vấn giám sát"
+        "id": 78,
+        "question": "Chủ đầu tư dự kiến mua sắm hàng hóa (không phải mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn) như sau: - Hàng hóa A có mã HS là 9035, giá trị dự toán là 4.000.000.000 đồng - Hàng hóa B có mã HS là 9035, giá trị dự toán là 6.000.000.000 E-HSMT yêu cầu về kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự trong trường hợp nào sau đây là phù hợp?",
+        "options": {
+            "A": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 02 tỷ đồng",
+            "B": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 03 tỷ đồng",
+            "C": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 05 tỷ đồng",
+            "D": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 07 tỷ đồng"
         },
-        correctAnswer: "C",
-        explanation: "Căn cứ khoản 7, Điều 64, \"Hợp đồng theo tỷ lệ phần trăm chỉ có thể áp dụng cho gói thầu bảo hiểm công trình mà giá trị hợp đồng được xác định chính xác trên cơ sở giá trị công trình thực tế được nghiệm thu.\" Đây là quy định trực tiếp và rõ ràng trong Luật."
+        "correctAnswer": "C",
+        "explanation": "Tổng giá trị của các hàng hóa có cùng mã HS 9035 là 4 + 6 = 10 tỷ đồng. Yêu cầu về giá trị hợp đồng tương tự thường là 50% hoặc 70% tổng giá trị của các hạng mục tương tự. 50% của 10 tỷ là 5 tỷ. Do đó, yêu cầu một hợp đồng tương tự có giá trị tối thiểu 5 tỷ đồng là hợp lý."
     },
     {
-        id: 79,
-        question: "Cơ sở để thanh toán hợp đồng cho nhà thầu là gì?",
-        options: {
-            A: "Giá hợp đồng và các điều khoản cụ thể về thanh toán được ghi trong hợp đồng",
-            B: "Dự toán gói thầu và các điều khoản cụ thể về thanh toán được ghi trong hợp đồng",
-            C: "Dự toán gói thầu",
-            D: "Phương án A và C đều sai"
+        "id": 79,
+        "question": "Gói thầu mua sắm hàng hóa có số lượng, khối lượng công việc căn cứ nhu cầu theo các năm và thời gian thực hiện gói thầu là 02 năm thì E-HSMT quy định về giá trị của hợp đồng tương tự như thế nào?",
+        "options": {
+            "A": "Có giá trị bằng 50% giá gói thầu",
+            "B": "Có giá trị bằng 70% giá gói thầu",
+            "C": "Có giá trị bằng 50% giá trị theo chu kỳ 01 năm của gói thầu",
+            "D": "Có giá trị tối thiểu bằng 50% giá gói thầu"
         },
-        correctAnswer: "A",
-        explanation: "Hợp đồng là thỏa thuận pháp lý cao nhất giữa các bên. Mọi việc thanh toán phải được thực hiện theo đúng các điều khoản đã cam kết trong hợp đồng (giá trị, giai đoạn thanh toán, hồ sơ thanh toán...). Dự toán gói thầu chỉ là cơ sở để lập kế hoạch và xét thầu, không phải là căn cứ trực tiếp để thanh toán cho nhà thầu sau khi đã ký hợp đồng."
+        "correctAnswer": "C",
+        "explanation": "Đối với các gói thầu có tính chất lặp lại theo chu kỳ nhiều năm, yêu cầu về kinh nghiệm (hợp đồng tương tự) thường được tính trên cơ sở quy mô của một chu kỳ (thường là 1 năm) để không gây hạn chế cạnh tranh, cho phép các nhà thầu có quy mô nhỏ hơn tham gia. Tỷ lệ 50% là một tỷ lệ phổ biến."
     },
     {
-        id: 80,
-        question: "Nhà thầu không được hoàn trả bảo đảm thực hiện hợp đồng trong trường hợp nào?",
-        options: {
-            A: "Từ chối thực hiện hợp đồng khi hợp đồng đã có hiệu lực",
-            B: "Thực hiện hợp đồng chậm tiến độ nhưng vẫn hoàn thành hợp đồng",
-            C: "Nhà thầu đề nghị điều chỉnh tiến độ do bất khả kháng",
-            D: "Nhà thầu đề xuất thay đổi nhà thầu phụ"
+        "id": 80,
+        "question": "Nội dung nào không phù hợp với quy định về nhà thầu phụ đối với gói thầu mua sắm hàng hóa?",
+        "options": {
+            "A": "Chủ đầu tư phải ghi tỷ lệ % giá trị dành cho nhà thầu phụ trong E-BDL làm cơ sở để nhà thầu lập E-HSDT",
+            "B": "Năng lực và kinh nghiệm của nhà thầu phụ sẽ không được xem xét khi đánh giá E-HSDT của nhà thầu",
+            "C": "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ trong danh sách các nhà thầu phụ nêu trong E-HSDT",
+            "D": "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ được chủ đầu tư chấp thuận để tham gia thực hiện cung cấp dịch vụ liên quan"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ điểm a, khoản 6, Điều 68, nhà thầu không được hoàn trả bảo đảm thực hiện hợp đồng trong trường hợp \"Từ chối thực hiện hợp đồng khi hợp đồng đã có hiệu lực\". Bảo đảm thực hiện hợp đồng có mục đích để ràng buộc trách nhiệm của nhà thầu trong việc thực thi hợp đồng đã ký."
+        "correctAnswer": "D",
+        "explanation": "Nhà thầu chính phải kê khai danh sách nhà thầu phụ dự kiến trong E-HSDT. Nhà thầu chính chỉ được sử dụng các nhà thầu phụ có trong danh sách đã kê khai và không được thay đổi nếu không có sự chấp thuận của chủ đầu tư. Phương án D ngụ ý rằng chủ đầu tư có thể chấp thuận một nhà thầu phụ bất kỳ ngoài danh sách, điều này không hoàn toàn chính xác theo quy trình."
     }
 ];

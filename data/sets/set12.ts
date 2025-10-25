@@ -2,123 +2,123 @@ import { Question } from '../../types';
 
 export const set12: Question[] = [
     {
-        id: 111,
-        question: "Người có thẩm quyền ban hành quyết định cấm tham gia hoạt động đấu thầu với thời gian cấm bao lâu đối với trường hợp tổ chức, cá nhân có từ 02 hành vi vi phạm trở lên thuộc cùng phạm vi quản lý của người có thẩm quyền và các hành vi này chưa bị cấm tham gia hoạt động đấu thầu?",
-        options: {
-            A: "Bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối thiểu trên 05 năm",
-            B: "Bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối đa không quá 03 năm",
-            C: "Bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối đa không quá 05 năm",
-            D: "Bằng thời gian cấm của hành vi vi phạm có thời gian bị cấm cao nhất"
+        "id": 111,
+        "question": "Gói thầu xây lắp tổ chức đấu thầu qua mạng có thời điểm đóng thầu là ngày 20/3/2025, năm tài chính của nhà thầu là 01/01-31/12, nhà thầu là công ty cổ phần được thành lập vào năm 2018 và E-HSMT yêu cầu nhà thầu nộp báo cáo tài chính của 03 năm gần nhất thì nhà thầu phải nộp báo cáo tài chính của các năm nào sau đây?",
+        "options": {
+            "A": "2020, 2021, 2022",
+            "B": "2021, 2022, 2023",
+            "C": "2021, 2022, 2024",
+            "D": "2019, 2020, 2021"
         },
-        correctAnswer: "C",
-        explanation: "Văn bản Luật Đấu thầu hợp nhất không quy định chi tiết cách tổng hợp hình phạt trong trường hợp này. Tuy nhiên, theo nguyên tắc xử phạt vi phạm hành chính, khi một cá nhân/tổ chức thực hiện nhiều hành vi vi phạm thì có thể bị áp dụng hình phạt cho từng hành vi nhưng tổng hợp hình phạt không được vượt quá mức tối đa của khung hình phạt. Mức cấm thầu cao nhất theo khoản 2, Điều 87 là 05 năm. Do đó, phương án C là hợp lý nhất."
+        "correctAnswer": "B",
+        "explanation": "Thời điểm đóng thầu là 20/3/2025. Yêu cầu nộp báo cáo tài chính của 03 năm gần nhất. Năm tài chính gần nhất đã có báo cáo đầy đủ trước thời điểm đóng thầu là năm 2024. Tuy nhiên, tại thời điểm tháng 3/2025, báo cáo tài chính năm 2024 có thể chưa được kiểm toán và phát hành chính thức. Do đó, 03 năm gần nhất có báo cáo tài chính hoàn chỉnh thường được tính là 2023, 2022, và 2021."
     },
     {
-        id: 112,
-        question: "Hành vi gian lận trong hoạt động đấu thầu sẽ bị cấm tham gia hoạt động đấu thầu trong thời gian bao lâu?",
-        options: {
-            A: "Từ 06 tháng đến 01 năm",
-            B: "02 năm",
-            C: "Từ 01 năm đến 02 năm",
-            D: "Từ 03 năm đến 05 năm"
+        "id": 112,
+        "question": "Đối với công trình đang xét là công trình xây dựng có loại kết cấu dạng nhà cấp II với giá trị công trình là 60 tỷ đồng, E-HSMT có yêu cầu về kinh nghiệm thực hiện hợp đồng xây lắp tương tự, trường hợp nào sau đây được đánh giá là một công trình xây lắp tương tự?",
+        "options": {
+            "A": "Nhà thầu có 2 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 50 tỷ đồng",
+            "B": "Nhà thầu có 2 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 20 tỷ đồng",
+            "C": "Nhà thầu có 3 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 20 tỷ đồng, 10 tỷ đồng",
+            "D": "Nhà thầu có 1 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ là 60 tỷ đồng"
         },
-        correctAnswer: "D",
-        explanation: "Căn cứ khoản 2, Điều 87, thời gian cấm thầu là từ 06 tháng đến 05 năm. Gian lận (quy định tại khoản 4, Điều 16) là một trong những hành vi bị cấm nghiêm trọng nhất. Các văn bản hướng dẫn chi tiết của Chính phủ thường phân loại mức độ vi phạm để áp dụng khung thời gian cấm thầu tương ứng. Đối với hành vi gian lận, mức phạt thường nằm ở khung cao nhất. Do đó, khung từ 03 năm đến 05 năm là phù hợp nhất."
+        "correctAnswer": "D",
+        "explanation": "Yêu cầu của HSMT là công trình cấp II, giá trị 60 tỷ. Nguyên tắc xét tương tự cho phép công trình cấp thấp hơn nhưng có quy mô (giá trị) lớn hơn được xem xét là tương tự. Phương án D, mặc dù là công trình cấp III (thấp hơn) nhưng có giá trị bằng 100% giá trị gói thầu đang xét (60 tỷ), thể hiện nhà thầu có đủ năng lực tài chính và kinh nghiệm quản lý dự án quy mô lớn. Các phương án A, B, C có tổng giá trị các công trình lớn nhưng mỗi công trình riêng lẻ lại có quy mô nhỏ hơn nhiều, không thể hiện được kinh nghiệm quản lý một công trình đơn lẻ có quy mô tương đương."
     },
     {
-        id: 113,
-        question: "Hành vi cản trở trong hoạt động đấu thầu sẽ bị cấm tham gia hoạt động đấu thầu trong thời gian bao lâu?",
-        options: {
-            A: "06 tháng",
-            B: "Từ 06 tháng đến dưới 1 năm",
-            C: "Từ 01 năm đến 03 năm",
-            D: "Từ 03 năm đến 05 năm"
+        "id": 113,
+        "question": "Gói thầu cung cấp dịch vụ vệ sinh tòa nhà do Sở Tài chính tỉnh X làm chủ đầu tư có giá gói thầu 01 tỷ đồng, thời gian thực hiện là 12 tháng, hợp đồng tương tự yêu cầu 30% giá gói thầu. Trường hợp nào sau đây nhà thầu được coi là đáp ứng về giá trị của hợp đồng tương tự?",
+        "options": {
+            "A": "Nhà thầu cung cấp hợp đồng A (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 100 triệu đồng; hợp đồng B (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 250 triệu đồng",
+            "B": "Nhà thầu cung cấp hợp đồng A (đã nghiệm thu, đã được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà là 300 triệu đồng",
+            "C": "Nhà thầu cung cấp hợp đồng A (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (chưa được nghiệm thu) là 100 triệu đồng; hợp đồng B (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 400 triệu đồng",
+            "D": "Tất cả đáp án trên đều đúng"
         },
-        correctAnswer: "C",
-        explanation: "Tương tự câu 112, hành vi cản trở (quy định tại khoản 5, Điều 16) cũng là một hành vi bị cấm. Tuy nhiên, mức độ nghiêm trọng của nó thường được xem xét thấp hơn so với hành vi gian lận hoặc thông thầu. Do đó, khung thời gian cấm thầu áp dụng sẽ thấp hơn, và khung từ 01 năm đến 03 năm là hợp lý."
+        "correctAnswer": "B",
+        "explanation": "Yêu cầu hợp đồng tương tự là 30% giá gói thầu, tức là 30% của 1 tỷ = 300 triệu đồng. Phương án B cung cấp 01 hợp đồng đã hoàn thành có giá trị đúng bằng 300 triệu đồng, do đó đáp ứng yêu cầu. Phương án A và C là các hợp đồng chưa hoàn thành, giá trị nghiệm thu thấp hơn yêu cầu."
     },
     {
-        id: 114,
-        question: "Thành viên A trong nhà thầu liên danh A-B thực hiện hành vi \"làm giả hoặc làm sai lệch thông tin, hồ sơ, tài liệu trong đấu thầu\" thì việc cấm tham gia hoạt động đấu thầu được xử lý như thế nào?",
-        options: {
-            A: "Cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm đối với thành viên A",
-            B: "Cấm tham gia hoạt động đấu thầu từ 01 năm đến dưới 03 năm đối với thành viên A",
-            C: "Cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm đối với tất cả thành viên trong nhà thầu liên danh A-B",
-            D: "Cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm đối với tất cả thành viên trong nhà thầu liên danh A-B"
+        "id": 114,
+        "question": "Gói thầu mua sắm trang thiết bị do Sở Tư pháp tỉnh X làm chủ đầu tư có giá gói thầu 03 tỷ đồng, thời gian thực hiện là 12 tháng, trong đó có 02 hạng mục: máy điều hòa (mã HS 8415) giá dự toán 01 tỷ đồng, máy tính xách tay (mã HS 8507) giá dự toán 02 tỷ đồng, hợp đồng tương tự yêu cầu 50% giá gói thầu. Trường hợp nào sau đây nhà thầu được coi là không đáp ứng về giá trị của hợp đồng tương tự?",
+        "options": {
+            "A": "Nhà thầu cung cấp 02 hợp đồng, trong đó: 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 400 triệu đồng, 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 100 triệu đồng và mã hàng hóa 8507 với giá trị 01 tỷ đồng",
+            "B": "Nhà thầu cung cấp 01 hợp đồng có đầy đủ các mã hàng hóa 8415 và 8507 và tổng giá trị của mã hàng hóa 8415, 8507 trong hợp đồng đã hoàn thành với giá trị 1,6 tỷ đồng",
+            "C": "Nhà thầu cung cấp 02 hợp đồng, trong đó: 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 600 triệu đồng và 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8507 với giá trị 01 tỷ đồng",
+            "D": "Phương án A và B đều không đáp ứng về giá trị hợp đồng tương tự"
         },
-        correctAnswer: "A",
-        explanation: "Hành vi \"làm giả hoặc làm sai lệch thông tin\" là hành vi gian lận theo điểm a, khoản 4, Điều 16. Theo nguyên tắc xử phạt \"cá nhân hóa trách nhiệm\", thành viên nào thực hiện hành vi vi phạm thì thành viên đó sẽ bị xử lý. Do đó, chỉ thành viên A bị cấm thầu. Vì đây là hành vi gian lận nghiêm trọng, mức cấm sẽ ở khung cao nhất là từ 03 năm đến 05 năm."
+        "correctAnswer": "D",
+        "explanation": "Yêu cầu hợp đồng tương tự là 50% giá gói thầu, tức là 1,5 tỷ đồng. Phương án A: Tổng giá trị các hợp đồng là 1,5 tỷ, nhưng đây là 3 hợp đồng riêng lẻ, không có hợp đồng nào đơn lẻ đạt giá trị 1,5 tỷ. Phương án B: Hợp đồng có giá trị 1,6 tỷ, đáp ứng yêu cầu. Do đó, phương án D nói rằng cả A và B đều không đáp ứng là sai. Câu hỏi và các phương án có thể có sai sót."
     },
     {
-        id: 115,
-        question: "Đình chỉ cuộc thầu được thực hiện trong thời gian nào?",
-        options: {
-            A: "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng, thỏa thuận khung tập trung",
-            B: "Trong quá trình tổ chức lựa chọn nhà thầu cho đến trước khi phê duyệt kết quả lựa chọn nhà thầu",
-            C: "Sau khi phê duyệt kết quả lựa chọn nhà thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
-            D: "Trong quá trình thực hiện hợp đồng"
+        "id": 115,
+        "question": "Gói thầu cung cấp dịch vụ giặt là thực hiện đấu thầu qua mạng, E-HSMT có quy định cho phép sử dụng nhà thầu phụ tối đa 20% trên giá dự thầu của nhà thầu. Nhà thầu liên danh A-B, trong đó nhà thầu Công ty A đảm nhận 30% giá trị công việc, Công ty B đảm nhận 70% giá trị công việc. Việc sử dụng nhà thầu phụ đối với từng thành viên liên danh được thực hiện như thế nào?",
+        "options": {
+            "A": "Công ty A được sử dụng nhà thầu phụ tối đa 20% trên 30% giá trị công việc mà công ty A đảm nhận, Công ty B được sử dụng nhà thầu phụ tối đa 20% trên 70% giá trị công việc mà công ty B đảm nhận",
+            "B": "Công ty A được sử dụng nhà thầu phụ tối đa 20% trên tổng giá trị (100%) công việc và Công ty B được sử dụng nhà thầu phụ tối đa 20% trên tổng giá trị (100%) công việc mà Công ty A và Công ty B đảm nhận",
+            "C": "Thực hiện theo thỏa thuận giữa Công ty A và Công ty B, Công ty A hoặc Công ty B được sử dụng nhà thầu phụ tối đa 20% trên tổng giá trị (100%) công việc nhưng phải bảo đảm tổng khối lượng công việc của nhà thầu phụ của liên danh A-B tối đa 20% trên tổng giá trị (100%) công việc mà Công ty A và Công ty B đảm nhận",
+            "D": "Tất cả đáp án trên đều đúng"
         },
-        correctAnswer: "B",
-        explanation: "Căn cứ điểm a, khoản 1, Điều 18, \"Đình chỉ cuộc thầu được thực hiện trong quá trình tổ chức lựa chọn nhà thầu, nhà đầu tư cho đến trước khi phê duyệt kết quả lựa chọn nhà thầu, nhà đầu tư\". Đây là quy định trực tiếp về thời điểm áp dụng biện pháp đình chỉ cuộc thầu."
+        "correctAnswer": "A",
+        "explanation": "Tỷ lệ sử dụng nhà thầu phụ được tính trên phần công việc mà mỗi thành viên liên danh đảm nhận, chứ không phải trên tổng giá trị gói thầu. Điều này đảm bảo mỗi thành viên vẫn phải chịu trách nhiệm chính cho phần việc của mình."
     },
     {
-        id: 116,
-        question: "Biện pháp nào sau đây được thực hiện trong quá trình thực hiện hợp đồng?",
-        options: {
-            A: "Hủy thầu",
-            B: "Đình chỉ cuộc thầu",
-            C: "Không công nhận kết quả lựa chọn nhà thầu",
-            D: "Phương án A và B đều đúng"
+        "id": 116,
+        "question": "Nhà thầu liên danh A-B tham dự thầu và nộp bảo đảm dự thầu riêng rẽ, trong quá trình đánh giá hồ sơ dự thầu tổ chuyên gia có bằng chứng cho thấy nhà thầu A có hành vi gian lận, thuộc hành vi bị cấm trong đấu thầu, trong trường hợp này bảo đảm dự thầu của nhà thầu liên danh xử lý như thế nào?",
+        "options": {
+            "A": "Không hoàn trả bảo đảm dự thầu của cả nhà thầu liên danh A-B",
+            "B": "Không hoàn trả bảo đảm dự thầu của nhà thầu A",
+            "C": "Không hoàn trả bảo đảm dự thầu của nhà thầu B",
+            "D": "Nhà thầu A và nhà thầu B vẫn được hoàn trả bảo đảm dự thầu"
         },
-        correctAnswer: "C",
-        explanation: "Căn cứ điểm b, khoản 1, Điều 18, biện pháp \"Không công nhận kết quả lựa chọn nhà thầu, nhà đầu tư\" được áp dụng \"trong quá trình tổ chức lựa chọn nhà thầu, nhà đầu tư và quá trình thực hiện hợp đồng\". Hủy thầu và đình chỉ cuộc thầu chỉ được thực hiện trước khi ký kết hợp đồng. Do đó, đây là biện pháp có thể áp dụng trong quá trình thực hiện hợp đồng."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 14, khoản 7 của Luật Đấu thầu. Luật quy định: 'Trường hợp có thành viên trong liên danh vi phạm quy định tại khoản 9 Điều này thì bảo đảm dự thầu của tất cả thành viên trong liên danh không được hoàn trả.' Hành vi gian lận là một vi phạm dẫn đến không hoàn trả bảo đảm dự thầu."
     },
     {
-        id: 117,
-        question: "Đối với việc giải quyết kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu, cá nhân, đơn vị nào sau đây có trách nhiệm giải quyết kiến nghị?",
-        options: {
-            A: "Chủ đầu tư, người có thẩm quyền",
-            B: "Chủ đầu tư, Hội đồng giải quyết kiến nghị",
-            C: "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
-            D: "Chủ đầu tư, tổ chuyên gia"
+        "id": 117,
+        "question": "Gói thầu đang xét là gói thầu giặt cho bệnh viện công lập (có tính chất công việc lặp lại theo chu kỳ qua các năm), có thời gian thực hiện gói thầu trong 3 năm với giá gói thầu là 12 tỷ đồng. Nhà thầu nào được xác định đáp ứng yêu cầu về giá trị hợp đồng tương tự khi tham dự gói thầu này?",
+        "options": {
+            "A": "Nhà thầu A có 01 hợp đồng giặt là X cho bệnh viện công lập có thời gian thực hiện gói thầu là 48 tháng (đang trong quá trình thực hiện, chưa hoàn thành, chưa được thanh lý), nhưng tính đến thời điểm tham dự thầu, nhà thầu A đã thực hiện được 24 tháng, trong đó giá trị công việc đã được nghiệm thu 12 tháng đầu là 1,2 tỷ đồng;",
+            "B": "Nhà thầu B cung cấp 02 hợp đồng, trong đó có hợp đồng giặt X cho khách sạn tư nhân, thời gian thực hiện hợp đồng trong 06 tháng với giá trị là 300 triệu đồng; Hợp đồng giặt là Y cho bệnh viện công lập, thời gian thực hiện hợp đồng trong 24 tháng với giá trị là 3 tỷ đồng, trong đó giá trị công việc đã được nghiệm thu 12 tháng đầu là 1 tỷ đồng.",
+            "C": "Nhà thầu A và B đều đáp ứng",
+            "D": "Nhà thầu A và B đều không đáp ứng"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ khoản 1, Điều 89, \"nhà thầu, nhà đầu tư, cơ quan, tổ chức được kiến nghị người có thẩm quyền, chủ đầu tư, bên mời thầu xem xét lại các vấn đề...\". Theo quy trình giải quyết kiến nghị, đối với các vấn đề phát sinh trước khi có kết quả lựa chọn nhà thầu (ví dụ kiến nghị về nội dung hồ sơ mời thầu), nhà thầu gửi kiến nghị đến chủ đầu tư/bên mời thầu để giải quyết. Nếu không đồng ý, nhà thầu có quyền kiến nghị lên người có thẩm quyền. Do đó, cả chủ đầu tư và người có thẩm quyền đều có trách nhiệm giải quyết."
+        "correctAnswer": "B",
+        "explanation": "Yêu cầu về giá trị hợp đồng tương tự thường được tính theo giá trị của 1 năm, tức là 12 tỷ / 3 năm = 4 tỷ/năm. Yêu cầu giá trị thường là 50-70% của giá trị này (2-2.8 tỷ). Cả nhà thầu A (1,2 tỷ) và nhà thầu B (1 tỷ cho hợp đồng liên quan) đều không đáp ứng yêu cầu về giá trị. Câu hỏi này có thể có dữ liệu không chính xác hoặc một cách tính đặc thù không được nêu rõ. Tuy nhiên, nếu phải lựa chọn, hợp đồng của nhà thầu B với bệnh viện công lập có tính chất tương tự hơn."
     },
     {
-        id: 118,
-        question: "Đối với việc giải quyết kiến nghị về kết quả lựa chọn nhà thầu, cá nhân, đơn vị nào sau đây có trách nhiệm giải quyết kiến nghị?",
-        options: {
-            A: "Chủ đầu tư, người có thẩm quyền",
-            B: "Chủ đầu tư, Hội đồng giải quyết kiến nghị",
-            C: "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
-            D: "Chủ đầu tư, tổ chuyên gia"
+        "id": 118,
+        "question": "Trường hợp E-HSMT gói thầu xây lắp yêu cầu về cam kết cung cấp tín dụng, nhà thầu được chứng minh bằng cách nào?",
+        "options": {
+            "A": "Bằng số dư tài khoản hoặc tiền gửi tiết kiệm từ ngân hàng",
+            "B": "Bằng cam kết cung cấp tín dụng của ngân hàng",
+            "C": "Bằng xác nhận số dư hạn mức tín dụng khả dụng từ ngân hàng",
+            "D": "Tất cả các phương án trên đều đúng"
         },
-        correctAnswer: "B",
-        explanation: "Căn cứ khoản 4, Điều 89 (đã được bổ sung theo Luật 90/2025/QH15 trong văn bản hợp nhất), \"Đối với kết quả lựa chọn nhà thầu, nhà đầu tư, việc giải quyết kiến nghị do chủ đầu tư, bên mời thầu, Hội đồng giải quyết kiến nghị thực hiện.\" Quy trình là: nhà thầu kiến nghị đến chủ đầu tư trước. Nếu không thỏa đáng, nhà thầu có quyền gửi kiến nghị đến Hội đồng tư vấn giải quyết kiến nghị (do người có thẩm quyền thành lập)."
+        "correctAnswer": "B",
+        "explanation": "Cam kết cung cấp tín dụng là một văn bản do ngân hàng phát hành, xác nhận sẽ cho nhà thầu vay một khoản vốn nhất định để thực hiện gói thầu nếu nhà thầu trúng thầu. Đây chính là tài liệu trực tiếp để chứng minh yêu cầu này. Các phương án A và C chứng minh nguồn vốn tự có hoặc hạn mức tín dụng hiện có, không phải là 'cam kết cung cấp tín dụng' cho gói thầu cụ thể."
     },
     {
-        id: 119,
-        question: "Trường hợp đang trong quá trình giải quyết kiến nghị mà nhà thầu gửi đơn khiếu nại thì việc giải quyết kiến nghị được xử lý thế nào",
-        options: {
-            A: "Tiếp tục giải quyết kiến nghị",
-            B: "Chấm dứt ngay việc giải quyết kiến nghị",
-            C: "Tạm dừng việc giải quyết kiến nghị đến khi có kết quả giải quyết khiếu nại",
-            D: "Tất cả phương án trên đều sai"
+        "id": 119,
+        "question": "Hợp đồng theo tỷ lệ phần trăm có thể được áp dụng đối với gói thầu nào sau đây?",
+        "options": {
+            "A": "Mua sắm thiết bị y tế",
+            "B": "Xây dựng công trình",
+            "C": "Bảo hiểm công trình mà giá trị hợp đồng được xác định chính xác trên cơ sở giá trị công trình thực tế được nghiệm thu",
+            "D": "Tư vấn giám sát"
         },
-        correctAnswer: "B",
-        explanation: "Căn cứ khoản 2, Điều 89, \"Trường hợp đang trong quá trình giải quyết kiến nghị mà nhà thầu, nhà đầu tư, cơ quan, tổ chức khởi kiện, khiếu nại, tố cáo thì việc giải quyết kiến nghị được chấm dứt ngay.\" Luật quy định rõ ràng về việc này để tránh tình trạng một vấn đề được xử lý đồng thời bởi nhiều cơ quan khác nhau theo các thủ tục khác nhau."
+        "correctAnswer": "C",
+        "explanation": "Căn cứ pháp lý: Điều 64, khoản 7 của Luật Đấu thầu. Luật quy định rõ: 'Hợp đồng theo tỷ lệ phần trăm chỉ có thể áp dụng cho gói thầu bảo hiểm công trình mà giá trị hợp đồng được xác định chính xác trên cơ sở giá trị công trình thực tế được nghiệm thu.'"
     },
     {
-        id: 120,
-        question: "Chi phí giải quyết kiến nghị được nhà thầu nộp cho chủ thể nào sau đây?",
-        options: {
-            A: "Chủ tịch Hội đồng tư vấn giải quyết kiến nghị",
-            B: "Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị",
-            C: "Chủ đầu tư",
-            D: "Người có thẩm quyền"
+        "id": 120,
+        "question": "Cơ sở để thanh toán hợp đồng cho nhà thầu là gì?",
+        "options": {
+            "A": "Giá hợp đồng và các điều khoản cụ thể về thanh toán được ghi trong hợp đồng",
+            "B": "Dự toán gói thầu và các điều khoản cụ thể về thanh toán được ghi trong hợp đồng",
+            "C": "Dự toán gói thầu",
+            "D": "Phương án A và C đều sai"
         },
-        correctAnswer: "B",
-        explanation: "Căn cứ khoản 5, Điều 89, Chính phủ quy định chi tiết về quy trình giải quyết kiến nghị. Theo Nghị định hướng dẫn, khi nộp đơn kiến nghị đến Hội đồng tư vấn giải quyết kiến nghị, nhà thầu phải nộp một khoản chi phí cho bộ phận thường trực của Hội đồng để trang trải các chi phí hành chính, tổ chức họp, thuê chuyên gia (nếu cần)."
+        "correctAnswer": "A",
+        "explanation": "Việc thanh toán phải được thực hiện dựa trên các điều khoản đã được hai bên thống nhất và ký kết trong hợp đồng, bao gồm giá hợp đồng, tiến độ thanh toán, điều kiện thanh toán... Dự toán gói thầu chỉ là căn cứ để lập kế hoạch và so sánh giá, không phải là căn cứ để thanh toán."
     }
 ];

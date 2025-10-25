@@ -2,123 +2,123 @@ import { Question } from '../../types';
 
 export const set15: Question[] = [
     {
-        id: 141,
-        question: "Trường hợp gói thầu có tính chất đặc thù và áp dụng hình thức chỉ định thầu hoặc lựa chọn nhà thầu trong trường hợp đặc biệt, nhà thầu nước ngoài có yêu cầu ràng buộc chỉ ký hợp đồng khi không phải đăng ký trên Hệ thống mạng đấu thầu quốc gia thì chủ đầu tư xử lý như thế nào?",
-        options: {
-            A: "Không cần yêu cầu nhà thầu nước ngoài đăng ký khi đăng tải kết quả lựa chọn nhà thầu",
-            B: "Yêu cầu nhà thầu nước ngoài đăng ký khi đăng tải kết quả lựa chọn nhà thầu",
-            C: "Nhà thầu không được chấp nhận và bị loại",
-            D: "Hủy thầu"
+        "id": 141,
+        "question": "Đối với các gói thầu mua sắm tập trung, trách nhiệm cung cấp thông tin về kết quả thực hiện hợp đồng của nhà thầu do ai thực hiện?",
+        "options": {
+            "A": "Đơn vị có nhu cầu mua sắm",
+            "B": "Bên mời thầu",
+            "C": "Đơn vị tư vấn được thuê làm bên mời thầu",
+            "D": "Không phải đăng tải thông tin"
         },
-        correctAnswer: "B",
-        explanation: "Căn cứ điểm d, khoản 1, Điều 5, một trong các điều kiện về tư cách hợp lệ của nhà thầu là \"Có tên trên Hệ thống mạng đấu thầu quốc gia trước khi phê duyệt kết quả lựa chọn nhà thầu, nhà đầu tư\". Đây là quy định bắt buộc của pháp luật Việt Nam. Do đó, chủ đầu tư phải yêu cầu nhà thầu nước ngoài tuân thủ quy định này. Việc đăng ký có thể được thực hiện trước thời điểm phê duyệt kết quả."
+        "correctAnswer": "A",
+        "explanation": "Đơn vị có nhu cầu mua sắm là bên ký kết và trực tiếp quản lý việc thực hiện hợp đồng với nhà thầu. Do đó, họ là bên nắm rõ nhất kết quả thực hiện và có trách nhiệm báo cáo, cung cấp thông tin này."
     },
     {
-        id: 142,
-        question: "Đối với trường hợp hủy thầu thì phải thực hiện giải pháp nào sau đây?",
-        options: {
-            A: "Phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu",
-            B: "Phải điều chỉnh thời gian thực hiện gói thầu trong kế hoạch lựa chọn nhà thầu",
-            C: "Không phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu",
-            D: "Tất cả các đáp án trên đều không đúng"
+        "id": 142,
+        "question": "Áp dụng hình thức lựa chọn nhà thầu nào khi mua sắm tập trung đối với gói thầu điều hòa không khí thông dụng, sẵn có trên thị trường, có giá gói thầu là 03 tỷ đồng cho các cơ quan thuộc tỉnh X?",
+        "options": {
+            "A": "Đấu thầu rộng rãi hoặc mua sắm trực tiếp",
+            "B": "Đấu thầu rộng rãi hoặc chỉ định thầu theo hạn mức",
+            "C": "Đấu thầu rộng rãi hoặc chào hàng cạnh tranh",
+            "D": "Đấu thầu rộng rãi hoặc chỉ định thầu hoặc đàm phán giá"
         },
-        correctAnswer: "A",
-        explanation: "Khi một cuộc thầu bị hủy, kế hoạch lựa chọn nhà thầu đã được duyệt cho cuộc thầu đó không còn phù hợp. Để có thể tổ chức đấu thầu lại, chủ đầu tư cần phải điều chỉnh lại kế hoạch lựa chọn nhà thầu, trong đó cập nhật lại \"thời gian bắt đầu tổ chức lựa chọn nhà thầu\" cho phù hợp với thực tế."
+        "correctAnswer": "C",
+        "explanation": "Gói thầu này là hàng hóa thông dụng, sẵn có trên thị trường, có giá trị 03 tỷ đồng, nằm trong hạn mức áp dụng của chào hàng cạnh tranh. Đồng thời, chủ đầu tư luôn có thể chọn hình thức cạnh tranh hơn là đấu thầu rộng rãi."
     },
     {
-        id: 143,
-        question: "Hủy thầu được thực hiện trong thời gian nào?",
-        options: {
-            A: "Từ ngày có thời điểm đóng thầu đến khi có kết quả lựa chọn nhà thầu",
-            B: "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
-            C: "Từ ngày có thời điểm đóng thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
-            D: "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu kể cả sau khi đã ký hợp đồng"
+        "id": 143,
+        "question": "Trách nhiệm trong mua sắm tập trung?",
+        "options": {
+            "A": "Đơn vị mua sắm tập trung thực hiện trách nhiệm của người có thẩm quyền theo quy định của Luật Đấu thầu",
+            "B": "Đơn vị mua sắm tập trung thực hiện trách nhiệm của chủ đầu tư theo quy định của Luật Đấu thầu",
+            "C": "Đơn vị mua sắm tập trung thực hiện trách nhiệm của bên mời thầu theo quy định của Luật Đấu thầu",
+            "D": "Đơn vị mua sắm tập trung thực hiện trách nhiệm của tổ chuyên gia theo quy định của Luật Đấu thầu"
         },
-        correctAnswer: "B",
-        explanation: "Căn cứ khoản 3, Điều 17, \"Hủy thầu được thực hiện trong thời gian từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung.\" Đây là định nghĩa chính xác về khoảng thời gian có thể áp dụng biện pháp hủy thầu."
+        "correctAnswer": "B",
+        "explanation": "Trong quy trình mua sắm tập trung, Đơn vị mua sắm tập trung đóng vai trò là 'chủ đầu tư' của gói thầu tổng hợp, chịu trách nhiệm tổ chức lựa chọn nhà thầu."
     },
     {
-        id: 144,
-        question: "Đối với gói thầu tổ chức lựa chọn nhà thầu qua mạng, trường hợp trong quá trình đánh giá E-HSDT mà chưa có kết kết quả lựa chọn nhà thầu, nhà thầu có tên trong biên bản mở thầu bị khóa tài khoản theo quy định của pháp luật về đấu thầu thì chủ đầu tư xử lý như thế nào?",
-        options: {
-            A: "Yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản làm cơ sở xem xét, đánh giá E-HSDT của nhà thầu",
-            B: "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu",
-            C: "Không tiếp tục xem xét, đánh giá E-HSDT của nhà thầu",
-            D: "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu và yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản trước khi phê duyệt kết quả lựa chọn nhà thầu"
+        "id": 144,
+        "question": "Nhà thầu đã ký thỏa thuận khung và được đơn vị có nhu cầu mua sắm yêu cầu ký hợp đồng nhưng không ký hợp đồng, không thực hiện biện pháp bảo đảm thực hiện hợp đồng sẽ bị xử lý như thế nào?",
+        "options": {
+            "A": "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị có nhu cầu mua sắm công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
+            "B": "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị mua sắm tập trung công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia, trừ trường hợp bất khả kháng",
+            "C": "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng",
+            "D": "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
         },
-        correctAnswer: "C",
-        explanation: "Việc bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia là một chế tài xử phạt, cho thấy nhà thầu đã có vi phạm trước đó. Tình trạng này khiến nhà thầu không còn đáp ứng đủ tư cách hợp lệ để tiếp tục tham gia quá trình lựa chọn nhà thầu. Do đó, E-HSDT của nhà thầu này sẽ bị loại và không được xem xét, đánh giá nữa."
+        "correctAnswer": "B",
+        "explanation": "Đây là một hành vi vi phạm nghiêm trọng cam kết. Việc từ chối ký hợp đồng sau khi đã trúng thầu và ký thỏa thuận khung sẽ bị xử lý bằng các biện pháp mạnh như cấm thầu (thể hiện qua việc khóa tài khoản trên Hệ thống). Thời hạn 06 tháng là một mức phạt phổ biến."
     },
     {
-        id: 145,
-        question: "Đối với gói thầu xây lắp, dịch vụ phi tư vấn, dịch vụ tư vấn áp dụng đấu thầu trước quy định tại Điều 42 của Luật Đấu thầu, trường hợp dự án được phê duyệt có các nội dung dẫn đến tăng giá gói thầu (hoặc tăng dự toán nếu dự toán được phê duyệt sau khi phê duyệt kế hoạch lựa chọn nhà thầu) từ 30% trở lên hoặc thay đổi tiêu chuẩn đánh giá quan trọng về kỹ thuật hoặc thay đổi cấp công trình quy định trong hồ sơ mời thầu đã phát hành thì chủ đầu tư xử lý như thế nào?",
-        options: {
-            A: "Tiếp tục đánh giá hồ sơ dự thầu trong trường hợp đã mở thầu",
-            B: "Được sửa đổi và phát hành bổ sung hồ sơ mời thầu trong trường hợp chưa mở thầu",
-            C: "Được sửa đổi, bổ sung khối lượng công việc, hoàn thiện để ký kết hợp đồng với nhà thầu",
-            D: "Hủy thầu"
+        "id": 145,
+        "question": "Đối với gói thầu mua sắm tập trung áp dụng lựa chọn nhà thầu căn cứ theo khả năng cung cấp và áp dụng phương pháp giá thấp nhất, việc lựa chọn danh sách nhà thầu trúng thầu được thực hiện như thế nào?",
+        "options": {
+            "A": "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu tối thiểu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm điểm tổng hợp của gói thầu cao nhất",
+            "B": "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu cao nhất",
+            "C": "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu thấp nhất",
+            "D": "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đánh giá của gói thầu là thấp nhất"
         },
-        correctAnswer: "D",
-        explanation: "Đây là trường hợp có sự thay đổi lớn về \"mục tiêu, phạm vi đầu tư\" sau khi đã phát hành hồ sơ mời thầu. Căn cứ điểm b, khoản 1, Điều 17, đây là một trong các trường hợp phải hủy thầu. Việc tăng giá gói thầu quá lớn hoặc thay đổi tiêu chuẩn đánh giá quan trọng làm cho hồ sơ mời thầu đã phát hành không còn phù hợp, nếu tiếp tục sẽ không đảm bảo cạnh tranh và công bằng."
+        "correctAnswer": "C",
+        "explanation": "Khi lựa chọn nhiều nhà thầu cho một gói thầu MSTT, mục tiêu kép là phải đảm bảo đủ tổng số lượng hàng hóa cần mua và tổng chi phí cho việc mua sắm đó phải là thấp nhất có thể."
     },
     {
-        id: 146,
-        question: "Trường hợp nhà thầu trúng thầu không tiến hành hoàn thiện, ký kết hợp đồng hoặc tại thời điểm ký kết hợp đồng, nhà thầu trúng thầu không đáp ứng yêu cầu về năng lực kỹ thuật, tài chính quy định tại khoản 2 Điều 66 của Luật Đấu thầu thì chủ đầu tư xử lý như thế nào trong trường hợp này?",
-        options: {
-            A: "Hủy quyết định phê duyệt kết quả lựa chọn nhà thầu trúng thầu",
-            B: "Hủy thầu",
-            C: "Không công nhận kết quả lựa chọn nhà thầu",
-            D: "Đình chỉ cuộc thầu"
+        "id": 146,
+        "question": "Đối với gói thầu mua sắm tập trung áp dụng lựa chọn nhà thầu căn cứ khối lượng mời thầu, danh sách phê duyệt nhà thầu trúng thầu bao gồm:",
+        "options": {
+            "A": "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách dự bị (nhà thầu xếp thứ 2 trở đi)",
+            "B": "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách nhà thầu không đáp ứng yêu cầu của hồ sơ mời thầu",
+            "C": "Danh sách các nhà thầu đáp ứng yêu cầu về năng lực và kinh nghiệm theo yêu cầu của hồ sơ mời thầu",
+            "D": "Danh sách chính (nhà thầu xếp thứ nhất và nhà thầu xếp thứ 2) và danh sách dự bị (nhà thầu xếp thứ 3 trở đi)"
         },
-        correctAnswer: "A",
-        explanation: "Khi nhà thầu trúng thầu vi phạm các nghĩa vụ tiếp theo sau khi có kết quả (như không hoàn thiện, không ký hợp đồng, không đáp ứng năng lực tại thời điểm ký kết), họ đã vi phạm quy định của luật đấu thầu. Chủ đầu tư sẽ hủy bỏ quyết định phê duyệt kết quả lựa chọn nhà thầu đối với nhà thầu đó và xem xét lựa chọn nhà thầu xếp hạng tiếp theo. Đồng thời, nhà thầu vi phạm sẽ không được hoàn trả bảo đảm dự thầu."
+        "correctAnswer": "A",
+        "explanation": "Việc phê duyệt danh sách trúng thầu thường bao gồm cả danh sách chính (các nhà thầu được lựa chọn để ký thỏa thuận khung/hợp đồng) và danh sách dự bị để trong trường hợp nhà thầu chính từ chối hoặc không thể thực hiện, chủ đầu tư có thể làm việc với nhà thầu dự bị mà không cần tổ chức đấu thầu lại."
     },
     {
-        id: 147,
-        question: "Trường hợp nào dưới đây, chủ đầu tư và nhà thầu liên danh được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh?",
-        options: {
-            A: "Khi một thành viên liên danh không muốn tiếp tục thực hiện phần việc đã cam kết",
-            B: "Khi chủ đầu tư thấy một thành viên trong liên danh thực hiện tốt nên muốn điều chuyển toàn bộ phần việc cho thành viên liên danh đó",
-            C: "Khi cần đẩy nhanh tiến độ thực hiện hợp đồng hoặc do điều kiện khách quan không phải lỗi của nhà thầu làm ảnh hưởng tiến độ",
-            D: "Khi một thành viên liên danh đề nghị chuyển nhượng phần việc để tiết kiệm chi phí"
+        "id": 147,
+        "question": "Đối với hàng hóa, dịch vụ không thuộc danh mục mua sắm tập trung do Chủ tịch UBND tỉnh X ban hành nhưng nhiều cơ quan, tổ chức, đơn vị trong tỉnh X có nhu cầu mua sắm hàng hóa, dịch vụ cùng loại thì thực hiện như thế nào?",
+        "options": {
+            "A": "Từng cơ quan, tổ chức, đơn vị trong tỉnh X căn cứ vào thỏa thuận khung do UBND tỉnh X đã ký kết trước đó để mua sắm tập trung đối với các hàng hóa, dịch vụ này",
+            "B": "Có thể gộp thành một gói thầu để một trong các cơ quan, tổ chức, đơn vị mua sắm hoặc để đơn vị có chức năng mua sắm tập trung thực hiện việc mua sắm đối với các hàng hóa, dịch vụ này",
+            "C": "Sở Tài chính thuộc tỉnh X có trách nhiệm thực hiện mua sắm tập trung đối với các hàng hóa, dịch vụ này",
+            "D": "Các cơ quan, tổ chức, đơn vị báo cáo lên người có thẩm quyền để phê duyệt kế hoạch chọn nhà thầu theo hình thức mua sắm tập trung đối với các hàng hóa, dịch vụ này"
         },
-        correctAnswer: "C",
-        explanation: "Việc điều chỉnh phạm vi công việc giữa các thành viên liên danh được phép thực hiện khi có lý do chính đáng, phục vụ mục tiêu chung của hợp đồng. Việc đẩy nhanh tiến độ là có lợi cho chủ đầu tư. Việc phát sinh điều kiện khách quan cản trở tiến độ cũng là lý do hợp lý để các bên tái phân công công việc nhằm khắc phục. Các phương án A, B, D đều xuất phát từ ý chí chủ quan hoặc lợi ích riêng của một thành viên, không phải là lý do chính đáng để điều chỉnh hợp đồng."
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Điều 53, khoản 5 của Luật Đấu thầu. Đây chính là quy định về việc tổng hợp nhu cầu mua sắm để tăng tính hiệu quả và tiết kiệm chi phí, ngay cả khi hàng hóa, dịch vụ đó không nằm trong danh mục MSTT bắt buộc."
     },
     {
-        id: 148,
-        question: "Gói thầu EC có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá bằng 85% giá gói thầu thì chủ đầu tư có thể quy định giá trị bảo đảm thực hiện hợp đồng ở mức 15% hay không?",
-        options: {
-            A: "Không được quy định",
-            B: "Có thể quy định nhưng phải được sự đồng ý của nhà thầu",
-            C: "Do chủ đầu tư quyết định để ngừa rủi ro cho quá trình thực hiện",
-            D: "Có thể quy định nhưng phải được người có thẩm quyền chấp thuận"
+        "id": 148,
+        "question": "Phương án nào sau đây được xác định là một bước trong quá trình lựa chọn nhà thầu theo quy trình chỉ định thầu thông thường được pháp luật về đấu thầu quy định?",
+        "options": {
+            "A": "Xác định tối thiểu 03 nhà thầu có đủ năng lực, kinh nghiệm để mời nhận hồ sơ yêu cầu",
+            "B": "Chuẩn bị và gửi dự thảo hợp đồng cho tối thiểu 03 nhà thầu có đủ năng lực, kinh nghiệm để đàm phán hợp đồng",
+            "C": "Đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu",
+            "D": "Phương án A và C đều đúng"
         },
-        correctAnswer: "D",
-        explanation: "Mức bảo đảm thực hiện hợp đồng thông thường là từ 2% đến 10% giá hợp đồng (khoản 4, Điều 68). Tuy nhiên, trong trường hợp giá trúng thầu thấp bất thường (thấp hơn đáng kể so với giá gói thầu), để phòng ngừa rủi ro nhà thầu bỏ thầu, pháp luật cho phép áp dụng mức bảo đảm cao hơn, có thể lên tới 30%. Việc áp dụng mức 15% (cao hơn 10%) là một tình huống đặc biệt, cần được người có thẩm quyền xem xét và chấp thuận để đảm bảo tính hợp lý và không lạm dụng."
+        "correctAnswer": "C",
+        "explanation": "Căn cứ pháp lý: Điều 43, khoản 1 của Luật Đấu thầu. Quy trình chỉ định thầu thông thường bao gồm các bước: chuẩn bị, gửi dự thảo hợp đồng (hoặc hồ sơ yêu cầu), nhà thầu chuẩn bị hồ sơ đề xuất, đánh giá hồ sơ đề xuất và thương thảo, trình duyệt và ký kết hợp đồng. Do đó, đánh giá và thương thảo là một bước cốt lõi."
     },
     {
-        id: 149,
-        question: "Đối với gói thầu hỗn hợp, có yêu cầu đặc thù về kỹ thuật chỉ có một số nhà thầu đáp ứng yêu cầu của gói thầu áp dụng bước thương thảo hợp đồng, trường hợp nhà thầu xếp hạng thứ nhất (danh sách xếp hạng có 03 nhà thầu) không tiến hành thương thảo, không ký biên bản thương thảo, thương thảo không thành công thì chủ đầu tư thực hiện bước tiếp theo như thế nào?",
-        options: {
-            A: "Mời nhà thầu xếp hạng tiếp theo vào thương thảo hợp đồng",
-            B: "Hủy thầu",
-            C: "Cho phép các nhà thầu còn lại chào lại giá dự thầu",
-            D: "Mời nhà thầu xếp hạng tiếp theo vào hoàn thiện hợp đồng"
+        "id": 149,
+        "question": "Trường hợp đơn vị được giao nhiệm vụ mua sắm tập trung không đủ năng lực, kinh nghiệm tổ chức lựa chọn nhà thầu thì thực hiện như thế nào?",
+        "options": {
+            "A": "Vẫn thực hiện nhiệm vụ được giao, tổ chuyên gia không cần phải đáp ứng yêu cầu về năng lực, kinh nghiệm",
+            "B": "Phải thực hiện theo nhiệm vụ được giao, không được đi thuê đơn vị tư vấn để thực hiện việc lựa chọn nhà thầu",
+            "C": "Được phép thuê đơn vị tư vấn đấu thầu có kinh nghiệm để thực hiện việc lựa chọn nhà thầu",
+            "D": "Phương án A và C đều đúng"
         },
-        correctAnswer: "A",
-        explanation: "Đây là quy trình xử lý thông thường khi nhà thầu xếp hạng nhất từ chối thực hiện các bước tiếp theo. Khi đó, nhà thầu xếp hạng nhất sẽ bị loại và không được hoàn trả bảo đảm dự thầu. Chủ đầu tư sẽ mời nhà thầu có xếp hạng tiếp theo trong danh sách đã được phê duyệt vào để tiến hành thương thảo hợp đồng."
+        "correctAnswer": "C",
+        "explanation": "Khi một đơn vị (chủ đầu tư/bên mời thầu) không có đủ năng lực chuyên môn về đấu thầu, pháp luật cho phép họ thuê một đơn vị tư vấn đấu thầu chuyên nghiệp để thực hiện một phần hoặc toàn bộ các công việc trong quá trình lựa chọn nhà thầu."
     },
     {
-        id: 150,
-        question: "Nhận định nào sau đây đúng về văn bản điện tử trên Hệ thống mạng đấu thầu quốc gia?",
-        options: {
-            A: "Văn bản điện tử trên Hệ thống có giá trị theo quy định của pháp luật về giao dịch điện tử, làm cơ sở đối chiếu, so sánh, xác thực thông tin phục vụ công tác đánh giá, thẩm định, thanh tra, kiểm tra, kiểm toán và giải ngân",
-            B: "Thời điểm gửi, nhận văn bản điện tử được xác định căn cứ theo thời gian thực ghi lại trên Hệ thống",
-            C: "Khi gửi hồ sơ thanh quyết toán đến Kho bạc Nhà nước, nhà thầu không phải cung cấp thông tin, tài liệu cho Kho bạc Nhà nước đối với các thông tin, tài liệu là văn bản điện tử trên Hệ thống",
-            D: "Cả 3 phương án trên đều đúng"
+        "id": 150,
+        "question": "Phương án nào xác định quy mô của hợp đồng tương tự đối với gói thầu áp dụng mua sắm tập trung là phù hợp?",
+        "options": {
+            "A": "Trong mọi trường hợp có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,5 (Y thông thường khoảng 50% giá trị của gói thầu đang xét)",
+            "B": "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu",
+            "C": "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,5 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu",
+            "D": "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn, chủ đầu tư báo cáo người có thẩm quyền để điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu"
         },
-        correctAnswer: "D",
-        explanation: "Căn cứ khoản 3, Điều 50, \"Văn bản điện tử trên Hệ thống mạng đấu thầu quốc gia có giá trị theo quy định của pháp luật về giao dịch điện tử, làm cơ sở đối chiếu, so sánh, xác thực thông tin...\". Điều này xác nhận phương án A. Khoản 2, Điều 51 quy định về nguồn thời gian của Hệ thống, xác nhận phương án B. Nguyên tắc của giao dịch điện tử và đấu thầu qua mạng là sử dụng dữ liệu điện tử đã có trên hệ thống để thực hiện các thủ tục, do đó nhà thầu không cần cung cấp lại các văn bản đã có cho Kho bạc, xác nhận phương án C."
+        "correctAnswer": "C",
+        "explanation": "Đối với các gói thầu quy mô rất lớn như mua sắm tập trung, việc giữ nguyên yêu cầu về quy mô hợp đồng tương tự có thể làm hạn chế cạnh tranh, chỉ có các nhà thầu rất lớn mới đáp ứng được. Do đó, pháp luật cho phép điều chỉnh giảm yêu cầu này (ví dụ xuống còn 1/1.5 hoặc 1/2 giá trị) và/hoặc chia nhỏ gói thầu để nhiều nhà thầu hơn có cơ hội tham gia."
     }
 ];

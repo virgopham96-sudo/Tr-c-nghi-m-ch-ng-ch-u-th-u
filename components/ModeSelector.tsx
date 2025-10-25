@@ -20,7 +20,7 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({
                 >
                     <span className="text-xl font-bold">Chế độ Luyện tập</span>
                     <span className="text-sm font-normal mt-2 text-cyan-100">
-                        Ôn tập toàn bộ 200 câu hỏi. Nhận phản hồi và giải thích ngay lập tức.
+                        Ôn tập toàn bộ 340 câu hỏi có sẵn. Nhận phản hồi và giải thích ngay lập tức.
                     </span>
                 </button>
                 <button
@@ -29,7 +29,7 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({
                 >
                      <span className="text-xl font-bold text-cyan-700">Thi theo bộ đề</span>
                      <span className="text-sm font-normal mt-2 text-gray-600">
-                        Chọn 1 trong 20 bộ đề. Làm bài thi tính giờ 15 phút.
+                        Chọn 1 trong 34 bộ đề. Làm bài thi tính giờ 15 phút.
                     </span>
                 </button>
                 <button

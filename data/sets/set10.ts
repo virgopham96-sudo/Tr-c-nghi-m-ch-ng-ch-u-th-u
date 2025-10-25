@@ -2,123 +2,123 @@ import { Question } from '../../types';
 
 export const set10: Question[] = [
     {
-        id: 91,
-        question: "Hình thức lựa chọn nhà thầu khi áp dụng mua sắm tập trung bảo hiểm tài sản cho các cơ quan thuộc tỉnh Y",
-        options: {
-            A: "Đấu thầu rộng rãi.",
-            B: "Đấu thầu hạn chế.",
-            C: "Đàm phán giá.",
-            D: "Đấu thầu rộng rãi và đàm phán giá."
+        "id": 91,
+        "question": "Đối với gói thầu xây lắp, trường hợp công ty mẹ tham dự thầu và huy động công ty con tham gia thực hiện gói thầu thì việc đánh giá kinh nghiệm thực hiện hợp đồng tương tự được thực hiện như thế nào?",
+        "options": {
+            "A": "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ, không đánh giá kinh nghiệm của công ty con",
+            "B": "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự căn cứ vào giá trị, khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
+            "C": "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty con, không đánh giá kinh nghiệm của công ty mẹ, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
+            "D": "Đánh giá theo tổng kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ và công ty con, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ khoản 3, Điều 53, hình thức lựa chọn nhà thầu cho mua sắm tập trung được thực hiện theo quy định của Chính phủ. Tuy nhiên, theo nguyên tắc cơ bản của Luật Đấu thầu tại Điều 21, \"Đấu thầu rộng rãi là hình thức lựa chọn nhà thầu trong đó không hạn chế số lượng nhà thầu tham dự.\" Đây là hình thức ưu tiên hàng đầu để đảm bảo cạnh tranh, công bằng, minh bạch và hiệu quả kinh tế. Do đó, đấu thầu rộng rãi là hình thức phù hợp nhất và thường được áp dụng."
+        "correctAnswer": "B",
+        "explanation": "Khi công ty mẹ sử dụng năng lực của công ty con, kinh nghiệm được đánh giá dựa trên phần công việc thực tế mà mỗi công ty đã đảm nhiệm trong các hợp đồng trước đó. Năng lực của công ty mẹ và công ty con được xem xét một cách tổng thể nhưng phải dựa trên cơ sở thực tế."
     },
     {
-        id: 92,
-        question: "Đơn vị mua sắm tập trung:",
-        options: {
-            A: "Thực hiện việc lựa chọn nhà thầu trên cơ sở nhiệm vụ được giao",
-            B: "Thực hiện việc lựa chọn nhà thầu trên cơ sở hợp đồng ký với các đơn vị có nhu cầu",
-            C: "Thực hiện việc lựa chọn nhà thầu trên cơ sở nhiệm vụ được giao hoặc hợp đồng ký với các đơn vị có nhu cầu",
-            D: "Không được thực hiện việc lựa chọn nhà thầu"
+        "id": 92,
+        "question": "Kinh nghiệm thực hiện hợp đồng xây lắp tương tự gói thầu chỉ bao gồm 01 công trình độc lập được xét trên cơ sở nào sau đây?",
+        "options": {
+            "A": "Xét theo công trình nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn có cùng loại kết cấu, cấp công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
+            "B": "Chỉ xét theo công trình nhà thầu đã hoàn thành toàn bộ, đã được nghiệm thu, cùng loại công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
+            "C": "Xét theo các hạng mục công việc có tính chất tương tự nhà thầu đã hoàn thành phần lớn và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
+            "D": "Tất cả phương án trên đều đúng"
         },
-        correctAnswer: "C",
-        explanation: "Căn cứ khoản 6, Điều 53, \"Đơn vị mua sắm tập trung thực hiện việc lựa chọn nhà thầu trên cơ sở nhiệm vụ được giao hoặc hợp đồng ký với các đơn vị có nhu cầu.\" Luật quy định rõ cả hai phương thức hoạt động này cho đơn vị mua sắm tập trung."
+        "correctAnswer": "A",
+        "explanation": "Đây là cách định nghĩa đầy đủ và hợp lý nhất về một công trình tương tự. 'Hoàn thành phần lớn' cho phép linh hoạt, 'cùng loại kết cấu, cấp công trình' đảm bảo tính tương tự về kỹ thuật, và 'đáp ứng quy mô' đảm bảo tương tự về độ lớn."
     },
     {
-        id: 93,
-        question: "Thời hạn của thỏa thuận khung:",
-        options: {
-            A: "Thời hạn áp dụng thỏa thuận khung được quy định là 40 tháng",
-            B: "Thời hạn áp dụng thỏa thuận khung được quy định trong kế hoạch lựa chọn nhà thầu nhưng không quá 36 tháng",
-            C: "Thời hạn áp dụng thỏa thuận khung do người có thẩm quyền quyết định trong kế hoạch lựa chọn nhà thầu",
-            D: "Phương án B và C đều đúng"
+        "id": 93,
+        "question": "Đối với gói thầu mua sắm hàng hóa tổ chức đấu thầu rộng rãi qua mạng, kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự được xét trên cơ sở nào sau đây?",
+        "options": {
+            "A": "Hàng hóa phải cùng chủng loại với gói thầu đang xét",
+            "B": "Hàng hóa thuộc cùng lĩnh vực tổng quát với hàng hóa của gói thầu",
+            "C": "Hàng hóa có 4 số đầu tiên mã HS cùng với mã HS của hàng hóa thuộc gói thầu",
+            "D": "Cả 2 phương án B và C đều đúng"
         },
-        correctAnswer: "B",
-        explanation: "Căn cứ khoản 3, Điều 54, \"Thời hạn áp dụng thỏa thuận khung được quy định trong kế hoạch lựa chọn nhà thầu nhưng không quá 36 tháng.\" Đây là quy định trực tiếp và rõ ràng về thời hạn tối đa của thỏa thuận khung."
+        "correctAnswer": "D",
+        "explanation": "Tính tương tự của hàng hóa có thể được xác định theo lĩnh vực tổng quát (ví dụ: thiết bị y tế, thiết bị văn phòng) hoặc cụ thể hơn theo mã HS. Cả hai cách tiếp cận đều được sử dụng trong thực tế để xác định tính tương tự một cách hợp lý."
     },
     {
-        id: 94,
-        question: "Tại bước hoàn thiện, ký kết và thực hiện hợp đồng với nhà thầu đối với gói thầu mua sắm tập trung:",
-        options: {
-            A: "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước hoặc cùng thời điểm hợp đồng có hiệu lực cho đơn vị mua sắm tập trung",
-            B: "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước hoặc cùng thời điểm hợp đồng có hiệu lực cho đơn vị có nhu cầu mua sắm",
-            C: "Nhà thầu đã ký kết thỏa thuận khung không phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước thời điểm hợp đồng có hiệu lực cho đơn vị có nhu cầu mua sắm",
-            D: "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng sau thời điểm hợp đồng có hiệu lực cho đơn vị mua sắm tập trung"
+        "id": 94,
+        "question": "Gói thầu dịch vụ phi tư vấn chia thành nhiều phần thì việc đánh giá về doanh thu đối với nhà thầu tham dự nhiều phần được thực hiện như thế nào?",
+        "options": {
+            "A": "Việc đánh giá về doanh thu căn cứ trên tổng giá trị doanh thu bình quân yêu cầu đối với các phần mà nhà thầu tham dự",
+            "B": "Việc đánh giá về doanh thu căn cứ trên từng phần mà nhà thầu tham dự, nhà thầu không phải đáp ứng tổng doanh thu đối với các phần mà nhà thầu tham dự",
+            "C": "Việc đánh giá về doanh thu căn cứ trên phần có giá trị lớn nhất trong tổng số các phần nhà thầu tham dự",
+            "D": "Các phương án trên đều sai"
         },
-        correctAnswer: "B",
-        explanation: "Căn cứ điểm b, khoản 4, Điều 53, một trong hai cách thức mua sắm tập trung là đơn vị mua sắm tập trung ký thỏa thuận khung, sau đó \"đơn vị có nhu cầu mua sắm ký hợp đồng với nhà thầu được lựa chọn\". Trong trường hợp này, hợp đồng cụ thể được ký giữa nhà thầu và đơn vị có nhu cầu. Do đó, bảo đảm thực hiện hợp đồng (để đảm bảo nhà thầu thực hiện nghĩa vụ) phải được nộp cho bên ký hợp đồng trực tiếp là \"đơn vị có nhu cầu mua sắm\"."
+        "correctAnswer": "A",
+        "explanation": "Khi nhà thầu tham dự nhiều phần, năng lực tài chính (thể hiện qua doanh thu) của họ phải đáp ứng tổng yêu cầu của tất cả các phần mà họ tham dự để đảm bảo họ có đủ nguồn lực thực hiện đồng thời các phần đó nếu trúng thầu."
     },
     {
-        id: 95,
-        question: "Đối với các gói thầu mua sắm tập trung, trách nhiệm cung cấp thông tin về kết quả thực hiện hợp đồng của nhà thầu do ai thực hiện?",
-        options: {
-            A: "Đơn vị có nhu cầu mua sắm",
-            B: "Bên mời thầu",
-            C: "Đơn vị tư vấn được thuê làm bên mời thầu",
-            D: "Không phải đăng tải thông tin"
+        "id": 95,
+        "question": "Gói thầu mua sắm hàng hóa chia thành nhiều phần thì việc đánh giá về quy mô hợp đồng tương tự đối với nhà thầu tham dự nhiều phần được thực hiện như thế nào?",
+        "options": {
+            "A": "Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự",
+            "B": "Việc đánh giá về quy mô hợp đồng tương tự tương ứng với từng phần mà nhà thầu tham dự, nhà thầu không phải đáp ứng tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự",
+            "C": "Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên phần có giá trị nhỏ nhất trong tổng số các phần mà nhà thầu tham dự",
+            "D": "Các phương án trên đều sai"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ điểm k, khoản 1, Điều 7 và điểm a, khoản 1, Điều 8, \"chủ đầu tư\" có trách nhiệm đăng tải thông tin về kết quả thực hiện hợp đồng. Trong mô hình mua sắm tập trung có thỏa thuận khung, \"đơn vị có nhu cầu mua sắm\" là bên ký kết hợp đồng trực tiếp với nhà thầu và thụ hưởng kết quả của hợp đồng đó. Do vậy, họ đóng vai trò là chủ đầu tư của hợp đồng cụ thể và có trách nhiệm theo dõi, báo cáo kết quả thực hiện."
+        "correctAnswer": "A",
+        "explanation": "Tương tự như doanh thu, kinh nghiệm thực hiện hợp đồng tương tự cũng phải đáp ứng tổng yêu cầu của các phần mà nhà thầu tham dự."
     },
     {
-        id: 96,
-        question: "Áp dụng hình thức lựa chọn nhà thầu nào khi mua sắm tập trung đối với gói thầu điều hòa không khí thông dụng, sẵn có trên thị trường, có giá gói thầu là 03 tỷ đồng cho các cơ quan thuộc tỉnh X?",
-        options: {
-            A: "Đấu thầu rộng rãi hoặc mua sắm trực tiếp",
-            B: "Đấu thầu rộng rãi hoặc chỉ định thầu theo hạn mức",
-            C: "Đấu thầu rộng rãi hoặc chào hàng cạnh tranh",
-            D: "Đấu thầu rộng rãi hoặc chỉ định thầu hoặc đàm phán giá"
+        "id": 96,
+        "question": "Trường hợp E-HSMT của gói thầu mua sắm hàng hóa có yêu cầu về cam kết, hợp đồng nguyên tắc bảo hành, bảo trì, duy tu, bảo dưỡng mà E-HSDT của nhà thầu không đính kèm các tài liệu này thì Chủ đầu tư xử lý như thế nào?",
+        "options": {
+            "A": "Hồ sơ dự thầu của nhà thầu bị loại, không được xem xét, đánh giá",
+            "B": "Chủ đầu tư yêu cầu nhà thầu làm rõ, bổ sung tài liệu trong một khoảng thời gian phù hợp nhưng không ít hơn 03 ngày làm việc để làm cơ sở đánh giá E-HSDT",
+            "C": "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu trên cơ sở bảo đảm các mục tiêu của công tác đấu thầu",
+            "D": "Tiếp tục đánh giá E-HSDT, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
         },
-        correctAnswer: "C",
-        explanation: "Gói thầu này có đặc tính là \"hàng hóa thông dụng, sẵn có trên thị trường\", đáp ứng điều kiện để áp dụng hình thức chào hàng cạnh tranh theo quy định tại điểm b, khoản 1, Điều 24 của Luật. Đồng thời, theo Điều 21, đấu thầu rộng rãi là hình thức lựa chọn nhà thầu không hạn chế số lượng nhà thầu tham dự và luôn có thể được áp dụng để tăng cường cạnh tranh. Do đó, đơn vị mua sắm có thể lựa chọn một trong hai hình thức này."
+        "correctAnswer": "D",
+        "explanation": "Đây là một tình huống trong đấu thầu. Việc thiếu các cam kết không phải là lỗi không thể khắc phục. Để tạo điều kiện cho nhà thầu, bên mời thầu có thể cho phép làm rõ, bổ sung sau khi đánh giá. Nếu nhà thầu được xếp hạng thứ nhất, họ sẽ được yêu cầu bổ sung các cam kết này trước khi ký hợp đồng. Đây là cách xử lý linh hoạt và hiệu quả."
     },
     {
-        id: 97,
-        question: "Trách nhiệm trong mua sắm tập trung",
-        options: {
-            A: "Đơn vị mua sắm tập trung thực hiện trách nhiệm của người có thẩm quyền theo quy định của Luật Đấu thầu",
-            B: "Đơn vị mua sắm tập trung thực hiện trách nhiệm của chủ đầu tư theo quy định của Luật Đấu thầu",
-            C: "Đơn vị mua sắm tập trung thực hiện trách nhiệm của bên mời thầu theo quy định của Luật Đấu thầu",
-            D: "Đơn vị mua sắm tập trung thực hiện trách nhiệm của tổ chuyên gia theo quy định của Luật Đấu thầu"
+        "id": 97,
+        "question": "Đối với gói thầu mua sắm hàng hóa áp dụng đấu thầu rộng rãi, trong hồ sơ dự thầu nhà thầu không đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất thì xử lý như thế nào?",
+        "options": {
+            "A": "Chủ đầu tư yêu cầu nhà thầu làm rõ các thông tin này để làm cơ sở đánh giá trên cơ sở không được thay đổi giá dự thầu",
+            "B": "Tổ chuyên gia căn cứ theo cataloge, đề xuất kỹ thuật kèm theo để làm cơ sở đánh giá",
+            "C": "Hồ sơ dự thầu của nhà thầu không được xem xét, đánh giá",
+            "D": "Tiếp tục đánh giá hồ sơ dự thầu, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ các thông tin này"
         },
-        correctAnswer: "C",
-        explanation: "Đơn vị mua sắm tập trung là đơn vị chuyên trách được giao nhiệm vụ tổ chức lựa chọn nhà thầu cho một danh mục hàng hóa, dịch vụ. Trong quá trình này, họ thực hiện các công việc của một bên mời thầu như lập hồ sơ mời thầu, tổ chức đánh giá hồ sơ dự thầu, trình phê duyệt kết quả... Các trách nhiệm này được quy định chi tiết tại Điều 79 về \"Trách nhiệm của bên mời thầu\"."
+        "correctAnswer": "A",
+        "explanation": "Việc thiếu thông tin chi tiết về hàng hóa là một nội dung cần làm rõ. Chủ đầu tư sẽ yêu cầu nhà thầu cung cấp thông tin cụ thể về hàng hóa họ chào thầu để có cơ sở đánh giá xem hàng hóa đó có đáp ứng yêu cầu kỹ thuật của HSMT hay không. Việc làm rõ này không được làm thay đổi bản chất của hồ sơ dự thầu, đặc biệt là giá dự thầu."
     },
     {
-        id: 98,
-        question: "Nhà thầu đã ký thỏa thuận khung và được đơn vị có nhu cầu mua sắm yêu cầu ký hợp đồng nhưng không ký hợp đồng, không thực hiện biện pháp bảo đảm thực hiện hợp đồng sẽ bị xử lý như thế nào?",
-        options: {
-            A: "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị có nhu cầu mua sắm công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
-            B: "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị mua sắm tập trung công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia, trừ trường hợp bất khả kháng",
-            C: "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng",
-            D: "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
+        "id": 98,
+        "question": "Hồ sơ mời thầu của gói thầu xây lắp có quy định cho phép sử dụng nhà thầu phụ, trường hợp nhà thầu đề xuất sử dụng thầu phụ thì việc đánh giá năng lực, kinh nghiệm của nhà thầu phụ được thực hiện như thế nào?",
+        "options": {
+            "A": "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu không phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận",
+            "B": "Không đánh giá năng lực, kinh nghiệm của nhà thầu phụ, nhà thầu tham dự thầu vẫn phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận",
+            "C": "Do chủ đầu tư quyết định đánh giá hoặc không đánh giá năng lực, kinh nghiệm nhà thầu phụ",
+            "D": "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu cũng phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận"
         },
-        correctAnswer: "B",
-        explanation: "Việc từ chối ký hợp đồng sau khi đã ký thỏa thuận khung là một hành vi vi phạm thỏa thuận. Mặc dù Luật Đấu thầu hợp nhất không quy định chi tiết hình thức xử phạt này, nhưng các Nghị định hướng dẫn thi hành (là văn bản chi tiết hóa Luật) quy định rõ các chế tài xử lý vi phạm trên Hệ thống mạng đấu thầu quốc gia. Hành vi này được coi là vi phạm nghiêm trọng và hình thức xử lý là tạm khóa tài khoản của nhà thầu trên Hệ thống. Thời hạn 06 tháng là mức phạt phổ biến cho các vi phạm tương tự."
+        "correctAnswer": "B",
+        "explanation": "Nhà thầu chính (nhà thầu tham dự thầu) chịu trách nhiệm toàn bộ về chất lượng, tiến độ của gói thầu, kể cả phần việc do nhà thầu phụ thực hiện. Do đó, khi đánh giá, bên mời thầu chỉ đánh giá năng lực, kinh nghiệm của nhà thầu chính. Nhà thầu chính phải đáp ứng yêu cầu cho toàn bộ gói thầu, bao gồm cả phần dự kiến giao cho nhà thầu phụ."
     },
     {
-        id: 99,
-        question: "Đối với gói thầu mua sắm tập trung áp dụng lựa chọn nhà thầu căn cứ theo khả năng cung cấp và áp dụng phương pháp giá thấp nhất, việc lựa chọn danh sách nhà thầu trúng thầu được thực hiện như thế nào?",
-        options: {
-            A: "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu tối thiểu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu tốt nhất",
-            B: "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu cao nhất",
-            C: "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời đảm bảo tổng giá đề nghị trúng thầu của gói thầu thấp nhất",
-            D: "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đánh giá của gói thầu là thấp nhất"
+        "id": 99,
+        "question": "Đối với đấu thầu qua mạng, trường hợp cần sửa đổi E-HSDT đã nộp trước thời điểm đóng thầu, nhà thầu phải thực hiện theo phương án nào sau đây trong trường hợp E-HSMT của gói thầu này không phải sửa đổi?",
+        "options": {
+            "A": "Phải tiến hành rút toàn bộ E-HSDT đã nộp trước đó để sửa đổi cho phù hợp và tiến hành nộp lại E-HSDT mới",
+            "B": "Không phải tiến hành rút toàn bộ E-HSDT đã nộp trước đó, chỉ cần sửa đổi cho phù hợp và tiến hành nộp lại E-HSDT mới",
+            "C": "Sửa đổi cho phù hợp E-HSDT đã nộp mà không phải nộp lại E-HSDT mới",
+            "D": "Nhà thầu không được sửa đổi E-HSDT đã nộp"
         },
-        correctAnswer: "C",
-        explanation: "Mục tiêu của phương pháp này là mua đủ số lượng hàng hóa cần thiết với tổng chi phí thấp nhất. Quá trình xét duyệt sẽ bắt đầu từ nhà thầu có đơn giá thấp nhất, xét đến khả năng cung cấp của họ, sau đó tiếp tục xét đến nhà thầu có đơn giá thấp thứ hai... cho đến khi đáp ứng đủ tổng số lượng hàng hóa. Kết quả là một tổ hợp các nhà thầu trúng thầu sao cho tổng chi phí là thấp nhất có thể."
+        "correctAnswer": "A",
+        "explanation": "Trên Hệ thống mạng đấu thầu quốc gia, không có chức năng 'sửa đổi một phần' hồ sơ đã nộp. Nếu nhà thầu muốn thay đổi bất kỳ nội dung nào, họ phải thực hiện thao tác 'rút thầu', sau đó nộp lại một bộ hồ sơ dự thầu hoàn toàn mới trước thời điểm đóng thầu."
     },
     {
-        id: 100,
-        question: "Đối với gói thầu mua sắm tập trung áp dụng lựa chọn nhà thầu căn cứ khối lượng mời thầu, danh sách phê duyệt nhà thầu trúng thầu bao gồm:",
-        options: {
-            A: "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách dự bị (nhà thầu xếp thứ 2 trở đi)",
-            B: "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách nhà thầu không đáp ứng yêu cầu của hồ sơ mời thầu",
-            C: "Danh sách các nhà thầu đáp ứng yêu cầu về năng lực và kinh nghiệm theo yêu cầu của hồ sơ mời thầu",
-            D: "Danh sách chính (nhà thầu xếp thứ nhất và nhà thầu xếp thứ 2) và danh sách dự bị (nhà thầu xếp thứ 3 trở đi)"
+        "id": 100,
+        "question": "Đối với đấu thầu qua mạng, nhà thầu đã nộp E-HSDT nhưng sau đó E-HSMT của gói thầu này sửa đổi thì nhà thầu cần thực hiện theo phương án nào sau đây?",
+        "options": {
+            "A": "Phải tiến hành rút toàn bộ E-HSDT đã nộp trước đó để sửa đổi cho phù hợp và tiến hành nộp lại E-HSDT mới",
+            "B": "Không phải tiến hành rút toàn bộ E-HSDT đã nộp trước đó, chỉ cần sửa đổi cho phù hợp và tiến hành nộp lại E-HSDT mới",
+            "C": "Sửa đổi cho phù hợp E-HSDT đã nộp mà không phải nộp lại E-HSDT mới",
+            "D": "Các phương án trên đều sai"
         },
-        correctAnswer: "A",
-        explanation: "Trong mua sắm tập trung quy mô lớn, để đảm bảo an toàn nguồn cung và phòng ngừa rủi ro nhà thầu xếp hạng nhất không thể thực hiện hợp đồng, việc phê duyệt kết quả thường bao gồm một danh sách chính thức các nhà thầu trúng thầu và một danh sách dự bị. Nếu nhà thầu trong danh sách chính từ chối hoặc không thể ký hợp đồng, đơn vị mua sắm có thể mời nhà thầu trong danh sách dự bị vào thực hiện."
+        "correctAnswer": "A",
+        "explanation": "Khi E-HSMT được sửa đổi, các yêu cầu của gói thầu đã thay đổi. Hồ sơ dự thầu cũ của nhà thầu có thể không còn phù hợp. Để đảm bảo hồ sơ của mình đáp ứng các yêu cầu mới, nhà thầu cần phải rút hồ sơ cũ, điều chỉnh lại cho phù hợp với E-HSMT đã sửa đổi và nộp lại một bộ hồ sơ mới."
     }
 ];

@@ -2,123 +2,123 @@ import { Question } from '../../types';
 
 export const set16: Question[] = [
     {
-        id: 151,
-        question: "Tài khoản nghiệp vụ trên Hệ thống mạng đấu thầu quốc gia là gì?",
-        options: {
-            A: "Tài khoản do người sử dụng đăng ký và được phê duyệt trên Hệ thống mạng đấu thầu quốc gia",
-            B: "Tài khoản do Trung tâm Đấu thầu qua mạng quốc gia cấp phép theo quy định",
-            C: "Tài khoản do Tài khoản tham gia hệ thống tạo ra",
-            D: "Phương án A và B đều đúng"
+        "id": 151,
+        "question": "Thẩm quyền phê duyệt kế hoạch tổng thể lựa chọn nhà thầu thuộc về chủ thể nào?",
+        "options": {
+            "A": "Người có thẩm quyền",
+            "B": "Chủ đầu tư (trường hợp xác định được chủ đầu tư)",
+            "C": "Người đứng đầu cơ quan được giao chuẩn bị dự án",
+            "D": "Bên mời thầu"
         },
-        correctAnswer: "A",
-        explanation: "Tài khoản nghiệp vụ là tài khoản mà các đơn vị (chủ đầu tư, bên mời thầu, nhà thầu) tự đăng ký thông tin trên Hệ thống mạng đấu thầu quốc gia. Sau khi được đơn vị vận hành hệ thống xác thực và phê duyệt, tài khoản này được sử dụng để thực hiện các nghiệp vụ đấu thầu qua mạng."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 77, khoản 1 và Điều 36, khoản 1 của Luật Đấu thầu. Điều 36, khoản 1 quy định chủ đầu tư hoặc cơ quan chuẩn bị dự án 'trình người có thẩm quyền xem xét, quyết định việc tổ chức lập, phê duyệt kế hoạch tổng thể lựa chọn nhà thầu'. Điều 77, khoản 1 khẳng định trách nhiệm của người có thẩm quyền là 'Phê duyệt kế hoạch tổng thể lựa chọn nhà thầu quy định tại Điều 36 của Luật này'."
     },
     {
-        id: 152,
-        question: "Nhà thầu có trách nhiệm kê khai thông tin nào trên Hệ thống mạng đấu thầu quốc gia?",
-        options: {
-            A: "Thông tin về uy tín của nhà thầu trong việc tham dự thầu",
-            B: "Thông tin về vi phạm của nhà thầu",
-            C: "Thông tin về năng lực, kinh nghiệm của nhà thầu",
-            D: "Cả 3 phương án trên đều đúng"
+        "id": 152,
+        "question": "Trường hợp thuê đơn vị tư vấn lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu; đánh giá hồ sơ quan tâm, hồ sơ dự sơ tuyển, hồ sơ dự thầu, hồ sơ đề xuất, tổ chuyên gia được thành lập bởi ai?",
+        "options": {
+            "A": "Người có thẩm quyền",
+            "B": "Chủ đầu tư",
+            "C": "Bên mời thầu",
+            "D": "Đơn vị tư vấn được chủ đầu tư lựa chọn"
         },
-        correctAnswer: "D",
-        explanation: "Căn cứ điểm c, khoản 1, Điều 8, \"Nhà thầu có trách nhiệm cập nhật, đăng tải thông tin về năng lực, kinh nghiệm của mình vào cơ sở dữ liệu nhà thầu...\". Thông tin này bao gồm cả lịch sử tham dự thầu (uy tín) và các vi phạm (nếu có) để tạo thành một hồ sơ năng lực đầy đủ, minh bạch, phục vụ cho quá trình đánh giá thầu."
+        "correctAnswer": "D",
+        "explanation": "Căn cứ pháp lý: Điều 19, khoản 1, điểm c của Luật Đấu thầu. Luật quy định rõ việc thành lập tổ chuyên gia trong trường hợp này thuộc về 'Đơn vị tư vấn thành lập đối với trường hợp thuê tư vấn để lập hồ sơ mời quan tâm...; đánh giá hồ sơ quan tâm...'."
     },
     {
-        id: 153,
-        question: "Ai chịu trách nhiệm đăng tải thông tin chủ yếu của hợp đồng trên Hệ thống mạng đấu thầu quốc gia?",
-        options: {
-            A: "Bên mời thầu",
-            B: "Tổ chuyên gia",
-            C: "Tư vấn đấu thầu",
-            D: "Chủ đầu tư"
+        "id": 153,
+        "question": "Nhiệm vụ nào sau đây không thuộc trách nhiệm của người có thẩm quyền?",
+        "options": {
+            "A": "Phê duyệt kế hoạch lựa chọn nhà thầu",
+            "B": "Giải quyết kiến nghị và xử lý các vi phạm pháp luật về đấu thầu",
+            "C": "Quyết định việc hủy thầu khi thay đổi mục tiêu đầu tư trong quyết định đầu tư",
+            "D": "Quyết định việc hủy thầu, đình chỉ cuộc đấu thầu, không công nhận kết quả lựa chọn nhà thầu khi phát hiện có hành vi vi phạm pháp luật về đấu thầu"
         },
-        correctAnswer: "D",
-        explanation: "Căn cứ điểm a, khoản 1, Điều 8, \"Chủ đầu tư có trách nhiệm đăng tải thông tin quy định tại các điểm a, g, h, i và k khoản 1 Điều 7 của Luật này\". Thông tin chủ yếu của hợp đồng được quy định tại điểm h, khoản 1, Điều 7. Do đó, trách nhiệm này thuộc về chủ đầu tư."
+        "correctAnswer": "C",
+        "explanation": "Căn cứ pháp lý: Điều 77 và Điều 17 của Luật Đấu thầu. Điều 77 quy định các trách nhiệm của người có thẩm quyền, bao gồm phê duyệt KHLCNT (A), giải quyết kiến nghị (B), và hủy thầu khi có vi phạm pháp luật (D). Việc 'thay đổi mục tiêu, phạm vi đầu tư' là một trong các trường hợp để hủy thầu được quy định tại Điều 17, khoản 1, điểm b. Tuy nhiên, trách nhiệm ra quyết định hủy thầu trong trường hợp này thuộc về chủ đầu tư. Người có thẩm quyền chỉ hủy thầu khi phát hiện có hành vi vi phạm pháp luật về đấu thầu."
     },
     {
-        id: 154,
-        question: "Trong đấu thầu qua mạng, nhà thầu tư vấn đấu thầu bị khoá tài khoản trong vòng 06 tháng khi thực hiện hành vi nào sau đây?",
-        options: {
-            A: "Tham gia vào quá trình lập và đánh giá E-HSMT",
-            B: "Tham gia vào quá trình thẩm định hồ sơ mời thầu và kết quả lựa chọn nhà thầu",
-            C: "Thay chủ đầu tư đăng tải các nội dung thuộc trách nhiệm đăng tải của chủ đầu tư",
-            D: "Đăng tải thông tin về năng lực, kinh nghiệm của mình trên Hệ thống mạng đấu thầu quốc gia"
+        "id": 154,
+        "question": "Trường hợp nào sau đây việc phê duyệt kế hoạch lựa chọn nhà thầu thuộc trách nhiệm của chủ đầu tư?",
+        "options": {
+            "A": "Chủ đầu tư không có trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu",
+            "B": "Chủ đầu tư có trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu, trừ trường hợp chưa xác định được chủ đầu tư theo quy định của pháp luật",
+            "C": "Trường hợp gói thầu được thực hiện trước khi có quyết định phê duyệt dự án và chưa xác định được chủ đầu tư",
+            "D": "Chủ đầu tư chỉ được phê duyệt kế hoạch lựa chọn nhà thầu trong trường hợp được người có thẩm quyền ủy quyền"
         },
-        correctAnswer: "A",
-        explanation: "Theo nguyên tắc bảo đảm cạnh tranh và minh bạch, đơn vị tư vấn được thuê để lập hồ sơ mời thầu thì không được tham gia đánh giá hồ sơ dự thầu cho chính gói thầu đó (và ngược lại). Căn cứ khoản 6, Điều 16 (Không bảo đảm công bằng, minh bạch), đây là hành vi bị cấm. Việc thực hiện hành vi này trên môi trường mạng là một vi phạm nghiêm trọng và sẽ bị xử phạt bằng hình thức khóa tài khoản."
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Điều 40, khoản 2 và Điều 78, khoản 1, điểm a của Luật Đấu thầu. Luật giao trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu cho chủ đầu tư. Khoản 2 Điều 40 nêu rõ: 'Chủ đầu tư tổ chức lập và phê duyệt kế hoạch lựa chọn nhà thầu'. Trường hợp ngoại lệ là khi chưa xác định được chủ đầu tư (đối với gói thầu cần thực hiện trước), thì người đứng đầu đơn vị được giao nhiệm vụ chuẩn bị dự án sẽ phê duyệt. Phương án B mô tả chính xác quy định này."
     },
     {
-        id: 155,
-        question: "Chủ đầu tư có trách nhiệm đăng tải thông tin chủ yếu của hợp đồng trên Hệ thống đấu thầu qua mạng quốc gia chậm nhất là?",
-        options: {
-            A: "05 ngày làm việc kể từ ngày ký kết hợp đồng",
-            B: "05 ngày làm việc kể từ ngày hợp đồng có hiệu lực",
-            C: "05 ngày kể từ ngày hợp đồng có hiệu lực",
-            D: "05 ngày làm việc kể từ ngày nhà thầu nộp bảo đảm thực hiện hợp đồng"
+        "id": 155,
+        "question": "Việc chấp thuận hoặc không chấp thuận việc điều chuyển khối lượng, phạm vi công việc của nhà thầu phụ cho tổ chức, đơn vị khác khi cần đáp ứng yêu cầu về tiến độ, chất lượng gói thầu do nhà thầu đề xuất thuộc trách nhiệm của ai?",
+        "options": {
+            "A": "Tổ chuyên gia",
+            "B": "Chủ đầu tư",
+            "C": "Người có thẩm quyền",
+            "D": "Tổ thẩm định"
         },
-        correctAnswer: "B",
-        explanation: "Căn cứ khoản 4, Điều 8, \"Thông tin quy định tại các điểm a, d, g, h, i khoản 1... phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia chậm nhất là 05 ngày làm việc kể từ ngày văn bản được ban hành hoặc hợp đồng có hiệu lực.\""
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Điều 78, khoản 13a của Luật Đấu thầu. Đây là trách nhiệm quản lý thực hiện hợp đồng của chủ đầu tư. Khoản 13a được bổ sung đã quy định rõ trách nhiệm của chủ đầu tư là 'Chấp thuận hoặc không chấp thuận việc điều chuyển khối lượng, phạm vi công việc của nhà thầu phụ cho tổ chức, đơn vị khác khi cần đáp ứng yêu cầu về tiến độ, chất lượng gói thầu khi nhà thầu chính đề xuất.'"
     },
     {
-        id: 156,
-        question: "Danh sách nhà thầu có hành vi vi phạm và bị đánh giá về uy tín được đăng tải trên Hệ thống mạng đấu thầu quốc gia như thế nào?",
-        options: {
-            A: "Tổ chuyên gia đăng tải trong thời hạn 03 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm",
-            B: "Bên mời thầu đăng tải trong thời hạn 05 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm",
-            C: "Chủ đầu tư đăng tải trong thời hạn 07 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm",
-            D: "Người có thẩm quyền đăng tải trong thời hạn 05 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm"
+        "id": 156,
+        "question": "Nội dung nào không thuộc nội dung quản lý nhà nước đối với hoạt động đấu thầu?",
+        "options": {
+            "A": "Quản lý hệ thống thông tin và cơ sở dữ liệu về đấu thầu trên phạm vi cả nước.",
+            "B": "Lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu.",
+            "C": "Đào tạo, bồi dưỡng kiến thức, nghiệp vụ chuyên môn về đấu thầu.",
+            "D": "Hợp tác quốc tế về đấu thầu"
         },
-        correctAnswer: "C",
-        explanation: "Căn cứ điểm i, khoản 1, Điều 7 và điểm a, khoản 1, Điều 8, thông tin về xử lý vi phạm pháp luật về đấu thầu là thông tin phải được đăng tải và trách nhiệm đăng tải thuộc về chủ đầu tư. Văn bản Luật hợp nhất không quy định thời hạn cụ thể cho việc đăng tải thông tin này. Tuy nhiên, theo thông lệ và các văn bản hướng dẫn, để đảm bảo tính kịp thời, việc đăng tải phải được thực hiện trong một khoảng thời gian ngắn sau khi có quyết định xử lý. 07 ngày làm việc là một khoảng thời gian hợp lý."
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Điều 83 của Luật Đấu thầu. Điều 83 liệt kê các nội dung quản lý nhà nước về đấu thầu, bao gồm quản lý hệ thống thông tin (A), đào tạo bồi dưỡng (C), hợp tác quốc tế (D). Việc lập hồ sơ mời thầu là công việc cụ thể của tổ chuyên gia trong quá trình lựa chọn nhà thầu của một gói thầu, không phải là hoạt động quản lý nhà nước ở tầm vĩ mô."
     },
     {
-        id: 157,
-        question: "Chủ thể nào sau đây được gia hạn thời điểm đóng thầu trên Hệ thống mạng đấu thầu quốc gia?",
-        options: {
-            A: "Người có thẩm quyền",
-            B: "Chủ đầu tư",
-            C: "Tổ chuyên gia",
-            D: "Tư vấn đấu thầu"
+        "id": 157,
+        "question": "Theo quy định pháp luật về đấu thầu, kiểm tra hoạt động đấu thầu được tiến hành theo hình thức nào?",
+        "options": {
+            "A": "Kiểm tra trực tiếp",
+            "B": "Báo cáo bằng văn bản",
+            "C": "Kết hợp giữa kiểm tra trực tiếp và báo cáo bằng văn bản",
+            "D": "Kiểm tra định kỳ hoặc đột xuất"
         },
-        correctAnswer: "B",
-        explanation: "Chủ đầu tư (hoặc bên mời thầu được chủ đầu tư giao nhiệm vụ) là đơn vị chịu trách nhiệm chính trong việc tổ chức lựa chọn nhà thầu. Họ là người ra quyết định các vấn đề liên quan đến hồ sơ mời thầu và quá trình mời thầu, bao gồm cả việc sửa đổi hồ sơ mời thầu và gia hạn thời điểm đóng thầu khi cần thiết (ví dụ, để nhà thầu có đủ thời gian chuẩn bị hồ sơ sau khi sửa đổi)."
+        "correctAnswer": "C",
+        "explanation": "Căn cứ pháp lý: Điều 86, khoản 2, điểm c của Luật Đấu thầu. Luật quy định: 'Kiểm tra hoạt động đấu thầu được thực hiện theo phương thức kiểm tra trực tiếp hoặc qua báo cáo bằng văn bản'. Do đó, việc kết hợp cả hai hình thức là hoàn toàn phù hợp và bao quát các phương thức được luật cho phép."
     },
     {
-        id: 158,
-        question: "Chọn phương án đúng về thời gian áp dụng mua sắm trực tuyến đối với các hạng mục trong danh mục hàng hóa, dịch vụ mua sắm tập trung?",
-        options: {
-            A: "Thời gian áp dụng là thời gian thực hiện hợp đồng trong trường hợp không ký thỏa thuận khung nhưng không quá 24 tháng kể từ ngày hợp đồng có hiệu lực",
-            B: "Thời gian áp dụng là 24 tháng kể từ ngày kết quả lựa chọn nhà thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong trường hợp hợp đồng, thỏa thuận khung chưa được công khai",
-            C: "Thời gian áp dụng là 24 tháng kể từ ngày kết quả lựa chọn nhà thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia",
-            D: "Phương án A và B đều đúng"
+        "id": 158,
+        "question": "Thời hiệu áp dụng biện pháp cấm tham gia hoạt động đấu thầu là bao lâu?",
+        "options": {
+            "A": "10 năm tính từ ngày xảy ra hành vi vi phạm",
+            "B": "10 năm tính từ ngày phát hiện ra hành vi vi phạm",
+            "C": "05 năm tính từ ngày phát hiện ra hành vi vi phạm",
+            "D": "05 năm tính từ ngày xảy ra hành vi vi phạm"
         },
-        correctAnswer: "A",
-        explanation: "Mua sắm trực tuyến trên cơ sở kết quả mua sắm tập trung (MSTT) thực chất là việc các đơn vị có nhu cầu thực hiện hợp đồng với nhà thầu đã trúng thầu MSTT. Thời gian để thực hiện việc mua sắm này sẽ bị giới hạn bởi thời gian hiệu lực của kết quả MSTT. Đối với MSTT qua thỏa thuận khung, thời gian này chính là thời gian có hiệu lực của thỏa thuận khung. Đối với MSTT ký hợp đồng trực tiếp, thời gian áp dụng để các đơn vị mua hàng cũng được giới hạn trong một khoảng thời gian nhất định (thường là 24 tháng) để đảm bảo giá cả còn phù hợp với thị trường."
+        "correctAnswer": "C",
+        "explanation": "Mặc dù văn bản không ghi rõ điều này, nhưng theo nguyên tắc chung của pháp luật về xử lý vi phạm hành chính, thời hiệu thường được tính từ ngày hành vi vi phạm được phát hiện. Thời hạn 05 năm là thời gian cấm thầu tối đa theo quy định tại Điều 87, khoản 2."
     },
     {
-        id: 159,
-        question: "Công việc nào sau đây phải thực hiện trên Hệ thống mạng đấu thầu quốc gia?",
-        options: {
-            A: "Lập E-HSMT",
-            B: "Trình phê duyệt E-HSMT, phê duyệt E-HSMT",
-            C: "Phê duyệt kết quả lựa chọn nhà thầu",
-            D: "Tất cả các phương án trên đều đúng"
+        "id": 159,
+        "question": "Chủ thể nào không có quyền cấm tham gia hoạt động đấu thầu?",
+        "options": {
+            "A": "Người có thẩm quyền",
+            "B": "Chủ đầu tư",
+            "C": "Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, cơ quan thuộc Chính phủ, cơ quan khác ở Trung ương",
+            "D": "Chủ tịch Ủy ban nhân dân cấp tỉnh"
         },
-        correctAnswer: "D",
-        explanation: "Căn cứ khoản 2, Điều 50, các nội dung lựa chọn nhà thầu được thực hiện trên Hệ thống mạng đấu thầu quốc gia bao gồm: Lập, thẩm định, phê duyệt hồ sơ; Lập, nộp hồ sơ; Mở thầu; Đánh giá hồ sơ, mời thương thảo, thẩm định, phê duyệt kết quả... Do đó, việc Lập E-HSMT, Trình và phê duyệt E-HSMT, và Phê duyệt kết quả lựa chọn nhà thầu đều là các bước bắt buộc phải thực hiện trên hệ thống."
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Điều 87, khoản 3 của Luật Đấu thầu. Luật quy định thẩm quyền cấm thầu thuộc về: Người có thẩm quyền (A), Bộ trưởng và các chức danh tương đương (C), và Chủ tịch Ủy ban nhân dân cấp tỉnh (D). Chủ đầu tư không có thẩm quyền ra quyết định cấm thầu."
     },
     {
-        id: 160,
-        question: "Trong đấu thầu qua mạng, việc trả lời yêu cầu làm rõ E-HSMT được thực hiện theo phương án nào?",
-        options: {
-            A: "Do tổ chuyên gia thực hiện bằng văn bản",
-            B: "Do tổ chuyên gia thực hiện trên Hệ thống mạng đấu thầu quốc gia",
-            C: "Do tư vấn đấu thầu thực hiện bằng tài khoản của đơn vị tư vấn",
-            D: "Do Chủ đầu tư thực hiện trên Hệ thống mạng đấu thầu quốc gia"
+        "id": 160,
+        "question": "Người có thẩm quyền ban hành quyết định cấm tham gia hoạt động đấu thầu với thời gian cấm bao lâu đối với trường hợp tổ chức, cá nhân có từ 02 hành vi vi phạm trở lên thuộc cùng phạm vi quản lý của người có thẩm quyền và các hành vi này chưa bị cấm tham gia hoạt động đấu thầu?",
+        "options": {
+            "A": "Bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối thiểu trên 05 năm",
+            "B": "Bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối đa không quá 03 năm",
+            "C": "Bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối đa không quá 05 năm",
+            "D": "Bằng thời gian cấm của hành vi vi phạm có thời gian bị cấm cao nhất"
         },
-        correctAnswer: "D",
-        explanation: "Căn cứ điểm g, khoản 2, Điều 50, việc \"Làm rõ các nội dung trong đấu thầu\" là một trong các hoạt động được thực hiện trên Hệ thống. Toàn bộ quá trình trao đổi thông tin, bao gồm việc nhà thầu yêu cầu làm rõ và chủ đầu tư/bên mời thầu trả lời, phải được thực hiện công khai trên hệ thống để tất cả các nhà thầu quan tâm đều nhận được thông tin như nhau, đảm bảo tính minh bạch. Trách nhiệm trả lời thuộc về chủ đầu tư/bên mời thầu."
+        "correctAnswer": "C",
+        "explanation": "Căn cứ pháp lý: Điều 87, khoản 2 của Luật Đấu thầu. Đây là nguyên tắc tổng hợp hình phạt trong xử lý vi phạm. Thời gian cấm thầu tối đa cho một hành vi hoặc nhiều hành vi là 05 năm."
     }
 ];

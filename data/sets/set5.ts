@@ -2,123 +2,123 @@ import { Question } from '../../types';
 
 export const set5: Question[] = [
     {
-        id: 41,
-        question: "Nhà thầu tham gia đấu thầu gói thầu hàng hóa phải độc lập với chủ thể nào sau đây?",
-        options: {
-            A: "Phải độc lập với nhà thầu tư vấn lập hồ sơ mời thầu gói thầu hàng hóa",
-            B: "Phải độc lập với nhà thầu khác khi tham gia đấu thầu rộng rãi",
-            C: "Phải độc lập với nhà thầu tư vấn lập kế hoạch tổng thể lựa chọn nhà thầu",
-            D: "Phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu"
+        "id": 41,
+        "question": "Kế hoạch lựa chọn nhà thầu của dự án thuộc đối tượng áp dụng của Luật Đấu thầu bắt buộc phải đăng tải ở đâu?",
+        "options": {
+            "A": "Hệ thống mạng đấu thầu quốc gia",
+            "B": "Báo Tài chính-Đầu tư",
+            "C": "Cổng Thông tin điện tử của Bộ, ngành",
+            "D": "Phương án A và B đều đúng"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ điểm a, khoản 2, Điều 6, nhà thầu tham dự thầu phải độc lập về pháp lý và tài chính với \"nhà thầu tư vấn lập, thẩm định hồ sơ mời thầu\". Các phương án khác không mô tả đúng yêu cầu về bảo đảm cạnh tranh trong trường hợp này."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 7, khoản 1, điểm a và Điều 8 của Luật Đấu thầu. Thông tin về kế hoạch lựa chọn nhà thầu là một trong những thông tin phải được công khai, và theo Điều 8, việc đăng tải được thực hiện trên Hệ thống mạng đấu thầu quốc gia."
     },
     {
-        id: 42,
-        question: "Nhận định nào sau đây không phù hợp với quy định về bảo đảm cạnh tranh trong đấu thầu?",
-        options: {
-            A: "Nhà thầu tham dự thầu phải độc lập với chủ đầu tư, trừ trường hợp: nhà thầu là đơn vị sự nghiệp công lập thuộc cơ quan quản lý nhà nước có chức năng, nhiệm vụ được giao phù hợp với tính chất gói thầu của cơ quan quản lý nhà nước đó; đơn vị sự nghiệp công lập và doanh nghiệp có cùng một cơ quan trực tiếp quản lý, góp vốn; các đơn vị sự nghiệp công lập có cùng một cơ quan trực tiếp quản lý",
-            B: "Nhà thầu tham dự thầu phải độc lập với nhà thầu tư vấn quản lý dự án, tư vấn giám sát",
-            C: "Nhà thầu tham dự thầu phải độc lập với nhà thầu tư vấn lập, thẩm tra, thẩm định hồ sơ thiết kế, dự toán",
-            D: "Nhà thầu thực hiện hợp đồng phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu."
+        "id": 42,
+        "question": "Chậm nhất là bao nhiêu ngày thì kế hoạch lựa chọn nhà thầu phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia?",
+        "options": {
+            "A": "05 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
+            "B": "07 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
+            "C": "07 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
+            "D": "10 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành"
         },
-        correctAnswer: "D",
-        explanation: "Điều 6 của Luật quy định về sự độc lập của nhà thầu tham dự thầu với chủ đầu tư, các nhà thầu tư vấn tham gia vào quá trình chuẩn bị, đánh giá thầu. Mối quan hệ giữa nhà thầu thực hiện hợp đồng (nhà thầu trúng thầu) và nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu không được quy định là phải độc lập."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 8, khoản 4 của Luật Đấu thầu. Luật quy định: 'Thông tin quy định tại các điểm a, d, g, h, i khoản 1... của Luật này phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia chậm nhất là 05 ngày làm việc kể từ ngày văn bản được ban hành...'"
     },
     {
-        id: 43,
-        question: "Nội dung nào sau đây không thuộc quy định về bảo đảm cạnh tranh trong đấu thầu khi nhà thầu tham dự thầu đấu thầu rộng rãi gói thầu EPC, EP, EC?",
-        options: {
-            A: "Nhà thầu tham dự thầu phải độc lập với nhà thầu lập, thẩm tra thiết kế FEED",
-            B: "Nhà thầu tham dự thầu phải độc lập với nhà thầu lập, thẩm tra báo cáo nghiên cứu khả thi trong trường hợp không lập thiết kế FEED",
-            C: "Nhà thầu tham dự thầu phải độc lập với nhà thầu lập, thẩm tra báo cáo kinh tế kỹ thuật trong trường hợp không lập báo cáo nghiên cứu khả thi, không lập thiết kế FEED theo quy định của pháp luật về xây dựng",
-            D: "Nhà thầu tham dự thầu phải độc lập với nhà thầu khác cùng tham dự đấu thầu rộng rãi"
+        "id": 43,
+        "question": "Kế hoạch lựa chọn nhà thầu bao gồm nội dung nào sau đây?",
+        "options": {
+            "A": "Giá gói thầu",
+            "B": "Thời gian thực hiện hợp đồng",
+            "C": "Giám sát hoạt động đấu thầu",
+            "D": "Cả 3 phương án trên đều đúng"
         },
-        correctAnswer: "D",
-        explanation: "Trong đấu thầu rộng rãi, yêu cầu cạnh tranh là các nhà thầu không được \"thông thầu\" (hành vi bị cấm tại Điều 16), chứ không có quy định họ phải \"độc lập về pháp lý và tài chính\" với nhau. Yêu cầu độc lập này chỉ áp dụng đối với đấu thầu hạn chế (điểm b, khoản 2, Điều 6). Các phương án A, B, C đều là các yêu cầu về sự độc lập giữa nhà thầu tham dự thầu và các đơn vị tư vấn liên quan đến gói thầu."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 39 của Luật Đấu thầu. Điều 39 quy định các nội dung của kế hoạch lựa chọn nhà thầu, bao gồm: Tên gói thầu (khoản 1), Giá gói thầu (khoản 2), Nguồn vốn (khoản 3), Hình thức và phương thức lựa chọn nhà thầu (khoản 4), Thời gian tổ chức lựa chọn nhà thầu (khoản 5), Loại hợp đồng (khoản 6), Thời gian thực hiện gói thầu (khoản 7). Phương án B (Thời gian thực hiện hợp đồng) cũng là một nội dung, nhưng 'Giá gói thầu' là một trong những nội dung cơ bản và quan trọng nhất. Phương án C (Giám sát hoạt động đấu thầu) không phải là nội dung của KHLCNT mà là một hoạt động quản lý nhà nước."
     },
     {
-        id: 44,
-        question: "Nội dung nào là nội dung đánh giá tính hợp lệ của hồ sơ dự thầu?",
-        options: {
-            A: "Nhân sự chủ chốt",
-            B: "Hiệu lực của hồ sơ dự thầu",
-            C: "Năng lực tài chính",
-            D: "Việc thực hiện nghĩa vụ kê khai thuế, nộp thuế"
+        "id": 44,
+        "question": "Đối với nội dung mua sắm hàng hóa có giá không quá 50 triệu đồng thì được thực hiện như thế nào?",
+        "options": {
+            "A": "Không phải lập kế hoạch lựa chọn nhà thầu nhưng phải thực hiện mua sắm trên cơ sở tiết kiệm, hiệu quả, bảo đảm đầy đủ hoá đơn, chứng từ",
+            "B": "Không phải lập kế hoạch lựa chọn nhà thầu nhưng phải thực hiện mua sắm theo giá công khai, giá niêm yết và không cần hoá đơn, chứng từ",
+            "C": "Được hình thành gói thầu để thực hiện lựa chọn nhà thầu theo một trong hình thức lựa chọn nhà thầu (đấu thầu rộng rãi, chào hàng cạnh tranh, chỉ định thầu) nhưng phải lập kế hoạch lựa chọn nhà thầu",
+            "D": "Phương án A và C đều đúng"
         },
-        correctAnswer: "B",
-        explanation: "Việc đánh giá tính hợp lệ của hồ sơ dự thầu bao gồm kiểm tra các yếu tố như: có bản gốc, hiệu lực của hồ sơ dự thầu, có bảo đảm dự thầu hợp lệ, không có tên trong hai hoặc nhiều hồ sơ dự thầu với tư cách là nhà thầu độc lập... Các yếu tố như \"Nhân sự chủ chốt\", \"Năng lực tài chính\" thuộc về đánh giá năng lực, kinh nghiệm, không phải tính hợp lệ của hồ sơ."
+        "correctAnswer": "A",
+        "explanation": "Đây là quy định về mua sắm thường xuyên giá trị nhỏ, thường được quy định chi tiết trong các văn bản hướng dẫn về quản lý tài chính, tài sản công. Chủ đầu tư được tự quyết định nhưng phải đảm bảo nguyên tắc hiệu quả và có đầy đủ chứng từ."
     },
     {
-        id: 45,
-        question: "Nội dung nào không phải là tiêu chuẩn đánh giá về tính hợp lệ của hồ sơ dự thầu gói thầu tư vấn?",
-        options: {
-            A: "Hiệu lực của hồ sơ đề xuất về kỹ thuật đáp ứng yêu cầu theo quy định trong hồ sơ mời thầu",
-            B: "Có bản gốc hồ sơ đề xuất về kỹ thuật",
-            C: "Bảo đảm dự thầu hợp lệ",
-            D: "Đã thực hiện nghĩa vụ kê khai thuế và nộp thuế"
+        "id": 45,
+        "question": "Lựa chọn phương án phù hợp nhất đối với nội dung đền bù giải phóng mặt bằng khi lập kế hoạch lựa chọn nhà thầu?",
+        "options": {
+            "A": "Tất cả nội dung công việc có liên quan đến giải phóng mặt bằng thuộc phần công việc không áp dụng một trong các hình thức lựa chọn nhà thầu",
+            "B": "Đối với các công việc mà Hội đồng đền bù giải phóng mặt bằng tự làm (ví dụ: tổ chức họp với người sử dụng đất, chủ sở hữu tài sản; trình duyệt, công khai phương án bồi thường, bàn giao chi phí bồi thường...) thì thuộc phần không áp dụng một trong các hình thức lựa chọn nhà thầu",
+            "C": "Đối với phần việc phải hình thành gói thầu thuê tư vấn để thực hiện nhằm phục vụ công việc giải phóng mặt bằng thì thuộc phần công việc thuộc kế hoạch lựa chọn nhà thầu",
+            "D": "Phương án B và C đều đúng"
         },
-        correctAnswer: "D",
-        explanation: "Việc thực hiện nghĩa vụ thuế là một trong những nội dung để đánh giá năng lực, kinh nghiệm của nhà thầu chứ không phải là tiêu chí để đánh giá tính hợp lệ của hồ sơ dự thầu. Các tiêu chí hợp lệ thường bao gồm hiệu lực hồ sơ, có bản gốc, có bảo đảm dự thầu hợp lệ (nếu yêu cầu)..."
+        "correctAnswer": "D",
+        "explanation": "Công tác giải phóng mặt bằng (GPMB) bao gồm nhiều phần việc. Các công việc do cơ quan nhà nước (Hội đồng đền bù GPMB) tự thực hiện không cần tổ chức đấu thầu (Phương án B). Các công việc cần thuê đơn vị bên ngoài (ví dụ: thuê tư vấn đo đạc, kiểm đếm, lập phương án bồi thường...) phải được lập thành gói thầu và đưa vào kế hoạch lựa chọn nhà thầu để tổ chức lựa chọn nhà thầu theo quy định (Phương án C). Do đó, cả B và C đều mô tả đúng cách xử lý các phần việc khác nhau trong công tác GPMB."
     },
     {
-        id: 46,
-        question: "Đối với gói thầu mua sắm hàng hóa, xây lắp, phi tư vấn, phương pháp để đánh giá về năng lực và kinh nghiệm là?",
-        options: {
-            A: "Sử dụng tiêu chí đạt, không đạt",
-            B: "Sử dụng phương pháp chấm điểm",
-            C: "Kết hợp cả hai phương pháp: tiêu chí đạt, không đạt và phương pháp chấm điểm",
-            D: "Phương pháp dựa trên kỹ thuật"
+        "id": 46,
+        "question": "Đối với các gói thầu đã thanh lý hợp đồng, khi lập tờ trình Kế hoạch lựa chọn nhà thầu, giá trị phần công việc đã thực hiện của các gói thầu này được tính như thế nào?",
+        "options": {
+            "A": "Giá gói thầu",
+            "B": "Giá trị thanh lý hợp đồng",
+            "C": "Giá hợp đồng",
+            "D": "Tất cả phương án đều đúng"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ khoản 4, Điều 58 của Luật, quy định rõ: \"Đối với tiêu chuẩn đánh giá về năng lực, kinh nghiệm, sử dụng tiêu chí đạt, không đạt. Đối với tiêu chuẩn đánh giá về kỹ thuật, sử dụng phương pháp chấm điểm hoặc tiêu chí đạt, không đạt\". Như vậy, đối với năng lực và kinh nghiệm, phương pháp đánh giá là \"đạt\" hoặc \"không đạt\"."
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Điều 40, khoản 1, điểm a của Luật Đấu thầu. Khi lập hồ sơ trình duyệt KHLCNT, phải nêu rõ 'Phần công việc đã thực hiện, bao gồm nội dung công việc... và giá trị tương ứng'. Giá trị đã thực hiện của một hợp đồng đã hoàn thành chính là giá trị thanh lý hợp đồng."
     },
     {
-        id: 47,
-        question: "Tiêu chuẩn đánh giá năng lực kinh nghiệm đối với gói thầu mua sắm hàng hóa bao gồm?",
-        options: {
-            A: "Doanh thu bình quân 3 năm gần nhất",
-            B: "Giấy phép bán hàng của nhà sản xuất",
-            C: "Số năm thành lập của doanh nghiệp",
-            D: "Năng lực quản lý của doanh nghiệp"
+        "id": 47,
+        "question": "Bảo đảm cạnh tranh trong đấu thầu thuộc nội dung đánh giá về?",
+        "options": {
+            "A": "Tư cách hợp lệ",
+            "B": "Năng lực, kinh nghiệm",
+            "C": "Kỹ thuật",
+            "D": "Tài chính"
         },
-        correctAnswer: "A",
-        explanation: "Luật Đấu thầu quy định việc đánh giá năng lực, kinh nghiệm phải dựa trên các tiêu chuẩn được nêu trong hồ sơ mời thầu để đánh giá khả năng của nhà thầu thực hiện gói thầu. Mặc dù Luật không liệt kê chi tiết từng tiêu chí, nhưng theo thông lệ và các văn bản hướng dẫn, tiêu chuẩn về năng lực tài chính là một phần bắt buộc. Doanh thu bình quân hằng năm là một trong những tiêu chí cốt lõi, khách quan nhất để đánh giá năng lực tài chính và quy mô hoạt động của nhà thầu."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1, điểm đ của Luật Đấu thầu. Một trong các điều kiện để nhà thầu có tư cách hợp lệ là phải 'Bảo đảm cạnh tranh trong đấu thầu theo quy định tại Điều 6 của Luật này'. Do đó, bảo đảm cạnh tranh là một tiêu chí để đánh giá tư cách hợp lệ của nhà thầu."
     },
     {
-        id: 48,
-        question: "Nội dung nào là tiêu chuẩn đánh giá về năng lực và kinh nghiệm không bắt buộc đối với gói thầu mua sắm hàng hóa?",
-        options: {
-            A: "Kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự",
-            B: "Giá trị tài sản ròng của nhà thầu",
-            C: "Doanh thu của nhà thầu",
-            D: "Việc thực hiện nghĩa vụ kê khai thuế, nộp thuế"
+        "id": 48,
+        "question": "Nhà thầu tham gia đấu thầu gói thầu hàng hóa phải độc lập với chủ thể nào sau đây?",
+        "options": {
+            "A": "Phải độc lập với nhà thầu tư vấn lập hồ sơ mời thầu gói thầu hàng hóa",
+            "B": "Phải độc lập với nhà thầu khác khi tham gia đấu thầu rộng rãi",
+            "C": "Phải độc lập với nhà thầu tư vấn lập kế hoạch tổng thể lựa chọn nhà thầu",
+            "D": "Phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu"
         },
-        correctAnswer: "D",
-        explanation: "Các tiêu chuẩn về kinh nghiệm thực hiện hợp đồng tương tự (A), giá trị tài sản ròng (B), và doanh thu (C) là những tiêu chí cơ bản và gần như luôn là bắt buộc để đánh giá năng lực tài chính và kinh nghiệm thực hiện của nhà thầu. Việc thực hiện nghĩa vụ thuế, mặc dù quan trọng, thường được xem xét trong quá trình đánh giá tư cách hợp lệ (một điều kiện tiên quyết để được xét thầu), chứ không phải là một tiêu chí để đánh giá chi tiết về năng lực và kinh nghiệm để thực hiện một gói thầu cụ thể."
+        "correctAnswer": "D",
+        "explanation": "Căn cứ pháp lý: Điều 6 của Luật Đấu thầu. Nguyên tắc bảo đảm cạnh tranh yêu cầu nhà thầu tham dự phải độc lập về pháp lý và tài chính với chủ đầu tư, bên mời thầu, và các nhà thầu tư vấn tham gia vào quá trình chuẩn bị, đánh giá gói thầu đó (lập HSMT, đánh giá HSDT...). Việc lập kế hoạch lựa chọn nhà thầu là một phần của quá trình chuẩn bị, do đó nhà thầu phải độc lập với tư vấn lập KHLCNT."
     },
     {
-        id: 49,
-        question: "Nội dung nào là tiêu chuẩn đánh giá đánh giá về năng lực và kinh nghiệm bắt buộc đối với gói thầu xây lắp tổ chức đấu thầu rộng rãi không qua mạng?",
-        options: {
-            A: "Có bản gốc dự thầu",
-            B: "Có tài sản ròng",
-            C: "Lịch sử không hoàn thành hợp đồng",
-            D: "Doanh thu trung bình"
+        "id": 49,
+        "question": "Nhận định nào sau đây không phù hợp với quy định về bảo đảm cạnh tranh trong đấu thầu?",
+        "options": {
+            "A": "Nhà thầu tham dự thầu phải độc lập với chủ đầu tư, trừ trường hợp: nhà thầu là đơn vị sự nghiệp công lập thuộc cơ quan quản lý nhà nước có chức năng, nhiệm vụ được giao phù hợp với tính chất gói thầu của cơ quan quản lý nhà nước đó; đơn vị sự nghiệp công lập và doanh nghiệp có cùng một cơ quan trực tiếp quản lý, góp vốn; các đơn vị sự nghiệp công lập có cùng một cơ quan trực tiếp quản lý",
+            "B": "Nhà thầu tham dự thầu phải độc lập với nhà thầu tư vấn quản lý dự án, tư vấn giám sát",
+            "C": "Nhà thầu tham dự thầu phải độc lập với nhà thầu tư vấn lập, thẩm tra, thẩm định hồ sơ thiết kế, dự toán",
+            "D": "Nhà thầu thực hiện hợp đồng phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu."
         },
-        correctAnswer: "C",
-        explanation: "Lịch sử không hoàn thành hợp đồng là một chỉ số quan trọng về uy tín và khả năng thực hiện cam kết của nhà thầu. Đây là một tiêu chí đánh giá năng lực, kinh nghiệm mang tính \"đạt/không đạt\" và có ảnh hưởng lớn đến việc nhà thầu có được tiếp tục xem xét hay không. Các tiêu chí khác như doanh thu, tài sản ròng cũng quan trọng, nhưng việc có lịch sử không hoàn thành hợp đồng có thể là yếu tố loại trực tiếp. \"Có bản gốc dự thầu\" (A) là điều kiện về tính hợp lệ của hồ sơ, không phải tiêu chí đánh giá năng lực."
+        "correctAnswer": "D",
+        "explanation": "Căn cứ pháp lý: Điều 6 của Luật Đấu thầu. Yêu cầu về tính độc lập được áp dụng cho các nhà thầu tham dự thầu. Khi một nhà thầu đã trúng thầu và thực hiện hợp đồng, mối quan hệ độc lập này không còn là yêu cầu bắt buộc với các nhà thầu tư vấn đã tham gia giai đoạn trước đó. Các phương án A, B, C đều là các yêu cầu đúng về tính độc lập đối với nhà thầu tham dự thầu."
     },
     {
-        id: 50,
-        question: "Tiêu chuẩn đánh giá về kỹ thuật được yêu cầu về nhãn hiệu theo nhóm nhãn hiệu cho nguyên nhiên vật liệu, vật tư và các yếu tố đầu vào đối với trường hợp nào?",
-        options: {
-            A: "Nội dung công việc xây lắp thuộc gói thầu xây lắp, gói thầu EC",
-            B: "Nội dung công việc xây lắp thuộc gói thầu EPC",
-            C: "Nội dung công việc xây lắp thuộc gói thầu EPC và gói thầu PC",
-            D: "Nội dung công việc xây lắp thuộc gói thầu xây lắp và gói thầu PC"
+        "id": 50,
+        "question": "Nội dung nào sau đây không thuộc quy định về bảo đảm cạnh tranh trong đấu thầu khi nhà thầu tham dự thầu đấu thầu rộng rãi gói thầu EPC, EP, EC?",
+        "options": {
+            "A": "Nhà thầu tham dự thầu phải độc lập với nhà thầu lập, thẩm tra thiết kế FEED",
+            "B": "Nhà thầu tham dự thầu phải độc lập với nhà thầu lập, thẩm tra báo cáo nghiên cứu khả thi trong trường hợp không lập thiết kế FEED",
+            "C": "Nhà thầu tham dự thầu phải độc lập với nhà thầu lập, thẩm tra báo cáo kinh tế kỹ thuật trong trường hợp không lập báo cáo nghiên cứu khả thi, không lập thiết kế FEED theo quy định của pháp luật về xây dựng",
+            "D": "Nhà thầu tham dự thầu phải độc lập với nhà thầu khác cùng tham dự đấu thầu rộng rãi"
         },
-        correctAnswer: "C",
-        explanation: "Theo điểm i, khoản 6, Điều 16, việc nêu yêu cầu cụ thể về nhãn hiệu, xuất xứ hàng hóa là hành vi bị cấm, trừ một số trường hợp đặc biệt. Các gói thầu phức tạp như EPC (Thiết kế - Cung cấp hàng hóa - Xây lắp) và PC (Cung cấp hàng hóa - Xây lắp) thường có yêu cầu cao về tính đồng bộ, tương thích giữa các thiết bị và hệ thống để đảm bảo chất lượng và vận hành của toàn bộ công trình. Do đó, pháp luật cho phép trong những trường hợp này có thể nêu nhãn hiệu, tiêu chuẩn kỹ thuật của sản phẩm để nhà thầu xây dựng giải pháp kỹ thuật, phương án thi công phù hợp."
+        "correctAnswer": "D",
+        "explanation": "Căn cứ pháp lý: Điều 6, khoản 2 của Luật Đấu thầu. Yêu cầu 'độc lập với các nhà thầu khác cùng tham dự' chỉ áp dụng đối với hình thức đấu thầu hạn chế (Điều 6, khoản 2, điểm b), không áp dụng cho đấu thầu rộng rãi. Các phương án A, B, C đều là các yêu cầu về tính độc lập giữa nhà thầu tham dự và các đơn vị tư vấn lập hồ sơ thiết kế, báo cáo nghiên cứu khả thi, báo cáo kinh tế kỹ thuật, là đúng theo quy định tại Điều 6, khoản 4a."
     }
 ];

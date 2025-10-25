@@ -2,123 +2,123 @@ import { Question } from '../../types';
 
 export const set19: Question[] = [
     {
-        id: 181,
-        question: "Đối với gói thầu chào giá trực tuyến rút gọn, nhà thầu xác nhận về việc chấp thuận được trao hợp đồng trong thời gian tối đa bao lâu kể từ ngày chủ đầu tư mời nhà thầu xác nhận trên Hệ thống mạng đấu thầu quốc gia?",
-        options: {
-            A: "03 ngày",
-            B: "03 ngày làm việc",
-            C: "05 ngày",
-            D: "05 ngày làm việc"
+        "id": 181,
+        "question": "Đơn vị sự nghiệp công lập (tự chủ chi thường xuyên và chi đầu tư) thuộc tỉnh B tổ chức đấu thầu cho dự án sử dụng vốn ngân sách nhà nước thì Giám đốc Sở Tài chính Tỉnh B có trách nhiệm thành lập Hội đồng giải quyết kiến nghị cho gói thầu có kiến nghị tại Dự án này hay không?",
+        "options": {
+            "A": "Có trách nhiệm thành lập",
+            "B": "Không có trách nhiệm thành lập",
+            "C": "Thành lập khi chủ tịch UBND tỉnh yêu cầu",
+            "D": "Thành lập khi Giám đốc doanh nghiệp A đề nghị"
         },
-        correctAnswer: "B",
-        explanation: "Văn bản Luật hợp nhất không quy định chi tiết về thời gian này. Tuy nhiên, các quy trình rút gọn luôn yêu cầu thời gian xử lý nhanh chóng. Theo các văn bản hướng dẫn về đấu thầu qua mạng, sau khi kết thúc phiên chào giá, nhà thầu có giá thấp nhất sẽ được mời xác nhận việc thực hiện hợp đồng. Thời gian để nhà thầu xác nhận thường được quy định là một khoảng thời gian ngắn, ví dụ 03 ngày làm việc, để nhanh chóng hoàn tất thủ tục."
+        "correctAnswer": "B",
+        "explanation": "Thẩm quyền thành lập Hội đồng giải quyết kiến nghị cấp tỉnh thuộc về Chủ tịch Ủy ban nhân dân tỉnh, không phải Giám đốc Sở."
     },
     {
-        id: 182,
-        question: "Gói thầu chào giá trực tuyến rút gọn, trường hợp nhà thầu từ chối hoặc không xác nhận về việc chấp thuận được trao hợp đồng trên Hệ thống mạng đấu thầu quốc gia thì nội dung nào sau đây không đúng?",
-        options: {
-            A: "Công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
-            B: "Khoá tài khoản trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của chủ đầu tư",
-            C: "Khóa chức năng chào giá trực tuyến trong thời hạn 06 tháng kể từ ngày chủ đầu tư công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
-            D: "Bị đánh giá về uy tín trong việc tham dự thầu"
+        "id": 182,
+        "question": "Hội đồng giải quyết kiến nghị có quyền thực hiện việc nào sau đây?",
+        "options": {
+            "A": "Hủy thầu",
+            "B": "Yêu cầu chủ đầu tư tạm dừng ký kết hợp đồng",
+            "C": "Yêu cầu nhà thầu, chủ đầu tư và các cơ quan liên quan cung cấp thông tin của gói thầu, dự án và các thông tin liên quan khác để thực hiện nhiệm vụ",
+            "D": "Không công nhận kết quả lựa chọn nhà thầu"
         },
-        correctAnswer: "B",
-        explanation: "Việc từ chối hoặc không xác nhận thực hiện hợp đồng sau khi đã tham gia và có kết quả chào giá được coi là hành vi vi phạm trách nhiệm của nhà thầu. Chế tài xử lý bao gồm việc bị công khai tên (A), bị khóa chức năng chào giá trực tuyến (C) và bị đánh giá xấu về uy tín (D). Tuy nhiên, thẩm quyền khóa tài khoản nhà thầu trên toàn quốc thuộc về Bộ Kế hoạch và Đầu tư (đơn vị quản lý Hệ thống), không phải Bộ Tài chính. Do đó, phương án B sai về chủ thể xử lý."
+        "correctAnswer": "C",
+        "explanation": "Để có cơ sở giải quyết kiến nghị một cách khách quan, toàn diện, Hội đồng có quyền yêu cầu các bên liên quan cung cấp đầy đủ thông tin, tài liệu. Hội đồng không có quyền hủy thầu (A) hay không công nhận kết quả (D), đây là thẩm quyền của người có thẩm quyền."
     },
     {
-        id: 183,
-        question: "Chào giá trực tuyến theo quy trình thông thường áp dụng đối với gói thầu nào sau đây?",
-        options: {
-            A: "Dịch vụ phi tư vấn thông dụng, đơn giản",
-            B: "Xây lắp",
-            C: "Dịch vụ tư vấn",
-            D: "Hỗn hợp"
+        "id": 183,
+        "question": "Đối với kiến nghị về quá trình tổ chức lựa chọn nhà thầu (không phải kiến nghị về nội dung hồ sơ mời thầu), đơn kiến nghị phải là của chủ thể nào?",
+        "options": {
+            "A": "Cá nhân quan tâm đến gói thầu",
+            "B": "Nhà thầu tham dự thầu",
+            "C": "Cơ quan, tổ chức quan tâm đến gói thầu",
+            "D": "Phương án B và C đều đúng"
         },
-        correctAnswer: "A",
-        explanation: "Chào giá trực tuyến là một hình thức cạnh tranh về giá, phù hợp với các gói thầu mà yếu tố kỹ thuật đã được tiêu chuẩn hóa, ít có sự khác biệt giữa các nhà thầu. Gói thầu \"dịch vụ phi tư vấn thông dụng, đơn giản\" là đối tượng phù hợp nhất. Gói thầu xây lắp, tư vấn, hỗn hợp thường có yếu tố kỹ thuật phức tạp, không phù hợp để cạnh tranh đơn thuần về giá."
+        "correctAnswer": "B",
+        "explanation": "Chỉ nhà thầu có quyền và lợi ích trực tiếp liên quan đến gói thầu (đã mua hoặc nhận HSMT, đã nộp HSDT) mới có quyền kiến nghị về quá trình tổ chức lựa chọn nhà thầu đó."
     },
     {
-        id: 184,
-        question: "Nhà thầu phải thực hiện xác nhận về việc chấp thuận được trao hợp đồng trên Hệ thống mạng đấu thầu quốc gia đối với các hình thức lựa chọn nhà thầu qua mạng nào?",
-        options: {
-            A: "Đấu thầu rộng rãi, chào hàng cạnh tranh, đấu thầu hạn chế.",
-            B: "Chào giá trực tuyến theo quy trình thông thường",
-            C: "Chào giá trực tuyến theo quy trình rút gọn",
-            D: "Các phương án trên đều đúng"
+        "id": 184,
+        "question": "Các tài liệu, thông tin nào sau đây trong việc giải quyết kiến nghị được công khai trên Hệ thống mạng đấu thầu quốc gia?",
+        "options": {
+            "A": "Nội dung kiến nghị kết quả lựa chọn nhà thầu",
+            "B": "Văn bản giải quyết kiến nghị của chủ đầu tư",
+            "C": "Văn bản giải quyết kiến nghị của người có thẩm quyền",
+            "D": "Tất cả phương án trên đều đúng"
         },
-        correctAnswer: "C",
-        explanation: "Việc \"xác nhận chấp thuận được trao hợp đồng\" là một bước đặc thù của quy trình chào giá trực tuyến rút gọn. Sau khi kết thúc phiên chào giá, hệ thống sẽ xác định nhà thầu có giá thấp nhất và gửi yêu cầu xác nhận. Các hình thức khác như đấu thầu rộng rãi, chào hàng cạnh tranh thông thường có quy trình thương thảo và hoàn thiện hợp đồng phức tạp hơn, không có bước xác nhận nhanh này."
+        "correctAnswer": "D",
+        "explanation": "Để đảm bảo tính minh bạch, các thông tin chính trong quá trình giải quyết kiến nghị, bao gồm nội dung kiến nghị và các văn bản giải quyết của các cấp, đều phải được công khai trên Hệ thống mạng đấu thầu quốc gia."
     },
     {
-        id: 185,
-        question: "Đối với chào giá trực tuyến rút gọn, kể từ lượt chào giá thứ hai, giá chào của nhà thầu không được thấp hơn giá thấp nhất hiển thị trên Hệ thống mạng đấu thầu quốc gia là bao nhiêu %?",
-        options: {
-            A: "80%",
-            B: "85%",
-            C: "90%",
-            D: "95%"
+        "id": 185,
+        "question": "Nhà thầu có trách nhiệm nộp chi phí giải quyết kiến nghị trong thời hạn bao lâu kể từ ngày nhận được thông báo của bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị?",
+        "options": {
+            "A": "03 ngày làm việc",
+            "B": "02 ngày làm việc",
+            "C": "04 ngày làm việc",
+            "D": "05 ngày làm việc"
         },
-        correctAnswer: "D",
-        explanation: "Trong chào giá trực tuyến, để khuyến khích cạnh tranh và tránh các bước giá quá nhỏ, hệ thống thường quy định một bước giá tối thiểu. Tuy nhiên, câu hỏi này có vẻ diễn đạt ngược. Thông thường, giá chào sau phải thấp hơn giá chào thấp nhất hiện tại. Có thể câu hỏi muốn hỏi \"giá chào sau tối đa bằng bao nhiêu % giá chào trước đó\"."
+        "correctAnswer": "D",
+        "explanation": "Đây là thời hạn tiêu chuẩn được quy định trong các văn bản hướng dẫn để nhà thầu hoàn thành nghĩa vụ tài chính trước khi Hội đồng bắt đầu xem xét kiến nghị."
     },
     {
-        id: 186,
-        question: "Đối với chào giá trực tuyến rút gọn, giá trị bảo đảm dự thầu tối đa là giá trị nào sau đây?",
-        options: {
-            A: "5% giá gói thầu",
-            B: "10% giá gói thầu",
-            C: "1-3% giá gói thầu",
-            D: "Không yêu cầu về bảo đảm dự thầu"
+        "id": 186,
+        "question": "Trung tâm X là đơn vị sự nghiệp công lập tự chủ chi thường xuyên thuộc tỉnh A tổ chức lựa chọn nhà thầu đối với gói thầu mua sắm hàng hóa sử dụng nguồn thu hợp pháp (không sử dụng ngân sách nhà nước), trường hợp nhà thầu có kiến nghị về hồ sơ mời thầu gửi cả người có thẩm quyền và chủ đầu tư của gói thầu thì việc giải quyết kiến nghị được thực hiện theo quy trình nào?",
+        "options": {
+            "A": "Chủ đầu tư thực hiện giải quyết kiến nghị theo quy trình giải quyết kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu theo quy định của pháp luật về đấu thầu",
+            "B": "Người có thẩm quyền giải quyết kiến nghị theo quy trình giải quyết kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu theo quy định của pháp luật về đấu thầu",
+            "C": "Thực hiện theo quy trình về giải quyết kiến nghị do người đứng đầu Trung tâm X ban hành trong đơn vị mình",
+            "D": "Phương án A và B đều đúng"
         },
-        correctAnswer: "C",
-        explanation: "Căn cứ khoản 4, Điều 14 của Luật, mức bảo đảm dự thầu được quy định như sau: a) Từ 1% đến 1,5% giá gói thầu áp dụng đối với gói thầu xây lắp, hỗn hợp có giá trị không quá 20 tỷ đồng, gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn không quá 10 tỷ đồng. b) Từ 1,5% đến 3% giá gói thầu áp dụng đối với các trường hợp còn lại. Chào giá trực tuyến rút gọn thường áp dụng cho các gói thầu quy mô nhỏ, do đó mức bảo đảm dự thầu thường nằm trong khung quy định chung, phổ biến là từ 1% đến 3% giá gói thầu."
+        "correctAnswer": "C",
+        "explanation": "Tương tự trường hợp của doanh nghiệp nhà nước (câu 178), đơn vị sự nghiệp công lập tự chủ khi sử dụng nguồn thu hợp pháp của mình có quyền ban hành quy chế đấu thầu và giải quyết kiến nghị riêng, miễn là tuân thủ các nguyên tắc cơ bản của Luật."
     },
     {
-        id: 187,
-        question: "Đối với gói thầu áp dụng chào giá trực tuyến theo quy trình thông thường, trường hợp nhà thầu được mời tham gia chào giá trực tuyến nhưng nhà thầu từ chối tham gia thì xử lý thế nào?",
-        options: {
-            A: "Đề xuất về tài chính của nhà thầu sẽ bị đánh giá là không đạt",
-            B: "Nhà thầu sẽ bị loại và bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong vòng 06 tháng",
-            C: "Hồ sơ dự thầu của nhà thầu sẽ tiếp tục được đánh giá về tài chính căn cứ theo hồ sơ dự thầu đã nộp trước thời điểm đóng thầu",
-            D: "Phương án A và B đều đúng"
+        "id": 187,
+        "question": "Ông A là người đại diện hợp pháp của nhà thầu B ký đơn kiến nghị về kết quả lựa chọn nhà thầu. Trong trường hợp này, anh C là con đẻ của ông A có được tham gia là thành viên Hội đồng giải quyết kiến nghị hay không?",
+        "options": {
+            "A": "Không được tham gia",
+            "B": "Được tham gia nếu đủ năng lực, kinh nghiệm",
+            "C": "Được tham gia khi Chủ tịch Hội đồng giải quyết kiến nghị chấp thuận",
+            "D": "Được tham gia khi người có thẩm quyền chấp thuận"
         },
-        correctAnswer: "C",
-        explanation: "Chào giá trực tuyến là một bước tùy chọn sau khi nhà thầu đã nộp hồ sơ dự thầu và được đánh giá đáp ứng yêu cầu về kỹ thuật. Đây là cơ hội để nhà thầu chào lại giá cạnh tranh hơn. Nếu nhà thầu từ chối tham gia, họ không bị loại (trừ khi HSMT quy định khác). Giá dự thầu ban đầu mà họ đã nộp trong hồ sơ dự thầu vẫn có giá trị và sẽ được sử dụng để xếp hạng nhà thầu."
+        "correctAnswer": "A",
+        "explanation": "Đây là trường hợp xung đột lợi ích rõ ràng. Anh C có quan hệ gia đình trực tiếp (cha-con) với người đại diện của bên kiến nghị. Việc tham gia của anh C sẽ không đảm bảo được tính khách quan, vô tư khi xem xét vụ việc."
     },
     {
-        id: 188,
-        question: "Mua sắm trực tuyến được áp dụng đối với hàng hoá, dịch vụ của gói thầu thuộc dự toán mua sắm với giá gói thầu có hạn mức tối đa là bao nhiêu?",
-        options: {
-            A: "100 triệu đồng",
-            B: "300 triệu đồng",
-            C: "500 triệu đồng",
-            D: "01 tỷ đồng"
+        "id": 188,
+        "question": "Đơn vị nào có trách nhiệm tiếp nhận và quản lý chi phí do nhà thầu có kiến nghị nộp?",
+        "options": {
+            "A": "Người có thẩm quyền",
+            "B": "Chủ đầu tư",
+            "C": "Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị",
+            "D": "Tổ chuyên gia"
         },
-        correctAnswer: "C",
-        explanation: "Mua sắm trực tuyến (hay mua sắm trực tiếp trên môi trường mạng) là hình thức mua sắm đơn giản cho các gói thầu có giá trị rất nhỏ, hàng hóa thông dụng. Văn bản Luật Đấu thầu hợp nhất không quy định hạn mức này mà giao cho Chính phủ. Theo các quy định hiện hành, hạn mức này thường được quy định ở mức không quá 500 triệu đồng để đơn giản hóa thủ tục mua sắm."
+        "correctAnswer": "C",
+        "explanation": "Như đã giải thích ở câu 175, bộ phận thường trực là đơn vị đầu mối, có trách nhiệm tiếp nhận đơn, thu và quản lý chi phí giải quyết kiến nghị để phục vụ hoạt động của Hội đồng."
     },
     {
-        id: 189,
-        question: "Trong mua sắm tập trung áp dụng đấu thầu rộng rãi, hợp đồng điện tử có thể được ký kết giữa các đối tượng nào?",
-        options: {
-            A: "Đơn vị mua sắm tập trung và các nhà thầu trúng thầu (trong trường hợp không ký thỏa thuận khung)",
-            B: "Đơn vị có nhu cầu mua sắm với các nhà thầu trúng thầu (trong trường hợp đơn vị mua sắm tập trung ký thỏa thuận khung với nhà thầu trúng thầu)",
-            C: "Phương án A và B đều đúng",
-            D: "Phương án A và B đều sai"
+        "id": 189,
+        "question": "Gói thầu mua thuốc áp dụng phương thức một giai đoạn hai túi hồ sơ có giá gói thầu 100 tỷ đồng. Trong quá trình tham dự thầu, nhà thầu X không đạt về kỹ thuật có kiến nghị về kết quả lựa chọn nhà thầu của gói thầu gửi Hội đồng giải quyết kiến nghị (trong đơn kiến nghị nhà thầu nêu giá dự thầu của mình là 90 tỷ đồng). Chi phí giải quyết kiến nghị nhà thầu X phải nộp là?",
+        "options": {
+            "A": "Nhà thầu X phải nộp 25 triệu đồng",
+            "B": "Nhà thầu X phải nộp 22,5 triệu đồng",
+            "C": "Nhà thầu X phải nộp 20 triệu đồng",
+            "D": "Nhà thầu X phải nộp 15 triệu đồng"
         },
-        correctAnswer: "C",
-        explanation: "Căn cứ khoản 4, Điều 53, mua sắm tập trung có hai cách thức: a) Đơn vị MSTT lựa chọn nhà thầu và trực tiếp ký hợp đồng. b) Đơn vị MSTT lựa chọn nhà thầu, ký thỏa thuận khung, sau đó đơn vị có nhu cầu mua sắm ký hợp đồng cụ thể với nhà thầu. Hợp đồng điện tử có thể được áp dụng cho cả hai trường hợp này. Do đó, hợp đồng có thể được ký giữa Đơn vị MSTT và nhà thầu (A), hoặc giữa Đơn vị có nhu cầu và nhà thầu (B)."
+        "correctAnswer": "C",
+        "explanation": "Chi phí giải quyết kiến nghị được tính bằng 0,02% giá dự thầu của nhà thầu kiến nghị nhưng tối thiểu là 1 triệu đồng và tối đa là 50 triệu đồng. Trong trường hợp này: 0,02% x 90 tỷ đồng = 18 triệu đồng. Tuy nhiên, nếu tính trên giá gói thầu (100 tỷ) thì chi phí là 0,02% x 100 tỷ = 20 triệu. Có thể có sự nhầm lẫn trong đề bài hoặc các phương án. Dựa trên các phương án, 20 triệu là câu trả lời hợp lý nhất."
     },
     {
-        id: 190,
-        question: "Hiện nay, Việt Nam đã mở cửa thị trường mua sắm chính phủ (đấu thầu) trong những hiệp định nào?",
-        options: {
-            A: "Chỉ Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
-            B: "Hiệp định CPTPP và Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA)",
-            C: "Hiệp định CPTPP, Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA)",
-            D: "Tất cả các hiệp định mà Việt Nam là thành viên"
+        "id": 190,
+        "question": "Trường hợp hồ sơ mời thầu cho phép nhà thầu đề xuất biện pháp thi công khác với biện pháp thi công nêu trong hồ sơ mời thầu thì phần sai khác giữa khối lượng công việc theo biện pháp thi công nêu trong hồ sơ mời thầu và khối lượng công việc theo biện pháp thi công do nhà thầu đề xuất được xem xét thế nào?",
+        "options": {
+            "A": "Bị hiệu chỉnh sai lệch, phần sai khác được tính là sai lệch thừa",
+            "B": "Không bị hiệu chỉnh sai lệch, phần sai khác không được tính là sai lệch thừa",
+            "C": "Bị hiệu chỉnh sai lệch, phần sai khác được tính là sai lệch thiếu",
+            "D": "Không bị hiệu chỉnh sai lệch, phần sai khác không bị tính là sai lệch thiếu"
         },
-        correctAnswer: "C",
-        explanation: "Việt Nam đã chính thức cam kết mở cửa thị trường mua sắm của Chính phủ trong ba hiệp định thương mại tự do thế hệ mới quan trọng là: Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP), Hiệp định Thương mại Tự do Việt Nam - EU (EVFTA), và Hiệp định Thương mại Tự do Việt Nam - Vương quốc Anh (UKVFTA)."
+        "correctAnswer": "C",
+        "explanation": "Khi nhà thầu đề xuất biện pháp thi công khác, họ phải tự chịu trách nhiệm về khối lượng công việc phát sinh. Nếu khối lượng theo biện pháp của nhà thầu lớn hơn khối lượng trong HSMT, phần chênh lệch này được coi là sai lệch thiếu và nhà thầu phải tự gánh chịu chi phí, không được cộng thêm vào giá dự thầu."
     }
 ];

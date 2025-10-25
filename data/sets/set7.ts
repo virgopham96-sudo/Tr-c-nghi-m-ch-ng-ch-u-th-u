@@ -2,123 +2,123 @@ import { Question } from '../../types';
 
 export const set7: Question[] = [
     {
-        id: 61,
-        question: "Khi đánh giá về năng lực, kinh nghiệm đối với gói thầu mua sắm hàng hóa, nhà thầu được đánh giá là đạt khi nào?",
-        options: {
-            A: "Nhà thầu được đánh giá đạt tất cả tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
-            B: "Nhà thầu đáp ứng một trong các tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
-            C: "Nhà thầu đáp ứng hai phần ba các tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
-            D: "Nhà thầu đáp ứng các tiêu chuẩn đánh giá về năng lực và kinh nghiệm quan trọng trong hồ sơ mời thầu"
+        "id": 61,
+        "question": "Nội dung nào sau đây không thuộc hồ sơ mời thầu?",
+        "options": {
+            "A": "Chỉ dẫn nhà thầu, tùy chọn mua thêm",
+            "B": "Bảng dữ liệu đấu thầu",
+            "C": "Phạm vi cung cấp, yêu cầu về kỹ thuật",
+            "D": "Biên bản hoàn thiện hợp đồng"
         },
-        correctAnswer: "A",
-        explanation: "Phương pháp đánh giá năng lực và kinh nghiệm là \"đạt/không đạt\" (theo khoản 4, Điều 58). Nhà thầu phải đáp ứng (\"đạt\") TẤT CẢ các yêu cầu tối thiểu về năng lực và kinh nghiệm được nêu trong hồ sơ mời thầu. Nếu không đáp ứng dù chỉ một tiêu chí, nhà thầu sẽ bị đánh giá là \"không đạt\" và bị loại."
+        "correctAnswer": "D",
+        "explanation": "Hồ sơ mời thầu là tài liệu do bên mời thầu phát hành trước khi nhà thầu nộp hồ sơ dự thầu. Biên bản hoàn thiện hợp đồng là tài liệu được lập sau khi đã có kết quả lựa chọn nhà thầu và trong quá trình thương thảo, hoàn thiện hợp đồng với nhà thầu trúng thầu. Do đó, nó không thể là một phần của hồ sơ mời thầu."
     },
     {
-        id: 62,
-        question: "Việc đánh giá về nhân sự chủ chốt và thiết bị chủ yếu đối với gói thầu xây lắp tổ chức đấu thầu rộng rãi được thực hiện như thế nào?",
-        options: {
-            A: "Đánh giá tất cả các nhà thầu tham dự thầu",
-            B: "Đánh giá đối với nhà thầu xếp thứ nhất",
-            C: "Đánh giá đối với tất cả các nhà thầu được đánh giá đạt về kỹ thuật",
-            D: "Không đánh giá về nhân sự chủ chốt và thiết bị chủ yếu"
+        "id": 62,
+        "question": "Trường hợp nào hồ sơ mời thầu được đưa ra yêu cầu về giấy phép bán hàng?",
+        "options": {
+            "A": "Hàng hóa thông thường, có sẵn trên thị trường",
+            "B": "Hàng hóa nhập khẩu",
+            "C": "Hàng hóa đặc thù, phức tạp cần gắn với trách nhiệm của nhà sản xuất",
+            "D": "Hàng hóa có giá trị lớn"
         },
-        correctAnswer: "C",
-        explanation: "Theo quy trình đánh giá hồ sơ dự thầu, việc đánh giá chi tiết (bao gồm nhân sự, thiết bị) được thực hiện sau khi nhà thầu đã vượt qua bước đánh giá sơ bộ về tính hợp lệ, năng lực và kinh nghiệm. Do đó, tất cả các nhà thầu được xem xét là đáp ứng cơ bản và được đưa vào vòng đánh giá kỹ thuật chi tiết sẽ được đánh giá về nhân sự và thiết bị."
+        "correctAnswer": "C",
+        "explanation": "Giấy phép bán hàng của nhà sản xuất là một yêu cầu nhằm đảm bảo hàng hóa là chính hãng, được ủy quyền phân phối, đặc biệt quan trọng đối với các loại hàng hóa đặc thù, phức tạp, có yêu cầu cao về kỹ thuật, bảo hành, bảo trì (ví dụ: thiết bị y tế, thiết bị công nghệ cao...)."
     },
     {
-        id: 63,
-        question: "Đối với gói thầu mua sắm hàng hóa áp dụng hình thức chào hàng cạnh tranh, trường hợp hồ sơ mời thầu không yêu cầu về năng lực, kinh nghiệm thì việc đánh giá được thực hiện như thế nào?",
-        options: {
-            A: "Không phải đánh giá về năng lực, kinh nghiệm nhưng nhà thầu phải cam kết đáp ứng năng lực, kinh nghiệm trong đơn dự thầu",
-            B: "Trường hợp nhà thầu đính kèm tài liệu về năng lực, kinh nghiệm thì chủ đầu tư bắt buộc phải đánh giá về năng lực, kinh nghiệm của nhà thầu",
-            C: "Bắt buộc phải đánh giá năng lực, kinh nghiệm của nhà thầu",
-            D: "Phương án A và B đều đúng"
+        "id": 63,
+        "question": "Nội dung nào sau đây nếu đưa vào E-HSMT của gói thầu mua sắm hàng hóa áp dụng hình thức đấu thầu rộng rãi qua mạng có thể bị đánh giá là hạn chế cạnh tranh?",
+        "options": {
+            "A": "Yêu cầu nhà thầu cung cấp tài liệu chứng minh hợp đồng tương tự",
+            "B": "Yêu cầu nhà thầu phải là chủ sở hữu thiết bị chào thầu",
+            "C": "Yêu cầu nhà thầu có năng lực tài chính lành mạnh",
+            "D": "Yêu cầu nhà thầu phải hoàn thành nghĩa vụ thuế"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ khoản 2, Điều 24, \"Đối với gói thầu áp dụng chào hàng cạnh tranh, hồ sơ mời thầu không bắt buộc quy định tiêu chuẩn đánh giá về năng lực, kinh nghiệm của nhà thầu\". Khi HSMT không yêu cầu thì sẽ không tiến hành đánh giá. Tuy nhiên, để đảm bảo khả năng thực hiện hợp đồng, nhà thầu vẫn phải có cam kết về việc sẽ đáp ứng đủ năng lực khi thực hiện."
+        "correctAnswer": "B",
+        "explanation": "Yêu cầu nhà thầu phải là 'chủ sở hữu' thiết bị là một điều kiện gây hạn chế cạnh tranh một cách không cần thiết. Nhà thầu có thể đi thuê hoặc có thỏa thuận sử dụng thiết bị của bên khác, miễn là họ chứng minh được khả năng huy động thiết bị đó để thực hiện gói thầu. Các yêu cầu A, C, D là các yêu cầu hợp lý về năng lực, kinh nghiệm."
     },
     {
-        id: 64,
-        question: "Đối với gói thầu xây lắp tổ chức đấu thầu rộng rãi, hồ sơ mời thầu có bắt buộc quy định việc đánh giá đối với yêu cầu về nguồn lực tài chính phải bằng cam kết tín dụng không?",
-        options: {
-            A: "Bắt buộc quy định trong hồ sơ mời thầu do đây là tiêu chí chứng minh nguồn lực tài chính",
-            B: "Không bắt buộc quy định, hồ sơ mời thầu có thể đưa ra yêu cầu về cam kết cung cấp tín dụng hoặc không yêu cầu về cam kết cung cấp tín dụng",
-            C: "Bắt buộc quy định trong hồ sơ mời thầu đối với gói thầu xây lắp áp dụng phương thức một giai đoạn hai túi hồ sơ",
-            D: "Bắt buộc quy định trong hồ sơ mời thầu đối với gói thầu có giá trên 20 tỷ đồng"
+        "id": 64,
+        "question": "Gói thầu mua sắm máy điều hòa không khí của Sở Tài chính tỉnh X được tổ chức đấu thầu tập trung theo hình thức đấu thầu rộng rãi qua mạng thì E-HSMT có được nêu xuất xứ hàng hóa không?",
+        "options": {
+            "A": "Được nêu xuất xứ cụ thể của một nước bất kỳ",
+            "B": "Được nêu xuất xứ theo nhóm nước, vùng lãnh thổ",
+            "C": "Được nêu xuất xứ cụ thể của một nước bất kỳ nhưng phải kèm theo cụm từ 'hoặc tương đương'",
+            "D": "Không được nêu xuất xứ theo nhóm nước, vùng lãnh thổ"
         },
-        correctAnswer: "B",
-        explanation: "Luật Đấu thầu yêu cầu nhà thầu phải chứng minh khả năng huy động vốn để thực hiện gói thầu. Việc chứng minh này có thể bằng nhiều hình thức như: báo cáo tài chính thể hiện vốn chủ sở hữu, hạn mức tín dụng còn lại, hoặc cam kết cung cấp tín dụng của tổ chức tín dụng. Việc bắt buộc chỉ một hình thức là cam kết tín dụng sẽ gây hạn chế cạnh tranh, không phù hợp với quy định tại khoản 3, Điều 44. Do đó, bên mời thầu có thể yêu cầu nhưng không bắt buộc."
+        "correctAnswer": "D",
+        "explanation": "Căn cứ pháp lý: Điều 16, khoản 6, điểm i của Luật Đấu thầu. Việc 'Nêu yêu cầu cụ thể về nhãn hiệu, xuất xứ hàng hóa' trong hồ sơ mời thầu là một hành vi bị cấm vì gây hạn chế cạnh tranh, trừ một số trường hợp đặc biệt được luật cho phép. Gói thầu mua sắm máy điều hòa thông thường không thuộc trường hợp đặc biệt đó."
     },
     {
-        id: 65,
-        question: "Đối với gói thầu chia thành 2 phần (phần 1: mua sắm máy tính; phần 2: mua sắm bàn ghế cho cán bộ công chức), áp dụng phương pháp giá thấp nhất. Máy tính và bàn ghế là hàng hóa thuộc danh mục do Chính phủ, Thủ tướng Chính phủ quy định tiêu chuẩn, định mức, việc xét duyệt trúng thầu trong trường hợp này được thực hiện như thế nào?",
-        options: {
-            A: "Giá đề nghị trúng thầu của từng hàng hóa đảm bảo không vượt mức giá của từng hàng hóa đó theo tiêu chuẩn, định mức do cấp có thẩm quyền ban hành và tổng giá đề nghị trúng thầu của gói thầu là thấp nhất, không vượt giá gói thầu được duyệt",
-            B: "Tổng giá đề nghị trúng thầu của gói thầu là thấp nhất và không vượt giá gói thầu được duyệt mà không so sánh với ước tính chi phí của từng phần, không cần so sánh với tiêu chuẩn, định mức từng mặt hàng",
-            C: "Giá từng phần thấp nhất, tổng giá đề nghị trúng thầu không vượt giá gói thầu được duyệt, không cần so sánh với tiêu chuẩn, định mức từng mặt hàng",
-            D: "Tất cả phương án trên đều sai"
+        "id": 65,
+        "question": "Khi tham dự thầu đấu thầu qua mạng, đại diện hợp pháp của nhà thầu có được ủy quyền cho Giám đốc chi nhánh để ký đơn dự thầu hay không?",
+        "options": {
+            "A": "Được ủy quyền nhưng phải bằng văn bản",
+            "B": "Không được ủy quyền",
+            "C": "Được ủy quyền nhưng phải tạo tài khoản nghiệp vụ cho Giám đốc chi nhánh khi tham dự thầu trên Hệ thống mạng đấu thầu quốc gia",
+            "D": "Các phương án trên đều sai"
         },
-        correctAnswer: "A",
-        explanation: "Câu hỏi đề cập đến hàng hóa thuộc danh mục có \"tiêu chuẩn, định mức\" do Chính phủ, Thủ tướng Chính phủ ban hành. Trong trường hợp này, việc xét thầu phải tuân thủ hai nguyên tắc đồng thời: 1) Giá của từng mặt hàng không được vượt định mức đã ban hành; 2) Tổng giá đề nghị trúng thầu của nhà thầu phải là thấp nhất (theo phương pháp giá thấp nhất) và không vượt giá gói thầu đã duyệt. Phương án A thể hiện đầy đủ cả hai yêu cầu này."
+        "correctAnswer": "A",
+        "explanation": "Theo quy định của pháp luật dân sự và doanh nghiệp, người đại diện theo pháp luật có quyền ủy quyền cho người khác (như Giám đốc chi nhánh) thực hiện các công việc nhân danh công ty. Việc ủy quyền này phải được lập thành văn bản (giấy ủy quyền) hợp lệ."
     },
     {
-        id: 66,
-        question: "Đối với gói thầu xây lắp áp dụng đấu thầu rộng rãi qua mạng, trường hợp E-HSMT quy định nhà thầu phải cung cấp đầy đủ các tài liệu: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật để chứng minh khả năng huy động thiết bị thi công chủ yếu thì nhà thầu phải cung cấp những tài liệu nào?",
-        options: {
-            A: "Phải cung cấp đầy đủ theo yêu cầu của E-HSMT gồm: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật",
-            B: "Chỉ cần cung cấp một trong các tài liệu: giấy đăng ký thiết bị, hợp đồng, hóa đơn mua hàng, giấy đăng kiểm, kiểm định theo quy định của pháp luật",
-            C: "Phải bắt buộc cung cấp giấy đăng ký thiết bị kèm theo giấy đăng kiểm, kiểm định theo quy định của pháp luật",
-            D: "Phải bắt buộc cung cấp hợp đồng, hóa đơn mua hàng"
+        "id": 66,
+        "question": "Đối với đấu thầu rộng rãi qua mạng, trường hợp gói thầu có giá trị bảo đảm dự thầu nhỏ hơn 50 triệu đồng, thời gian có hiệu lực của thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh được quy định tại đâu?",
+        "options": {
+            "A": "Trong E-HSMT",
+            "B": "Trong thông báo mời đối chiếu tài liệu",
+            "C": "Trong thông báo mời thương thảo hợp đồng",
+            "D": "Các phương án trên đều sai"
         },
-        correctAnswer: "B",
-        explanation: "Mục đích của việc yêu cầu tài liệu là để chứng minh nhà thầu có khả năng huy động thiết bị, chứ không phải để gây khó khăn. Việc yêu cầu nhà thầu phải cung cấp tất cả các loại giấy tờ cho cùng một thiết bị là một yêu cầu quá mức, có thể gây hạn chế cạnh tranh (vi phạm khoản 3, Điều 44). Theo nguyên tắc đấu thầu, bất kỳ tài liệu hợp pháp nào chứng minh được khả năng huy động (ví dụ: giấy tờ sở hữu, hợp đồng thuê, hóa đơn mua...) đều có thể được chấp nhận. Do đó, việc cung cấp một trong các tài liệu đó là đủ để chứng minh."
+        "correctAnswer": "A",
+        "explanation": "Tất cả các yêu cầu đối với gói thầu, bao gồm cả yêu cầu về thời gian hiệu lực của bảo đảm dự thầu, đều phải được quy định một cách rõ ràng và thống nhất trong Hồ sơ mời thầu điện tử (E-HSMT) để nhà thầu có căn cứ chuẩn bị hồ sơ dự thầu."
     },
     {
-        id: 67,
-        question: "Danh sách xếp hạng nhà thầu có phải thẩm định trước khi phê duyệt hay không?",
-        options: {
-            A: "Bắt buộc",
-            B: "Không bắt buộc",
-            C: "Do chủ đầu tư quyết định",
-            D: "Do người có thẩm quyền quyết định"
+        "id": 67,
+        "question": "Đối với đấu thầu rộng rãi qua mạng, trường hợp gói thầu có giá trị bảo đảm dự thầu nhỏ hơn 50 triệu đồng, nhà thầu thực hiện nộp thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh thì thời gian có hiệu lực của thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh được tính từ ngày nào?",
+        "options": {
+            "A": "Ngày có thời điểm đóng thầu",
+            "B": "Ngày phê duyệt kết quả lựa chọn nhà thầu",
+            "C": "Ngày thực hiện đối chiếu tài liệu",
+            "D": "Các phương án trên đều sai"
         },
-        correctAnswer: "A",
-        explanation: "Căn cứ điểm đ, khoản 1, Điều 43, quy trình lựa chọn nhà thầu bao gồm bước \"Trình, thẩm định, phê duyệt, công khai kết quả lựa chọn nhà thầu...\". Danh sách xếp hạng nhà thầu là cơ sở trực tiếp để xác định kết quả lựa chọn nhà thầu. Do đó, toàn bộ kết quả đánh giá hồ sơ dự thầu, bao gồm danh sách xếp hạng, phải được thẩm định trước khi người có thẩm quyền phê duyệt."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 14, khoản 5 của Luật Đấu thầu. Hiệu lực của bảo đảm dự thầu phải bắt đầu từ thời điểm đóng thầu, vì đó là lúc nhà thầu chính thức bị ràng buộc bởi hồ sơ dự thầu của mình. Thời gian có hiệu lực của bảo đảm dự thầu được tính bằng thời gian có hiệu lực của hồ sơ dự thầu cộng thêm 30 ngày."
     },
     {
-        id: 68,
-        question: "Trường hợp tại thời điểm đóng thầu đối với gói thầu áp dụng hình thức đấu thầu rộng rãi (không áp dụng sơ tuyển, mời quan tâm, không cấp bách cần thực hiện ngay do yêu cầu về tiến độ) mà chỉ có 01 nhà thầu nộp hồ sơ dự thầu thì xử lý như thế nào?",
-        options: {
-            A: "Mở thầu ngay để tiến hành đánh giá",
-            B: "Gia hạn thời điểm đóng thầu tối thiểu 10 ngày",
-            C: "Báo cáo người có thẩm quyền xem xét, quyết định",
-            D: "Phương án A và C đều đúng"
+        "id": 68,
+        "question": "Đối với đấu thầu qua mạng, trường hợp E-HSMT có yêu cầu cung cấp hàng mẫu, nhà thầu có thể nộp bổ sung hàng mẫu theo phương án nào sau đây?",
+        "options": {
+            "A": "Trong thời hạn 07 ngày làm việc sau thời điểm đóng thầu",
+            "B": "Trong thời hạn 07 ngày làm việc sau thời điểm mở thầu",
+            "C": "Trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu",
+            "D": "Không được nộp bổ sung hàng mẫu sau thời điểm đóng thầu"
         },
-        correctAnswer: "A",
-        explanation: "Luật Đấu thầu hiện hành không quy định số lượng nhà thầu tối thiểu phải nộp hồ sơ dự thầu để tiến hành mở thầu. Miễn là gói thầu đã được thông báo mời thầu rộng rãi theo đúng quy định, việc chỉ có một nhà thầu tham gia không phải là lý do để hủy thầu hay gia hạn. Bên mời thầu sẽ tiến hành mở thầu theo quy định và đánh giá hồ sơ dự thầu của nhà thầu duy nhất đó theo các tiêu chuẩn của hồ sơ mời thầu."
+        "correctAnswer": "C",
+        "explanation": "Đây là quy định cụ thể trong các văn bản hướng dẫn về đấu thầu qua mạng. Do hàng mẫu là vật chất không thể nộp qua mạng được, nhà thầu sẽ nộp E-HSDT trên mạng và nộp hàng mẫu trực tiếp cho bên mời thầu trong một khoảng thời gian nhất định sau thời điểm đóng thầu."
     },
     {
-        id: 69,
-        question: "Đối với gói thầu xây lắp, trường hợp công ty mẹ tham dự thầu và huy động công ty con tham gia thực hiện gói thầu thì việc đánh giá kinh nghiệm thực hiện hợp đồng tương tự được thực hiện như thế nào?",
-        options: {
-            A: "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ, không đánh giá kinh nghiệm của công ty con",
-            B: "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự căn cứ vào giá trị, khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
-            C: "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty con, không đánh giá kinh nghiệm của công ty mẹ, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
-            D: "Đánh giá theo tổng kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ và công ty con, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu"
+        "id": 69,
+        "question": "Đối với gói thầu tư vấn tổ chức đấu thầu rộng rãi qua mạng, sử dụng thang điểm 1.000 để xây dựng tiêu chuẩn đánh giá về kỹ thuật, E-HSMT quy định số điểm đối với tiêu chí đánh giá về uy tín của nhà thầu thông qua việc tham dự thầu, kết quả thực hiện hợp đồng của nhà thầu là bao nhiêu?",
+        "options": {
+            "A": "150 điểm",
+            "B": "100 điểm",
+            "C": "50 điểm",
+            "D": "Từ 0 đến 49 điểm"
         },
-        correctAnswer: "B",
-        explanation: "Theo nguyên tắc đánh giá năng lực, kinh nghiệm, việc đánh giá phải dựa trên phạm vi công việc mà mỗi bên thực sự đảm nhận. Khi công ty mẹ (nhà thầu chính) huy động công ty con (nhà thầu phụ hoặc thành viên liên danh), năng lực và kinh nghiệm của mỗi bên sẽ được xem xét tương ứng với phần công việc mà họ được phân công thực hiện. Không thể cộng gộp kinh nghiệm của cả hai một cách cơ học mà không xem xét đến sự phân công công việc cụ thể."
+        "correctAnswer": "B",
+        "explanation": "Trong thang điểm 1000, uy tín của nhà thầu thông qua việc tham dự thầu và kết quả thực hiện hợp đồng thường được quy định một tỷ trọng nhất định, phổ biến là 10% (tương đương 100 điểm). Đây là một tiêu chí để khuyến khích các nhà thầu thực hiện tốt các hợp đồng đã trúng thầu."
     },
     {
-        id: 70,
-        question: "Kinh nghiệm thực hiện hợp đồng xây lắp tương tự gói thầu chi bao gồm 01 công trình độc lập được xét trên cơ sở nào sau đây?",
-        options: {
-            A: "Xét theo công trình nhà thầu đã hoàn thành toàn bộ hoặc hoàn thành phần lớn có loại kết cấu, cấp công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
-            B: "Chỉ xét theo công trình nhà thầu đã hoàn thành toàn bộ, đã được nghiệm thu, cùng loại công trình và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
-            C: "Xét theo các hạng mục công việc có tính chất tương tự nhà thầu đã hoàn thành phần lớn",
-            D: "Tất cả phương án trên đều đúng"
+        "id": 70,
+        "question": "Đối với gói thầu thuê hệ thống máy chủ áp dụng đấu thầu rộng rãi qua mạng, thời gian thực hiện gói thầu là 5 năm (có tính chất công việc lặp lại theo chu kỳ qua các năm), giá gói thầu là 5 tỷ đồng, quy mô hợp đồng tương tự tối thiểu được quy định trong E-HSMT là bao nhiêu thì phù hợp quy định?",
+        "options": {
+            "A": "2,5 tỷ đồng",
+            "B": "2 tỷ đồng",
+            "C": "1,5 tỷ đồng",
+            "D": "300 triệu đồng"
         },
-        correctAnswer: "B",
-        explanation: "Để được coi là hợp đồng tương tự, hợp đồng đó phải có các yếu tố cốt lõi tương đồng với gói thầu đang xét, bao gồm: tính chất công việc (cùng loại công trình), quy mô (giá trị, cấp công trình). Việc công trình đã được hoàn thành toàn bộ và nghiệm thu là bằng chứng xác thực nhất về năng lực và kinh nghiệm của nhà thầu. Các phương án khác không đầy đủ hoặc không chính xác."
+        "correctAnswer": "A",
+        "explanation": "Thông thường, yêu cầu về giá trị của hợp đồng tương tự được tính bằng một tỷ lệ phần trăm nhất định của giá gói thầu đang xét. Đối với các gói thầu có tính chất lặp lại theo chu kỳ, giá trị yêu cầu thường được tính trên cơ sở giá trị của một chu kỳ (ví dụ 1 năm). Tuy nhiên, một cách tiếp cận phổ biến khác là yêu cầu hợp đồng tương tự có giá trị tối thiểu bằng 50% giá gói thầu đang xét (5 tỷ * 50% = 2,5 tỷ)."
     }
 ];

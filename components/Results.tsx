@@ -6,10 +6,11 @@ interface ResultsProps {
     questions: Question[];
     userAnswers: UserAnswers;
     onRestart: () => void;
-    setNumber: number;
+    setTitle: string;
+    isPracticeMode: boolean;
 }
 
-const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, setNumber }) => {
+const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, setTitle, isPracticeMode }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
     const score = questions.reduce((acc, q) => {
@@ -82,13 +83,13 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
     return (
         <div className="p-4 md:p-8 max-w-7xl mx-auto">
             <div className="bg-white rounded-lg p-6 mb-8 text-center shadow-lg border border-gray-200">
-                <h2 className="text-2xl font-bold mb-2 text-gray-900">Kết quả Bộ đề {setNumber}</h2>
+                <h2 className="text-2xl font-bold mb-2 text-gray-900">Kết quả {setTitle}</h2>
                 <p className="text-4xl font-bold text-gray-800">{score} / {questions.length}</p>
                  <button
                     onClick={onRestart}
                     className="mt-6 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-6 rounded-lg transition-colors"
                 >
-                    Chọn bộ đề khác
+                    Về màn hình chính
                 </button>
             </div>
 

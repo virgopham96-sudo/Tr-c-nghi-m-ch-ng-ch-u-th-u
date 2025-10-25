@@ -1,58 +1,140 @@
 import React, { useState, useMemo } from 'react';
+import ModeSelector from './components/ModeSelector';
 import SetSelector from './components/SetSelector';
 import Quiz from './components/Quiz';
 import Results from './components/Results';
+import PracticeAll from './components/PracticeAll';
 import { allSetsData } from './data/sets';
 import { Question, UserAnswers } from './types';
 
+// Fisher-Yates shuffle algorithm
+const shuffleArray = (array: Question[]): Question[] => {
+    const newArray = [...array];
+    for (let i = newArray.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+    return newArray;
+};
+
+type View = 'mode-select' | 'set-select' | 'quiz' | 'results' | 'practice-all';
+
 function App() {
+    const [view, setView] = useState<View>('mode-select');
     const [currentSetIndex, setCurrentSetIndex] = useState<number | null>(null);
     const [submittedAnswers, setSubmittedAnswers] = useState<UserAnswers | null>(null);
+    const [isPracticeMode, setIsPracticeMode] = useState<boolean>(false);
 
     const totalSets = allSetsData.length;
+    const allQuestions = useMemo(() => allSetsData.flat(), []);
+
+    const handleSelectPracticeAll = () => {
+        setView('practice-all');
+    };
+
+    const handleSelectTestBySet = () => {
+        setIsPracticeMode(false);
+        setView('set-select');
+    };
+
+    const handleSelectTestRandom = () => {
+        setIsPracticeMode(false);
+        setCurrentSetIndex(-1); // Random mode
+        setSubmittedAnswers(null);
+        setView('quiz');
+    };
 
     const handleSelectSet = (setIndex: number) => {
         setCurrentSetIndex(setIndex);
         setSubmittedAnswers(null);
+        setView('quiz');
     };
 
     const handleSubmitQuiz = (answers: UserAnswers) => {
         setSubmittedAnswers(answers);
+        setView('results');
     };
 
-    const handleGoBackToSelector = () => {
+    const handleGoBackToMainMenu = () => {
+        setView('mode-select');
         setCurrentSetIndex(null);
         setSubmittedAnswers(null);
+        setIsPracticeMode(false);
     };
 
     const currentQuestions: Question[] = useMemo(() => {
         if (currentSetIndex === null) return [];
+        
+        if (currentSetIndex === -1) { // Random quiz mode
+            const shuffled = shuffleArray(allQuestions);
+            return shuffled.slice(0, 70);
+        }
+
         return allSetsData[currentSetIndex] || [];
-    }, [currentSetIndex]);
+    }, [currentSetIndex, allQuestions]);
+
+    const quizTitle = useMemo(() => {
+        const mode = isPracticeMode ? 'Luyện tập' : 'Thi';
+        if (currentSetIndex === null) return '';
+        if (currentSetIndex === -1) return `${mode} ngẫu nhiên`;
+        return `${mode} bộ đề ${currentSetIndex + 1}`;
+    }, [currentSetIndex, isPracticeMode]);
 
 
     const renderContent = () => {
-        if (submittedAnswers && currentSetIndex !== null) {
-            return (
-                <Results
-                    questions={currentQuestions}
-                    userAnswers={submittedAnswers}
-                    onRestart={handleGoBackToSelector}
-                    setNumber={currentSetIndex + 1}
-                />
-            );
+        switch (view) {
+            case 'practice-all':
+                return (
+                    <PracticeAll
+                        questions={allQuestions}
+                        onBack={handleGoBackToMainMenu}
+                    />
+                );
+            case 'quiz':
+                return (
+                    <Quiz
+                        questions={currentQuestions}
+                        onSubmit={handleSubmitQuiz}
+                        onBack={() => {
+                            setSubmittedAnswers(null);
+                            if (currentSetIndex !== -1) {
+                                setView('set-select');
+                            } else {
+                                handleGoBackToMainMenu();
+                            }
+                        }}
+                        setTitle={quizTitle}
+                        isPracticeMode={isPracticeMode}
+                    />
+                );
+            case 'results':
+                return (
+                    <Results
+                        questions={currentQuestions}
+                        userAnswers={submittedAnswers!}
+                        onRestart={handleGoBackToMainMenu}
+                        setTitle={quizTitle}
+                        isPracticeMode={isPracticeMode}
+                    />
+                );
+            case 'set-select':
+                return (
+                    <SetSelector
+                        totalSets={totalSets}
+                        onSelectSet={handleSelectSet}
+                        onBack={handleGoBackToMainMenu}
+                    />
+                );
+            case 'mode-select':
+            default:
+                return (
+                    <ModeSelector
+                        onSelectPracticeAll={handleSelectPracticeAll}
+                        onSelectTestBySet={handleSelectTestBySet}
+                        onSelectTestRandom={handleSelectTestRandom}
+                    />
+                );
         }
-        if (currentSetIndex !== null) {
-            return (
-                <Quiz
-                    questions={currentQuestions}
-                    onSubmit={handleSubmitQuiz}
-                    onBack={handleGoBackToSelector}
-                    setNumber={currentSetIndex + 1}
-                />
-            );
-        }
-        return <SetSelector totalSets={totalSets} onSelectSet={handleSelectSet} />;
     };
 
     return (

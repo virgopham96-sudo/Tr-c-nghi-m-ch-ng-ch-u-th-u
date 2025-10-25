@@ -6,23 +6,31 @@ interface QuizProps {
     questions: Question[];
     onSubmit: (answers: UserAnswers) => void;
     onBack: () => void;
-    setNumber: number;
+    setTitle: string;
+    isPracticeMode: boolean;
 }
 
-const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setNumber }) => {
+const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPracticeMode }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [selectedAnswers, setSelectedAnswers] = useState<UserAnswers>({});
-    const [timeRemaining, setTimeRemaining] = useState(15 * 60); // 15 minutes in seconds
+    const [timeRemaining, setTimeRemaining] = useState(60 * 60); // 60 minutes in seconds
     const [isFading, setIsFading] = useState(false); // State for fade transition
     const [showHint, setShowHint] = useState(false); // State for hint visibility
     const [showGoToTop, setShowGoToTop] = useState(false);
     const [autoNext, setAutoNext] = useState(false);
+    const [isGridVisible, setIsGridVisible] = useState(false);
 
     // Ref to hold the latest answers to avoid stale closure in setInterval
     const answersRef = useRef(selectedAnswers);
     answersRef.current = selectedAnswers;
+    
+    const toggleGridVisibility = () => {
+        setIsGridVisible(prev => !prev);
+    };
 
     useEffect(() => {
+        if (isPracticeMode) return; // Don't start timer in practice mode
+
         const timerId = setInterval(() => {
             setTimeRemaining(prevTime => {
                 if (prevTime <= 1) {
@@ -35,7 +43,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setNumber }) =
         }, 1000);
 
         return () => clearInterval(timerId); // Cleanup on unmount
-    }, [onSubmit]);
+    }, [onSubmit, isPracticeMode]);
     
     useEffect(() => {
         const handleScroll = () => {
@@ -174,22 +182,32 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setNumber }) =
 
     return (
         <div className="p-4 md:p-8 max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-6 text-gray-900">Bộ đề {setNumber}</h2>
+            <h2 className="text-3xl font-bold text-center mb-6 text-gray-900">{setTitle}</h2>
             
-            {/* Question Navigation Grid */}
-            <div className="mb-6">
-                <div className="flex flex-wrap justify-center gap-1">
-                    {questions.map((_, index) => (
-                        <button
-                            key={index}
-                            onClick={() => handleJumpToQuestion(index)}
-                            className={getQuestionNavClasses(index)}
-                        >
-                            {index + 1}
-                        </button>
-                    ))}
-                </div>
+            <div className="text-center mb-4">
+                <button
+                    onClick={toggleGridVisibility}
+                    className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-lg transition-colors"
+                >
+                    {isGridVisible ? 'Ẩn danh sách câu hỏi' : 'Hiển thị danh sách câu hỏi'}
+                </button>
             </div>
+            
+            {isGridVisible && (
+                 <div className="mb-6 animate-fade-in">
+                    <div className="flex flex-wrap justify-center gap-1">
+                        {questions.map((_, index) => (
+                            <button
+                                key={index}
+                                onClick={() => handleJumpToQuestion(index)}
+                                className={getQuestionNavClasses(index)}
+                            >
+                                {index + 1}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+            )}
 
             <div className="pb-24"> {/* Add padding-bottom to avoid overlap with sticky footer */}
                 {currentQuestion && (
@@ -266,8 +284,17 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setNumber }) =
                         Quay lại
                     </button>
                     <div className="flex flex-col items-center">
-                         <div className={`text-xl font-mono ${timerClasses}`}>{formatTime(timeRemaining)}</div>
-                         <div className="text-sm text-gray-500">Đã trả lời: {answeredCount}/{questions.length}</div>
+                         {!isPracticeMode ? (
+                             <>
+                                <div className={`text-xl font-mono ${timerClasses}`}>{formatTime(timeRemaining)}</div>
+                                <div className="text-sm text-gray-500">Đã trả lời: {answeredCount}/{questions.length}</div>
+                             </>
+                         ) : (
+                             <>
+                                <div className="text-lg font-semibold text-gray-700 h-7 flex items-center">Chế độ Luyện tập</div>
+                                <div className="text-sm text-gray-500">Đã trả lời: {answeredCount}/{questions.length}</div>
+                             </>
+                         )}
                          <div className="mt-1">
                             <label className="flex items-center justify-center text-sm text-gray-600 cursor-pointer select-none">
                                 <input

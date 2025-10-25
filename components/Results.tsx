@@ -8,14 +8,25 @@ interface ResultsProps {
     onRestart: () => void;
     setTitle: string;
     isPracticeMode: boolean;
+    completionTime: number;
 }
 
-const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, setTitle, isPracticeMode }) => {
+const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, setTitle, isPracticeMode, completionTime }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
     const score = questions.reduce((acc, q) => {
         return acc + (userAnswers[q.id] === q.correctAnswer ? 1 : 0);
     }, 0);
+
+    const finalScore = questions.length > 0 ? Math.round((score / questions.length) * 100) : 0;
+
+    const formatTime = (seconds: number) => {
+        if (isNaN(seconds) || seconds < 0) return "00:00";
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = seconds % 60;
+        return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+    };
+
 
     const handleJumpToQuestion = useCallback((index: number) => {
         if (index >= 0 && index < questions.length) {
@@ -82,12 +93,27 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
 
     return (
         <div className="p-4 md:p-8 max-w-7xl mx-auto">
-            <div className="bg-white rounded-lg p-6 mb-8 text-center shadow-lg border border-gray-200">
-                <h2 className="text-2xl font-bold mb-2 text-gray-900">Kết quả {setTitle}</h2>
-                <p className="text-4xl font-bold text-gray-800">{score} / {questions.length}</p>
+            <div className="bg-white rounded-lg p-6 mb-8 text-center shadow-lg border border-gray-200 animate-fade-in">
+                <h2 className="text-2xl font-bold mb-4 text-gray-900">Kết quả {setTitle}</h2>
+                
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+                    <div className="p-4 bg-gray-50 rounded-lg">
+                        <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider">Điểm số</p>
+                        <p className="text-3xl font-bold text-cyan-600">{finalScore} / 100</p>
+                    </div>
+                    <div className="p-4 bg-gray-50 rounded-lg">
+                        <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider">Số câu đúng</p>
+                        <p className="text-3xl font-bold text-gray-800">{score} / {questions.length}</p>
+                    </div>
+                    <div className="p-4 bg-gray-50 rounded-lg">
+                        <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider">Thời gian hoàn thành</p>
+                        <p className="text-3xl font-bold text-gray-800">{formatTime(completionTime)}</p>
+                    </div>
+                </div>
+
                  <button
                     onClick={onRestart}
-                    className="mt-6 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-6 rounded-lg transition-colors"
+                    className="mt-4 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-6 rounded-lg transition-colors"
                 >
                     Về màn hình chính
                 </button>

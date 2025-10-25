@@ -24,6 +24,7 @@ function App() {
     const [currentSetIndex, setCurrentSetIndex] = useState<number | null>(null);
     const [submittedAnswers, setSubmittedAnswers] = useState<UserAnswers | null>(null);
     const [isPracticeMode, setIsPracticeMode] = useState<boolean>(false);
+    const [completionTime, setCompletionTime] = useState<number | null>(null);
 
     const totalSets = allSetsData.length;
     const allQuestions = useMemo(() => allSetsData.flat(), []);
@@ -50,8 +51,9 @@ function App() {
         setView('quiz');
     };
 
-    const handleSubmitQuiz = (answers: UserAnswers) => {
+    const handleSubmitQuiz = (answers: UserAnswers, timeTaken: number) => {
         setSubmittedAnswers(answers);
+        setCompletionTime(timeTaken);
         setView('results');
     };
 
@@ -60,6 +62,7 @@ function App() {
         setCurrentSetIndex(null);
         setSubmittedAnswers(null);
         setIsPracticeMode(false);
+        setCompletionTime(null);
     };
 
     const currentQuestions: Question[] = useMemo(() => {
@@ -72,6 +75,16 @@ function App() {
 
         return allSetsData[currentSetIndex] || [];
     }, [currentSetIndex, allQuestions]);
+    
+    const quizTotalTime = useMemo(() => {
+        if (currentSetIndex === -1) { // Random quiz
+            return 60 * 60; // 60 minutes
+        }
+        if (currentSetIndex !== null) { // Set quiz
+            return 15 * 60; // 15 minutes
+        }
+        return 0;
+    }, [currentSetIndex]);
 
     const quizTitle = useMemo(() => {
         const mode = isPracticeMode ? 'Luyện tập' : 'Thi';
@@ -105,6 +118,7 @@ function App() {
                         }}
                         setTitle={quizTitle}
                         isPracticeMode={isPracticeMode}
+                        totalTime={quizTotalTime}
                     />
                 );
             case 'results':
@@ -115,6 +129,7 @@ function App() {
                         onRestart={handleGoBackToMainMenu}
                         setTitle={quizTitle}
                         isPracticeMode={isPracticeMode}
+                        completionTime={completionTime!}
                     />
                 );
             case 'set-select':

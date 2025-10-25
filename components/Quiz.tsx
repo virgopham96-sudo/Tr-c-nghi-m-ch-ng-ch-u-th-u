@@ -4,16 +4,17 @@ import { ArrowUpIcon } from './icons';
 
 interface QuizProps {
     questions: Question[];
-    onSubmit: (answers: UserAnswers) => void;
+    onSubmit: (answers: UserAnswers, timeTaken: number) => void;
     onBack: () => void;
     setTitle: string;
     isPracticeMode: boolean;
+    totalTime: number;
 }
 
-const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPracticeMode }) => {
+const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPracticeMode, totalTime }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [selectedAnswers, setSelectedAnswers] = useState<UserAnswers>({});
-    const [timeRemaining, setTimeRemaining] = useState(60 * 60); // 60 minutes in seconds
+    const [timeRemaining, setTimeRemaining] = useState(totalTime);
     const [isFading, setIsFading] = useState(false); // State for fade transition
     const [showHint, setShowHint] = useState(false); // State for hint visibility
     const [showGoToTop, setShowGoToTop] = useState(false);
@@ -35,7 +36,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
             setTimeRemaining(prevTime => {
                 if (prevTime <= 1) {
                     clearInterval(timerId);
-                    onSubmit(answersRef.current); // Auto-submit with latest answers
+                    onSubmit(answersRef.current, totalTime); // Auto-submit with latest answers
                     return 0;
                 }
                 return prevTime - 1;
@@ -43,7 +44,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
         }, 1000);
 
         return () => clearInterval(timerId); // Cleanup on unmount
-    }, [onSubmit, isPracticeMode]);
+    }, [onSubmit, isPracticeMode, totalTime]);
     
     useEffect(() => {
         const handleScroll = () => {
@@ -80,7 +81,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
         handleJumpToQuestion(currentQuestionIndex - 1);
     }, [currentQuestionIndex, handleJumpToQuestion]);
 
-    const handleOptionChange = (questionId: number, option: 'A' | 'B' | 'C' | 'D') => {
+    const handleOptionChange = useCallback((questionId: number, option: 'A' | 'B' | 'C' | 'D') => {
         setSelectedAnswers(prev => ({
             ...prev,
             [questionId]: option
@@ -90,11 +91,23 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
                 handleNextQuestion();
             }, 300);
         }
-    };
+    }, [autoNext, handleNextQuestion]);
     
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
             const activeElement = document.activeElement as HTMLElement;
+
+            // Allow number keys to select answers
+            const keyMap = { '1': 'A', '2': 'B', '3': 'C', '4': 'D' };
+            const option = keyMap[event.key as keyof typeof keyMap];
+            if (option) {
+                const currentQuestion = questions[currentQuestionIndex];
+                if (currentQuestion) {
+                    handleOptionChange(currentQuestion.id, option as 'A' | 'B' | 'C' | 'D');
+                }
+                event.preventDefault(); // Prevent default action (e.g., typing '1' in a field)
+                return;
+            }
 
             // Allow up/down arrows if focus is within the options container
             if (activeElement && activeElement.closest('.quiz-options-container')) {
@@ -135,14 +148,14 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
         return () => {
             window.removeEventListener('keydown', handleKeyDown);
         };
-    }, [handlePrevQuestion, handleNextQuestion, questions, currentQuestionIndex, selectedAnswers, autoNext]);
+    }, [handlePrevQuestion, handleNextQuestion, questions, currentQuestionIndex, handleOptionChange]);
 
 
     
     const answeredCount = useMemo(() => Object.keys(selectedAnswers).length, [selectedAnswers]);
 
     const handleSubmit = () => {
-        onSubmit(selectedAnswers);
+        onSubmit(selectedAnswers, totalTime - timeRemaining);
     };
     
     const handleGoToTop = () => {

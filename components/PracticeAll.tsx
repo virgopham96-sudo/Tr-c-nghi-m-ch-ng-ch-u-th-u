@@ -48,17 +48,29 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
         handleJumpToQuestion(currentQuestionIndex - 1);
     }, [currentQuestionIndex, handleJumpToQuestion]);
 
-    const handleOptionChange = (questionId: number, option: 'A' | 'B' | 'C' | 'D') => {
+    const handleOptionChange = useCallback((questionId: number, option: 'A' | 'B' | 'C' | 'D') => {
         if (!userAnswers[questionId]) { // Only allow answering once
             setUserAnswers(prev => ({
                 ...prev,
                 [questionId]: option
             }));
         }
-    };
+    }, [userAnswers]);
     
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
+            // Allow number keys to select answers
+            const keyMap = { '1': 'A', '2': 'B', '3': 'C', '4': 'D' };
+            const option = keyMap[event.key as keyof typeof keyMap];
+            if (option) {
+                const currentQuestion = questions[currentQuestionIndex];
+                if (currentQuestion) {
+                    handleOptionChange(currentQuestion.id, option as 'A' | 'B' | 'C' | 'D');
+                }
+                event.preventDefault();
+                return;
+            }
+
             if (event.key === 'ArrowLeft') {
                 handlePrevQuestion();
             } else if (event.key === 'ArrowRight') {
@@ -71,7 +83,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
         return () => {
             window.removeEventListener('keydown', handleKeyDown);
         };
-    }, [handlePrevQuestion, handleNextQuestion]);
+    }, [handlePrevQuestion, handleNextQuestion, questions, currentQuestionIndex, handleOptionChange]);
 
     const getQuestionNavClasses = (index: number) => {
         let baseClasses = "w-10 h-10 flex items-center justify-center rounded-md font-bold text-sm transition-all duration-200 border transform hover:-translate-y-0.5 hover:shadow-lg hover:ring-2 hover:ring-cyan-400";

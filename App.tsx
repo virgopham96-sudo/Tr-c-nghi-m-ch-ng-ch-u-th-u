@@ -56,15 +56,18 @@ function App() {
     };
 
     return (
-        <div className="min-h-screen bg-gray-100 text-gray-800 font-sans">
+        <div className="min-h-screen bg-gray-100 text-gray-800 font-sans flex flex-col">
             <header className="bg-white/80 backdrop-blur-sm shadow-md sticky top-0 z-10 border-b border-gray-200">
                 <div className="container mx-auto px-4 py-4">
-                    <h1 className="text-2xl md:text-3xl font-bold text-center text-cyan-600">Ôn luyện Luật Đấu Thầu</h1>
+                    <h1 className="text-2xl md:text-3xl font-bold text-center text-gray-900">ÔN THI CHỨNG CHỈ ĐẤU THẦU 2025</h1>
                 </div>
             </header>
-            <main className="container mx-auto px-4 py-4">
+            <main className="mx-auto px-4 py-4 flex-grow w-full">
                 {renderContent()}
             </main>
+            <footer className="text-center p-4 text-gray-500 text-sm">
+                Bản quyền thuộc về "Phạm Văn Bình - Phòng CĐVT - Công ty 790"
+            </footer>
         </div>
     );
 }

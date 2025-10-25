@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface SetSelectorProps {
@@ -8,8 +7,8 @@ interface SetSelectorProps {
 
 const SetSelector: React.FC<SetSelectorProps> = ({ totalSets, onSelectSet }) => {
     return (
-        <div className="p-4 md:p-8">
-            <h2 className="text-3xl font-bold text-center mb-8 text-cyan-600">Chọn bộ đề ôn luyện</h2>
+        <div className="p-4 md:p-8 max-w-7xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-8 text-gray-900">Chọn bộ đề ôn luyện</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                 {Array.from({ length: totalSets }, (_, i) => (
                     <button

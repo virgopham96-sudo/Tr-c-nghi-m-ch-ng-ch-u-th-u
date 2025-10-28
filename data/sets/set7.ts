@@ -46,8 +46,8 @@ export const set7: Question[] = [
             "C": "Được nêu xuất xứ cụ thể của một nước bất kỳ nhưng phải kèm theo cụm từ 'hoặc tương đương'",
             "D": "Không được nêu xuất xứ theo nhóm nước, vùng lãnh thổ"
         },
-        "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 16, khoản 6, điểm i của Luật Đấu thầu. Việc 'Nêu yêu cầu cụ thể về nhãn hiệu, xuất xứ hàng hóa' trong hồ sơ mời thầu là một hành vi bị cấm vì gây hạn chế cạnh tranh, trừ một số trường hợp đặc biệt được luật cho phép. Gói thầu mua sắm máy điều hòa thông thường không thuộc trường hợp đặc biệt đó."
+        "correctAnswer": "B",
+        "explanation": "Theo quy định về đấu thầu qua mạng và các hiệp định thương mại, việc nêu xuất xứ cụ thể của một quốc gia bị hạn chế để tránh phân biệt đối xử. Tuy nhiên, pháp luật cho phép nêu xuất xứ theo nhóm nước, vùng lãnh thổ (ví dụ: các nước G7, EU, ASEAN...) để định hướng về tiêu chuẩn chất lượng mà không hạn chế cạnh tranh một cách quá mức."
     },
     {
         "id": 65,
@@ -58,8 +58,8 @@ export const set7: Question[] = [
             "C": "Được ủy quyền nhưng phải tạo tài khoản nghiệp vụ cho Giám đốc chi nhánh khi tham dự thầu trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Các phương án trên đều sai"
         },
-        "correctAnswer": "A",
-        "explanation": "Theo quy định của pháp luật dân sự và doanh nghiệp, người đại diện theo pháp luật có quyền ủy quyền cho người khác (như Giám đốc chi nhánh) thực hiện các công việc nhân danh công ty. Việc ủy quyền này phải được lập thành văn bản (giấy ủy quyền) hợp lệ."
+        "correctAnswer": "B",
+        "explanation": "Trên Hệ thống mạng đấu thầu quốc gia, việc nộp hồ sơ dự thầu được thực hiện bằng tài khoản và chữ ký số của người đại diện theo pháp luật đã đăng ký. Thao tác này không thể ủy quyền cho người khác như Giám đốc chi nhánh thực hiện trên hệ thống. Giấy ủy quyền chỉ có giá trị cho các giao dịch ngoài hệ thống."
     },
     {
         "id": 66,
@@ -70,8 +70,8 @@ export const set7: Question[] = [
             "C": "Trong thông báo mời thương thảo hợp đồng",
             "D": "Các phương án trên đều sai"
         },
-        "correctAnswer": "A",
-        "explanation": "Tất cả các yêu cầu đối với gói thầu, bao gồm cả yêu cầu về thời gian hiệu lực của bảo đảm dự thầu, đều phải được quy định một cách rõ ràng và thống nhất trong Hồ sơ mời thầu điện tử (E-HSMT) để nhà thầu có căn cứ chuẩn bị hồ sơ dự thầu."
+        "correctAnswer": "B",
+        "explanation": "Đối với bảo đảm dự thầu bằng thư bảo lãnh giấy, nhà thầu nộp bản scan cùng E-HSDT. Yêu cầu về thời gian hiệu lực được nêu trong E-HSMT, nhưng việc kiểm tra bản gốc và tính hợp lệ của nó thường được thực hiện khi nhà thầu được mời đến đối chiếu tài liệu. Thông báo mời đối chiếu tài liệu sẽ nhắc lại yêu cầu này."
     },
     {
         "id": 67,
@@ -82,8 +82,8 @@ export const set7: Question[] = [
             "C": "Ngày thực hiện đối chiếu tài liệu",
             "D": "Các phương án trên đều sai"
         },
-        "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 14, khoản 5 của Luật Đấu thầu. Hiệu lực của bảo đảm dự thầu phải bắt đầu từ thời điểm đóng thầu, vì đó là lúc nhà thầu chính thức bị ràng buộc bởi hồ sơ dự thầu của mình. Thời gian có hiệu lực của bảo đảm dự thầu được tính bằng thời gian có hiệu lực của hồ sơ dự thầu cộng thêm 30 ngày."
+        "correctAnswer": "C",
+        "explanation": "Thời gian có hiệu lực của bảo đảm dự thầu phải bắt đầu không muộn hơn thời điểm đóng thầu. Tuy nhiên, trong thực tế, để đảm bảo tính hợp lệ tại các bước sau, thời điểm hiệu lực thường được yêu cầu tính từ ngày thực hiện đối chiếu tài liệu để đảm bảo nó bao trùm toàn bộ quá trình xét thầu tiếp theo."
     },
     {
         "id": 68,
@@ -118,7 +118,7 @@ export const set7: Question[] = [
             "C": "1,5 tỷ đồng",
             "D": "300 triệu đồng"
         },
-        "correctAnswer": "A",
-        "explanation": "Thông thường, yêu cầu về giá trị của hợp đồng tương tự được tính bằng một tỷ lệ phần trăm nhất định của giá gói thầu đang xét. Đối với các gói thầu có tính chất lặp lại theo chu kỳ, giá trị yêu cầu thường được tính trên cơ sở giá trị của một chu kỳ (ví dụ 1 năm). Tuy nhiên, một cách tiếp cận phổ biến khác là yêu cầu hợp đồng tương tự có giá trị tối thiểu bằng 50% giá gói thầu đang xét (5 tỷ * 50% = 2,5 tỷ)."
+        "correctAnswer": "D",
+        "explanation": "Đối với các gói thầu có tính chất công việc lặp lại theo chu kỳ, yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự thường được tính trên cơ sở giá trị của một chu kỳ (thường là 1 năm) để không gây hạn chế cạnh tranh. Giá trị gói thầu 1 năm là 1 tỷ đồng. Yêu cầu về hợp đồng tương tự có thể là một tỷ lệ phần trăm của giá trị này, ví dụ 30%, tương đương 300 triệu đồng, là một mức yêu cầu hợp lý để thu hút nhiều nhà thầu tham gia."
     }
 ];

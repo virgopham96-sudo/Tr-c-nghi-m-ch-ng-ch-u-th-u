@@ -70,8 +70,8 @@ export const set1: Question[] = [
             "C": "Là quá trình lựa chọn đơn vị để thực hiện hợp đồng thông qua các quy trình, thủ tục do pháp luật đấu thầu quy định.",
             "D": "Phương án A và B đều đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 4, khoản 8 của Luật Đấu thầu. Khoản 8 định nghĩa: 'Đấu thầu là quá trình lựa chọn nhà thầu để ký kết, thực hiện hợp đồng cung cấp dịch vụ tư vấn, dịch vụ phi tư vấn, mua sắm hàng hóa, xây lắp, lựa chọn nhà đầu tư để ký kết, thực hiện hợp đồng dự án đầu tư kinh doanh trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế và trách nhiệm giải trình.' Phương án A mô tả chính xác phần lựa chọn nhà thầu trong định nghĩa này. Phương án B mô tả quá trình lựa chọn nhà đầu tư, cũng là một phần của đấu thầu nhưng không đầy đủ. Phương án C định nghĩa không chính xác."
+        "correctAnswer": "D",
+        "explanation": "Căn cứ pháp lý: Điều 4, khoản 8 của Luật Đấu thầu. Theo định nghĩa, 'Đấu thầu' bao gồm cả quá trình lựa chọn nhà thầu để thực hiện các gói thầu cung cấp dịch vụ, mua sắm, xây lắp (như mô tả ở phương án A) và quá trình lựa chọn nhà đầu tư để thực hiện các dự án đầu tư kinh doanh (như mô tả ở phương án B). Do đó, cả hai phương án A và B đều đúng."
     },
     {
         "id": 7,

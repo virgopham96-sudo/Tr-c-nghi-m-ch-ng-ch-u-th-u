@@ -10,8 +10,8 @@ export const set32: Question[] = [
             "C": "Không được bổ sung tài liệu chứng minh năng lực, kinh nghiệm còn thiếu",
             "D": "Rút hồ sơ dự thầu để nộp lại"
         },
-        "correctAnswer": "C",
-        "explanation": "Nguyên tắc cơ bản của đấu thầu là sau thời điểm đóng thầu, nhà thầu không được phép bổ sung các tài liệu làm thay đổi bản chất hồ sơ dự thầu, đặc biệt là các tài liệu liên quan đến đề xuất kỹ thuật, tài chính, năng lực và kinh nghiệm. Việc cho phép bổ sung sẽ làm mất đi tính công bằng và minh bạch của cuộc thầu."
+        "correctAnswer": "B",
+        "explanation": "Sau thời điểm đóng thầu, nhà thầu không được tự ý bổ sung tài liệu làm thay đổi bản chất hồ sơ. Tuy nhiên, nếu việc thiếu sót chỉ là các tài liệu chứng minh cho những gì đã kê khai, nhà thầu có thể chủ động gửi các tài liệu này đến chủ đầu tư để làm rõ, minh bạch hóa hồ sơ của mình. Đây được xem là một phần của quá trình làm rõ hồ sơ dự thầu."
     },
     {
         "id": 312,
@@ -58,8 +58,8 @@ export const set32: Question[] = [
             "C": "05 ngày làm việc kể từ ngày được yêu cầu",
             "D": "07 ngày làm việc kể từ ngày được yêu cầu"
         },
-        "correctAnswer": "C",
-        "explanation": "Để đảm bảo quyền được thông tin của nhà thầu, pháp luật quy định chủ đầu tư có trách nhiệm phải trả lời, giải thích lý do không trúng thầu khi có yêu cầu. Thời hạn tiêu chuẩn cho việc trả lời này là 05 ngày làm việc."
+        "correctAnswer": "A",
+        "explanation": "Để đảm bảo quyền được thông tin của nhà thầu một cách nhanh chóng, pháp luật quy định chủ đầu tư phải trả lời yêu cầu giải thích của nhà thầu không trúng thầu trong một thời gian ngắn. Thời hạn tiêu chuẩn cho việc này là 02 ngày làm việc."
     },
     {
         "id": 316,

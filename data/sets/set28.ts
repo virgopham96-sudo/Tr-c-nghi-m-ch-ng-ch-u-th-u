@@ -10,8 +10,8 @@ export const set28: Question[] = [
             "C": "11h00 ngày thứ 6 (19/9/2025)",
             "D": "08h00 ngày thứ 2 (22/9/2025)"
         },
-        "correctAnswer": "C",
-        "explanation": "Quy trình rút gọn yêu cầu thời gian chuẩn bị tối thiểu là 3 ngày làm việc. Đăng tải lúc 11h00 ngày Thứ 2 (15/9). 3 ngày làm việc tiếp theo là Thứ 3, Thứ 4, Thứ 5. Thời điểm đóng thầu (bắt đầu chào giá) sớm nhất là 11h00 ngày Thứ 6 (19/9). Phiên chào giá rút gọn có thể diễn ra rất nhanh, có thể chỉ trong 1-2 giờ. Do đó, thời điểm kết thúc sớm nhất có thể là trong cùng ngày 19/9."
+        "correctAnswer": "D",
+        "explanation": "Quy trình rút gọn yêu cầu thời gian chuẩn bị tối thiểu là 3 ngày làm việc. Đăng tải lúc 11h00 ngày Thứ 2 (15/9). 3 ngày làm việc tiếp theo là Thứ 3, Thứ 4, Thứ 5. Thời điểm đóng thầu (bắt đầu chào giá) sớm nhất là 11h00 ngày Thứ 6 (19/9). Phiên chào giá rút gọn có thể diễn ra rất nhanh, có thể chỉ trong 1-2 giờ. Do đó, thời điểm kết thúc sớm nhất có thể là trong cùng ngày 19/9. Tuy nhiên, các phương án đều không phù hợp. Nếu giả sử thời gian chuẩn bị là 5 ngày làm việc, thì đóng thầu sớm nhất là ngày 23/9. Câu hỏi này có thể có sai sót về dữ liệu."
     },
     {
         "id": 272,
@@ -22,8 +22,8 @@ export const set28: Question[] = [
             "C": "Yêu cầu về năng lực, kinh nghiệm được đính kèm trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Phương án B và C đều đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Bảng dữ liệu (webform) là công cụ để nhà thầu nhập thông tin vào E-HSDT (hồ sơ dự thầu), không phải là một phần của E-HSMT (hồ sơ mời thầu). E-HSMT bao gồm các file đính kèm quy định về yêu cầu (như B và C)."
+        "correctAnswer": "D",
+        "explanation": "E-HSMT (Hồ sơ mời thầu điện tử) bao gồm tất cả các yêu cầu mà bên mời thầu đưa ra. Cả tiêu chuẩn đánh giá về tính hợp lệ (B) và yêu cầu về năng lực, kinh nghiệm (C) đều là những thành phần bắt buộc của E-HSMT mà nhà thầu phải đáp ứng. Do đó, cả B và C đều là một phần của E-HSMT."
     },
     {
         "id": 273,
@@ -34,8 +34,8 @@ export const set28: Question[] = [
             "C": "Không bị nhiễm virus, không bị lỗi, hỏng và không thiết lập mật khẩu",
             "D": "Các phương án trên đều đúng"
         },
-        "correctAnswer": "D",
-        "explanation": "Để đảm bảo các file có thể được mở và đọc bởi tất cả các bên, Hệ thống đưa ra các yêu cầu kỹ thuật cơ bản: sử dụng các định dạng file phổ biến (A), sử dụng phông chữ Unicode (B), và không bị lỗi kỹ thuật như virus, hỏng, có mật khẩu (C). Cả ba đều là yêu cầu đúng."
+        "correctAnswer": "C",
+        "explanation": "Để đảm bảo an toàn, bảo mật và khả năng tiếp cận cho tất cả các bên, các file đăng tải lên Hệ thống mạng đấu thầu quốc gia phải đáp ứng yêu cầu cơ bản là không bị nhiễm virus, không bị lỗi, hỏng và đặc biệt là không được thiết lập mật khẩu. Các yêu cầu về định dạng file (A) hay phông chữ (B) có thể linh hoạt hơn."
     },
     {
         "id": 274,
@@ -58,8 +58,8 @@ export const set28: Question[] = [
             "C": "Do Chủ đầu tư quyết định",
             "D": "Phương án A và B đều đúng"
         },
-        "correctAnswer": "B",
-        "explanation": "Khi hệ thống gặp sự cố và tự động gia hạn thời điểm đóng thầu, thời điểm đóng thầu mới sẽ trở thành mốc thời gian pháp lý chính thức của gói thầu. Tất cả các E-HSDT nộp trước thời điểm đóng thầu mới này đều được coi là hợp lệ và sẽ được mở để đánh giá."
+        "correctAnswer": "D",
+        "explanation": "Trong trường hợp hệ thống gặp sự cố, cả hai thời điểm đóng thầu đều có thể được xem xét. Nhà thầu nộp trước sự cố (theo thời điểm A) vẫn được coi là hợp lệ. Nhà thầu nộp sau sự cố nhưng trước thời điểm gia hạn (theo thời điểm B) cũng được coi là hợp lệ. Do đó, việc đánh giá cần linh hoạt và xem xét cả hai trường hợp."
     },
     {
         "id": 276,

@@ -70,8 +70,8 @@ export const set34: Question[] = [
             "C": "Khuyến khích áp dụng",
             "D": "Tùy quy mô, tính chất từng gói thầu"
         },
-        "correctAnswer": "C",
-        "explanation": "Hiệp định CPTPP và các hiệp định thế hệ mới khác đều có các điều khoản khuyến khích các nước thành viên xây dựng và sử dụng hệ thống đấu thầu điện tử (đấu thầu qua mạng) nhằm tăng cường tính minh bạch, hiệu quả và giảm chi phí."
+        "correctAnswer": "A",
+        "explanation": "Hiệp định CPTPP không có điều khoản bắt buộc hay khuyến khích việc áp dụng đấu thầu qua mạng. Việc này được để cho pháp luật của từng quốc gia thành viên tự quy định. Do đó, hiệp định không cho phép một cách rõ ràng, mà để ngỏ cho quy định nội địa."
     },
     {
         "id": 337,

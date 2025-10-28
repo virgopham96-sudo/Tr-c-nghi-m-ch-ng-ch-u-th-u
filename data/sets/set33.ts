@@ -94,8 +94,8 @@ export const set33: Question[] = [
             "C": "Thông tư số 15/2022/TT-BKHĐT",
             "D": "Thông tư số 20/2022/TT-BKHĐT"
         },
-        "correctAnswer": "C",
-        "explanation": "Bộ Kế hoạch và Đầu tư ban hành các Thông tư kèm theo mẫu hồ sơ mời thầu để áp dụng cho các gói thầu thuộc phạm vi điều chỉnh của các hiệp định. Thông tư số 15/2022/TT-BKHĐT là văn bản quy định về mẫu HSMT cho các gói thầu thuộc phạm vi của Hiệp định UKVFTA."
+        "correctAnswer": "B",
+        "explanation": "Bộ Kế hoạch và Đầu tư ban hành các Thông tư kèm theo mẫu hồ sơ mời thầu để áp dụng cho các gói thầu thuộc phạm vi điều chỉnh của các hiệp định. Thông tư số 12/2022/TT-BKHĐT là văn bản quy định về mẫu HSMT cho các gói thầu mua sắm hàng hóa thuộc phạm vi của Hiệp định UKVFTA."
     },
     {
         "id": 329,

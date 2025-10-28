@@ -10,8 +10,8 @@ export const set8: Question[] = [
             "C": "Lao động phổ thông",
             "D": "Phương án A và C đều đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Đây là một trong những chính sách nhằm bảo hộ lao động trong nước và phát triển nguồn nhân lực quốc gia. Khi tổ chức đấu thầu quốc tế, hồ sơ mời thầu thường yêu cầu nhà thầu nước ngoài phải ưu tiên sử dụng lao động địa phương cho những vị trí mà lao động địa phương có đủ khả năng đáp ứng."
+        "correctAnswer": "D",
+        "explanation": "Trong đấu thầu quốc tế, để bảo hộ lao động trong nước và tận dụng cơ hội học hỏi, hồ sơ mời thầu thường yêu cầu nhà thầu nước ngoài phải ưu tiên sử dụng lao động địa phương cho những vị trí mà họ có thể đáp ứng được (A), đặc biệt là các vị trí lao động phổ thông (C). Do đó, cả A và C đều là các trường hợp phổ biến."
     },
     {
         "id": 72,
@@ -34,8 +34,8 @@ export const set8: Question[] = [
             "C": "Được quy định hàng hóa thuộc cùng chủng loại hoặc hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa",
             "D": "Tất cả đáp án trên đều đúng"
         },
-        "correctAnswer": "C",
-        "explanation": "Để đảm bảo tính cạnh tranh nhưng vẫn đánh giá được kinh nghiệm của nhà thầu, quy định về tính chất tương tự thường được mở rộng ra 'cùng chủng loại' hoặc dựa trên hệ thống mã HS (Hệ thống hài hòa mô tả và mã hóa hàng hóa). Việc chỉ quy định 'cùng lĩnh vực tổng quát' (A) là quá rộng, còn chỉ quy định 'cùng mã Chương, mã Nhóm' (B) có thể quá hẹp. Phương án C là cách tiếp cận hợp lý và phổ biến nhất."
+        "correctAnswer": "A",
+        "explanation": "Để đảm bảo tính cạnh tranh rộng rãi, yêu cầu về hợp đồng tương tự thường được quy định một cách linh hoạt. Việc yêu cầu hàng hóa thuộc cùng 'lĩnh vực tổng quát' (ví dụ: thiết bị điện, thiết bị văn phòng) cho phép nhiều nhà thầu có kinh nghiệm liên quan tham gia, thay vì giới hạn quá hẹp vào một mã HS cụ thể."
     },
     {
         "id": 74,
@@ -47,7 +47,7 @@ export const set8: Question[] = [
             "D": "Tất cả đáp án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Uy tín của nhà thầu là một tiêu chí đánh giá, nhưng nó thường được xem xét như một phần của năng lực, kinh nghiệm chung chứ không phải là một 'tiêu chuẩn kỹ thuật' của gói thầu. Tiêu chuẩn kỹ thuật tập trung vào giải pháp, phương pháp luận, nhân sự, và các yêu cầu cụ thể để thực hiện công việc. Các phương án B, C là các yêu cầu kỹ thuật hoặc liên quan đến kỹ thuật thực hiện."
+        "explanation": "Uy tín của nhà thầu là một tiêu chí thuộc về đánh giá năng lực và kinh nghiệm, không phải là một tiêu chuẩn đánh giá về kỹ thuật của giải pháp, phương pháp luận mà nhà thầu đề xuất cho gói thầu. Các tiêu chuẩn kỹ thuật tập trung vào cách thức thực hiện dịch vụ."
     },
     {
         "id": 75,
@@ -94,8 +94,8 @@ export const set8: Question[] = [
             "C": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 05 tỷ đồng",
             "D": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 07 tỷ đồng"
         },
-        "correctAnswer": "C",
-        "explanation": "Tổng giá trị của các hàng hóa có cùng mã HS 9035 là 4 + 6 = 10 tỷ đồng. Yêu cầu về giá trị hợp đồng tương tự thường là 50% hoặc 70% tổng giá trị của các hạng mục tương tự. 50% của 10 tỷ là 5 tỷ. Do đó, yêu cầu một hợp đồng tương tự có giá trị tối thiểu 5 tỷ đồng là hợp lý."
+        "correctAnswer": "B",
+        "explanation": "Tổng giá trị của các hàng hóa có cùng mã HS 9035 là 10 tỷ đồng. Yêu cầu về giá trị hợp đồng tương tự thường được đặt ở một mức hợp lý để vừa đảm bảo nhà thầu có kinh nghiệm, vừa không quá hạn chế cạnh tranh. Mức 30% của tổng giá trị (tức là 3 tỷ đồng) là một yêu cầu phổ biến và phù hợp."
     },
     {
         "id": 79,

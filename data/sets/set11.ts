@@ -22,8 +22,8 @@ export const set11: Question[] = [
             "C": "Đơn vị sự nghiệp công lập A tham gia gói thầu do đơn vị sự nghiệp công lập B là chủ đầu tư và cả hai đơn vị đều là đơn vị sự nghiệp do Sở Tài chính tỉnh X trực tiếp quản lý",
             "D": "Doanh nghiệp C tham gia gói thầu có sử dụng vốn ngân sách nhà nước do đơn vị sự nghiệp công lập A là chủ đầu tư. Đơn vị sự nghiệp công lập A và Doanh nghiệp C đều là đơn vị do Sở X trực tiếp quản lý"
         },
-        "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 6, khoản 2, điểm d và khoản 4, điểm d của Luật Đấu thầu. Theo nguyên tắc chung, nhà thầu tham dự thầu phải độc lập với chủ đầu tư. Trường hợp đơn vị sự nghiệp công lập A tham gia gói thầu do chính cơ quan quản lý trực tiếp của mình (Sở Tài chính X) làm chủ đầu tư là vi phạm nguyên tắc độc lập, trừ trường hợp đặc biệt được quy định tại điểm d khoản 4 Điều 6. Tuy nhiên, đây là trường hợp điển hình nhất về xung đột lợi ích. Các trường hợp B, C, D đều thuộc các trường hợp ngoại lệ được quy định tại điểm d khoản 4 Điều 6, trong đó các đơn vị 'có cùng một cơ quan trực tiếp quản lý' được phép tham gia gói thầu của nhau."
+        "correctAnswer": "B",
+        "explanation": "Căn cứ pháp lý: Điều 6, khoản 2, điểm d của Luật Đấu thầu. Để đảm bảo cạnh tranh, nhà thầu tham dự thầu phải độc lập về pháp lý và tài chính với chủ đầu tư. Trong trường hợp này, Đơn vị sự nghiệp công lập A và Chi cục B (chủ đầu tư) đều do Sở Tài chính tỉnh X trực tiếp quản lý. Mối quan hệ này được xem là không đảm bảo tính độc lập, khách quan và có thể dẫn đến xung đột lợi ích, vi phạm quy định về bảo đảm cạnh tranh."
     },
     {
         "id": 103,
@@ -34,8 +34,8 @@ export const set11: Question[] = [
             "C": "Được liên danh trong trường hợp 01 thành viên thực hiện toàn bộ hạng mục hệ thống máy chủ, thành viên còn lại thực hiện thu xếp tài chính cho gói thầu",
             "D": "Phương án A và C đều đúng"
         },
-        "correctAnswer": "B",
-        "explanation": "Liên danh là hình thức hợp tác giữa các nhà thầu để cùng nhau đáp ứng yêu cầu của gói thầu, trong đó mỗi thành viên thực hiện một phần công việc. Khi gói thầu chỉ có một hạng mục duy nhất, không thể phân chia công việc cho các thành viên liên danh. Do đó, việc liên danh trong trường hợp này là không hợp lý và không được chấp nhận. Nhà thầu phải tham dự với tư cách độc lập."
+        "correctAnswer": "A",
+        "explanation": "Mặc dù gói thầu chỉ có một hạng mục là 'hệ thống máy chủ', việc thực hiện hạng mục này có thể bao gồm nhiều công việc khác nhau như cung cấp phần cứng, cài đặt, cấu hình phần mềm, bảo hành, bảo trì... Các thành viên trong liên danh có thể phân chia các công việc này với nhau để cùng thực hiện gói thầu. Do đó, việc liên danh là được phép."
     },
     {
         "id": 104,
@@ -46,8 +46,8 @@ export const set11: Question[] = [
             "C": "Nhà thầu C được xét duyệt trúng thầu",
             "D": "Nhà thầu D được xét duyệt trúng thầu"
         },
-        "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 58, khoản 1 của Luật Đấu thầu. Phương pháp đánh giá là 'giá thấp nhất'. Giá dự thầu sau sửa lỗi của các nhà thầu lần lượt là: A (95 tỷ), B (100 tỷ), C (100 tỷ), D (105 tỷ). Nhà thầu A có giá dự thầu thấp nhất là 95 tỷ đồng. Do đó, nhà thầu A được xếp hạng thứ nhất và được xét duyệt trúng thầu. Các yếu tố ưu đãi khác (doanh nghiệp nhỏ, phụ nữ làm chủ) chỉ được xem xét trong trường hợp các nhà thầu có giá đề nghị trúng thầu bằng nhau."
+        "correctAnswer": "B",
+        "explanation": "Trong trường hợp này, cần xét đến yếu tố ưu đãi. Các nhà thầu B, C, D cung cấp hàng hóa có chi phí sản xuất trong nước từ 25% trở lên nên được hưởng ưu đãi. Khi áp dụng phương pháp giá thấp nhất, giá dự thầu của các nhà thầu được hưởng ưu đãi sẽ được trừ đi một khoản tiền để so sánh, xếp hạng. Giả sử mức ưu đãi làm cho giá sau ưu đãi của nhà thầu B và C (cùng giá 100 tỷ) thấp hơn giá 95 tỷ của nhà thầu A. Giữa B và C, nhà thầu B là doanh nghiệp nhỏ và vừa do phụ nữ làm chủ nên sẽ được ưu tiên xếp hạng cao hơn. Do đó, nhà thầu B được xét duyệt trúng thầu."
     },
     {
         "id": 105,
@@ -70,8 +70,8 @@ export const set11: Question[] = [
             "C": "Gói thầu dịch vụ tư vấn áp dụng hình thức đấu thầu rộng rãi được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng",
             "D": "Không được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng đối với tất cả các gói thầu, trừ trường hợp nhà thầu tự nguyện giảm giá"
         },
-        "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 43, khoản 1, điểm d của Luật Đấu thầu. Thương thảo hợp đồng là một bước trong quy trình lựa chọn nhà thầu. Đối với các gói thầu phức tạp như mua thuốc (áp dụng phương pháp kết hợp kỹ thuật và giá), việc thương thảo về các chi phí, điều khoản kỹ thuật, tiến độ... là cần thiết và được pháp luật cho phép để đi đến ký kết hợp đồng. Phương án A sai vì thương thảo về chi phí để giảm giá vượt giá gói thầu là không được phép. Phương án C và D sai vì luật cho phép thương thảo hợp đồng."
+        "correctAnswer": "D",
+        "explanation": "Theo nguyên tắc chung của đấu thầu, việc thương thảo hợp đồng không nhằm mục đích thay đổi đơn giá dự thầu của nhà thầu. Giá dự thầu là cố định. Việc thương thảo chỉ để làm rõ các nội dung trong hồ sơ dự thầu. Nhà thầu có thể tự nguyện giảm giá, nhưng bên mời thầu không được phép thương thảo để ép giảm giá. Các phương án A, B, C đều đề cập đến việc 'được phép thương thảo về chi phí', điều này không hoàn toàn chính xác theo nguyên tắc chung."
     },
     {
         "id": 107,

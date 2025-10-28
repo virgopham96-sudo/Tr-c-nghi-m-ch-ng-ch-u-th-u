@@ -82,8 +82,8 @@ export const set26: Question[] = [
             "C": "03 lần",
             "D": "Không giới hạn số lần"
         },
-        "correctAnswer": "A",
-        "explanation": "Để đảm bảo quá trình làm rõ diễn ra hiệu quả, không kéo dài, Hệ thống mạng đấu thầu quốc gia thường chỉ cho phép nhà thầu trả lời một lần duy nhất cho mỗi yêu cầu làm rõ từ bên mời thầu. Nhà thầu cần chuẩn bị câu trả lời một cách đầy đủ và chính xác trong lần trả lời đó."
+        "correctAnswer": "D",
+        "explanation": "Để đảm bảo quá trình làm rõ được đầy đủ và hiệu quả, Hệ thống mạng đấu thầu quốc gia không giới hạn số lần trả lời cho một yêu cầu làm rõ. Nhà thầu và bên mời thầu có thể trao đổi qua lại nhiều lần cho đến khi nội dung được làm sáng tỏ hoàn toàn."
     },
     {
         "id": 258,
@@ -94,8 +94,8 @@ export const set26: Question[] = [
             "C": "Các thành viên liên danh phải sử dụng cùng thể thức: bảo lãnh dự thầu điện tử hoặc bảo lãnh dự thầu bằng giấy",
             "D": "Các thành viên liên danh bắt buộc phải sử dụng cùng thể thức bảo lãnh dự thầu bằng giấy"
         },
-        "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 14, khoản 7 của Luật Đấu thầu. Luật cho phép từng thành viên trong liên danh thực hiện bảo đảm dự thầu riêng rẽ. Điều này cũng đồng nghĩa với việc mỗi thành viên có thể lựa chọn thể thức bảo đảm dự thầu khác nhau (ví dụ: thành viên A dùng bảo lãnh điện tử, thành viên B dùng bảo lãnh bằng văn bản giấy) miễn là tổng giá trị các bảo lãnh đáp ứng yêu cầu của hồ sơ mời thầu."
+        "correctAnswer": "C",
+        "explanation": "Để đảm bảo tính thống nhất và dễ dàng quản lý trên Hệ thống, tất cả các thành viên trong liên danh phải thống nhất sử dụng cùng một thể thức bảo đảm dự thầu, hoặc tất cả cùng sử dụng bảo lãnh điện tử, hoặc tất cả cùng sử dụng bảo lãnh bằng giấy."
     },
     {
         "id": 259,

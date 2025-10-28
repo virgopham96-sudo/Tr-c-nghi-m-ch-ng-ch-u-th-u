@@ -82,8 +82,8 @@ export const set18: Question[] = [
             "C": "35 ngày",
             "D": "20 ngày"
         },
-        "correctAnswer": "D",
-        "explanation": "Đây là thời hạn được quy định trong các văn bản hướng dẫn chi tiết về giải quyết kiến nghị. 20 ngày là khoảng thời gian để Hội đồng xem xét hồ sơ, họp và ra văn bản kết luận."
+        "correctAnswer": "B",
+        "explanation": "Theo quy định chi tiết tại các văn bản hướng dẫn Luật Đấu thầu, thời hạn để Hội đồng giải quyết kiến nghị và ra văn bản trả lời là 30 ngày kể từ ngày thành lập, để đảm bảo việc xem xét được kỹ lưỡng và toàn diện."
     },
     {
         "id": 178,
@@ -118,7 +118,7 @@ export const set18: Question[] = [
             "C": "Bộ phận thường trực",
             "D": "Hội đồng giải quyết kiến nghị"
         },
-        "correctAnswer": "B",
-        "explanation": "Theo quy trình, kiến nghị phải được gửi và giải quyết tuần tự. Đối với các vấn đề trước khi có kết quả, chủ đầu tư là người có trách nhiệm giải quyết đầu tiên. Quy trình giải quyết kiến nghị về kết quả lựa chọn nhà thầu cũng phải theo tuần tự. Chủ đầu tư là cấp giải quyết đầu tiên. Chỉ sau khi chủ đầu tư đã giải quyết mà nhà thầu không đồng ý, họ mới có quyền gửi đơn lên cấp Hội đồng."
+        "correctAnswer": "D",
+        "explanation": "Theo quy trình, kiến nghị về kết quả lựa chọn nhà thầu phải được gửi và giải quyết tuần tự. Bước 1 là chủ đầu tư. Nếu nhà thầu không đồng ý, họ sẽ gửi đơn lên Hội đồng giải quyết kiến nghị. Khi đơn đã được gửi đồng thời đến cả hai cấp, Hội đồng giải quyết kiến nghị (cấp cao hơn) sẽ là cơ quan có thẩm quyền giải quyết cuối cùng."
     }
 ];

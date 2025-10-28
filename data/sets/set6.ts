@@ -47,7 +47,7 @@ export const set6: Question[] = [
             "D": "Năng lực quản lý của doanh nghiệp"
         },
         "correctAnswer": "A",
-        "explanation": "Doanh thu bình quân hằng năm là một trong những tiêu chí cốt lõi để đánh giá năng lực tài chính, một phần của năng lực và kinh nghiệm của nhà thầu. Các phương án còn lại như 'Giấy phép bán hàng' (B) có thể là điều kiện tham dự nhưng không phải tiêu chí đánh giá năng lực, 'Số năm thành lập' (C) và 'Năng lực quản lý' (D) cũng là các yếu tố phụ, không phải là tiêu chí bắt buộc và cốt lõi như doanh thu."
+        "explanation": "Doanh thu bình quân hằng năm là một trong những tiêu chí cốt lõi và phổ biến nhất để đánh giá năng lực tài chính, một phần quan trọng của năng lực và kinh nghiệm của nhà thầu. Các phương án còn lại có thể là các yêu cầu khác nhưng không phải là tiêu chuẩn cơ bản và bắt buộc để đánh giá năng lực kinh nghiệm tài chính như doanh thu."
     },
     {
         "id": 55,
@@ -58,8 +58,8 @@ export const set6: Question[] = [
             "C": "Doanh thu của nhà thầu",
             "D": "Việc thực hiện nghĩa vụ kê khai thuế, nộp thuế"
         },
-        "correctAnswer": "D",
-        "explanation": "Việc thực hiện nghĩa vụ thuế là điều kiện về tư cách hợp lệ của nhà thầu (theo Điều 5), được kiểm tra ở bước đánh giá tính hợp lệ, chứ không phải là tiêu chuẩn để đánh giá về năng lực và kinh nghiệm. Các phương án A, B, C là các tiêu chuẩn phổ biến để đánh giá năng lực và kinh nghiệm."
+        "correctAnswer": "A",
+        "explanation": "Mặc dù kinh nghiệm thực hiện hợp đồng tương tự là một tiêu chí rất phổ biến, nhưng đối với các gói thầu mua sắm hàng hóa thông dụng, đơn giản, sẵn có trên thị trường, yêu cầu này có thể được xem xét không bắt buộc để tăng tính cạnh tranh và cho phép các nhà thầu mới tham gia. Các tiêu chí còn lại về tài chính (B, C) và tư cách hợp lệ (D) thường là bắt buộc."
     },
     {
         "id": 56,
@@ -82,8 +82,8 @@ export const set6: Question[] = [
             "C": "Nội dung công việc xây lắp thuộc gói thầu EPC và gói thầu PC",
             "D": "Nội dung công việc xây lắp thuộc gói thầu xây lắp và gói thầu PC"
         },
-        "correctAnswer": "B",
-        "explanation": "Việc nêu yêu cầu về nhãn hiệu, xuất xứ bị hạn chế theo Điều 16, khoản 6, điểm i để tránh hạn chế cạnh tranh. Tuy nhiên, đối với các gói thầu phức tạp như EPC (Thiết kế - Cung cấp - Xây lắp), việc quy định rõ các tiêu chuẩn kỹ thuật, nhãn hiệu của vật tư, thiết bị đầu vào là cần thiết để đảm bảo tính đồng bộ và chất lượng của toàn bộ công trình."
+        "correctAnswer": "A",
+        "explanation": "Gói thầu EC (Thiết kế - Xây lắp) là loại hợp đồng mà nhà thầu thực hiện cả việc thiết kế và thi công xây dựng. Để đảm bảo tính đồng bộ và chất lượng của công trình theo đúng thiết kế, hồ sơ mời thầu có thể yêu cầu cụ thể về nhãn hiệu, xuất xứ của một số vật tư, vật liệu đầu vào quan trọng."
     },
     {
         "id": 58,

@@ -82,8 +82,8 @@ export const set2: Question[] = [
             "C": "Chủ đầu tư lưu trữ tối thiểu 05 năm",
             "D": "Tất cả các phương án trên đều sai"
         },
-        "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 9, khoản 3 của Luật Đấu thầu. Khoản 3, Điều 9 quy định: 'Trường hợp hết thời hạn quy định tại khoản 1 và khoản 2 Điều này mà nhà thầu, nhà đầu tư không nhận lại hồ sơ đề xuất về tài chính của mình thì chủ đầu tư, bên mời thầu xem xét, quyết định việc hủy hồ sơ nhưng phải bảo đảm thông tin không bị tiết lộ.' Việc hủy hồ sơ vẫn phải tuân theo các quy định về lưu trữ thông tin đấu thầu. Do đó, lưu trữ theo quy định của pháp luật là cách xử lý đúng đắn."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 9, khoản 3 của Luật Đấu thầu. Luật quy định rằng trong trường hợp nhà thầu không nhận lại hồ sơ, chủ đầu tư sẽ 'xem xét, quyết định việc hủy hồ sơ nhưng phải bảo đảm thông tin không bị tiết lộ'. Do đó, phương án A mô tả chính xác hành động mà chủ đầu tư cần thực hiện."
     },
     {
         "id": 18,
@@ -118,7 +118,7 @@ export const set2: Question[] = [
             "C": "Phương án A và B đều đúng",
             "D": "Phương án A và B đều sai"
         },
-        "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 15, khoản 1, điểm b và Điều 8, khoản 1, điểm b của Luật Đấu thầu. Luật Đấu thầu hiện hành ưu tiên và tiến tới bắt buộc đấu thầu qua mạng. Hồ sơ mời thầu được phát hành trên Hệ thống mạng đấu thầu quốc gia (Phương án A). Tuy nhiên, trong giai đoạn chuyển tiếp hoặc các trường hợp đặc thù chưa qua mạng, việc bán hồ sơ tại địa chỉ của chủ đầu tư vẫn được áp dụng (Phương án B). Do đó, cả hai phương thức đều có thể xảy ra tùy trường hợp. Trong bối cảnh chung, cả hai phương án đều có thể đúng tùy vào hình thức tổ chức. Lưu ý: Luật mới (từ 2024) quy định phát hành miễn phí trên mạng đối với đấu thầu trong nước, và nộp tiền mua bản điện tử đối với đấu thầu quốc tế. Do đó, phương án A là chính xác nhất theo quy định mới, nhưng nếu câu hỏi mang tính tổng quát, C có thể được chấp nhận."
+        "correctAnswer": "A",
+        "explanation": "Theo quy định của Luật Đấu thầu mới, việc phát hành hồ sơ mời thầu qua mạng trên Hệ thống mạng đấu thầu quốc gia là hình thức bắt buộc đối với hầu hết các gói thầu, bao gồm cả đấu thầu quốc tế, nhằm tăng cường tính minh bạch và cạnh tranh. Đối với đấu thầu quốc tế, nhà thầu phải nộp một khoản phí để tải bản điện tử của hồ sơ mời thầu."
     }
 ];

@@ -10,8 +10,8 @@ export const set22: Question[] = [
             "C": "Chỉ tịch thu giá trị bảo đảm thực hiện hợp đồng của nhà thầu B nếu nhà thầu A có đủ năng lực, kinh nghiệm đảm nhận phần công việc còn lại của nhà thầu B",
             "D": "Phương án B và C đều đúng"
         },
-        "correctAnswer": "C",
-        "explanation": "Khi một thành viên liên danh vi phạm, chỉ phần bảo đảm thực hiện hợp đồng tương ứng với phần giá trị hợp đồng của thành viên đó bị tịch thu. Nếu thành viên còn lại (nhà thầu A) chứng minh được đủ năng lực để hoàn thành toàn bộ phần việc còn lại, hợp đồng có thể được tiếp tục và chỉ bảo đảm của nhà thầu B bị ảnh hưởng. Nếu nhà thầu A không đủ năng lực, toàn bộ hợp đồng có thể bị chấm dứt và bảo đảm của cả liên danh sẽ bị xem xét. Phương án C là cách xử lý hợp lý và phổ biến nhất."
+        "correctAnswer": "D",
+        "explanation": "Khi một thành viên liên danh vi phạm, gây ảnh hưởng nghiêm trọng, chủ đầu tư có các lựa chọn xử lý. Nếu thành viên còn lại (A) có thể đảm nhận phần việc của B, thì chỉ bảo đảm của B bị tịch thu (C). Nếu A không thể đảm nhận, hợp đồng có thể bị chấm dứt và toàn bộ bảo đảm của liên danh bị tịch thu (B). Do cả hai đều là các khả năng xử lý hợp lệ tùy thuộc vào tình hình, phương án D là đáp án bao quát nhất."
     },
     {
         "id": 212,
@@ -46,8 +46,8 @@ export const set22: Question[] = [
             "C": "Tài khoản do Tài khoản tham gia hệ thống tạo ra",
             "D": "Phương án A và B đều đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Tài khoản nghiệp vụ (hay tài khoản tham gia) là tài khoản mà các bên (bên mời thầu, nhà thầu) tự đăng ký thông tin trên Cổng thông tin quốc gia về đăng ký doanh nghiệp và được phê duyệt để có thể thực hiện các nghiệp vụ đấu thầu trên Hệ thống."
+        "correctAnswer": "C",
+        "explanation": "Tài khoản nghiệp vụ là tài khoản con được tạo ra từ tài khoản tham gia chính của một đơn vị. Nó được sử dụng để phân quyền cho các cá nhân khác nhau trong tổ chức thực hiện các nghiệp vụ cụ thể trên Hệ thống, giúp quản lý và phân công công việc hiệu quả."
     },
     {
         "id": 215,
@@ -82,8 +82,8 @@ export const set22: Question[] = [
             "C": "Thay chủ đầu tư đăng tải các nội dung thuộc trách nhiệm đăng tải của chủ đầu tư",
             "D": "Đăng tải thông tin về năng lực, kinh nghiệm của mình trên Hệ thống mạng đấu thầu quốc gia"
         },
-        "correctAnswer": "B",
-        "explanation": "Nhà thầu tư vấn đấu thầu có thể được thuê để lập HSMT, đánh giá HSDT. Tuy nhiên, việc thẩm định là nhiệm vụ của tổ thẩm định, phải độc lập với tổ chuyên gia (do tư vấn thành lập). Nếu nhà thầu tư vấn vừa tham gia lập/đánh giá, vừa tham gia thẩm định cho cùng một gói thầu, đây là hành vi vi phạm nghiêm trọng nguyên tắc độc lập, khách quan và sẽ bị xử lý."
+        "correctAnswer": "C",
+        "explanation": "Trách nhiệm đăng tải thông tin trên Hệ thống mạng đấu thầu quốc gia thuộc về chủ đầu tư/bên mời thầu. Việc nhà thầu tư vấn tự ý thay đổi hoặc thực hiện việc đăng tải thay cho chủ đầu tư là hành vi lạm quyền, vi phạm quy trình và có thể bị xử lý bằng hình thức khóa tài khoản."
     },
     {
         "id": 218,

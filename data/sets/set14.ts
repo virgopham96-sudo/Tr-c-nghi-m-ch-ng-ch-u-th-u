@@ -10,8 +10,8 @@ export const set14: Question[] = [
             "C": "Tối đa là 05 ngày làm việc kể từ ngày tổ thẩm định gửi báo cáo thẩm định hồ sơ mời thầu",
             "D": "Phương án B và C đều đúng"
         },
-        "correctAnswer": "C",
-        "explanation": "Pháp luật về đấu thầu quy định các mốc thời gian cụ thể cho từng bước để đảm bảo tiến độ. 05 ngày làm việc là thời gian tiêu chuẩn cho việc phê duyệt sau khi đã có báo cáo thẩm định."
+        "correctAnswer": "A",
+        "explanation": "Chủ đầu tư là người chịu trách nhiệm về tiến độ của gói thầu. Mặc dù pháp luật có quy định thời gian tối đa cho các bước (như 10 ngày để thẩm định, 20 ngày để phê duyệt), nhưng chủ đầu tư có quyền quyết định thời gian cụ thể cho từng bước miễn là đảm bảo tiến độ chung và không vi phạm thời gian tối đa cho phép."
     },
     {
         "id": 132,
@@ -22,8 +22,8 @@ export const set14: Question[] = [
             "C": "Tối đa là 05 ngày làm việc kể từ ngày tổ thẩm định trình báo cáo thẩm định kết quả lựa chọn nhà thầu",
             "D": "Phương án B và C đều đúng"
         },
-        "correctAnswer": "C",
-        "explanation": "Tương tự như việc phê duyệt HSMT, thời gian phê duyệt kết quả lựa chọn nhà thầu cũng được quy định là 05 ngày làm việc kể từ khi nhận được báo cáo thẩm định để đảm bảo quá trình diễn ra nhanh chóng."
+        "correctAnswer": "A",
+        "explanation": "Tương tự như việc phê duyệt hồ sơ mời thầu, chủ đầu tư là người quyết định thời gian phê duyệt kết quả lựa chọn nhà thầu để đảm bảo tiến độ chung của dự án, trong khuôn khổ thời gian tối đa mà pháp luật cho phép."
     },
     {
         "id": 133,
@@ -34,8 +34,8 @@ export const set14: Question[] = [
             "C": "Do người có thẩm quyền, chủ đầu tư có trách nhiệm quyết định",
             "D": "Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu"
         },
-        "correctAnswer": "A",
-        "explanation": "Đây là các mốc thời gian tối đa được quy định trong luật để bên mời thầu hoàn thành việc đánh giá hồ sơ dự thầu, tính từ thời điểm đóng thầu đến khi trình phê duyệt kết quả."
+        "correctAnswer": "D",
+        "explanation": "Mặc dù Luật Đấu thầu quy định thời gian đánh giá tối đa là 45 ngày (đấu thầu trong nước) và 60 ngày (đấu thầu quốc tế), nhưng thời gian cụ thể cho từng gói thầu do chủ đầu tư quyết định trong hồ sơ mời thầu, dựa trên tính chất, quy mô của gói thầu và phải đảm bảo tiến độ dự án."
     },
     {
         "id": 134,
@@ -46,8 +46,8 @@ export const set14: Question[] = [
             "C": "Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; hoàn thiện hợp đồng, phê duyệt và công khai kết quả lựa chọn nhà thầu; ký kết và quản lý thực hiện hợp đồng",
             "D": "Lập, phê duyệt hồ sơ yêu cầu; xác định nhà thầu dự kiến được mời nhận hồ sơ yêu cầu; đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu; phê duyệt và công khai kết quả lựa chọn nhà thầu; hoàn thiện, ký kết và quản lý thực hiện hợp đồng"
         },
-        "correctAnswer": "A",
-        "explanation": "Quy trình rút gọn bỏ qua các bước phức tạp như lập, phát hành hồ sơ yêu cầu. Chủ đầu tư sẽ làm việc trực tiếp với nhà thầu đã được xác định thông qua dự thảo hợp đồng, thương thảo và tiến đến ký kết sau khi hoàn tất các thủ tục phê duyệt."
+        "correctAnswer": "C",
+        "explanation": "Quy trình rút gọn của chỉ định thầu bỏ qua các bước phức tạp như lập, thẩm định hồ sơ yêu cầu. Quy trình cơ bản là: Chủ đầu tư chuẩn bị và gửi dự thảo hợp đồng -> Thương thảo và hoàn thiện hợp đồng -> Trình, phê duyệt và công khai kết quả -> Ký kết và quản lý thực hiện. Phương án C mô tả quy trình này một cách súc tích nhất, bỏ qua bước thẩm định riêng lẻ."
     },
     {
         "id": 135,
@@ -58,8 +58,8 @@ export const set14: Question[] = [
             "C": "Gói thầu áp dụng đấu thầu hạn chế do có yêu cầu đặc thù về kỹ thuật mà chỉ có một hoặc một số nhà thầu đáp ứng yêu cầu của gói thầu",
             "D": "Tất cả phương án trên đều đúng"
         },
-        "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 43, khoản 1, điểm d của Luật Đấu thầu. Thương thảo hợp đồng là một bước trong quy trình lựa chọn nhà thầu. Bước này được thực hiện với nhà thầu được xếp hạng thứ nhất trước khi đề nghị trúng thầu. Nó được áp dụng cho hầu hết các hình thức đấu thầu, đặc biệt là các gói thầu có yếu tố kỹ thuật phức tạp cần làm rõ."
+        "correctAnswer": "D",
+        "explanation": "Thương thảo hợp đồng là một bước được thực hiện với nhà thầu xếp hạng thứ nhất trước khi đề nghị trúng thầu. Bước này được áp dụng cho hầu hết các hình thức lựa chọn nhà thầu (trừ một số trường hợp rất đơn giản) để làm rõ các nội dung chưa thống nhất và hoàn thiện các điều khoản của hợp đồng. Do đó, tất cả các trường hợp A, B, C đều có thể thực hiện bước thương thảo hợp đồng."
     },
     {
         "id": 136,

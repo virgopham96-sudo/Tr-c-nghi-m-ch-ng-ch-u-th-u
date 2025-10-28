@@ -58,8 +58,8 @@ export const set10: Question[] = [
             "C": "Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên phần có giá trị nhỏ nhất trong tổng số các phần mà nhà thầu tham dự",
             "D": "Các phương án trên đều sai"
         },
-        "correctAnswer": "A",
-        "explanation": "Tương tự như doanh thu, kinh nghiệm thực hiện hợp đồng tương tự cũng phải đáp ứng tổng yêu cầu của các phần mà nhà thầu tham dự."
+        "correctAnswer": "B",
+        "explanation": "Khi gói thầu được chia thành nhiều phần, việc đánh giá năng lực và kinh nghiệm (bao gồm cả hợp đồng tương tự) được thực hiện riêng cho từng phần. Nhà thầu chỉ cần đáp ứng yêu cầu của phần mà họ tham dự, không cần phải đáp ứng tổng yêu cầu của tất cả các phần. Điều này tạo điều kiện cho các nhà thầu có quy mô khác nhau cùng tham gia."
     },
     {
         "id": 96,
@@ -82,8 +82,8 @@ export const set10: Question[] = [
             "C": "Hồ sơ dự thầu của nhà thầu không được xem xét, đánh giá",
             "D": "Tiếp tục đánh giá hồ sơ dự thầu, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ các thông tin này"
         },
-        "correctAnswer": "A",
-        "explanation": "Việc thiếu thông tin chi tiết về hàng hóa là một nội dung cần làm rõ. Chủ đầu tư sẽ yêu cầu nhà thầu cung cấp thông tin cụ thể về hàng hóa họ chào thầu để có cơ sở đánh giá xem hàng hóa đó có đáp ứng yêu cầu kỹ thuật của HSMT hay không. Việc làm rõ này không được làm thay đổi bản chất của hồ sơ dự thầu, đặc biệt là giá dự thầu."
+        "correctAnswer": "C",
+        "explanation": "Việc đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất của hàng hóa chào thầu là một yêu cầu cơ bản và quan trọng để bên mời thầu có thể đánh giá tính đáp ứng về mặt kỹ thuật. Nếu nhà thầu không cung cấp các thông tin này, hồ sơ dự thầu được coi là không đáp ứng một cách cơ bản và sẽ không được xem xét, đánh giá."
     },
     {
         "id": 98,

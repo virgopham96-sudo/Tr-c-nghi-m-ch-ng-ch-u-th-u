@@ -116,9 +116,9 @@ export const set15: Question[] = [
             "A": "Trong mọi trường hợp có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,5 (Y thông thường khoảng 50% giá trị của gói thầu đang xét)",
             "B": "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu",
             "C": "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,5 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu",
-            "D": "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn, chủ đầu tư báo cáo người có thẩm quyền để điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu"
+            "D": "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn, chủ đầu tư báo cáo người có thẩm quyền để điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn một mức phù hợp"
         },
         "correctAnswer": "C",
-        "explanation": "Đối với các gói thầu quy mô rất lớn như mua sắm tập trung, việc giữ nguyên yêu cầu về quy mô hợp đồng tương tự có thể làm hạn chế cạnh tranh, chỉ có các nhà thầu rất lớn mới đáp ứng được. Do đó, pháp luật cho phép điều chỉnh giảm yêu cầu này (ví dụ xuống còn 1/1.5 hoặc 1/2 giá trị) và/hoặc chia nhỏ gói thầu để nhiều nhà thầu hơn có cơ hội tham gia."
+        "explanation": "Để tăng tính cạnh tranh cho các gói thầu mua sắm tập trung hoặc các gói thầu có quy mô lớn, pháp luật về đấu thầu cho phép linh hoạt trong việc quy định yêu cầu về hợp đồng tương tự. Cụ thể, có thể giảm yêu cầu về quy mô (giá trị) của hợp đồng tương tự hoặc chia gói thầu thành các phần nhỏ hơn để tạo điều kiện cho nhiều nhà thầu, bao gồm cả các doanh nghiệp nhỏ và vừa, có thể tham gia."
     }
 ];

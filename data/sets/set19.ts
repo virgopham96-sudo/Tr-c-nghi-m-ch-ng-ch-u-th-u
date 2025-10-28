@@ -10,8 +10,8 @@ export const set19: Question[] = [
             "C": "Thành lập khi chủ tịch UBND tỉnh yêu cầu",
             "D": "Thành lập khi Giám đốc doanh nghiệp A đề nghị"
         },
-        "correctAnswer": "B",
-        "explanation": "Thẩm quyền thành lập Hội đồng giải quyết kiến nghị cấp tỉnh thuộc về Chủ tịch Ủy ban nhân dân tỉnh, không phải Giám đốc Sở."
+        "correctAnswer": "A",
+        "explanation": "Đối với các dự án sử dụng vốn ngân sách nhà nước của địa phương, người có thẩm quyền thường là Chủ tịch UBND tỉnh. Giám đốc Sở Tài chính, với vai trò là cơ quan quản lý tài chính, thường được giao trách nhiệm thành lập Hội đồng giải quyết kiến nghị để xử lý các vấn đề phát sinh trong quá trình đấu thầu."
     },
     {
         "id": 182,
@@ -58,8 +58,8 @@ export const set19: Question[] = [
             "C": "04 ngày làm việc",
             "D": "05 ngày làm việc"
         },
-        "correctAnswer": "D",
-        "explanation": "Đây là thời hạn tiêu chuẩn được quy định trong các văn bản hướng dẫn để nhà thầu hoàn thành nghĩa vụ tài chính trước khi Hội đồng bắt đầu xem xét kiến nghị."
+        "correctAnswer": "B",
+        "explanation": "Đây là thời hạn tiêu chuẩn được quy định trong các văn bản hướng dẫn để nhà thầu hoàn thành nghĩa vụ tài chính một cách nhanh chóng, tạo điều kiện để Hội đồng có thể sớm bắt đầu quá trình xem xét kiến nghị. Thời hạn 02 ngày làm việc được xem là hợp lý."
     },
     {
         "id": 186,
@@ -94,8 +94,8 @@ export const set19: Question[] = [
             "C": "Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị",
             "D": "Tổ chuyên gia"
         },
-        "correctAnswer": "C",
-        "explanation": "Như đã giải thích ở câu 175, bộ phận thường trực là đơn vị đầu mối, có trách nhiệm tiếp nhận đơn, thu và quản lý chi phí giải quyết kiến nghị để phục vụ hoạt động của Hội đồng."
+        "correctAnswer": "D",
+        "explanation": "Trong quy trình giải quyết kiến nghị, Tổ chuyên gia là đơn vị trực tiếp nghiên cứu hồ sơ, tài liệu. Do đó, chi phí giải quyết kiến nghị do nhà thầu nộp sẽ được chuyển cho Tổ chuyên gia để quản lý và chi trả cho các hoạt động cần thiết trong quá trình xem xét, đánh giá kiến nghị."
     },
     {
         "id": 189,
@@ -118,7 +118,7 @@ export const set19: Question[] = [
             "C": "Bị hiệu chỉnh sai lệch, phần sai khác được tính là sai lệch thiếu",
             "D": "Không bị hiệu chỉnh sai lệch, phần sai khác không bị tính là sai lệch thiếu"
         },
-        "correctAnswer": "C",
-        "explanation": "Khi nhà thầu đề xuất biện pháp thi công khác, họ phải tự chịu trách nhiệm về khối lượng công việc phát sinh. Nếu khối lượng theo biện pháp của nhà thầu lớn hơn khối lượng trong HSMT, phần chênh lệch này được coi là sai lệch thiếu và nhà thầu phải tự gánh chịu chi phí, không được cộng thêm vào giá dự thầu."
+        "correctAnswer": "D",
+        "explanation": "Khi hồ sơ mời thầu cho phép đề xuất biện pháp thi công khác, điều đó có nghĩa là bên mời thầu chấp nhận sự linh hoạt. Phần sai khác về khối lượng do biện pháp thi công khác gây ra sẽ không bị coi là sai lệch thừa hay thiếu để hiệu chỉnh. Thay vào đó, nó sẽ được xem xét như một phần của đề xuất kỹ thuật và tài chính tổng thể của nhà thầu."
     }
 ];

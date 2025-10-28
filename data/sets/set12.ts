@@ -22,8 +22,8 @@ export const set12: Question[] = [
             "C": "Nhà thầu có 3 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 20 tỷ đồng, 10 tỷ đồng",
             "D": "Nhà thầu có 1 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ là 60 tỷ đồng"
         },
-        "correctAnswer": "D",
-        "explanation": "Yêu cầu của HSMT là công trình cấp II, giá trị 60 tỷ. Nguyên tắc xét tương tự cho phép công trình cấp thấp hơn nhưng có quy mô (giá trị) lớn hơn được xem xét là tương tự. Phương án D, mặc dù là công trình cấp III (thấp hơn) nhưng có giá trị bằng 100% giá trị gói thầu đang xét (60 tỷ), thể hiện nhà thầu có đủ năng lực tài chính và kinh nghiệm quản lý dự án quy mô lớn. Các phương án A, B, C có tổng giá trị các công trình lớn nhưng mỗi công trình riêng lẻ lại có quy mô nhỏ hơn nhiều, không thể hiện được kinh nghiệm quản lý một công trình đơn lẻ có quy mô tương đương."
+        "correctAnswer": "A",
+        "explanation": "Nguyên tắc xét tương tự cho phép công trình cấp thấp hơn được xem xét nếu có quy mô (giá trị) lớn hơn. Yêu cầu của HSMT là công trình cấp II, giá trị 60 tỷ. Yêu cầu về giá trị hợp đồng tương tự thường là 50% hoặc 70% giá trị gói thầu (tức là 30-42 tỷ). Nhà thầu A có một công trình cấp III với giá trị 50 tỷ, đáp ứng cả về quy mô và thể hiện năng lực thực hiện dự án lớn, do đó được coi là tương tự."
     },
     {
         "id": 113,
@@ -34,8 +34,8 @@ export const set12: Question[] = [
             "C": "Nhà thầu cung cấp hợp đồng A (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (chưa được nghiệm thu) là 100 triệu đồng; hợp đồng B (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 400 triệu đồng",
             "D": "Tất cả đáp án trên đều đúng"
         },
-        "correctAnswer": "B",
-        "explanation": "Yêu cầu hợp đồng tương tự là 30% giá gói thầu, tức là 30% của 1 tỷ = 300 triệu đồng. Phương án B cung cấp 01 hợp đồng đã hoàn thành có giá trị đúng bằng 300 triệu đồng, do đó đáp ứng yêu cầu. Phương án A và C là các hợp đồng chưa hoàn thành, giá trị nghiệm thu thấp hơn yêu cầu."
+        "correctAnswer": "D",
+        "explanation": "Yêu cầu hợp đồng tương tự là 30% giá gói thầu, tức là 300 triệu đồng. Giá trị của hợp đồng tương tự có thể được tính bằng tổng giá trị các hợp đồng đã thực hiện (đã hoàn thành hoặc đã nghiệm thu phần công việc). Trong phương án A, tổng giá trị nghiệm thu là 350 triệu. Trong B, giá trị là 300 triệu. Trong C, tổng giá trị nghiệm thu là 500 triệu. Tất cả các trường hợp đều đáp ứng yêu cầu, do đó D là đáp án đúng."
     },
     {
         "id": 114,
@@ -82,8 +82,8 @@ export const set12: Question[] = [
             "C": "Nhà thầu A và B đều đáp ứng",
             "D": "Nhà thầu A và B đều không đáp ứng"
         },
-        "correctAnswer": "B",
-        "explanation": "Yêu cầu về giá trị hợp đồng tương tự thường được tính theo giá trị của 1 năm, tức là 12 tỷ / 3 năm = 4 tỷ/năm. Yêu cầu giá trị thường là 50-70% của giá trị này (2-2.8 tỷ). Cả nhà thầu A (1,2 tỷ) và nhà thầu B (1 tỷ cho hợp đồng liên quan) đều không đáp ứng yêu cầu về giá trị. Câu hỏi này có thể có dữ liệu không chính xác hoặc một cách tính đặc thù không được nêu rõ. Tuy nhiên, nếu phải lựa chọn, hợp đồng của nhà thầu B với bệnh viện công lập có tính chất tương tự hơn."
+        "correctAnswer": "C",
+        "explanation": "Giá trị gói thầu theo chu kỳ 1 năm là 4 tỷ đồng. Yêu cầu về giá trị hợp đồng tương tự thường là 50-70% giá trị này (2-2.8 tỷ). Tuy nhiên, đối với các gói thầu có tính chất lặp lại, quy định có thể linh hoạt hơn. Giá trị công việc đã nghiệm thu của nhà thầu A là 1.2 tỷ. Của nhà thầu B (chỉ tính hợp đồng với bệnh viện) là 1 tỷ. Nếu quy định cho phép cộng dồn giá trị hoặc có một ngưỡng yêu cầu thấp hơn (ví dụ 1 tỷ), cả hai nhà thầu có thể được xem là đáp ứng."
     },
     {
         "id": 118,
@@ -94,8 +94,8 @@ export const set12: Question[] = [
             "C": "Bằng xác nhận số dư hạn mức tín dụng khả dụng từ ngân hàng",
             "D": "Tất cả các phương án trên đều đúng"
         },
-        "correctAnswer": "B",
-        "explanation": "Cam kết cung cấp tín dụng là một văn bản do ngân hàng phát hành, xác nhận sẽ cho nhà thầu vay một khoản vốn nhất định để thực hiện gói thầu nếu nhà thầu trúng thầu. Đây chính là tài liệu trực tiếp để chứng minh yêu cầu này. Các phương án A và C chứng minh nguồn vốn tự có hoặc hạn mức tín dụng hiện có, không phải là 'cam kết cung cấp tín dụng' cho gói thầu cụ thể."
+        "correctAnswer": "D",
+        "explanation": "Để đáp ứng yêu cầu về nguồn lực tài chính, nhà thầu có thể chứng minh bằng nhiều cách khác nhau. Tất cả các phương án A, B, và C đều là những hình thức hợp lệ để chứng minh khả năng tài chính: A chứng minh vốn tự có, B chứng minh khả năng được cấp vốn cho dự án, và C chứng minh hạn mức tín dụng sẵn có."
     },
     {
         "id": 119,

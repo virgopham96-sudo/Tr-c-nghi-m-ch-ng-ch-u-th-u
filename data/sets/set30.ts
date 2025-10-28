@@ -34,8 +34,8 @@ export const set30: Question[] = [
             "C": "Chủ đầu tư không cần điều chỉnh kế hoạch lựa chọn nhà thầu",
             "D": "Các phương án trên đều sai"
         },
-        "correctAnswer": "A",
-        "explanation": "Việc thay đổi thời gian thực hiện gói thầu (từ 120 lên 180 ngày) là một thay đổi lớn so với kế hoạch lựa chọn nhà thầu đã được phê duyệt ban đầu. Do đó, chủ đầu tư phải báo cáo và xin ý kiến của người có thẩm quyền (người đã phê duyệt KHLCNT) trước khi thực hiện điều chỉnh."
+        "correctAnswer": "C",
+        "explanation": "Kế hoạch lựa chọn nhà thầu (KHLCNT) là tài liệu phục vụ cho giai đoạn tổ chức lựa chọn nhà thầu. Khi hợp đồng đã được ký kết, việc quản lý thực hiện hợp đồng (bao gồm cả việc điều chỉnh thời gian) sẽ tuân theo các điều khoản của hợp đồng và các quy định về quản lý hợp đồng, không cần phải quay lại điều chỉnh KHLCNT đã được phê duyệt trước đó."
     },
     {
         "id": 294,
@@ -82,8 +82,8 @@ export const set30: Question[] = [
             "C": "Nhà thầu có từ 50% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng dưới 03 tháng và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực",
             "D": "Nhà thầu có từ 25% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng dưới 03 tháng và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực"
         },
-        "correctAnswer": "B",
-        "explanation": "Đây là một hình thức ưu đãi đặc biệt, cho phép chỉ định thầu cho các cơ sở, doanh nghiệp sử dụng một tỷ lệ nhất định lao động là người yếu thế (khuyết tật, thương binh, dân tộc thiểu số). Tỷ lệ phổ biến được quy định là từ 25% trở lên."
+        "correctAnswer": "A",
+        "explanation": "Đây là một hình thức ưu đãi đặc biệt, cho phép chỉ định thầu cho các cơ sở, doanh nghiệp sử dụng một tỷ lệ lớn lao động là người yếu thế. Theo quy định, tỷ lệ lao động này phải từ 50% trở lên và phải là lao động thường xuyên (hợp đồng từ 03 tháng trở lên) để được hưởng chính sách ưu đãi này."
     },
     {
         "id": 298,
@@ -94,8 +94,8 @@ export const set30: Question[] = [
             "C": "Nhà thầu A sử dụng tài khoản tham gia Hệ thống của công ty con hạch toán phụ thuộc C để tham dự thầu",
             "D": "Đáp án A và C là đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1 của Luật Đấu thầu. Nhà thầu tham dự thầu phải là một pháp nhân độc lập. Chi nhánh là đơn vị hạch toán phụ thuộc, không có tư cách pháp nhân độc lập. Do đó, nhà thầu A (công ty mẹ) không thể sử dụng tài khoản của chi nhánh B để tham dự thầu. Nhà thầu A phải sử dụng tài khoản của chính mình."
+        "correctAnswer": "D",
+        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1 của Luật Đấu thầu. Nhà thầu tham dự thầu phải là một pháp nhân độc lập và phải sử dụng đúng tài khoản đã đăng ký của mình. Chi nhánh (A) và công ty con hạch toán phụ thuộc (C) không có tư cách pháp nhân độc lập để tham gia đấu thầu. Do đó, việc sử dụng tài khoản của các đơn vị này là không hợp lệ."
     },
     {
         "id": 299,
@@ -118,7 +118,7 @@ export const set30: Question[] = [
             "C": "Chủ đầu tư và các nhà thầu tham dự lễ mở thầu",
             "D": "Các phương án trên đều đúng"
         },
-        "correctAnswer": "B",
-        "explanation": "Biên bản mở thầu là một tài liệu pháp lý quan trọng, ghi nhận lại quá trình mở thầu một cách công khai, minh bạch. Do đó, nó cần có chữ ký xác nhận của tất cả các bên tham gia và chứng kiến, bao gồm đại diện chủ đầu tư, tổ chuyên gia (những người thực hiện mở thầu), và đại diện các nhà thầu có mặt tại lễ mở thầu."
+        "correctAnswer": "C",
+        "explanation": "Biên bản mở thầu là tài liệu pháp lý ghi nhận sự kiện mở thầu công khai. Nó cần có chữ ký của bên mời thầu (đại diện là chủ đầu tư) và đại diện của các nhà thầu có mặt tại lễ mở thầu để xác nhận tính chính xác và minh bạch của quá trình. Tổ chuyên gia là đơn vị giúp việc, không phải là bên có tư cách pháp lý để ký trên biên bản này."
     }
 ];

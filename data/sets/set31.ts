@@ -10,8 +10,8 @@ export const set31: Question[] = [
             "C": "Trường hợp có sự sai khác giữa bản gốc và bản chụp nhưng không làm thay đổi thứ tự xếp hạng nhà thầu thì căn cứ vào bản gốc để đánh giá",
             "D": "Các phương án trên đều sai"
         },
-        "correctAnswer": "C",
-        "explanation": "Trong đấu thầu, văn bản gốc luôn là tài liệu có giá trị pháp lý cao nhất và là cơ sở để đối chiếu, xác thực thông tin. Nhà thầu chịu trách nhiệm về tính thống nhất và chính xác của hồ sơ. Khi có sự sai khác giữa bản gốc và bản chụp, nếu không làm thay đổi bản chất đề xuất hay thứ tự xếp hạng, việc căn cứ vào bản gốc để đánh giá là nguyên tắc cơ bản để đảm bảo tính chính xác."
+        "correctAnswer": "D",
+        "explanation": "Trong đấu thầu qua mạng, không có khái niệm 'bản gốc' và 'bản chụp' như đấu thầu truyền thống. Tất cả dữ liệu được nộp trên hệ thống đều là dữ liệu điện tử và có giá trị pháp lý như nhau. Hệ thống sẽ tự động ghi nhận và lưu trữ, việc đánh giá sẽ dựa hoàn toàn trên dữ liệu đã nộp trên hệ thống. Do đó, các phương án A, B, C đều không phù hợp."
     },
     {
         "id": 302,
@@ -82,8 +82,8 @@ export const set31: Question[] = [
             "C": "Chủ đầu tư",
             "D": "Đơn vị mua sắm tập trung"
         },
-        "correctAnswer": "A",
-        "explanation": "Mua sắm trực tuyến được thực hiện dựa trên các thỏa thuận hoặc kết quả lựa chọn nhà thầu đã có từ trước. Khi một đơn vị có nhu cầu đặt hàng, hệ thống sẽ tự động gửi yêu cầu đến nhà thầu đã được lựa chọn (đã trúng thầu) cho mặt hàng đó."
+        "correctAnswer": "B",
+        "explanation": "Mua sắm trực tuyến thường được thực hiện dựa trên kết quả của mua sắm tập trung đã được tổ chức trước đó. Khi một đơn vị có nhu cầu đặt hàng, hệ thống sẽ tự động gửi thông báo đến nhà thầu đã được lựa chọn và ký thỏa thuận khung trong đợt mua sắm tập trung đó."
     },
     {
         "id": 308,
@@ -94,8 +94,8 @@ export const set31: Question[] = [
             "C": "05 ngày",
             "D": "05 ngày làm việc"
         },
-        "correctAnswer": "A",
-        "explanation": "Mua sắm trực tuyến là quy trình nhanh gọn. Để đảm bảo tiến độ, các quy định thường yêu cầu nhà thầu phải phản hồi (xác nhận hoặc từ chối) yêu cầu đặt hàng trong một khoảng thời gian ngắn, thông thường là 24 giờ."
+        "correctAnswer": "B",
+        "explanation": "Mua sắm trực tuyến là quy trình nhanh gọn. Để đảm bảo tiến độ, các quy định thường yêu cầu nhà thầu phải phản hồi (xác nhận hoặc từ chối) yêu cầu đặt hàng trong một khoảng thời gian hợp lý. 03 ngày làm việc là khoảng thời gian tiêu chuẩn để nhà thầu xem xét và xác nhận đơn hàng."
     },
     {
         "id": 309,

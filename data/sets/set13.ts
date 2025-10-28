@@ -94,8 +94,8 @@ export const set13: Question[] = [
             "C": "Đấu thầu trước là việc lựa chọn nhà thầu không cần phê duyệt kế hoạch lựa chọn nhà thầu để đẩy nhanh tiến độ thực hiện",
             "D": "Đấu thầu trước là việc thực hiện trước một số thủ tục trước khi dự án, dự toán mua sắm được phê duyệt nhằm mục đích đẩy nhanh tiến độ thực hiện dự án, dự toán mua sắm, trừ gói thầu cần thực hiện trước khi phê duyệt dự án"
         },
-        "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 42, khoản 1 của Luật Đấu thầu. Đây là định nghĩa chính xác và đầy đủ nhất về đấu thầu trước, bao gồm cả mục đích (đẩy nhanh tiến độ) và phạm vi áp dụng (trước khi dự án/dự toán được phê duyệt)."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 42, khoản 1 của Luật Đấu thầu. 'Đấu thầu trước' là việc tổ chức lựa chọn nhà thầu cho gói thầu thuộc dự án trong giai đoạn lập báo cáo nghiên cứu khả thi hoặc các gói thầu cần thực hiện trước khi có quyết định phê duyệt dự án. Phương án A mô tả chính xác nhất khái niệm này, nhấn mạnh vào việc thực hiện trước khi có 'quyết định phê duyệt đầu tư'."
     },
     {
         "id": 129,
@@ -106,8 +106,8 @@ export const set13: Question[] = [
             "C": "Phát hành hồ sơ yêu cầu",
             "D": "Phê duyệt và công khai kết quả mua sắm trực tiếp"
         },
-        "correctAnswer": "C",
-        "explanation": "Mua sắm trực tiếp là việc chủ đầu tư gửi trực tiếp dự thảo hợp đồng cho nhà thầu đã được lựa chọn trước đó để thương thảo. Quy trình này không có bước phát hành hồ sơ yêu cầu một cách công khai như các hình thức khác."
+        "correctAnswer": "A",
+        "explanation": "Quy trình mua sắm trực tiếp được rút gọn. Chủ đầu tư chuẩn bị và gửi hồ sơ yêu cầu (bao gồm dự thảo hợp đồng) cho nhà thầu. Nhà thầu chuẩn bị hồ sơ đề xuất. Các bên thương thảo và hoàn thiện hợp đồng. Sau đó là các bước trình, phê duyệt và công khai kết quả. Bước 'thẩm định' hồ sơ yêu cầu một cách riêng biệt thường không có trong quy trình rút gọn này."
     },
     {
         "id": 130,

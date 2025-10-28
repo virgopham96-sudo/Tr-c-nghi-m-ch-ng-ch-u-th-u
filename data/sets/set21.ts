@@ -10,8 +10,8 @@ export const set21: Question[] = [
             "C": "Không phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu",
             "D": "Tất cả các đáp án trên đều không đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Hủy thầu có nghĩa là chấm dứt hoàn toàn quá trình lựa chọn nhà thầu đã bắt đầu. Nếu nhu cầu mua sắm vẫn còn, chủ đầu tư phải tổ chức lại việc lựa chọn nhà thầu. Để tổ chức lại, cần phải có một kế hoạch lựa chọn nhà thầu mới hoặc điều chỉnh kế hoạch cũ, trong đó nội dung quan trọng nhất cần điều chỉnh là 'thời gian bắt đầu tổ chức lựa chọn nhà thầu' cho lần đấu thầu mới."
+        "correctAnswer": "C",
+        "explanation": "Khi hủy thầu, toàn bộ quá trình lựa chọn nhà thầu trước đó bị hủy bỏ. Nếu chủ đầu tư vẫn muốn thực hiện gói thầu, họ phải lập một kế hoạch lựa chọn nhà thầu hoàn toàn mới. Do đó, không có việc 'điều chỉnh' kế hoạch cũ. Phương án C là đúng vì không có kế hoạch cũ để điều chỉnh."
     },
     {
         "id": 202,
@@ -82,8 +82,8 @@ export const set21: Question[] = [
             "C": "Chủ đầu tư quyết định để ngừa rủi ro cho quá trình thực hiện",
             "D": "Có thể quy định nhưng phải được người có thẩm quyền chấp thuận"
         },
-        "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 4 của Luật Đấu thầu. Luật quy định mức bảo đảm thực hiện hợp đồng là từ 2% đến 10% giá hợp đồng. Tuy nhiên, trong trường hợp giá dự thầu thấp bất thường (thấp hơn đáng kể so với giá gói thầu), để phòng ngừa rủi ro, chủ đầu tư có thể yêu cầu mức bảo đảm cao hơn, tối đa lên đến 30%. Việc áp dụng mức cao hơn 10% là một tình huống đặc biệt và cần có sự chấp thuận của người có thẩm quyền."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 68, khoản 4 của Luật Đấu thầu. Luật quy định mức bảo đảm thực hiện hợp đồng là từ 2% đến 10% giá hợp đồng. Mặc dù có quy định cho phép tăng mức bảo đảm lên đến 30% trong trường hợp giá dự thầu thấp bất thường, nhưng mức 15% vẫn nằm ngoài khung quy định thông thường và không có cơ sở pháp lý để áp dụng trong trường hợp này."
     },
     {
         "id": 208,

@@ -34,8 +34,8 @@ export const set16: Question[] = [
             "C": "Quyết định việc hủy thầu khi thay đổi mục tiêu đầu tư trong quyết định đầu tư",
             "D": "Quyết định việc hủy thầu, đình chỉ cuộc đấu thầu, không công nhận kết quả lựa chọn nhà thầu khi phát hiện có hành vi vi phạm pháp luật về đấu thầu"
         },
-        "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 77 và Điều 17 của Luật Đấu thầu. Điều 77 quy định các trách nhiệm của người có thẩm quyền, bao gồm phê duyệt KHLCNT (A), giải quyết kiến nghị (B), và hủy thầu khi có vi phạm pháp luật (D). Việc 'thay đổi mục tiêu, phạm vi đầu tư' là một trong các trường hợp để hủy thầu được quy định tại Điều 17, khoản 1, điểm b. Tuy nhiên, trách nhiệm ra quyết định hủy thầu trong trường hợp này thuộc về chủ đầu tư. Người có thẩm quyền chỉ hủy thầu khi phát hiện có hành vi vi phạm pháp luật về đấu thầu."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 78, khoản 1, điểm a của Luật Đấu thầu. Trách nhiệm phê duyệt kế hoạch lựa chọn nhà thầu thuộc về chủ đầu tư. Người có thẩm quyền chỉ phê duyệt kế hoạch tổng thể lựa chọn nhà thầu (nếu có), không phê duyệt kế hoạch chi tiết cho từng gói thầu."
     },
     {
         "id": 154,
@@ -82,8 +82,8 @@ export const set16: Question[] = [
             "C": "Kết hợp giữa kiểm tra trực tiếp và báo cáo bằng văn bản",
             "D": "Kiểm tra định kỳ hoặc đột xuất"
         },
-        "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 86, khoản 2, điểm c của Luật Đấu thầu. Luật quy định: 'Kiểm tra hoạt động đấu thầu được thực hiện theo phương thức kiểm tra trực tiếp hoặc qua báo cáo bằng văn bản'. Do đó, việc kết hợp cả hai hình thức là hoàn toàn phù hợp và bao quát các phương thức được luật cho phép."
+        "correctAnswer": "D",
+        "explanation": "Căn cứ pháp lý: Điều 86, khoản 2, điểm a của Luật Đấu thầu. Hoạt động kiểm tra đấu thầu có thể được tiến hành theo kế hoạch định kỳ hoặc được thực hiện đột xuất khi phát hiện có dấu hiệu vi phạm hoặc theo yêu cầu của người có thẩm quyền để đảm bảo tính tuân thủ pháp luật."
     },
     {
         "id": 158,
@@ -94,8 +94,8 @@ export const set16: Question[] = [
             "C": "05 năm tính từ ngày phát hiện ra hành vi vi phạm",
             "D": "05 năm tính từ ngày xảy ra hành vi vi phạm"
         },
-        "correctAnswer": "C",
-        "explanation": "Mặc dù văn bản không ghi rõ điều này, nhưng theo nguyên tắc chung của pháp luật về xử lý vi phạm hành chính, thời hiệu thường được tính từ ngày hành vi vi phạm được phát hiện. Thời hạn 05 năm là thời gian cấm thầu tối đa theo quy định tại Điều 87, khoản 2."
+        "correctAnswer": "A",
+        "explanation": "Theo quy định của pháp luật về xử lý vi phạm hành chính, thời hiệu xử lý vi phạm được tính từ thời điểm hành vi vi phạm xảy ra. Đối với các vi phạm trong đấu thầu, thời hiệu để áp dụng biện pháp cấm thầu là 10 năm kể từ ngày xảy ra hành vi."
     },
     {
         "id": 159,

@@ -10,8 +10,8 @@ export const set23: Question[] = [
             "C": "Thời gian áp dụng là 24 tháng kể từ ngày kết quả lựa chọn nhà thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Phương án A và B đều đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Thời gian áp dụng mua sắm tập trung được xác định bởi thời hạn hiệu lực của kết quả lựa chọn nhà thầu, thể hiện qua thỏa thuận khung (thường tối đa 36 tháng) hoặc hợp đồng cụ thể."
+        "correctAnswer": "D",
+        "explanation": "Thời gian áp dụng mua sắm tập trung được xác định bởi thời hạn hiệu lực của kết quả lựa chọn nhà thầu. Thời hạn này có thể được quy định trong thỏa thuận khung (A) hoặc được tính từ ngày kết quả được công khai trên hệ thống (B), thường là 24 tháng. Cả hai phương án đều mô tả các cách xác định thời gian hợp lệ."
     },
     {
         "id": 222,
@@ -34,8 +34,8 @@ export const set23: Question[] = [
             "C": "Do tư vấn đấu thầu thực hiện bằng tài khoản của đơn vị tư vấn trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Do Chủ đầu tư thực hiện trên Hệ thống mạng đấu thầu quốc gia"
         },
-        "correctAnswer": "B",
-        "explanation": "Tất cả các tương tác giữa bên mời thầu và nhà thầu trong đấu thầu qua mạng (yêu cầu làm rõ và trả lời) đều phải được thực hiện công khai trên Hệ thống để đảm bảo tính minh bạch và lưu lại dấu vết. Tổ chuyên gia là đơn vị trực tiếp đánh giá hồ sơ nên sẽ là người thực hiện việc trả lời các yêu cầu làm rõ."
+        "correctAnswer": "D",
+        "explanation": "Chủ đầu tư là người chịu trách nhiệm cuối cùng về nội dung của hồ sơ mời thầu và các thông tin cung cấp cho nhà thầu. Do đó, việc trả lời các yêu cầu làm rõ E-HSMT phải được thực hiện bởi tài khoản của chủ đầu tư trên Hệ thống để đảm bảo tính pháp lý và trách nhiệm."
     },
     {
         "id": 224,
@@ -58,8 +58,8 @@ export const set23: Question[] = [
             "C": "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 60 triệu đồng",
             "D": "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 100 triệu đồng"
         },
-        "correctAnswer": "B",
-        "explanation": "Đây là quy định nhằm đơn giản hóa thủ tục đối với các gói thầu có giá trị bảo đảm dự thầu nhỏ. Theo quy định hiện hành, đối với các gói thầu có giá trị bảo đảm dự thầu không quá 50 triệu đồng, nhà thầu có thể lựa chọn hình thức cam kết trong đơn dự thầu điện tử thay vì phải nộp thư bảo lãnh của ngân hàng."
+        "correctAnswer": "A",
+        "explanation": "Đây là quy định nhằm đơn giản hóa thủ tục đối với các gói thầu có giá trị bảo đảm dự thầu nhỏ. Theo quy định hiện hành, đối với các gói thầu có giá trị bảo đảm dự thầu không quá 50 triệu đồng, nhà thầu có thể lựa chọn hình thức cam kết trong đơn dự thầu điện tử thay vì phải nộp thư bảo lãnh của ngân hàng. 40 triệu đồng nằm trong ngưỡng này."
     },
     {
         "id": 226,
@@ -82,8 +82,8 @@ export const set23: Question[] = [
             "C": "Tổ chuyên gia phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu.",
             "D": "Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu."
         },
-        "correctAnswer": "A",
-        "explanation": "Một trong những ưu điểm của đấu thầu qua mạng là tính tự động và minh bạch. Ngay sau thời điểm đóng thầu, Hệ thống sẽ tự động tiến hành thủ tục mở thầu và công khai ngay lập tức biên bản mở thầu cho tất cả các nhà thầu đã nộp hồ sơ. Thời hạn 02 giờ là khoảng thời gian tối đa để hệ thống xử lý và công khai."
+        "correctAnswer": "D",
+        "explanation": "Trong đấu thầu qua mạng, mặc dù hệ thống có thể hỗ trợ, nhưng trách nhiệm pháp lý của việc mở thầu và công khai biên bản mở thầu vẫn thuộc về chủ đầu tư (hoặc bên mời thầu được ủy quyền). Thời hạn để thực hiện và công khai là không quá 02 giờ kể từ thời điểm đóng thầu để đảm bảo tính kịp thời và minh bạch."
     },
     {
         "id": 228,

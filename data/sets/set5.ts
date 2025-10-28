@@ -46,8 +46,8 @@ export const set5: Question[] = [
             "C": "Được hình thành gói thầu để thực hiện lựa chọn nhà thầu theo một trong hình thức lựa chọn nhà thầu (đấu thầu rộng rãi, chào hàng cạnh tranh, chỉ định thầu) nhưng phải lập kế hoạch lựa chọn nhà thầu",
             "D": "Phương án A và C đều đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Đây là quy định về mua sắm thường xuyên giá trị nhỏ, thường được quy định chi tiết trong các văn bản hướng dẫn về quản lý tài chính, tài sản công. Chủ đầu tư được tự quyết định nhưng phải đảm bảo nguyên tắc hiệu quả và có đầy đủ chứng từ."
+        "correctAnswer": "D",
+        "explanation": "Đối với mua sắm giá trị nhỏ (dưới 50 triệu đồng), chủ đầu tư có hai lựa chọn: (A) Thực hiện mua sắm trực tiếp, không cần lập kế hoạch lựa chọn nhà thầu nhưng phải đảm bảo có đủ hóa đơn, chứng từ. (C) Gộp các nội dung mua sắm nhỏ thành một gói thầu và tổ chức lựa chọn nhà thầu theo một trong các hình thức quy định, khi đó bắt buộc phải lập kế hoạch lựa chọn nhà thầu. Cả hai cách tiếp cận này đều được pháp luật cho phép, do đó phương án D là đúng."
     },
     {
         "id": 45,
@@ -94,8 +94,8 @@ export const set5: Question[] = [
             "C": "Phải độc lập với nhà thầu tư vấn lập kế hoạch tổng thể lựa chọn nhà thầu",
             "D": "Phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu"
         },
-        "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 6 của Luật Đấu thầu. Nguyên tắc bảo đảm cạnh tranh yêu cầu nhà thầu tham dự phải độc lập về pháp lý và tài chính với chủ đầu tư, bên mời thầu, và các nhà thầu tư vấn tham gia vào quá trình chuẩn bị, đánh giá gói thầu đó (lập HSMT, đánh giá HSDT...). Việc lập kế hoạch lựa chọn nhà thầu là một phần của quá trình chuẩn bị, do đó nhà thầu phải độc lập với tư vấn lập KHLCNT."
+        "correctAnswer": "A",
+        "explanation": "Căn cứ pháp lý: Điều 6, khoản 4 của Luật Đấu thầu. Nguyên tắc bảo đảm cạnh tranh yêu cầu nhà thầu tham dự phải độc lập về pháp lý và tài chính với các nhà thầu tư vấn tham gia vào quá trình chuẩn bị, đánh giá gói thầu đó. Việc lập hồ sơ mời thầu là một phần quan trọng của quá trình chuẩn bị gói thầu, do đó nhà thầu tham dự phải độc lập với nhà thầu tư vấn lập hồ sơ mời thầu."
     },
     {
         "id": 49,

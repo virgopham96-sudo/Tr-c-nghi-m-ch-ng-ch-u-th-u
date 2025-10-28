@@ -58,8 +58,8 @@ export const set25: Question[] = [
             "C": "Khóa chức năng chào giá trực tuyến trong thời hạn 06 tháng kể từ ngày chủ đầu tư công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Bị đánh giá về uy tín trong việc tham dự thầu"
         },
-        "correctAnswer": "C",
-        "explanation": "Hành vi từ chối xác nhận sau khi đã tham gia và được xác định trúng thầu là một vi phạm. Hình thức xử lý là tạm thời khóa chức năng tham gia chào giá trực tuyến của nhà thầu đó trên Hệ thống."
+        "correctAnswer": "B",
+        "explanation": "Hành vi từ chối xác nhận sau khi đã tham gia và được xác định trúng thầu là một vi phạm. Hình thức xử lý là tạm thời khóa tài khoản tham gia của nhà thầu trên Hệ thống. Thời hạn 03 tháng là một mức phạt hợp lý, được áp dụng sau khi có đề nghị chính thức từ chủ đầu tư và được cơ quan quản lý (Bộ Tài chính) chấp thuận."
     },
     {
         "id": 246,
@@ -83,7 +83,7 @@ export const set25: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Chức năng 'xác nhận chấp thuận trao hợp đồng' là một bước đặc thù của quy trình chào giá trực tuyến rút gọn, nơi việc lựa chọn diễn ra rất nhanh và cần sự xác nhận ngay lập tức từ nhà thầu để hoàn tất giao dịch."
+        "explanation": "Chức năng 'xác nhận chấp thuận được trao hợp đồng' là một bước đặc thù của quy trình chào giá trực tuyến rút gọn, nơi việc lựa chọn diễn ra rất nhanh và cần sự xác nhận ngay lập tức từ nhà thầu để hoàn tất giao dịch."
     },
     {
         "id": 248,

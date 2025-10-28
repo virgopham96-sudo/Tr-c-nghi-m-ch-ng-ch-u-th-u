@@ -34,8 +34,8 @@ export const set17: Question[] = [
             "C": "Cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm đối với tất cả thành viên trong nhà thầu liên danh A-B",
             "D": "Cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm đối với tất cả thành viên trong nhà thầu liên danh A-B"
         },
-        "correctAnswer": "C",
-        "explanation": "Khi tham gia với tư cách liên danh, các thành viên phải chịu trách nhiệm chung. Hành vi vi phạm nghiêm trọng của một thành viên sẽ dẫn đến hậu quả cho cả liên danh. Mức phạt cho hành vi làm giả hồ sơ (thuộc nhóm gian lận) là từ 03 đến 05 năm."
+        "correctAnswer": "A",
+        "explanation": "Khi một thành viên trong liên danh vi phạm, hình phạt cấm thầu chỉ áp dụng đối với chính thành viên đó, không áp dụng cho toàn bộ liên danh, trừ khi có bằng chứng cho thấy các thành viên khác cũng tham gia hoặc bao che. Mức phạt cho hành vi làm giả hồ sơ (thuộc nhóm gian lận) là từ 03 đến 05 năm."
     },
     {
         "id": 164,
@@ -46,7 +46,7 @@ export const set17: Question[] = [
             "C": "Sau khi phê duyệt kết quả lựa chọn nhà thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
             "D": "Trong quá trình thực hiện hợp đồng"
         },
-        "correctAnswer": "A",
+        "correctAnswer": "B",
         "explanation": "Căn cứ pháp lý: Điều 18, khoản 1, điểm a của Luật Đấu thầu. Luật quy định: 'Đình chỉ cuộc thầu được thực hiện trong quá trình tổ chức lựa chọn nhà thầu, nhà đầu tư cho đến trước khi phê duyệt kết quả lựa chọn nhà thầu, nhà đầu tư'. Giai đoạn này bắt đầu từ khi phát hành hồ sơ và kết thúc trước khi có kết quả cuối cùng (phê duyệt kết quả hoặc ký hợp đồng)."
     },
     {
@@ -94,8 +94,8 @@ export const set17: Question[] = [
             "C": "Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm",
             "D": "Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm"
         },
-        "correctAnswer": "B",
-        "explanation": "Hành vi gian lận của một thành viên liên danh sẽ dẫn đến hình phạt cấm thầu áp dụng cho tất cả các thành viên trong liên danh đó. Mức phạt cho hành vi làm giả thông tin là từ 03 đến 05 năm."
+        "correctAnswer": "A",
+        "explanation": "Hành vi gian lận của một thành viên liên danh sẽ dẫn đến hình phạt cấm thầu áp dụng đối với chính thành viên đó. Mức phạt cho hành vi làm giả thông tin là từ 03 đến 05 năm. Trách nhiệm là riêng biệt đối với hành vi vi phạm."
     },
     {
         "id": 169,

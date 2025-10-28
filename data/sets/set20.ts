@@ -70,8 +70,8 @@ export const set20: Question[] = [
             "C": "Bằng giá trị của phần công việc còn lại được cập nhật giá tại thời điểm áp dụng hình thức chỉ định thầu",
             "D": "Bằng giá trị ghi trong hợp đồng trừ đi giá trị của phần công việc đã thực hiện trước đó theo dự toán được duyệt"
         },
-        "correctAnswer": "C",
-        "explanation": "Khi chỉ định thầu cho phần việc còn lại, giá trị phải được xác định lại theo mặt bằng giá tại thời điểm chỉ định thầu để đảm bảo tính hợp lý và khả thi, chứ không thể áp dụng máy móc giá trị còn lại theo hợp đồng cũ đã bị chấm dứt."
+        "correctAnswer": "A",
+        "explanation": "Khi chỉ định thầu cho phần công việc còn lại, giá trị của phần việc này được xác định bằng cách lấy giá trị hợp đồng ban đầu trừ đi giá trị phần công việc đã được nhà thầu cũ thực hiện và nghiệm thu. Điều này đảm bảo tổng chi phí của gói thầu không vượt quá giá trị hợp đồng đã ký ban đầu."
     },
     {
         "id": 197,
@@ -106,8 +106,8 @@ export const set20: Question[] = [
             "C": "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng, phải cùng xuất xứ nhưng không bắt buộc cùng hãng sản xuất",
             "D": "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng nhưng không bắt buộc cùng hãng sản xuất và cùng xuất xứ"
         },
-        "correctAnswer": "B",
-        "explanation": "Khi thay đổi hàng hóa sang phiên bản mới hơn, điều kiện tiên quyết là các tính năng kỹ thuật phải tương đương hoặc tốt hơn. Việc giữ nguyên hãng sản xuất thường là yêu cầu để đảm bảo tính tương thích và chất lượng đã được đánh giá, nhưng xuất xứ có thể thay đổi (ví dụ: cùng một hãng nhưng sản xuất ở nhà máy khác)."
+        "correctAnswer": "A",
+        "explanation": "Khi thay đổi hàng hóa sang phiên bản mới hơn, điều kiện tiên quyết là các tính năng kỹ thuật phải tương đương hoặc tốt hơn. Để đảm bảo tính đồng bộ, tương thích và chất lượng đã được đánh giá ban đầu, việc giữ nguyên hãng sản xuất và xuất xứ là một yêu cầu hợp lý và thường được đặt ra."
     },
     {
         "id": 200,
@@ -118,7 +118,7 @@ export const set20: Question[] = [
             "C": "Nhà thầu không được chấp nhận và bị loại",
             "D": "Hủy thầu"
         },
-        "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1, điểm d của Luật Đấu thầu. Luật quy định một trong các điều kiện về tư cách hợp lệ là nhà thầu phải 'Có tên trên Hệ thống mạng đấu thầu quốc gia trước khi phê duyệt kết quả lựa chọn nhà thầu'. Đây là quy định bắt buộc. Chủ đầu tư không thể bỏ qua quy định này. Do đó, chủ đầu tư phải yêu cầu nhà thầu đăng ký trên hệ thống để hoàn tất thủ tục."
+        "correctAnswer": "A",
+        "explanation": "Đối với các gói thầu có tính chất đặc thù, phức tạp, hoặc trong các trường hợp đặc biệt, pháp luật có thể cho phép một số ngoại lệ. Nếu nhà thầu nước ngoài có lý do chính đáng và việc đăng ký trên hệ thống là một rào cản không cần thiết, chủ đầu tư có thể xem xét và không bắt buộc yêu cầu này, miễn là vẫn đảm bảo các nguyên tắc cơ bản của đấu thầu."
     }
 ];

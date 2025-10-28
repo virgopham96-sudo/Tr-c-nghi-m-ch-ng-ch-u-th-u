@@ -46,8 +46,8 @@ export const set4: Question[] = [
             "C": "01 tỷ đồng",
             "D": "02 tỷ đồng"
         },
-        "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 23, khoản 1, điểm e và quy định chi tiết của Chính phủ. Hạn mức chỉ định thầu được quy định cụ thể tại Nghị định hướng dẫn Luật Đấu thầu. Mức phổ biến cho mua sắm thường xuyên là không quá 500 triệu đồng. Hạn mức chỉ định thầu cho gói thầu thuộc dự án đầu tư thường cao hơn và được quy định tại Nghị định hướng dẫn. Mức phổ biến là không quá 01 tỷ đồng."
+        "correctAnswer": "D",
+        "explanation": "Theo các quy định chi tiết hướng dẫn Luật Đấu thầu (ví dụ: Nghị định của Chính phủ), hạn mức chỉ định thầu đối với gói thầu mua sắm hàng hóa thuộc dự án đầu tư đã được nâng lên để phù hợp với tình hình thực tế, thường là không quá 02 tỷ đồng."
     },
     {
         "id": 35,
@@ -95,7 +95,7 @@ export const set4: Question[] = [
             "D": "Gói thầu mua sắm hàng hóa và dịch vụ phi tư vấn"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 25, khoản 1 của Luật Đấu thầu. Luật quy định rõ: 'Mua sắm trực tiếp được áp dụng đối với gói thầu mua sắm hàng hóa tương tự...'"
+        "explanation": "Căn cứ pháp lý: Điều 25, khoản 1 của Luật Đấu thầu. Luật quy định rất rõ ràng: 'Mua sắm trực tiếp được áp dụng đối với gói thầu mua sắm hàng hóa có tính chất tương tự thuộc cùng một dự án, dự toán mua sắm hoặc thuộc dự án, dự toán mua sắm khác.' Hình thức này không áp dụng cho xây lắp hay dịch vụ."
     },
     {
         "id": 39,

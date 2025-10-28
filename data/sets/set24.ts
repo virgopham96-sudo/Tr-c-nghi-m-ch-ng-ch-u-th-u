@@ -82,8 +82,8 @@ export const set24: Question[] = [
             "C": "Doanh thu bình quân 3 năm gần nhất của nhà thầu",
             "D": "Các đáp án trên đều đúng"
         },
-        "correctAnswer": "D",
-        "explanation": "Hệ thống mạng đấu thầu quốc gia được lập trình để tự động đánh giá một số tiêu chí cơ bản dựa trên thông tin nhà thầu kê khai trên webform, bao gồm: tình trạng nộp bảo đảm dự thầu điện tử (A), có thỏa thuận liên danh hợp lệ (B), và các chỉ tiêu tài chính như doanh thu (C)."
+        "correctAnswer": "C",
+        "explanation": "Hệ thống mạng đấu thầu quốc gia được lập trình để tự động đánh giá một số tiêu chí tài chính cơ bản dựa trên dữ liệu nhà thầu kê khai, trong đó có doanh thu bình quân 3 năm gần nhất. Các tiêu chí khác như bảo đảm dự thầu (A) và thỏa thuận liên danh (B) thường cần sự xem xét, đánh giá của tổ chuyên gia."
     },
     {
         "id": 238,
@@ -106,7 +106,7 @@ export const set24: Question[] = [
             "C": "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, trạng thái bị tạm ngừng, chấm dứt tham gia Hệ thống mạng đấu thầu quốc gia, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm",
             "D": "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, lịch sử không hoàn thành hợp đồng do lỗi của nhà thầu, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm"
         },
-        "correctAnswer": "B",
+        "correctAnswer": "D",
         "explanation": "Đây là các tiêu chí cơ bản, được Hệ thống đánh giá tự động dựa trên dữ liệu có sẵn (kết nối từ cơ sở dữ liệu thuế, đăng ký kinh doanh...) hoặc kê khai trên webform. Kết quả đánh giá tự động này được coi là 'cứng' và tổ chuyên gia không thể can thiệp, sửa đổi để đảm bảo tính khách quan."
     },
     {

@@ -10,8 +10,8 @@ export const set27: Question[] = [
             "C": "Được thực hiện trước thời điểm đóng thầu trong trường hợp đã phát hành hồ sơ mời thầu trước ngày 01/7/2025 nhưng đến ngày 4/8/2025 chưa đóng thầu",
             "D": "Phương án A và C đều đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Hủy E-TBMT (Thông báo mời thầu điện tử) tương đương với việc hủy thầu. Một trong những lý do hợp lệ để hủy thầu là khi đến thời điểm đóng thầu mà không có bất kỳ nhà thầu nào nộp hồ sơ dự thầu."
+        "correctAnswer": "D",
+        "explanation": "Hủy E-TBMT (Thông báo mời thầu điện tử) có thể được thực hiện trong nhiều trường hợp. (A) là một lý do hợp lệ khi không có nhà thầu tham gia. (C) cũng là một trường hợp hợp lệ khi có sự thay đổi lớn về quy định pháp luật hoặc các yếu tố khác làm cho việc tiếp tục gói thầu theo thông báo cũ là không còn phù hợp, miễn là việc hủy được thực hiện trước thời điểm đóng thầu. Do đó, cả hai phương án đều đúng."
     },
     {
         "id": 262,
@@ -22,8 +22,8 @@ export const set27: Question[] = [
             "C": "Hệ thống mạng đấu thầu quốc gia tự động gửi email thông báo về việc sửa đổi E-HSMT, thay đổi thời điểm đóng thầu (nếu có) cho các nhà thầu quan tâm đến gói thầu",
             "D": "Các phương án trên đều đúng"
         },
-        "correctAnswer": "D",
-        "explanation": "Khi có sự thay đổi E-HSMT, nhà thầu có trách nhiệm phải chủ động theo dõi thông tin trên Hệ thống để cập nhật và chuẩn bị lại hồ sơ cho phù hợp (A, B). Đồng thời, để hỗ trợ nhà thầu, Hệ thống cũng có cơ chế tự động gửi email thông báo về sự thay đổi này cho các nhà thầu đã quan tâm đến gói thầu (C). Cả ba nhận định đều đúng."
+        "correctAnswer": "A",
+        "explanation": "Khi có sự thay đổi E-HSMT, nhà thầu có trách nhiệm phải chủ động theo dõi thông tin trên Hệ thống để cập nhật và chuẩn bị lại hồ sơ cho phù hợp. Đây là trách nhiệm của nhà thầu khi tham gia đấu thầu qua mạng."
     },
     {
         "id": 263,
@@ -58,8 +58,8 @@ export const set27: Question[] = [
             "C": "Đính kèm bản scan báo cáo đánh giá E-HSDT (chỉ cần chữ ký của tổ trưởng tổ chuyên gia)",
             "D": "Tất cả các phương án đều sai"
         },
-        "correctAnswer": "C",
-        "explanation": "Để đơn giản hóa thủ tục trên môi trường mạng, quy định hiện hành cho phép chỉ cần tổ trưởng tổ chuyên gia ký vào báo cáo đánh giá, sau đó scan và đính kèm lên Hệ thống để trình duyệt. Tổ trưởng chịu trách nhiệm về tính thống nhất của báo cáo."
+        "correctAnswer": "A",
+        "explanation": "Để đảm bảo tính pháp lý và trách nhiệm của tất cả các thành viên, báo cáo đánh giá E-HSDT phải có đầy đủ chữ ký của tất cả các thành viên trong tổ chuyên gia. Bản scan của báo cáo này sẽ được đính kèm lên Hệ thống để trình duyệt."
     },
     {
         "id": 266,
@@ -82,8 +82,8 @@ export const set27: Question[] = [
             "C": "Được làm rõ trong trường hợp có sự sai khác thông tin về giảm giá giữa tệp tin đính kèm này và thông tin kê khai trong đơn dự thầu",
             "D": "Được bổ sung trong trường hợp có sự sai khác thông tin về giảm giá giữa tệp tin đính kèm này và thông tin kê khai trong đơn dự thầu"
         },
-        "correctAnswer": "C",
-        "explanation": "Trong đấu thầu qua mạng, nhà thầu sẽ nhập số tiền giảm giá vào một trường (webform) trên hệ thống và đồng thời có thể đính kèm bản scan thư giảm giá. Nếu có sự khác biệt giữa hai thông tin này, bên mời thầu phải yêu cầu nhà thầu làm rõ để xác định thông tin nào là thông tin chính xác cuối cùng."
+        "correctAnswer": "A",
+        "explanation": "Trong đấu thầu qua mạng, việc giảm giá phải được thực hiện thông qua chức năng nhập giá trực tiếp trên webform của Hệ thống. Việc đính kèm bản scan thư giảm giá không được coi là hợp lệ và sẽ không được xem xét, đánh giá để đảm bảo tính thống nhất và tự động hóa của quy trình."
     },
     {
         "id": 268,
@@ -94,8 +94,8 @@ export const set27: Question[] = [
             "C": "05 ngày",
             "D": "03 ngày làm việc"
         },
-        "correctAnswer": "D",
-        "explanation": "Khi không có nhà thầu tham dự, chủ đầu tư có thể gia hạn thời điểm đóng thầu để thu hút thêm nhà thầu. Thời gian gia hạn tối thiểu được quy định là 03 ngày làm việc để đảm bảo các nhà thầu tiềm năng có đủ thời gian để biết thông tin và chuẩn bị hồ sơ."
+        "correctAnswer": "A",
+        "explanation": "Khi không có nhà thầu tham dự, chủ đầu tư có thể gia hạn thời điểm đóng thầu để thu hút thêm nhà thầu. Đối với các gói thầu có quy mô lớn, thời gian gia hạn tối thiểu thường được quy định dài hơn (ví dụ 10 ngày) để đảm bảo các nhà thầu tiềm năng có đủ thời gian để chuẩn bị hồ sơ một cách kỹ lưỡng."
     },
     {
         "id": 269,
@@ -118,7 +118,7 @@ export const set27: Question[] = [
             "C": "Có giá gói thầu không quá 05 tỷ đồng",
             "D": "Không có quy định về hạn mức áp dụng"
         },
-        "correctAnswer": "C",
-        "explanation": "Chào hàng cạnh tranh (bao gồm cả chào giá trực tuyến) có các hạn mức giá trị gói thầu khác nhau tùy thuộc vào loại gói thầu (xây lắp, hàng hóa, phi tư vấn). Đối với gói thầu mua sắm hàng hóa, hạn mức áp dụng chào hàng cạnh tranh thông thường là không quá 05 tỷ đồng."
+        "correctAnswer": "D",
+        "explanation": "Pháp luật về đấu thầu không quy định một hạn mức cụ thể cho việc áp dụng chào giá trực tuyến. Việc áp dụng hình thức này phụ thuộc vào tính chất của gói thầu (hàng hóa, dịch vụ thông dụng, đơn giản) và quyết định của chủ đầu tư, không bị giới hạn bởi một hạn mức giá cố định."
     }
 ];

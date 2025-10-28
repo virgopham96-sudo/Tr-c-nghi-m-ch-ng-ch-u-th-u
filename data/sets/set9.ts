@@ -10,8 +10,8 @@ export const set9: Question[] = [
             "C": "Hồ sơ dự thầu của một trong hai nhà thầu không được xem xét",
             "D": "Không thuộc hành vi bị cấm, không vi phạm quy định về bảo đảm cạnh tranh trong đấu thầu"
         },
-        "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 6, khoản 6, điểm d của Luật Đấu thầu. Luật quy định hành vi không bảo đảm công bằng, minh bạch là khi 'Cá nhân thuộc bên mời thầu, chủ đầu tư... do người có quan hệ gia đình... đứng tên dự thầu...'. Mặc dù đây là quan hệ giữa hai nhà thầu, nhưng nó tạo ra nghi vấn về thông thầu và không đảm bảo cạnh tranh một cách độc lập."
+        "correctAnswer": "D",
+        "explanation": "Luật Đấu thầu quy định về mối quan hệ giữa nhà thầu với chủ đầu tư, bên mời thầu, tư vấn... Mối quan hệ gia đình giữa hai nhà thầu độc lập tham dự cùng một gói thầu không phải là hành vi bị cấm, miễn là không có bằng chứng về sự thông thầu, dàn xếp. Cả hai nhà thầu vẫn được xem xét, đánh giá một cách bình thường."
     },
     {
         "id": 82,
@@ -118,7 +118,7 @@ export const set9: Question[] = [
             "C": "Báo cáo người có thẩm quyền xem xét, quyết định",
             "D": "Phương án A và B đều đúng"
         },
-        "correctAnswer": "A",
-        "explanation": "Luật Đấu thầu không quy định số lượng tối thiểu nhà thầu phải nộp hồ sơ để tiến hành mở thầu (trừ trường hợp có quy định khác trong HSMT). Do đó, dù chỉ có một nhà thầu nộp, bên mời thầu vẫn phải tiến hành mở thầu và đánh giá theo quy định."
+        "correctAnswer": "D",
+        "explanation": "Khi chỉ có một nhà thầu nộp hồ sơ, chủ đầu tư có hai lựa chọn chính: (A) Mở thầu ngay và tiến hành đánh giá xem nhà thầu duy nhất đó có đáp ứng yêu cầu không. (B) Gia hạn thời điểm đóng thầu để tạo thêm cơ hội cho các nhà thầu khác tham gia, tăng tính cạnh tranh. Cả hai đều là các cách xử lý tình huống hợp lệ."
     }
 ];

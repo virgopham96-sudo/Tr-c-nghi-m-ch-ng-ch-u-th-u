@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import ModeSelector from './components/ModeSelector';
 import SetSelector from './components/SetSelector';
@@ -7,6 +6,8 @@ import Results from './components/Results';
 import PracticeAll from './components/PracticeAll';
 import History from './components/History';
 import Search from './components/Search';
+import Guide from './components/Guide';
+import { QuestionMarkIcon } from './components/icons';
 import { allSetsData } from './data/sets';
 import { Question, UserAnswers } from './types';
 
@@ -28,6 +29,7 @@ function App() {
     const [submittedAnswers, setSubmittedAnswers] = useState<UserAnswers | null>(null);
     const [isPracticeMode, setIsPracticeMode] = useState<boolean>(false);
     const [completionTime, setCompletionTime] = useState<number | null>(null);
+    const [isGuideVisible, setIsGuideVisible] = useState(false);
 
     const totalSets = allSetsData.length;
     const allQuestions = useMemo(() => allSetsData.flat(), []);
@@ -176,6 +178,22 @@ function App() {
             <footer className="text-center p-6 text-slate-500 text-sm border-t border-slate-200 bg-white/30">
                 Bản quyền thuộc về "Phạm Văn Bình - Phòng CĐVT - Công ty 790"
             </footer>
+
+            <button
+                onClick={() => setIsGuideVisible(true)}
+                className="fixed bottom-6 right-6 z-20 p-3 bg-cyan-500 text-white rounded-full shadow-lg hover:bg-cyan-600 transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                aria-label="Hướng dẫn sử dụng"
+            >
+                <QuestionMarkIcon />
+            </button>
+
+            {isGuideVisible && (
+                <div className="fixed inset-0 bg-black bg-opacity-60 z-40 flex justify-center items-center p-4 animate-fade-in">
+                    <div className="bg-slate-50 rounded-xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+                        <Guide onClose={() => setIsGuideVisible(false)} />
+                    </div>
+                </div>
+            )}
         </div>
     );
 }

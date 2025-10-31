@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { BookOpenIcon, ClipboardListIcon, ShuffleIcon, HeartIcon, SearchIcon } from './icons';
+import { BookOpenIcon, ClipboardListIcon, ShuffleIcon, HeartIcon, SearchIcon, InformationCircleIcon } from './icons';
 
 interface ModeSelectorProps {
     onSelectPracticeAll: () => void;

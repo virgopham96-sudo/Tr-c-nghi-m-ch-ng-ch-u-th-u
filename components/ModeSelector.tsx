@@ -19,10 +19,6 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({
 }) => {
     return (
         <div className="p-4 md:p-8 max-w-2xl mx-auto flex flex-col items-center justify-center min-h-[60vh] animate-fade-in">
-            <div className="text-center mb-10">
-                <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">Chọn chế độ</h2>
-                <p className="mt-4 text-lg text-slate-600">Bắt đầu quá trình ôn luyện của bạn ngay bây giờ!</p>
-            </div>
             <div className="w-full space-y-5">
                 <button
                     onClick={onSelectPracticeAll}

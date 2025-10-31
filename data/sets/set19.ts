@@ -11,7 +11,8 @@ export const set19: Question[] = [
             "D": "Thành lập khi Giám đốc doanh nghiệp A đề nghị"
         },
         "correctAnswer": "A",
-        "explanation": "Đối với các dự án sử dụng vốn ngân sách nhà nước của địa phương, người có thẩm quyền thường là Chủ tịch UBND tỉnh. Giám đốc Sở Tài chính, với vai trò là cơ quan quản lý tài chính, thường được giao trách nhiệm thành lập Hội đồng giải quyết kiến nghị để xử lý các vấn đề phát sinh trong quá trình đấu thầu."
+        "explanation": "Đối với các dự án sử dụng vốn ngân sách nhà nước của địa phương, người có thẩm quyền thường là Chủ tịch UBND tỉnh. Giám đốc Sở Tài chính, với vai trò là cơ quan quản lý tài chính, thường được giao trách nhiệm thành lập Hội đồng giải quyết kiến nghị để xử lý các vấn đề phát sinh trong quá trình đấu thầu.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 182,
@@ -23,7 +24,8 @@ export const set19: Question[] = [
             "D": "Không công nhận kết quả lựa chọn nhà thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Để có cơ sở giải quyết kiến nghị một cách khách quan, toàn diện, Hội đồng có quyền yêu cầu các bên liên quan cung cấp đầy đủ thông tin, tài liệu. Hội đồng không có quyền hủy thầu (A) hay không công nhận kết quả (D), đây là thẩm quyền của người có thẩm quyền."
+        "explanation": "Để có cơ sở giải quyết kiến nghị một cách khách quan, toàn diện, Hội đồng có quyền yêu cầu các bên liên quan cung cấp đầy đủ thông tin, tài liệu. Hội đồng không có quyền hủy thầu (A) hay không công nhận kết quả (D), đây là thẩm quyền của người có thẩm quyền.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 183,
@@ -35,7 +37,8 @@ export const set19: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "B",
-        "explanation": "Chỉ nhà thầu có quyền và lợi ích trực tiếp liên quan đến gói thầu (đã mua hoặc nhận HSMT, đã nộp HSDT) mới có quyền kiến nghị về quá trình tổ chức lựa chọn nhà thầu đó."
+        "explanation": "Chỉ nhà thầu có quyền và lợi ích trực tiếp liên quan đến gói thầu (đã mua hoặc nhận HSMT, đã nộp HSDT) mới có quyền kiến nghị về quá trình tổ chức lựa chọn nhà thầu đó.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 184,
@@ -47,7 +50,8 @@ export const set19: Question[] = [
             "D": "Tất cả phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Để đảm bảo tính minh bạch, các thông tin chính trong quá trình giải quyết kiến nghị, bao gồm nội dung kiến nghị và các văn bản giải quyết của các cấp, đều phải được công khai trên Hệ thống mạng đấu thầu quốc gia."
+        "explanation": "Để đảm bảo tính minh bạch, các thông tin chính trong quá trình giải quyết kiến nghị, bao gồm nội dung kiến nghị và các văn bản giải quyết của các cấp, đều phải được công khai trên Hệ thống mạng đấu thầu quốc gia.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 185,
@@ -59,7 +63,8 @@ export const set19: Question[] = [
             "D": "05 ngày làm việc"
         },
         "correctAnswer": "B",
-        "explanation": "Đây là thời hạn tiêu chuẩn được quy định trong các văn bản hướng dẫn để nhà thầu hoàn thành nghĩa vụ tài chính một cách nhanh chóng, tạo điều kiện để Hội đồng có thể sớm bắt đầu quá trình xem xét kiến nghị. Thời hạn 02 ngày làm việc được xem là hợp lý."
+        "explanation": "Đây là thời hạn tiêu chuẩn được quy định trong các văn bản hướng dẫn để nhà thầu hoàn thành nghĩa vụ tài chính một cách nhanh chóng, tạo điều kiện để Hội đồng có thể sớm bắt đầu quá trình xem xét kiến nghị. Thời hạn 02 ngày làm việc được xem là hợp lý.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 186,
@@ -71,7 +76,8 @@ export const set19: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Tương tự trường hợp của doanh nghiệp nhà nước (câu 178), đơn vị sự nghiệp công lập tự chủ khi sử dụng nguồn thu hợp pháp của mình có quyền ban hành quy chế đấu thầu và giải quyết kiến nghị riêng, miễn là tuân thủ các nguyên tắc cơ bản của Luật."
+        "explanation": "Tương tự trường hợp của doanh nghiệp nhà nước (câu 178), đơn vị sự nghiệp công lập tự chủ khi sử dụng nguồn thu hợp pháp của mình có quyền ban hành quy chế đấu thầu và giải quyết kiến nghị riêng, miễn là tuân thủ các nguyên tắc cơ bản của Luật.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 187,
@@ -83,7 +89,8 @@ export const set19: Question[] = [
             "D": "Được tham gia khi người có thẩm quyền chấp thuận"
         },
         "correctAnswer": "A",
-        "explanation": "Đây là trường hợp xung đột lợi ích rõ ràng. Anh C có quan hệ gia đình trực tiếp (cha-con) với người đại diện của bên kiến nghị. Việc tham gia của anh C sẽ không đảm bảo được tính khách quan, vô tư khi xem xét vụ việc."
+        "explanation": "Đây là trường hợp xung đột lợi ích rõ ràng. Anh C có quan hệ gia đình trực tiếp (cha-con) với người đại diện của bên kiến nghị. Việc tham gia của anh C sẽ không đảm bảo được tính khách quan, vô tư khi xem xét vụ việc.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 188,
@@ -95,7 +102,8 @@ export const set19: Question[] = [
             "D": "Tổ chuyên gia"
         },
         "correctAnswer": "D",
-        "explanation": "Trong quy trình giải quyết kiến nghị, Tổ chuyên gia là đơn vị trực tiếp nghiên cứu hồ sơ, tài liệu. Do đó, chi phí giải quyết kiến nghị do nhà thầu nộp sẽ được chuyển cho Tổ chuyên gia để quản lý và chi trả cho các hoạt động cần thiết trong quá trình xem xét, đánh giá kiến nghị."
+        "explanation": "Trong quy trình giải quyết kiến nghị, Tổ chuyên gia là đơn vị trực tiếp nghiên cứu hồ sơ, tài liệu. Do đó, chi phí giải quyết kiến nghị do nhà thầu nộp sẽ được chuyển cho Tổ chuyên gia để quản lý và chi trả cho các hoạt động cần thiết trong quá trình xem xét, đánh giá kiến nghị.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 189,
@@ -107,7 +115,8 @@ export const set19: Question[] = [
             "D": "Nhà thầu X phải nộp 15 triệu đồng"
         },
         "correctAnswer": "C",
-        "explanation": "Chi phí giải quyết kiến nghị được tính bằng 0,02% giá dự thầu của nhà thầu kiến nghị nhưng tối thiểu là 1 triệu đồng và tối đa là 50 triệu đồng. Trong trường hợp này: 0,02% x 90 tỷ đồng = 18 triệu đồng. Tuy nhiên, nếu tính trên giá gói thầu (100 tỷ) thì chi phí là 0,02% x 100 tỷ = 20 triệu. Có thể có sự nhầm lẫn trong đề bài hoặc các phương án. Dựa trên các phương án, 20 triệu là câu trả lời hợp lý nhất."
+        "explanation": "Chi phí giải quyết kiến nghị được tính bằng 0,02% giá dự thầu của nhà thầu kiến nghị nhưng tối thiểu là 1 triệu đồng và tối đa là 50 triệu đồng. Trong trường hợp này: 0,02% x 90 tỷ đồng = 18 triệu đồng. Tuy nhiên, nếu tính trên giá gói thầu (100 tỷ) thì chi phí là 0,02% x 100 tỷ = 20 triệu. Có thể có sự nhầm lẫn trong đề bài hoặc các phương án. Dựa trên các phương án, 20 triệu là câu trả lời hợp lý nhất.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 190,
@@ -119,6 +128,7 @@ export const set19: Question[] = [
             "D": "Không bị hiệu chỉnh sai lệch, phần sai khác không bị tính là sai lệch thiếu"
         },
         "correctAnswer": "D",
-        "explanation": "Khi hồ sơ mời thầu cho phép đề xuất biện pháp thi công khác, điều đó có nghĩa là bên mời thầu chấp nhận sự linh hoạt. Phần sai khác về khối lượng do biện pháp thi công khác gây ra sẽ không bị coi là sai lệch thừa hay thiếu để hiệu chỉnh. Thay vào đó, nó sẽ được xem xét như một phần của đề xuất kỹ thuật và tài chính tổng thể của nhà thầu."
+        "explanation": "Khi hồ sơ mời thầu cho phép đề xuất biện pháp thi công khác, điều đó có nghĩa là bên mời thầu chấp nhận sự linh hoạt. Phần sai khác về khối lượng do biện pháp thi công khác gây ra sẽ không bị coi là sai lệch thừa hay thiếu để hiệu chỉnh. Thay vào đó, nó sẽ được xem xét như một phần của đề xuất kỹ thuật và tài chính tổng thể của nhà thầu.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     }
 ];

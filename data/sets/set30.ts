@@ -11,7 +11,8 @@ export const set30: Question[] = [
             "D": "Tình huống (1) phải trình người có thẩm quyền cho phép, tình huống (2) do Chủ tịch Uỷ ban nhân dân tỉnh quyết định"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 70, khoản 4 của Luật Đấu thầu. Tình huống (1): Vượt giá gói thầu nhưng không vượt tổng mức đầu tư. Theo khoản 4, trường hợp này thuộc thẩm quyền quyết định của chủ đầu tư. Tình huống (2): Vừa vượt giá gói thầu, vừa làm tăng tổng mức đầu tư. Việc làm tăng tổng mức đầu tư vượt quá thẩm quyền của chủ đầu tư, do đó phải trình người có thẩm quyền (người đã phê duyệt dự án) xem xét, quyết định."
+        "explanation": "Căn cứ pháp lý: Điều 70, khoản 4 của Luật Đấu thầu. Tình huống (1): Vượt giá gói thầu nhưng không vượt tổng mức đầu tư. Theo khoản 4, trường hợp này thuộc thẩm quyền quyết định của chủ đầu tư. Tình huống (2): Vừa vượt giá gói thầu, vừa làm tăng tổng mức đầu tư. Việc làm tăng tổng mức đầu tư vượt quá thẩm quyền của chủ đầu tư, do đó phải trình người có thẩm quyền (người đã phê duyệt dự án) xem xét, quyết định.",
+        "category": "Hợp đồng"
     },
     {
         "id": 292,
@@ -23,7 +24,8 @@ export const set30: Question[] = [
             "D": "Hợp đồng theo kết quả đầu ra"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 64, khoản 5 của Luật Đấu thầu. Luật định nghĩa rõ: 'Hợp đồng theo chi phí cộng phí được áp dụng đối với công việc, dịch vụ mà tại thời điểm lựa chọn nhà thầu chưa đủ cơ sở xác định phạm vi công việc, nhu cầu cần thiết về các yếu tố, chi phí đầu vào...'."
+        "explanation": "Căn cứ pháp lý: Điều 64, khoản 5 của Luật Đấu thầu. Luật định nghĩa rõ: 'Hợp đồng theo chi phí cộng phí được áp dụng đối với công việc, dịch vụ mà tại thời điểm lựa chọn nhà thầu chưa đủ cơ sở xác định phạm vi công việc, nhu cầu cần thiết về các yếu tố, chi phí đầu vào...'.",
+        "category": "Hợp đồng"
     },
     {
         "id": 293,
@@ -35,7 +37,8 @@ export const set30: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "C",
-        "explanation": "Kế hoạch lựa chọn nhà thầu (KHLCNT) là tài liệu phục vụ cho giai đoạn tổ chức lựa chọn nhà thầu. Khi hợp đồng đã được ký kết, việc quản lý thực hiện hợp đồng (bao gồm cả việc điều chỉnh thời gian) sẽ tuân theo các điều khoản của hợp đồng và các quy định về quản lý hợp đồng, không cần phải quay lại điều chỉnh KHLCNT đã được phê duyệt trước đó."
+        "explanation": "Kế hoạch lựa chọn nhà thầu (KHLCNT) là tài liệu phục vụ cho giai đoạn tổ chức lựa chọn nhà thầu. Khi hợp đồng đã được ký kết, việc quản lý thực hiện hợp đồng (bao gồm cả việc điều chỉnh thời gian) sẽ tuân theo các điều khoản của hợp đồng và các quy định về quản lý hợp đồng, không cần phải quay lại điều chỉnh KHLCNT đã được phê duyệt trước đó.",
+        "category": "Hợp đồng"
     },
     {
         "id": 294,
@@ -47,7 +50,8 @@ export const set30: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Trong quy trình chào giá rút gọn, sau khi kết thúc phiên chào giá, nhà thầu có giá thấp nhất sẽ nhận được thông báo và phải 'xác nhận chấp thuận được trao hợp đồng'. Việc phê duyệt kết quả của chủ đầu tư được thực hiện ngay trên cơ sở sự chấp thuận này của nhà thầu."
+        "explanation": "Trong quy trình chào giá rút gọn, sau khi kết thúc phiên chào giá, nhà thầu có giá thấp nhất sẽ nhận được thông báo và phải 'xác nhận chấp thuận được trao hợp đồng'. Việc phê duyệt kết quả của chủ đầu tư được thực hiện ngay trên cơ sở sự chấp thuận này của nhà thầu.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 295,
@@ -59,7 +63,8 @@ export const set30: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "C",
-        "explanation": "Bản chất của chào giá trực tuyến là một cuộc đấu giá ngược. Nhà thầu nào có giá chào thấp nhất tại thời điểm kết thúc phiên chào giá sẽ là nhà thầu xếp hạng thứ nhất và được xem xét trúng thầu."
+        "explanation": "Bản chất của chào giá trực tuyến là một cuộc đấu giá ngược. Nhà thầu nào có giá chào thấp nhất tại thời điểm kết thúc phiên chào giá sẽ là nhà thầu xếp hạng thứ nhất và được xem xét trúng thầu.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 296,
@@ -71,7 +76,8 @@ export const set30: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "C",
-        "explanation": "Mua sắm trực tuyến là một hình thức lựa chọn nhà thầu, do đó nó phải được xác định và phê duyệt trong kế hoạch lựa chọn nhà thầu. Hạn mức áp dụng cho hình thức này đối với dự toán mua sắm là không quá 01 tỷ đồng."
+        "explanation": "Mua sắm trực tuyến là một hình thức lựa chọn nhà thầu, do đó nó phải được xác định và phê duyệt trong kế hoạch lựa chọn nhà thầu. Hạn mức áp dụng cho hình thức này đối với dự toán mua sắm là không quá 01 tỷ đồng.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 297,
@@ -83,7 +89,8 @@ export const set30: Question[] = [
             "D": "Nhà thầu có từ 25% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng dưới 03 tháng và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực"
         },
         "correctAnswer": "A",
-        "explanation": "Đây là một hình thức ưu đãi đặc biệt, cho phép chỉ định thầu cho các cơ sở, doanh nghiệp sử dụng một tỷ lệ lớn lao động là người yếu thế. Theo quy định, tỷ lệ lao động này phải từ 50% trở lên và phải là lao động thường xuyên (hợp đồng từ 03 tháng trở lên) để được hưởng chính sách ưu đãi này."
+        "explanation": "Đây là một hình thức ưu đãi đặc biệt, cho phép chỉ định thầu cho các cơ sở, doanh nghiệp sử dụng một tỷ lệ lớn lao động là người yếu thế. Theo quy định, tỷ lệ lao động này phải từ 50% trở lên và phải là lao động thường xuyên (hợp đồng từ 03 tháng trở lên) để được hưởng chính sách ưu đãi này.",
+        "category": "Quy định chung"
     },
     {
         "id": 298,
@@ -95,7 +102,8 @@ export const set30: Question[] = [
             "D": "Đáp án A và C là đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1 của Luật Đấu thầu. Nhà thầu tham dự thầu phải là một pháp nhân độc lập và phải sử dụng đúng tài khoản đã đăng ký của mình. Chi nhánh (A) và công ty con hạch toán phụ thuộc (C) không có tư cách pháp nhân độc lập để tham gia đấu thầu. Do đó, việc sử dụng tài khoản của các đơn vị này là không hợp lệ."
+        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1 của Luật Đấu thầu. Nhà thầu tham dự thầu phải là một pháp nhân độc lập và phải sử dụng đúng tài khoản đã đăng ký của mình. Chi nhánh (A) và công ty con hạch toán phụ thuộc (C) không có tư cách pháp nhân độc lập để tham gia đấu thầu. Do đó, việc sử dụng tài khoản của các đơn vị này là không hợp lệ.",
+        "category": "Quy định chung"
     },
     {
         "id": 299,
@@ -107,7 +115,8 @@ export const set30: Question[] = [
             "D": "Các phương án trên đều sai."
         },
         "correctAnswer": "C",
-        "explanation": "Hàng mẫu là vật chất, không thể nộp qua mạng. Quy trình chuẩn là nhà thầu nộp E-HSDT trên hệ thống trước thời điểm đóng thầu, sau đó nộp hàng mẫu trực tiếp cho bên mời thầu trong một khoảng thời gian nhất định (thường là 05 ngày làm việc) sau thời điểm đóng thầu."
+        "explanation": "Hàng mẫu là vật chất, không thể nộp qua mạng. Quy trình chuẩn là nhà thầu nộp E-HSDT trên hệ thống trước thời điểm đóng thầu, sau đó nộp hàng mẫu trực tiếp cho bên mời thầu trong một khoảng thời gian nhất định (thường là 05 ngày làm việc) sau thời điểm đóng thầu.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 300,
@@ -119,6 +128,7 @@ export const set30: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Biên bản mở thầu là tài liệu pháp lý ghi nhận sự kiện mở thầu công khai. Nó cần có chữ ký của bên mời thầu (đại diện là chủ đầu tư) và đại diện của các nhà thầu có mặt tại lễ mở thầu để xác nhận tính chính xác và minh bạch của quá trình. Tổ chuyên gia là đơn vị giúp việc, không phải là bên có tư cách pháp lý để ký trên biên bản này."
+        "explanation": "Biên bản mở thầu là tài liệu pháp lý ghi nhận sự kiện mở thầu công khai. Nó cần có chữ ký của bên mời thầu (đại diện là chủ đầu tư) và đại diện của các nhà thầu có mặt tại lễ mở thầu để xác nhận tính chính xác và minh bạch của quá trình. Tổ chuyên gia là đơn vị giúp việc, không phải là bên có tư cách pháp lý để ký trên biên bản này.",
+        "category": "Kế hoạch và Quy trình LCNT"
     }
 ];

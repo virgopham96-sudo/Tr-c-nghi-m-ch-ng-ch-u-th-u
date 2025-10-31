@@ -11,7 +11,8 @@ export const set7: Question[] = [
             "D": "Biên bản hoàn thiện hợp đồng"
         },
         "correctAnswer": "D",
-        "explanation": "Hồ sơ mời thầu là tài liệu do bên mời thầu phát hành trước khi nhà thầu nộp hồ sơ dự thầu. Biên bản hoàn thiện hợp đồng là tài liệu được lập sau khi đã có kết quả lựa chọn nhà thầu và trong quá trình thương thảo, hoàn thiện hợp đồng với nhà thầu trúng thầu. Do đó, nó không thể là một phần của hồ sơ mời thầu."
+        "explanation": "Hồ sơ mời thầu là tài liệu do bên mời thầu phát hành trước khi nhà thầu nộp hồ sơ dự thầu. Biên bản hoàn thiện hợp đồng là tài liệu được lập sau khi đã có kết quả lựa chọn nhà thầu và trong quá trình thương thảo, hoàn thiện hợp đồng với nhà thầu trúng thầu. Do đó, nó không thể là một phần của hồ sơ mời thầu.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 62,
@@ -23,7 +24,8 @@ export const set7: Question[] = [
             "D": "Hàng hóa có giá trị lớn"
         },
         "correctAnswer": "C",
-        "explanation": "Giấy phép bán hàng của nhà sản xuất là một yêu cầu nhằm đảm bảo hàng hóa là chính hãng, được ủy quyền phân phối, đặc biệt quan trọng đối với các loại hàng hóa đặc thù, phức tạp, có yêu cầu cao về kỹ thuật, bảo hành, bảo trì (ví dụ: thiết bị y tế, thiết bị công nghệ cao...)."
+        "explanation": "Giấy phép bán hàng của nhà sản xuất là một yêu cầu nhằm đảm bảo hàng hóa là chính hãng, được ủy quyền phân phối, đặc biệt quan trọng đối với các loại hàng hóa đặc thù, phức tạp, có yêu cầu cao về kỹ thuật, bảo hành, bảo trì (ví dụ: thiết bị y tế, thiết bị công nghệ cao...).",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 63,
@@ -35,7 +37,8 @@ export const set7: Question[] = [
             "D": "Yêu cầu nhà thầu phải hoàn thành nghĩa vụ thuế"
         },
         "correctAnswer": "B",
-        "explanation": "Yêu cầu nhà thầu phải là 'chủ sở hữu' thiết bị là một điều kiện gây hạn chế cạnh tranh một cách không cần thiết. Nhà thầu có thể đi thuê hoặc có thỏa thuận sử dụng thiết bị của bên khác, miễn là họ chứng minh được khả năng huy động thiết bị đó để thực hiện gói thầu. Các yêu cầu A, C, D là các yêu cầu hợp lý về năng lực, kinh nghiệm."
+        "explanation": "Yêu cầu nhà thầu phải là 'chủ sở hữu' thiết bị là một điều kiện gây hạn chế cạnh tranh một cách không cần thiết. Nhà thầu có thể đi thuê hoặc có thỏa thuận sử dụng thiết bị của bên khác, miễn là họ chứng minh được khả năng huy động thiết bị đó để thực hiện gói thầu. Các yêu cầu A, C, D là các yêu cầu hợp lý về năng lực, kinh nghiệm.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 64,
@@ -47,7 +50,8 @@ export const set7: Question[] = [
             "D": "Không được nêu xuất xứ theo nhóm nước, vùng lãnh thổ"
         },
         "correctAnswer": "B",
-        "explanation": "Theo quy định về đấu thầu qua mạng và các hiệp định thương mại, việc nêu xuất xứ cụ thể của một quốc gia bị hạn chế để tránh phân biệt đối xử. Tuy nhiên, pháp luật cho phép nêu xuất xứ theo nhóm nước, vùng lãnh thổ (ví dụ: các nước G7, EU, ASEAN...) để định hướng về tiêu chuẩn chất lượng mà không hạn chế cạnh tranh một cách quá mức."
+        "explanation": "Theo quy định về đấu thầu qua mạng và các hiệp định thương mại, việc nêu xuất xứ cụ thể của một quốc gia bị hạn chế để tránh phân biệt đối xử. Tuy nhiên, pháp luật cho phép nêu xuất xứ theo nhóm nước, vùng lãnh thổ (ví dụ: các nước G7, EU, ASEAN...) để định hướng về tiêu chuẩn chất lượng mà không hạn chế cạnh tranh một cách quá mức.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 65,
@@ -59,7 +63,8 @@ export const set7: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "B",
-        "explanation": "Trên Hệ thống mạng đấu thầu quốc gia, việc nộp hồ sơ dự thầu được thực hiện bằng tài khoản và chữ ký số của người đại diện theo pháp luật đã đăng ký. Thao tác này không thể ủy quyền cho người khác như Giám đốc chi nhánh thực hiện trên hệ thống. Giấy ủy quyền chỉ có giá trị cho các giao dịch ngoài hệ thống."
+        "explanation": "Trên Hệ thống mạng đấu thầu quốc gia, việc nộp hồ sơ dự thầu được thực hiện bằng tài khoản và chữ ký số của người đại diện theo pháp luật đã đăng ký. Thao tác này không thể ủy quyền cho người khác như Giám đốc chi nhánh thực hiện trên hệ thống. Giấy ủy quyền chỉ có giá trị cho các giao dịch ngoài hệ thống.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 66,
@@ -71,7 +76,8 @@ export const set7: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "B",
-        "explanation": "Đối với bảo đảm dự thầu bằng thư bảo lãnh giấy, nhà thầu nộp bản scan cùng E-HSDT. Yêu cầu về thời gian hiệu lực được nêu trong E-HSMT, nhưng việc kiểm tra bản gốc và tính hợp lệ của nó thường được thực hiện khi nhà thầu được mời đến đối chiếu tài liệu. Thông báo mời đối chiếu tài liệu sẽ nhắc lại yêu cầu này."
+        "explanation": "Đối với bảo đảm dự thầu bằng thư bảo lãnh giấy, nhà thầu nộp bản scan cùng E-HSDT. Yêu cầu về thời gian hiệu lực được nêu trong E-HSMT, nhưng việc kiểm tra bản gốc và tính hợp lệ của nó thường được thực hiện khi nhà thầu được mời đến đối chiếu tài liệu. Thông báo mời đối chiếu tài liệu sẽ nhắc lại yêu cầu này.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 67,
@@ -83,7 +89,8 @@ export const set7: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "C",
-        "explanation": "Thời gian có hiệu lực của bảo đảm dự thầu phải bắt đầu không muộn hơn thời điểm đóng thầu. Tuy nhiên, trong thực tế, để đảm bảo tính hợp lệ tại các bước sau, thời điểm hiệu lực thường được yêu cầu tính từ ngày thực hiện đối chiếu tài liệu để đảm bảo nó bao trùm toàn bộ quá trình xét thầu tiếp theo."
+        "explanation": "Thời gian có hiệu lực của bảo đảm dự thầu phải bắt đầu không muộn hơn thời điểm đóng thầu. Tuy nhiên, trong thực tế, để đảm bảo tính hợp lệ tại các bước sau, thời điểm hiệu lực thường được yêu cầu tính từ ngày thực hiện đối chiếu tài liệu để đảm bảo nó bao trùm toàn bộ quá trình xét thầu tiếp theo.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 68,
@@ -95,7 +102,8 @@ export const set7: Question[] = [
             "D": "Không được nộp bổ sung hàng mẫu sau thời điểm đóng thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Đây là quy định cụ thể trong các văn bản hướng dẫn về đấu thầu qua mạng. Do hàng mẫu là vật chất không thể nộp qua mạng được, nhà thầu sẽ nộp E-HSDT trên mạng và nộp hàng mẫu trực tiếp cho bên mời thầu trong một khoảng thời gian nhất định sau thời điểm đóng thầu."
+        "explanation": "Đây là quy định cụ thể trong các văn bản hướng dẫn về đấu thầu qua mạng. Do hàng mẫu là vật chất không thể nộp qua mạng được, nhà thầu sẽ nộp E-HSDT trên mạng và nộp hàng mẫu trực tiếp cho bên mời thầu trong một khoảng thời gian nhất định sau thời điểm đóng thầu.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 69,
@@ -107,7 +115,8 @@ export const set7: Question[] = [
             "D": "Từ 0 đến 49 điểm"
         },
         "correctAnswer": "B",
-        "explanation": "Trong thang điểm 1000, uy tín của nhà thầu thông qua việc tham dự thầu và kết quả thực hiện hợp đồng thường được quy định một tỷ trọng nhất định, phổ biến là 10% (tương đương 100 điểm). Đây là một tiêu chí để khuyến khích các nhà thầu thực hiện tốt các hợp đồng đã trúng thầu."
+        "explanation": "Trong thang điểm 1000, uy tín của nhà thầu thông qua việc tham dự thầu và kết quả thực hiện hợp đồng thường được quy định một tỷ trọng nhất định, phổ biến là 10% (tương đương 100 điểm). Đây là một tiêu chí để khuyến khích các nhà thầu thực hiện tốt các hợp đồng đã trúng thầu.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 70,
@@ -119,6 +128,7 @@ export const set7: Question[] = [
             "D": "300 triệu đồng"
         },
         "correctAnswer": "D",
-        "explanation": "Đối với các gói thầu có tính chất công việc lặp lại theo chu kỳ, yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự thường được tính trên cơ sở giá trị của một chu kỳ (thường là 1 năm) để không gây hạn chế cạnh tranh. Giá trị gói thầu 1 năm là 1 tỷ đồng. Yêu cầu về hợp đồng tương tự có thể là một tỷ lệ phần trăm của giá trị này, ví dụ 30%, tương đương 300 triệu đồng, là một mức yêu cầu hợp lý để thu hút nhiều nhà thầu tham gia."
+        "explanation": "Đối với các gói thầu có tính chất công việc lặp lại theo chu kỳ, yêu cầu về kinh nghiệm thực hiện hợp đồng tương tự thường được tính trên cơ sở giá trị của một chu kỳ (thường là 1 năm) để không gây hạn chế cạnh tranh. Giá trị gói thầu 1 năm là 1 tỷ đồng. Yêu cầu về hợp đồng tương tự có thể là một tỷ lệ phần trăm của giá trị này, ví dụ 30%, tương đương 300 triệu đồng, là một mức yêu cầu hợp lý để thu hút nhiều nhà thầu tham gia.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     }
 ];

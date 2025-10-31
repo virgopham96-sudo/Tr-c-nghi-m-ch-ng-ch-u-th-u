@@ -11,7 +11,8 @@ export const set5: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 7, khoản 1, điểm a và Điều 8 của Luật Đấu thầu. Thông tin về kế hoạch lựa chọn nhà thầu là một trong những thông tin phải được công khai, và theo Điều 8, việc đăng tải được thực hiện trên Hệ thống mạng đấu thầu quốc gia."
+        "explanation": "Căn cứ pháp lý: Điều 7, khoản 1, điểm a và Điều 8 của Luật Đấu thầu. Thông tin về kế hoạch lựa chọn nhà thầu là một trong những thông tin phải được công khai, và theo Điều 8, việc đăng tải được thực hiện trên Hệ thống mạng đấu thầu quốc gia.",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 42,
@@ -23,7 +24,8 @@ export const set5: Question[] = [
             "D": "10 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 8, khoản 4 của Luật Đấu thầu. Luật quy định: 'Thông tin quy định tại các điểm a, d, g, h, i khoản 1... của Luật này phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia chậm nhất là 05 ngày làm việc kể từ ngày văn bản được ban hành...'"
+        "explanation": "Căn cứ pháp lý: Điều 8, khoản 4 của Luật Đấu thầu. Luật quy định: 'Thông tin quy định tại các điểm a, d, g, h, i khoản 1... của Luật này phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia chậm nhất là 05 ngày làm việc kể từ ngày văn bản được ban hành...'",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 43,
@@ -35,7 +37,8 @@ export const set5: Question[] = [
             "D": "Cả 3 phương án trên đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 39 của Luật Đấu thầu. Điều 39 quy định các nội dung của kế hoạch lựa chọn nhà thầu, bao gồm: Tên gói thầu (khoản 1), Giá gói thầu (khoản 2), Nguồn vốn (khoản 3), Hình thức và phương thức lựa chọn nhà thầu (khoản 4), Thời gian tổ chức lựa chọn nhà thầu (khoản 5), Loại hợp đồng (khoản 6), Thời gian thực hiện gói thầu (khoản 7). Phương án B (Thời gian thực hiện hợp đồng) cũng là một nội dung, nhưng 'Giá gói thầu' là một trong những nội dung cơ bản và quan trọng nhất. Phương án C (Giám sát hoạt động đấu thầu) không phải là nội dung của KHLCNT mà là một hoạt động quản lý nhà nước."
+        "explanation": "Căn cứ pháp lý: Điều 39 của Luật Đấu thầu. Điều 39 quy định các nội dung của kế hoạch lựa chọn nhà thầu, bao gồm: Tên gói thầu (khoản 1), Giá gói thầu (khoản 2), Nguồn vốn (khoản 3), Hình thức và phương thức lựa chọn nhà thầu (khoản 4), Thời gian tổ chức lựa chọn nhà thầu (khoản 5), Loại hợp đồng (khoản 6), Thời gian thực hiện gói thầu (khoản 7). Phương án B (Thời gian thực hiện hợp đồng) cũng là một nội dung, nhưng 'Giá gói thầu' là một trong những nội dung cơ bản và quan trọng nhất. Phương án C (Giám sát hoạt động đấu thầu) không phải là nội dung của KHLCNT mà là một hoạt động quản lý nhà nước.",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 44,
@@ -47,7 +50,8 @@ export const set5: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Đối với mua sắm giá trị nhỏ (dưới 50 triệu đồng), chủ đầu tư có hai lựa chọn: (A) Thực hiện mua sắm trực tiếp, không cần lập kế hoạch lựa chọn nhà thầu nhưng phải đảm bảo có đủ hóa đơn, chứng từ. (C) Gộp các nội dung mua sắm nhỏ thành một gói thầu và tổ chức lựa chọn nhà thầu theo một trong các hình thức quy định, khi đó bắt buộc phải lập kế hoạch lựa chọn nhà thầu. Cả hai cách tiếp cận này đều được pháp luật cho phép, do đó phương án D là đúng."
+        "explanation": "Đối với mua sắm giá trị nhỏ (dưới 50 triệu đồng), chủ đầu tư có hai lựa chọn: (A) Thực hiện mua sắm trực tiếp, không cần lập kế hoạch lựa chọn nhà thầu nhưng phải đảm bảo có đủ hóa đơn, chứng từ. (C) Gộp các nội dung mua sắm nhỏ thành một gói thầu và tổ chức lựa chọn nhà thầu theo một trong các hình thức quy định, khi đó bắt buộc phải lập kế hoạch lựa chọn nhà thầu. Cả hai cách tiếp cận này đều được pháp luật cho phép, do đó phương án D là đúng.",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 45,
@@ -59,7 +63,8 @@ export const set5: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Công tác giải phóng mặt bằng (GPMB) bao gồm nhiều phần việc. Các công việc do cơ quan nhà nước (Hội đồng đền bù GPMB) tự thực hiện không cần tổ chức đấu thầu (Phương án B). Các công việc cần thuê đơn vị bên ngoài (ví dụ: thuê tư vấn đo đạc, kiểm đếm, lập phương án bồi thường...) phải được lập thành gói thầu và đưa vào kế hoạch lựa chọn nhà thầu để tổ chức lựa chọn nhà thầu theo quy định (Phương án C). Do đó, cả B và C đều mô tả đúng cách xử lý các phần việc khác nhau trong công tác GPMB."
+        "explanation": "Công tác giải phóng mặt bằng (GPMB) bao gồm nhiều phần việc. Các công việc do cơ quan nhà nước (Hội đồng đền bù GPMB) tự thực hiện không cần tổ chức đấu thầu (Phương án B). Các công việc cần thuê đơn vị bên ngoài (ví dụ: thuê tư vấn đo đạc, kiểm đếm, lập phương án bồi thường...) phải được lập thành gói thầu và đưa vào kế hoạch lựa chọn nhà thầu để tổ chức lựa chọn nhà thầu theo quy định (Phương án C). Do đó, cả B và C đều mô tả đúng cách xử lý các phần việc khác nhau trong công tác GPMB.",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 46,
@@ -71,7 +76,8 @@ export const set5: Question[] = [
             "D": "Tất cả phương án đều đúng"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 40, khoản 1, điểm a của Luật Đấu thầu. Khi lập hồ sơ trình duyệt KHLCNT, phải nêu rõ 'Phần công việc đã thực hiện, bao gồm nội dung công việc... và giá trị tương ứng'. Giá trị đã thực hiện của một hợp đồng đã hoàn thành chính là giá trị thanh lý hợp đồng."
+        "explanation": "Căn cứ pháp lý: Điều 40, khoản 1, điểm a của Luật Đấu thầu. Khi lập hồ sơ trình duyệt KHLCNT, phải nêu rõ 'Phần công việc đã thực hiện, bao gồm nội dung công việc... và giá trị tương ứng'. Giá trị đã thực hiện của một hợp đồng đã hoàn thành chính là giá trị thanh lý hợp đồng.",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 47,
@@ -83,7 +89,8 @@ export const set5: Question[] = [
             "D": "Tài chính"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1, điểm đ của Luật Đấu thầu. Một trong các điều kiện để nhà thầu có tư cách hợp lệ là phải 'Bảo đảm cạnh tranh trong đấu thầu theo quy định tại Điều 6 của Luật này'. Do đó, bảo đảm cạnh tranh là một tiêu chí để đánh giá tư cách hợp lệ của nhà thầu."
+        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1, điểm đ của Luật Đấu thầu. Một trong các điều kiện để nhà thầu có tư cách hợp lệ là phải 'Bảo đảm cạnh tranh trong đấu thầu theo quy định tại Điều 6 của Luật này'. Do đó, bảo đảm cạnh tranh là một tiêu chí để đánh giá tư cách hợp lệ của nhà thầu.",
+        "category": "Quy định chung"
     },
     {
         "id": 48,
@@ -95,7 +102,8 @@ export const set5: Question[] = [
             "D": "Phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 6, khoản 4 của Luật Đấu thầu. Nguyên tắc bảo đảm cạnh tranh yêu cầu nhà thầu tham dự phải độc lập về pháp lý và tài chính với các nhà thầu tư vấn tham gia vào quá trình chuẩn bị, đánh giá gói thầu đó. Việc lập hồ sơ mời thầu là một phần quan trọng của quá trình chuẩn bị gói thầu, do đó nhà thầu tham dự phải độc lập với nhà thầu tư vấn lập hồ sơ mời thầu."
+        "explanation": "Căn cứ pháp lý: Điều 6, khoản 4 của Luật Đấu thầu. Nguyên tắc bảo đảm cạnh tranh yêu cầu nhà thầu tham dự phải độc lập về pháp lý và tài chính với các nhà thầu tư vấn tham gia vào quá trình chuẩn bị, đánh giá gói thầu đó. Việc lập hồ sơ mời thầu là một phần quan trọng của quá trình chuẩn bị gói thầu, do đó nhà thầu tham dự phải độc lập với nhà thầu tư vấn lập hồ sơ mời thầu.",
+        "category": "Quy định chung"
     },
     {
         "id": 49,
@@ -107,7 +115,8 @@ export const set5: Question[] = [
             "D": "Nhà thầu thực hiện hợp đồng phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu."
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 6 của Luật Đấu thầu. Yêu cầu về tính độc lập được áp dụng cho các nhà thầu tham dự thầu. Khi một nhà thầu đã trúng thầu và thực hiện hợp đồng, mối quan hệ độc lập này không còn là yêu cầu bắt buộc với các nhà thầu tư vấn đã tham gia giai đoạn trước đó. Các phương án A, B, C đều là các yêu cầu đúng về tính độc lập đối với nhà thầu tham dự thầu."
+        "explanation": "Căn cứ pháp lý: Điều 6 của Luật Đấu thầu. Yêu cầu về tính độc lập được áp dụng cho các nhà thầu tham dự thầu. Khi một nhà thầu đã trúng thầu và thực hiện hợp đồng, mối quan hệ độc lập này không còn là yêu cầu bắt buộc với các nhà thầu tư vấn đã tham gia giai đoạn trước đó. Các phương án A, B, C đều là các yêu cầu đúng về tính độc lập đối với nhà thầu tham dự thầu.",
+        "category": "Quy định chung"
     },
     {
         "id": 50,
@@ -119,6 +128,7 @@ export const set5: Question[] = [
             "D": "Nhà thầu tham dự thầu phải độc lập với nhà thầu khác cùng tham dự đấu thầu rộng rãi"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 6, khoản 2 của Luật Đấu thầu. Yêu cầu 'độc lập với các nhà thầu khác cùng tham dự' chỉ áp dụng đối với hình thức đấu thầu hạn chế (Điều 6, khoản 2, điểm b), không áp dụng cho đấu thầu rộng rãi. Các phương án A, B, C đều là các yêu cầu về tính độc lập giữa nhà thầu tham dự và các đơn vị tư vấn lập hồ sơ thiết kế, báo cáo nghiên cứu khả thi, báo cáo kinh tế kỹ thuật, là đúng theo quy định tại Điều 6, khoản 4a."
+        "explanation": "Căn cứ pháp lý: Điều 6, khoản 2 của Luật Đấu thầu. Yêu cầu 'độc lập với các nhà thầu khác cùng tham dự' chỉ áp dụng đối với hình thức đấu thầu hạn chế (Điều 6, khoản 2, điểm b), không áp dụng cho đấu thầu rộng rãi. Các phương án A, B, C đều là các yêu cầu về tính độc lập giữa nhà thầu tham dự và các đơn vị tư vấn lập hồ sơ thiết kế, báo cáo nghiên cứu khả thi, báo cáo kinh tế kỹ thuật, là đúng theo quy định tại Điều 6, khoản 4a.",
+        "category": "Quy định chung"
     }
 ];

@@ -1,10 +1,12 @@
 
+
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import ModeSelector from './components/ModeSelector';
 import SetSelector from './components/SetSelector';
 import Quiz from './components/Quiz';
 import Results from './components/Results';
 import PracticeAll from './components/PracticeAll';
+import History from './components/History';
 import { allSetsData } from './data/sets';
 import { Question, UserAnswers } from './types';
 
@@ -18,7 +20,7 @@ const shuffleArray = (array: Question[]): Question[] => {
     return newArray;
 };
 
-type View = 'mode-select' | 'set-select' | 'quiz' | 'results' | 'practice-all';
+type View = 'mode-select' | 'set-select' | 'quiz' | 'results' | 'practice-all' | 'history';
 
 function App() {
     const [view, setView] = useState<View>('mode-select');
@@ -70,6 +72,10 @@ function App() {
         setSubmittedAnswers(null);
         setView('quiz');
     };
+    
+    const handleSelectSupport = () => {
+        setView('history');
+    };
 
     const handleSelectSet = (setIndex: number) => {
         setCurrentSetIndex(setIndex);
@@ -98,6 +104,8 @@ function App() {
 
     const renderContent = () => {
         switch (view) {
+            case 'history':
+                 return <History onBack={handleGoBackToMainMenu} />;
             case 'practice-all':
                 return (
                     <PracticeAll
@@ -142,6 +150,7 @@ function App() {
                         onSelectPracticeAll={handleSelectPracticeAll}
                         onSelectTestBySet={handleSelectTestBySet}
                         onSelectTestRandom={handleSelectTestRandom}
+                        onSelectSupport={handleSelectSupport}
                     />
                 );
         }

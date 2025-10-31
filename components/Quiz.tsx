@@ -202,7 +202,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
                     <div className="p-4 flex justify-between items-center">
                         <button
                             onClick={onBack}
-                            className="bg-slate-200 hover:bg-slate-300 text-slate-800 font-bold py-3 px-6 rounded-lg transition-colors"
+                            className="bg-slate-200 hover:bg-slate-300 text-slate-800 font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-lg transition-colors"
                         >
                             Thoát
                         </button>
@@ -232,7 +232,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
                         </div>
                         <button
                             onClick={handleSubmit}
-                            className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                            className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-lg transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                         >
                             Nộp bài
                         </button>
@@ -301,9 +301,10 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
                             onClick={handlePrevQuestion}
                             disabled={currentQuestionIndex === 0}
                             className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-2"
+                            aria-label="Câu hỏi trước"
                         >
                             <ChevronLeftIcon />
-                            Câu trước
+                            <span className="hidden sm:inline">Câu trước</span>
                         </button>
                         <span className="font-semibold text-lg text-slate-600">
                             {currentQuestionIndex + 1} / {questions.length}
@@ -312,8 +313,9 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
                             onClick={handleNextQuestion}
                             disabled={currentQuestionIndex === questions.length - 1}
                             className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-2"
+                            aria-label="Câu hỏi tiếp theo"
                         >
-                            Câu tiếp theo
+                            <span className="hidden sm:inline">Câu tiếp theo</span>
                             <ChevronRightIcon />
                         </button>
                     </div>

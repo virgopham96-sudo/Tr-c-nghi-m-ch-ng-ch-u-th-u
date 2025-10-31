@@ -11,7 +11,8 @@ export const set3: Question[] = [
             "D": "Tất cả các phương án trên đều sai"
         },
         "correctAnswer": "B",
-        "explanation": "Đây là quy định chung về quản lý các khoản thu từ hoạt động của các cơ quan nhà nước. Tiền bán hồ sơ mời thầu (nếu có) là một khoản thu và phải được nộp vào ngân sách nhà nước. Mặc dù không được nêu trực tiếp trong văn bản Luật Đấu thầu được cung cấp, đây là nguyên tắc quản lý tài chính công."
+        "explanation": "Đây là quy định chung về quản lý các khoản thu từ hoạt động của các cơ quan nhà nước. Tiền bán hồ sơ mời thầu (nếu có) là một khoản thu và phải được nộp vào ngân sách nhà nước. Mặc dù không được nêu trực tiếp trong văn bản Luật Đấu thầu được cung cấp, đây là nguyên tắc quản lý tài chính công.",
+        "category": "Quy định chung"
     },
     {
         "id": 22,
@@ -23,7 +24,8 @@ export const set3: Question[] = [
             "D": "110.000 đồng/1 gói thầu (đã bao gồm thuế giá trị gia tăng)"
         },
         "correctAnswer": "C",
-        "explanation": "Theo các quy định hiện hành về chi phí trong đấu thầu, việc đăng tải thông tin về kế hoạch và kết quả lựa chọn nhà thầu đối với hình thức chỉ định thầu được miễn phí nhằm khuyến khích công khai, minh bạch thông tin."
+        "explanation": "Theo các quy định hiện hành về chi phí trong đấu thầu, việc đăng tải thông tin về kế hoạch và kết quả lựa chọn nhà thầu đối với hình thức chỉ định thầu được miễn phí nhằm khuyến khích công khai, minh bạch thông tin.",
+        "category": "Quy định chung"
     },
     {
         "id": 23,
@@ -35,7 +37,8 @@ export const set3: Question[] = [
             "D": "Không có quy định về số năm kinh nghiệm"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 19, khoản 3 của Luật Đấu thầu. Luật quy định: 'Thành viên tổ chuyên gia, tổ thẩm định phải có tối thiểu 03 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu, dự án đầu tư kinh doanh.'"
+        "explanation": "Căn cứ pháp lý: Điều 19, khoản 3 của Luật Đấu thầu. Luật quy định: 'Thành viên tổ chuyên gia, tổ thẩm định phải có tối thiểu 03 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu, dự án đầu tư kinh doanh.'",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 24,
@@ -47,7 +50,8 @@ export const set3: Question[] = [
             "D": "Căn cứ theo phân cấp quyết định mua sắm của UBND tỉnh X"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 3, khoản 7, điểm d1 của Luật Đấu thầu. Gói thầu thuê dịch vụ hậu cần này là để phục vụ trực tiếp cho gói thầu mà đơn vị sự nghiệp công lập A đã trúng. Theo quy định, việc 'lựa chọn nhà thầu cung cấp hàng hóa, dịch vụ tư vấn, dịch vụ phi tư vấn phục vụ trực tiếp cho gói thầu mà đơn vị sự nghiệp công lập đã ký hợp đồng' thuộc trường hợp được tự quyết định."
+        "explanation": "Căn cứ pháp lý: Điều 3, khoản 7, điểm d1 của Luật Đấu thầu. Gói thầu thuê dịch vụ hậu cần này là để phục vụ trực tiếp cho gói thầu mà đơn vị sự nghiệp công lập A đã trúng. Theo quy định, việc 'lựa chọn nhà thầu cung cấp hàng hóa, dịch vụ tư vấn, dịch vụ phi tư vấn phục vụ trực tiếp cho gói thầu mà đơn vị sự nghiệp công lập đã ký hợp đồng' thuộc trường hợp được tự quyết định.",
+        "category": "Quy định chung"
     },
     {
         "id": 25,
@@ -59,7 +63,8 @@ export const set3: Question[] = [
             "D": "Phải xin ý kiến của UBND tỉnh A để có cơ sở xác định có phải tổ chức lựa chọn nhà thầu theo Luật Đấu thầu hay không"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 3, khoản 7, điểm a của Luật Đấu thầu. Luật quy định trường hợp được tự quyết định việc mua sắm là khi sử dụng nguồn vốn tài trợ mà 'nhà tài trợ yêu cầu không lựa chọn nhà thầu theo quy định của Luật này'. Phương án A mô tả chính xác điều kiện này."
+        "explanation": "Căn cứ pháp lý: Điều 3, khoản 7, điểm a của Luật Đấu thầu. Luật quy định trường hợp được tự quyết định việc mua sắm là khi sử dụng nguồn vốn tài trợ mà 'nhà tài trợ yêu cầu không lựa chọn nhà thầu theo quy định của Luật này'. Phương án A mô tả chính xác điều kiện này.",
+        "category": "Quy định chung"
     },
     {
         "id": 26,
@@ -71,7 +76,8 @@ export const set3: Question[] = [
             "D": "Hồ sơ được lưu trữ theo quy định của Pháp luật về lưu trữ"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 9, khoản 1, điểm a của Luật Đấu thầu. Luật quy định rõ ràng đối với gói thầu cung cấp dịch vụ tư vấn, hồ sơ đề xuất về tài chính của nhà thầu không được lựa chọn sẽ được trả lại nguyên trạng trong thời hạn 10 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn."
+        "explanation": "Căn cứ pháp lý: Điều 9, khoản 1, điểm a của Luật Đấu thầu. Luật quy định rõ ràng đối với gói thầu cung cấp dịch vụ tư vấn, hồ sơ đề xuất về tài chính của nhà thầu không được lựa chọn sẽ được trả lại nguyên trạng trong thời hạn 10 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn.",
+        "category": "Quy định chung"
     },
     {
         "id": 27,
@@ -83,7 +89,8 @@ export const set3: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Việc không hoàn trả hồ sơ tài chính cho nhà thầu bị loại về kỹ thuật là vi phạm quy trình đấu thầu. Hành vi này xâm phạm quyền lợi của nhà thầu và họ hoàn toàn có quyền khiếu nại về việc chủ đầu tư không tuân thủ quy định của pháp luật."
+        "explanation": "Việc không hoàn trả hồ sơ tài chính cho nhà thầu bị loại về kỹ thuật là vi phạm quy trình đấu thầu. Hành vi này xâm phạm quyền lợi của nhà thầu và họ hoàn toàn có quyền khiếu nại về việc chủ đầu tư không tuân thủ quy định của pháp luật.",
+        "category": "Quy định chung"
     },
     {
         "id": 28,
@@ -95,7 +102,8 @@ export const set3: Question[] = [
             "D": "Công ty A là nhà thầu tư vấn lập hồ sơ mời thầu gói thầu xây lắp X có sở hữu 30% vốn góp của Công ty B"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 6, khoản 4 của Luật Đấu thầu. Quy định về bảo đảm cạnh tranh áp dụng cho mối quan hệ trực tiếp. Trong trường hợp này, Công ty B (nhà thầu chính) và Công ty A (tư vấn thiết kế) có mối quan hệ gián tiếp thông qua Công ty C (nhà thầu phụ của B và cổ đông của A). Mức sở hữu 30% là ngưỡng giới hạn. Tuy nhiên, mối quan hệ này được xem là không vi phạm trực tiếp quy định về cạnh tranh, vì không có sự sở hữu trực tiếp giữa nhà thầu tham dự và nhà thầu tư vấn."
+        "explanation": "Căn cứ pháp lý: Điều 6, khoản 4 của Luật Đấu thầu. Quy định về bảo đảm cạnh tranh áp dụng cho mối quan hệ trực tiếp. Trong trường hợp này, Công ty B (nhà thầu chính) và Công ty A (tư vấn thiết kế) có mối quan hệ gián tiếp thông qua Công ty C (nhà thầu phụ của B và cổ đông của A). Mức sở hữu 30% là ngưỡng giới hạn. Tuy nhiên, mối quan hệ này được xem là không vi phạm trực tiếp quy định về cạnh tranh, vì không có sự sở hữu trực tiếp giữa nhà thầu tham dự và nhà thầu tư vấn.",
+        "category": "Quy định chung"
     },
     {
         "id": 29,
@@ -107,7 +115,8 @@ export const set3: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 11, khoản 4 của Luật Đấu thầu. Khoản 4, Điều 11 quy định chính xác nội dung như phương án A. Đây là một quy định mới nhằm thúc đẩy chuyển giao công nghệ."
+        "explanation": "Căn cứ pháp lý: Điều 11, khoản 4 của Luật Đấu thầu. Khoản 4, Điều 11 quy định chính xác nội dung như phương án A. Đây là một quy định mới nhằm thúc đẩy chuyển giao công nghệ.",
+        "category": "Quy định chung"
     },
     {
         "id": 30,
@@ -119,6 +128,7 @@ export const set3: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Mặc dù câu hỏi nêu 'đấu thầu không qua mạng', nhưng theo xu hướng và quy định mới nhằm tăng cường minh bạch, việc phê duyệt và phát hành hồ sơ mời thầu vẫn phải được thực hiện trên Hệ thống mạng đấu thầu quốc gia. Việc nộp thầu có thể diễn ra không qua mạng (bản giấy), nhưng thông tin và tài liệu mời thầu vẫn phải được công khai trên hệ thống."
+        "explanation": "Mặc dù câu hỏi nêu 'đấu thầu không qua mạng', nhưng theo xu hướng và quy định mới nhằm tăng cường minh bạch, việc phê duyệt và phát hành hồ sơ mời thầu vẫn phải được thực hiện trên Hệ thống mạng đấu thầu quốc gia. Việc nộp thầu có thể diễn ra không qua mạng (bản giấy), nhưng thông tin và tài liệu mời thầu vẫn phải được công khai trên hệ thống.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     }
 ];

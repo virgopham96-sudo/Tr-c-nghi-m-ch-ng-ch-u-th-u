@@ -11,7 +11,8 @@ export const set9: Question[] = [
             "D": "Không thuộc hành vi bị cấm, không vi phạm quy định về bảo đảm cạnh tranh trong đấu thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Luật Đấu thầu quy định về mối quan hệ giữa nhà thầu với chủ đầu tư, bên mời thầu, tư vấn... Mối quan hệ gia đình giữa hai nhà thầu độc lập tham dự cùng một gói thầu không phải là hành vi bị cấm, miễn là không có bằng chứng về sự thông thầu, dàn xếp. Cả hai nhà thầu vẫn được xem xét, đánh giá một cách bình thường."
+        "explanation": "Luật Đấu thầu quy định về mối quan hệ giữa nhà thầu với chủ đầu tư, bên mời thầu, tư vấn... Mối quan hệ gia đình giữa hai nhà thầu độc lập tham dự cùng một gói thầu không phải là hành vi bị cấm, miễn là không có bằng chứng về sự thông thầu, dàn xếp. Cả hai nhà thầu vẫn được xem xét, đánh giá một cách bình thường.",
+        "category": "Quy định chung"
     },
     {
         "id": 82,
@@ -23,7 +24,8 @@ export const set9: Question[] = [
             "D": "Năng lực, kinh nghiệm"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1, điểm e của Luật Đấu thầu. Một trong các điều kiện để nhà thầu có tư cách hợp lệ là 'Không đang trong thời gian bị cấm tham dự thầu...'. Do đó, việc kiểm tra tình trạng bị cấm thầu là một phần của việc đánh giá tư cách hợp lệ."
+        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1, điểm e của Luật Đấu thầu. Một trong các điều kiện để nhà thầu có tư cách hợp lệ là 'Không đang trong thời gian bị cấm tham dự thầu...'. Do đó, việc kiểm tra tình trạng bị cấm thầu là một phần của việc đánh giá tư cách hợp lệ.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 83,
@@ -35,7 +37,8 @@ export const set9: Question[] = [
             "D": "Nhà thầu đáp ứng các tiêu chuẩn đánh giá về năng lực và kinh nghiệm quan trọng trong hồ sơ mời thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Phương pháp đánh giá năng lực và kinh nghiệm là 'đạt/không đạt'. Nhà thầu phải 'đạt' tất cả các yêu cầu tối thiểu đã được nêu trong hồ sơ mời thầu thì mới được xem xét ở các bước tiếp theo."
+        "explanation": "Phương pháp đánh giá năng lực và kinh nghiệm là 'đạt/không đạt'. Nhà thầu phải 'đạt' tất cả các yêu cầu tối thiểu đã được nêu trong hồ sơ mời thầu thì mới được xem xét ở các bước tiếp theo.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 84,
@@ -47,7 +50,8 @@ export const set9: Question[] = [
             "D": "Không đánh giá về nhân sự chủ chốt và thiết bị chủ yếu"
         },
         "correctAnswer": "B",
-        "explanation": "Để đơn giản hóa và rút ngắn thời gian đánh giá, quy trình đấu thầu qua mạng thường cho phép chỉ xem xét, đánh giá chi tiết về nhân sự, thiết bị đối với nhà thầu xếp hạng thứ nhất. Nếu nhà thầu này đáp ứng, họ sẽ được mời vào thương thảo. Nếu không, mới xét đến nhà thầu tiếp theo."
+        "explanation": "Để đơn giản hóa và rút ngắn thời gian đánh giá, quy trình đấu thầu qua mạng thường cho phép chỉ xem xét, đánh giá chi tiết về nhân sự, thiết bị đối với nhà thầu xếp hạng thứ nhất. Nếu nhà thầu này đáp ứng, họ sẽ được mời vào thương thảo. Nếu không, mới xét đến nhà thầu tiếp theo.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 85,
@@ -59,7 +63,8 @@ export const set9: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 24, khoản 2 của Luật Đấu thầu. Luật quy định: 'Đối với gói thầu áp dụng chào hàng cạnh tranh, hồ sơ mời thầu không bắt buộc quy định tiêu chuẩn đánh giá về năng lực, kinh nghiệm của nhà thầu.' Thay vào đó, nhà thầu cam kết trong đơn dự thầu rằng mình có đủ năng lực nếu được yêu cầu. Đây là phương án hợp lý nhất."
+        "explanation": "Căn cứ pháp lý: Điều 24, khoản 2 của Luật Đấu thầu. Luật quy định: 'Đối với gói thầu áp dụng chào hàng cạnh tranh, hồ sơ mời thầu không bắt buộc quy định tiêu chuẩn đánh giá về năng lực, kinh nghiệm của nhà thầu.' Thay vào đó, nhà thầu cam kết trong đơn dự thầu rằng mình có đủ năng lực nếu được yêu cầu. Đây là phương án hợp lý nhất.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 86,
@@ -71,7 +76,8 @@ export const set9: Question[] = [
             "D": "Bắt buộc quy định trong hồ sơ mời thầu đối với gói thầu có giá trên 20 tỷ đồng"
         },
         "correctAnswer": "B",
-        "explanation": "Cam kết tín dụng chỉ là một trong nhiều cách để chứng minh năng lực tài chính. Nhà thầu có thể chứng minh bằng các nguồn lực tài chính khác như báo cáo tài chính, số dư tài khoản... Do đó, HSMT không bắt buộc phải yêu cầu cam kết tín dụng."
+        "explanation": "Cam kết tín dụng chỉ là một trong nhiều cách để chứng minh năng lực tài chính. Nhà thầu có thể chứng minh bằng các nguồn lực tài chính khác như báo cáo tài chính, số dư tài khoản... Do đó, HSMT không bắt buộc phải yêu cầu cam kết tín dụng.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 87,
@@ -83,7 +89,8 @@ export const set9: Question[] = [
             "D": "Tất cả phương án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Câu hỏi nêu rõ hàng hóa thuộc danh mục có tiêu chuẩn, định mức. Do đó, khi xét duyệt, giá của từng mặt hàng không được vượt định mức. Đồng thời, vì áp dụng phương pháp giá thấp nhất, tổng giá trị của các phần mà nhà thầu trúng thầu phải là thấp nhất và không vượt giá gói thầu."
+        "explanation": "Câu hỏi nêu rõ hàng hóa thuộc danh mục có tiêu chuẩn, định mức. Do đó, khi xét duyệt, giá của từng mặt hàng không được vượt định mức. Đồng thời, vì áp dụng phương pháp giá thấp nhất, tổng giá trị của các phần mà nhà thầu trúng thầu phải là thấp nhất và không vượt giá gói thầu.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 88,
@@ -95,7 +102,8 @@ export const set9: Question[] = [
             "D": "Phải bắt buộc cung cấp hợp đồng, hóa đơn mua hàng"
         },
         "correctAnswer": "A",
-        "explanation": "Khi E-HSMT đã yêu cầu cụ thể các tài liệu để chứng minh khả năng huy động thiết bị, nhà thầu phải tuân thủ và cung cấp đầy đủ tất cả các tài liệu đó."
+        "explanation": "Khi E-HSMT đã yêu cầu cụ thể các tài liệu để chứng minh khả năng huy động thiết bị, nhà thầu phải tuân thủ và cung cấp đầy đủ tất cả các tài liệu đó.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 89,
@@ -107,7 +115,8 @@ export const set9: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 78, khoản 2 của Luật Đấu thầu. Tổ thẩm định có trách nhiệm thẩm định các nội dung như KHLCNT, HSMT, và kết quả lựa chọn nhà thầu. Danh sách xếp hạng nhà thầu là kết quả đánh giá của tổ chuyên gia, là cơ sở để trình phê duyệt kết quả lựa chọn nhà thầu, bản thân nó không phải là đối tượng phải thẩm định riêng."
+        "explanation": "Căn cứ pháp lý: Điều 78, khoản 2 của Luật Đấu thầu. Tổ thẩm định có trách nhiệm thẩm định các nội dung như KHLCNT, HSMT, và kết quả lựa chọn nhà thầu. Danh sách xếp hạng nhà thầu là kết quả đánh giá của tổ chuyên gia, là cơ sở để trình phê duyệt kết quả lựa chọn nhà thầu, bản thân nó không phải là đối tượng phải thẩm định riêng.",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 90,
@@ -119,6 +128,7 @@ export const set9: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Khi chỉ có một nhà thầu nộp hồ sơ, chủ đầu tư có hai lựa chọn chính: (A) Mở thầu ngay và tiến hành đánh giá xem nhà thầu duy nhất đó có đáp ứng yêu cầu không. (B) Gia hạn thời điểm đóng thầu để tạo thêm cơ hội cho các nhà thầu khác tham gia, tăng tính cạnh tranh. Cả hai đều là các cách xử lý tình huống hợp lệ."
+        "explanation": "Khi chỉ có một nhà thầu nộp hồ sơ, chủ đầu tư có hai lựa chọn chính: (A) Mở thầu ngay và tiến hành đánh giá xem nhà thầu duy nhất đó có đáp ứng yêu cầu không. (B) Gia hạn thời điểm đóng thầu để tạo thêm cơ hội cho các nhà thầu khác tham gia, tăng tính cạnh tranh. Cả hai đều là các cách xử lý tình huống hợp lệ.",
+        "category": "Kế hoạch và Quy trình LCNT"
     }
 ];

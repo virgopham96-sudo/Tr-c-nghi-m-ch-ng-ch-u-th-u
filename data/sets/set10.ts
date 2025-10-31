@@ -11,7 +11,8 @@ export const set10: Question[] = [
             "D": "Đánh giá theo tổng kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ và công ty con, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Khi công ty mẹ sử dụng năng lực của công ty con, kinh nghiệm được đánh giá dựa trên phần công việc thực tế mà mỗi công ty đã đảm nhiệm trong các hợp đồng trước đó. Năng lực của công ty mẹ và công ty con được xem xét một cách tổng thể nhưng phải dựa trên cơ sở thực tế."
+        "explanation": "Khi công ty mẹ sử dụng năng lực của công ty con, kinh nghiệm được đánh giá dựa trên phần công việc thực tế mà mỗi công ty đã đảm nhiệm trong các hợp đồng trước đó. Năng lực của công ty mẹ và công ty con được xem xét một cách tổng thể nhưng phải dựa trên cơ sở thực tế.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 92,
@@ -23,7 +24,8 @@ export const set10: Question[] = [
             "D": "Tất cả phương án trên đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Đây là cách định nghĩa đầy đủ và hợp lý nhất về một công trình tương tự. 'Hoàn thành phần lớn' cho phép linh hoạt, 'cùng loại kết cấu, cấp công trình' đảm bảo tính tương tự về kỹ thuật, và 'đáp ứng quy mô' đảm bảo tương tự về độ lớn."
+        "explanation": "Đây là cách định nghĩa đầy đủ và hợp lý nhất về một công trình tương tự. 'Hoàn thành phần lớn' cho phép linh hoạt, 'cùng loại kết cấu, cấp công trình' đảm bảo tính tương tự về kỹ thuật, và 'đáp ứng quy mô' đảm bảo tương tự về độ lớn.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 93,
@@ -35,7 +37,8 @@ export const set10: Question[] = [
             "D": "Cả 2 phương án B và C đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Tính tương tự của hàng hóa có thể được xác định theo lĩnh vực tổng quát (ví dụ: thiết bị y tế, thiết bị văn phòng) hoặc cụ thể hơn theo mã HS. Cả hai cách tiếp cận đều được sử dụng trong thực tế để xác định tính tương tự một cách hợp lý."
+        "explanation": "Tính tương tự của hàng hóa có thể được xác định theo lĩnh vực tổng quát (ví dụ: thiết bị y tế, thiết bị văn phòng) hoặc cụ thể hơn theo mã HS. Cả hai cách tiếp cận đều được sử dụng trong thực tế để xác định tính tương tự một cách hợp lý.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 94,
@@ -47,7 +50,8 @@ export const set10: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Khi nhà thầu tham dự nhiều phần, năng lực tài chính (thể hiện qua doanh thu) của họ phải đáp ứng tổng yêu cầu của tất cả các phần mà họ tham dự để đảm bảo họ có đủ nguồn lực thực hiện đồng thời các phần đó nếu trúng thầu."
+        "explanation": "Khi nhà thầu tham dự nhiều phần, năng lực tài chính (thể hiện qua doanh thu) của họ phải đáp ứng tổng yêu cầu của tất cả các phần mà họ tham dự để đảm bảo họ có đủ nguồn lực thực hiện đồng thời các phần đó nếu trúng thầu.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 95,
@@ -59,7 +63,8 @@ export const set10: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "B",
-        "explanation": "Khi gói thầu được chia thành nhiều phần, việc đánh giá năng lực và kinh nghiệm (bao gồm cả hợp đồng tương tự) được thực hiện riêng cho từng phần. Nhà thầu chỉ cần đáp ứng yêu cầu của phần mà họ tham dự, không cần phải đáp ứng tổng yêu cầu của tất cả các phần. Điều này tạo điều kiện cho các nhà thầu có quy mô khác nhau cùng tham gia."
+        "explanation": "Khi gói thầu được chia thành nhiều phần, việc đánh giá năng lực và kinh nghiệm (bao gồm cả hợp đồng tương tự) được thực hiện riêng cho từng phần. Nhà thầu chỉ cần đáp ứng yêu cầu của phần mà họ tham dự, không cần phải đáp ứng tổng yêu cầu của tất cả các phần. Điều này tạo điều kiện cho các nhà thầu có quy mô khác nhau cùng tham gia.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 96,
@@ -71,7 +76,8 @@ export const set10: Question[] = [
             "D": "Tiếp tục đánh giá E-HSDT, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
         },
         "correctAnswer": "D",
-        "explanation": "Đây là một tình huống trong đấu thầu. Việc thiếu các cam kết không phải là lỗi không thể khắc phục. Để tạo điều kiện cho nhà thầu, bên mời thầu có thể cho phép làm rõ, bổ sung sau khi đánh giá. Nếu nhà thầu được xếp hạng thứ nhất, họ sẽ được yêu cầu bổ sung các cam kết này trước khi ký hợp đồng. Đây là cách xử lý linh hoạt và hiệu quả."
+        "explanation": "Đây là một tình huống trong đấu thầu. Việc thiếu các cam kết không phải là lỗi không thể khắc phục. Để tạo điều kiện cho nhà thầu, bên mời thầu có thể cho phép làm rõ, bổ sung sau khi đánh giá. Nếu nhà thầu được xếp hạng thứ nhất, họ sẽ được yêu cầu bổ sung các cam kết này trước khi ký hợp đồng. Đây là cách xử lý linh hoạt và hiệu quả.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 97,
@@ -83,7 +89,8 @@ export const set10: Question[] = [
             "D": "Tiếp tục đánh giá hồ sơ dự thầu, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ các thông tin này"
         },
         "correctAnswer": "C",
-        "explanation": "Việc đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất của hàng hóa chào thầu là một yêu cầu cơ bản và quan trọng để bên mời thầu có thể đánh giá tính đáp ứng về mặt kỹ thuật. Nếu nhà thầu không cung cấp các thông tin này, hồ sơ dự thầu được coi là không đáp ứng một cách cơ bản và sẽ không được xem xét, đánh giá."
+        "explanation": "Việc đề xuất cụ thể ký mã hiệu, nhãn hiệu, xuất xứ, hãng sản xuất của hàng hóa chào thầu là một yêu cầu cơ bản và quan trọng để bên mời thầu có thể đánh giá tính đáp ứng về mặt kỹ thuật. Nếu nhà thầu không cung cấp các thông tin này, hồ sơ dự thầu được coi là không đáp ứng một cách cơ bản và sẽ không được xem xét, đánh giá.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 98,
@@ -95,7 +102,8 @@ export const set10: Question[] = [
             "D": "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu cũng phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận"
         },
         "correctAnswer": "B",
-        "explanation": "Nhà thầu chính (nhà thầu tham dự thầu) chịu trách nhiệm toàn bộ về chất lượng, tiến độ của gói thầu, kể cả phần việc do nhà thầu phụ thực hiện. Do đó, khi đánh giá, bên mời thầu chỉ đánh giá năng lực, kinh nghiệm của nhà thầu chính. Nhà thầu chính phải đáp ứng yêu cầu cho toàn bộ gói thầu, bao gồm cả phần dự kiến giao cho nhà thầu phụ."
+        "explanation": "Nhà thầu chính (nhà thầu tham dự thầu) chịu trách nhiệm toàn bộ về chất lượng, tiến độ của gói thầu, kể cả phần việc do nhà thầu phụ thực hiện. Do đó, khi đánh giá, bên mời thầu chỉ đánh giá năng lực, kinh nghiệm của nhà thầu chính. Nhà thầu chính phải đáp ứng yêu cầu cho toàn bộ gói thầu, bao gồm cả phần dự kiến giao cho nhà thầu phụ.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 99,
@@ -107,7 +115,8 @@ export const set10: Question[] = [
             "D": "Nhà thầu không được sửa đổi E-HSDT đã nộp"
         },
         "correctAnswer": "A",
-        "explanation": "Trên Hệ thống mạng đấu thầu quốc gia, không có chức năng 'sửa đổi một phần' hồ sơ đã nộp. Nếu nhà thầu muốn thay đổi bất kỳ nội dung nào, họ phải thực hiện thao tác 'rút thầu', sau đó nộp lại một bộ hồ sơ dự thầu hoàn toàn mới trước thời điểm đóng thầu."
+        "explanation": "Trên Hệ thống mạng đấu thầu quốc gia, không có chức năng 'sửa đổi một phần' hồ sơ đã nộp. Nếu nhà thầu muốn thay đổi bất kỳ nội dung nào, họ phải thực hiện thao tác 'rút thầu', sau đó nộp lại một bộ hồ sơ dự thầu hoàn toàn mới trước thời điểm đóng thầu.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 100,
@@ -119,6 +128,7 @@ export const set10: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Khi E-HSMT được sửa đổi, các yêu cầu của gói thầu đã thay đổi. Hồ sơ dự thầu cũ của nhà thầu có thể không còn phù hợp. Để đảm bảo hồ sơ của mình đáp ứng các yêu cầu mới, nhà thầu cần phải rút hồ sơ cũ, điều chỉnh lại cho phù hợp với E-HSMT đã sửa đổi và nộp lại một bộ hồ sơ mới."
+        "explanation": "Khi E-HSMT được sửa đổi, các yêu cầu của gói thầu đã thay đổi. Hồ sơ dự thầu cũ của nhà thầu có thể không còn phù hợp. Để đảm bảo hồ sơ của mình đáp ứng các yêu cầu mới, nhà thầu cần phải rút hồ sơ cũ, điều chỉnh lại cho phù hợp với E-HSMT đã sửa đổi và nộp lại một bộ hồ sơ mới.",
+        "category": "Đấu thầu qua mạng"
     }
 ];

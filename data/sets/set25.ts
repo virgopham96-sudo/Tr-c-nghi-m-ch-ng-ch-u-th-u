@@ -11,7 +11,8 @@ export const set25: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 14, khoản 6 của Luật Đấu thầu. Chủ đầu tư cần yêu cầu gia hạn hiệu lực HSDT trong hai trường hợp chính: Khi thời gian đánh giá kéo dài và HSDT sắp hết hiệu lực mà vẫn chưa có kết quả (A). Khi mời nhà thầu xếp hạng tiếp theo vào thương thảo nhưng HSDT của họ đã hết hiệu lực (B). Cả hai trường hợp đều cần gia hạn để đảm bảo HSDT vẫn còn giá trị pháp lý cho các bước tiếp theo."
+        "explanation": "Căn cứ pháp lý: Điều 14, khoản 6 của Luật Đấu thầu. Chủ đầu tư cần yêu cầu gia hạn hiệu lực HSDT trong hai trường hợp chính: Khi thời gian đánh giá kéo dài và HSDT sắp hết hiệu lực mà vẫn chưa có kết quả (A). Khi mời nhà thầu xếp hạng tiếp theo vào thương thảo nhưng HSDT của họ đã hết hiệu lực (B). Cả hai trường hợp đều cần gia hạn để đảm bảo HSDT vẫn còn giá trị pháp lý cho các bước tiếp theo.",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 242,
@@ -23,7 +24,8 @@ export const set25: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Hồ sơ dự thầu phải được nộp một cách công khai cho bên mời thầu. Việc đặt mật khẩu cho một tệp tin là hành vi che giấu thông tin, không cho phép bên mời thầu tiếp cận để đánh giá. Hành vi này làm cho tệp tin đó không hợp lệ và sẽ không được xem xét."
+        "explanation": "Hồ sơ dự thầu phải được nộp một cách công khai cho bên mời thầu. Việc đặt mật khẩu cho một tệp tin là hành vi che giấu thông tin, không cho phép bên mời thầu tiếp cận để đánh giá. Hành vi này làm cho tệp tin đó không hợp lệ và sẽ không được xem xét.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 243,
@@ -35,7 +37,8 @@ export const set25: Question[] = [
             "D": "Tất cả phương án trên đều sai"
         },
         "correctAnswer": "B",
-        "explanation": "Quy trình rút gọn thường diễn ra trong thời gian ngắn (ví dụ 3-4 giờ). Để linh hoạt, thời điểm bắt đầu có thể ngoài giờ hành chính, nhưng thời điểm kết thúc phải trong giờ hành chính để đảm bảo có cán bộ giám sát và xử lý các bước tiếp theo."
+        "explanation": "Quy trình rút gọn thường diễn ra trong thời gian ngắn (ví dụ 3-4 giờ). Để linh hoạt, thời điểm bắt đầu có thể ngoài giờ hành chính, nhưng thời điểm kết thúc phải trong giờ hành chính để đảm bảo có cán bộ giám sát và xử lý các bước tiếp theo.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 244,
@@ -47,7 +50,8 @@ export const set25: Question[] = [
             "D": "05 ngày làm việc"
         },
         "correctAnswer": "B",
-        "explanation": "Đây là thời hạn tiêu chuẩn được quy định trong các văn bản hướng dẫn về chào giá trực tuyến để nhà thầu xác nhận nhanh chóng, làm cơ sở để chủ đầu tư hoàn thiện các thủ tục tiếp theo."
+        "explanation": "Đây là thời hạn tiêu chuẩn được quy định trong các văn bản hướng dẫn về chào giá trực tuyến để nhà thầu xác nhận nhanh chóng, làm cơ sở để chủ đầu tư hoàn thiện các thủ tục tiếp theo.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 245,
@@ -59,7 +63,8 @@ export const set25: Question[] = [
             "D": "Bị đánh giá về uy tín trong việc tham dự thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Hành vi từ chối xác nhận sau khi đã tham gia và được xác định trúng thầu là một vi phạm. Hình thức xử lý là tạm thời khóa tài khoản tham gia của nhà thầu trên Hệ thống. Thời hạn 03 tháng là một mức phạt hợp lý, được áp dụng sau khi có đề nghị chính thức từ chủ đầu tư và được cơ quan quản lý (Bộ Tài chính) chấp thuận."
+        "explanation": "Hành vi từ chối xác nhận sau khi đã tham gia và được xác định trúng thầu là một vi phạm. Hình thức xử lý là tạm thời khóa tài khoản tham gia của nhà thầu trên Hệ thống. Thời hạn 03 tháng là một mức phạt hợp lý, được áp dụng sau khi có đề nghị chính thức từ chủ đầu tư và được cơ quan quản lý (Bộ Tài chính) chấp thuận.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 246,
@@ -71,7 +76,8 @@ export const set25: Question[] = [
             "D": "Hỗn hợp"
         },
         "correctAnswer": "A",
-        "explanation": "Chào giá trực tuyến (cả quy trình thông thường và rút gọn) là một hình thức của chào hàng cạnh tranh, thường áp dụng cho các gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn thông dụng, đơn giản, có tiêu chuẩn kỹ thuật rõ ràng."
+        "explanation": "Chào giá trực tuyến (cả quy trình thông thường và rút gọn) là một hình thức của chào hàng cạnh tranh, thường áp dụng cho các gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn thông dụng, đơn giản, có tiêu chuẩn kỹ thuật rõ ràng.",
+        "category": "Hình thức và Phương thức LCNT"
     },
     {
         "id": 247,
@@ -83,7 +89,8 @@ export const set25: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Chức năng 'xác nhận chấp thuận được trao hợp đồng' là một bước đặc thù của quy trình chào giá trực tuyến rút gọn, nơi việc lựa chọn diễn ra rất nhanh và cần sự xác nhận ngay lập tức từ nhà thầu để hoàn tất giao dịch."
+        "explanation": "Chức năng 'xác nhận chấp thuận được trao hợp đồng' là một bước đặc thù của quy trình chào giá trực tuyến rút gọn, nơi việc lựa chọn diễn ra rất nhanh và cần sự xác nhận ngay lập tức từ nhà thầu để hoàn tất giao dịch.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 248,
@@ -95,7 +102,8 @@ export const set25: Question[] = [
             "D": "95%"
         },
         "correctAnswer": "C",
-        "explanation": "Đây là một quy tắc của hệ thống chào giá trực tuyến để tránh việc các nhà thầu 'phá giá' quá sâu một cách đột ngột, gây ra các mức giá phi thực tế. Nhà thầu chỉ được phép chào giá thấp hơn một tỷ lệ nhất định (ví dụ 10%) so với giá thấp nhất hiện tại. Điều này có nghĩa là giá mới không được thấp hơn 90% giá cũ."
+        "explanation": "Đây là một quy tắc của hệ thống chào giá trực tuyến để tránh việc các nhà thầu 'phá giá' quá sâu một cách đột ngột, gây ra các mức giá phi thực tế. Nhà thầu chỉ được phép chào giá thấp hơn một tỷ lệ nhất định (ví dụ 10%) so với giá thấp nhất hiện tại. Điều này có nghĩa là giá mới không được thấp hơn 90% giá cũ.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 249,
@@ -107,7 +115,8 @@ export const set25: Question[] = [
             "D": "Không yêu cầu về bảo đảm dự thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Chào giá rút gọn là hình thức đơn giản, nhanh chóng. Mức bảo đảm dự thầu cũng được quy định ở mức thấp hơn so với đấu thầu rộng rãi thông thường (thường là 1-1.5%). Mức 1-3% là khung quy định chung cho bảo đảm dự thầu."
+        "explanation": "Chào giá rút gọn là hình thức đơn giản, nhanh chóng. Mức bảo đảm dự thầu cũng được quy định ở mức thấp hơn so với đấu thầu rộng rãi thông thường (thường là 1-1.5%). Mức 1-3% là khung quy định chung cho bảo đảm dự thầu.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 250,
@@ -119,6 +128,7 @@ export const set25: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "B",
-        "explanation": "Việc được mời tham gia chào giá (sau khi đã nộp HSDT và được đánh giá đáp ứng) mà từ chối là một hành vi vi phạm cam kết tham dự thầu. Hình thức xử phạt là loại nhà thầu khỏi gói thầu đó và tạm thời khóa tài khoản trên Hệ thống."
+        "explanation": "Việc được mời tham gia chào giá (sau khi đã nộp HSDT và được đánh giá đáp ứng) mà từ chối là một hành vi vi phạm cam kết tham dự thầu. Hình thức xử phạt là loại nhà thầu khỏi gói thầu đó và tạm thời khóa tài khoản trên Hệ thống.",
+        "category": "Đấu thầu qua mạng"
     }
 ];

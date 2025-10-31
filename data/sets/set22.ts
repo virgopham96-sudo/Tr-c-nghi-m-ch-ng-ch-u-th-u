@@ -11,7 +11,8 @@ export const set22: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Khi một thành viên liên danh vi phạm, gây ảnh hưởng nghiêm trọng, chủ đầu tư có các lựa chọn xử lý. Nếu thành viên còn lại (A) có thể đảm nhận phần việc của B, thì chỉ bảo đảm của B bị tịch thu (C). Nếu A không thể đảm nhận, hợp đồng có thể bị chấm dứt và toàn bộ bảo đảm của liên danh bị tịch thu (B). Do cả hai đều là các khả năng xử lý hợp lệ tùy thuộc vào tình hình, phương án D là đáp án bao quát nhất."
+        "explanation": "Khi một thành viên liên danh vi phạm, gây ảnh hưởng nghiêm trọng, chủ đầu tư có các lựa chọn xử lý. Nếu thành viên còn lại (A) có thể đảm nhận phần việc của B, thì chỉ bảo đảm của B bị tịch thu (C). Nếu A không thể đảm nhận, hợp đồng có thể bị chấm dứt và toàn bộ bảo đảm của liên danh bị tịch thu (B). Do cả hai đều là các khả năng xử lý hợp lệ tùy thuộc vào tình hình, phương án D là đáp án bao quát nhất.",
+        "category": "Hợp đồng"
     },
     {
         "id": 212,
@@ -23,7 +24,8 @@ export const set22: Question[] = [
             "D": "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Việc không đề xuất cụ thể thông tin hàng hóa không phải là lỗi loại trực tiếp. Hồ sơ dự thầu vẫn được đánh giá dựa trên các thông tin đã cung cấp. Nếu nhà thầu được xếp hạng thứ nhất, chủ đầu tư sẽ yêu cầu nhà thầu làm rõ và bổ sung các thông tin chi tiết này trong quá trình thương thảo, hoàn thiện hợp đồng để đảm bảo hàng hóa đáp ứng yêu cầu kỹ thuật."
+        "explanation": "Việc không đề xuất cụ thể thông tin hàng hóa không phải là lỗi loại trực tiếp. Hồ sơ dự thầu vẫn được đánh giá dựa trên các thông tin đã cung cấp. Nếu nhà thầu được xếp hạng thứ nhất, chủ đầu tư sẽ yêu cầu nhà thầu làm rõ và bổ sung các thông tin chi tiết này trong quá trình thương thảo, hoàn thiện hợp đồng để đảm bảo hàng hóa đáp ứng yêu cầu kỹ thuật.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 213,
@@ -35,7 +37,8 @@ export const set22: Question[] = [
             "D": "Cả 3 phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 50, khoản 3 và các quy định liên quan của Luật Giao dịch điện tử. Phương án A nêu đúng giá trị pháp lý của văn bản điện tử. Phương án B nêu đúng nguyên tắc xác định thời gian trong giao dịch điện tử. Phương án C nêu đúng một trong những lợi ích và mục tiêu của việc kết nối, chia sẻ dữ liệu của Hệ thống mạng đấu thầu quốc gia. Cả ba nhận định đều phản ánh đúng bản chất và quy định về hệ thống đấu thầu qua mạng."
+        "explanation": "Căn cứ pháp lý: Điều 50, khoản 3 và các quy định liên quan của Luật Giao dịch điện tử. Phương án A nêu đúng giá trị pháp lý của văn bản điện tử. Phương án B nêu đúng nguyên tắc xác định thời gian trong giao dịch điện tử. Phương án C nêu đúng một trong những lợi ích và mục tiêu của việc kết nối, chia sẻ dữ liệu của Hệ thống mạng đấu thầu quốc gia. Cả ba nhận định đều phản ánh đúng bản chất và quy định về hệ thống đấu thầu qua mạng.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 214,
@@ -47,7 +50,8 @@ export const set22: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Tài khoản nghiệp vụ là tài khoản con được tạo ra từ tài khoản tham gia chính của một đơn vị. Nó được sử dụng để phân quyền cho các cá nhân khác nhau trong tổ chức thực hiện các nghiệp vụ cụ thể trên Hệ thống, giúp quản lý và phân công công việc hiệu quả."
+        "explanation": "Tài khoản nghiệp vụ là tài khoản con được tạo ra từ tài khoản tham gia chính của một đơn vị. Nó được sử dụng để phân quyền cho các cá nhân khác nhau trong tổ chức thực hiện các nghiệp vụ cụ thể trên Hệ thống, giúp quản lý và phân công công việc hiệu quả.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 215,
@@ -59,7 +63,8 @@ export const set22: Question[] = [
             "D": "Cả 3 phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 8, khoản 1, điểm c của Luật Đấu thầu. Luật quy định rõ trách nhiệm của nhà thầu là 'cập nhật, đăng tải thông tin về năng lực, kinh nghiệm của mình vào cơ sở dữ liệu nhà thầu'. Các thông tin về uy tín (A) và vi phạm (B) thường do bên mời thầu hoặc người có thẩm quyền đăng tải."
+        "explanation": "Căn cứ pháp lý: Điều 8, khoản 1, điểm c của Luật Đấu thầu. Luật quy định rõ trách nhiệm của nhà thầu là 'cập nhật, đăng tải thông tin về năng lực, kinh nghiệm của mình vào cơ sở dữ liệu nhà thầu'. Các thông tin về uy tín (A) và vi phạm (B) thường do bên mời thầu hoặc người có thẩm quyền đăng tải.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 216,
@@ -71,7 +76,8 @@ export const set22: Question[] = [
             "D": "Chủ đầu tư"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 8, khoản 1, điểm a của Luật Đấu thầu. Luật quy định rõ: 'Chủ đầu tư có trách nhiệm đăng tải thông tin quy định tại các điểm a, g, h, i và k khoản 1 Điều 7 của Luật này'. Thông tin chủ yếu của hợp đồng thuộc điểm h khoản 1 Điều 7."
+        "explanation": "Căn cứ pháp lý: Điều 8, khoản 1, điểm a của Luật Đấu thầu. Luật quy định rõ: 'Chủ đầu tư có trách nhiệm đăng tải thông tin quy định tại các điểm a, g, h, i và k khoản 1 Điều 7 của Luật này'. Thông tin chủ yếu của hợp đồng thuộc điểm h khoản 1 Điều 7.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 217,
@@ -83,7 +89,8 @@ export const set22: Question[] = [
             "D": "Đăng tải thông tin về năng lực, kinh nghiệm của mình trên Hệ thống mạng đấu thầu quốc gia"
         },
         "correctAnswer": "C",
-        "explanation": "Trách nhiệm đăng tải thông tin trên Hệ thống mạng đấu thầu quốc gia thuộc về chủ đầu tư/bên mời thầu. Việc nhà thầu tư vấn tự ý thay đổi hoặc thực hiện việc đăng tải thay cho chủ đầu tư là hành vi lạm quyền, vi phạm quy trình và có thể bị xử lý bằng hình thức khóa tài khoản."
+        "explanation": "Trách nhiệm đăng tải thông tin trên Hệ thống mạng đấu thầu quốc gia thuộc về chủ đầu tư/bên mời thầu. Việc nhà thầu tư vấn tự ý thay đổi hoặc thực hiện việc đăng tải thay cho chủ đầu tư là hành vi lạm quyền, vi phạm quy trình và có thể bị xử lý bằng hình thức khóa tài khoản.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 218,
@@ -95,7 +102,8 @@ export const set22: Question[] = [
             "D": "05 ngày làm việc kể từ ngày nhà thầu nộp bảo đảm thực hiện hợp đồng"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 8, khoản 4 của Luật Đấu thầu. Luật quy định: 'Thông tin quy định tại các điểm a, d, g, h, i khoản 1... phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia chậm nhất là 05 ngày làm việc kể từ ngày văn bản được ban hành hoặc hợp đồng có hiệu lực.'"
+        "explanation": "Căn cứ pháp lý: Điều 8, khoản 4 của Luật Đấu thầu. Luật quy định: 'Thông tin quy định tại các điểm a, d, g, h, i khoản 1... phải được đăng tải trên Hệ thống mạng đấu thầu quốc gia chậm nhất là 05 ngày làm việc kể từ ngày văn bản được ban hành hoặc hợp đồng có hiệu lực.'",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 219,
@@ -107,7 +115,8 @@ export const set22: Question[] = [
             "D": "Người có thẩm quyền đăng tải trong thời hạn 05 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm"
         },
         "correctAnswer": "D",
-        "explanation": "Thông tin về xử lý vi phạm pháp luật về đấu thầu (bao gồm cả quyết định cấm thầu) do người có thẩm quyền ra quyết định. Do đó, người có thẩm quyền cũng là người chịu trách nhiệm cuối cùng trong việc công khai thông tin này. Thời hạn 05 ngày làm việc là thời hạn tiêu chuẩn để đăng tải thông tin."
+        "explanation": "Thông tin về xử lý vi phạm pháp luật về đấu thầu (bao gồm cả quyết định cấm thầu) do người có thẩm quyền ra quyết định. Do đó, người có thẩm quyền cũng là người chịu trách nhiệm cuối cùng trong việc công khai thông tin này. Thời hạn 05 ngày làm việc là thời hạn tiêu chuẩn để đăng tải thông tin.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 220,
@@ -119,6 +128,7 @@ export const set22: Question[] = [
             "D": "Tư vấn đấu thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Chủ đầu tư (hoặc bên mời thầu được ủy quyền) là người chịu trách nhiệm về việc tổ chức lựa chọn nhà thầu, bao gồm cả việc quyết định các mốc thời gian như thời điểm đóng thầu. Khi cần thiết (ví dụ để sửa đổi HSMT), chủ đầu tư là người ra quyết định và thực hiện thao tác gia hạn trên Hệ thống."
+        "explanation": "Chủ đầu tư (hoặc bên mời thầu được ủy quyền) là người chịu trách nhiệm về việc tổ chức lựa chọn nhà thầu, bao gồm cả việc quyết định các mốc thời gian như thời điểm đóng thầu. Khi cần thiết (ví dụ để sửa đổi HSMT), chủ đầu tư là người ra quyết định và thực hiện thao tác gia hạn trên Hệ thống.",
+        "category": "Đấu thầu qua mạng"
     }
 ];

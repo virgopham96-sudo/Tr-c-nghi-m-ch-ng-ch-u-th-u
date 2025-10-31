@@ -11,7 +11,8 @@ export const set21: Question[] = [
             "D": "Tất cả các đáp án trên đều không đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Khi hủy thầu, toàn bộ quá trình lựa chọn nhà thầu trước đó bị hủy bỏ. Nếu chủ đầu tư vẫn muốn thực hiện gói thầu, họ phải lập một kế hoạch lựa chọn nhà thầu hoàn toàn mới. Do đó, không có việc 'điều chỉnh' kế hoạch cũ. Phương án C là đúng vì không có kế hoạch cũ để điều chỉnh."
+        "explanation": "Khi hủy thầu, toàn bộ quá trình lựa chọn nhà thầu trước đó bị hủy bỏ. Nếu chủ đầu tư vẫn muốn thực hiện gói thầu, họ phải lập một kế hoạch lựa chọn nhà thầu hoàn toàn mới. Do đó, không có việc 'điều chỉnh' kế hoạch cũ. Phương án C là đúng vì không có kế hoạch cũ để điều chỉnh.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 202,
@@ -23,7 +24,8 @@ export const set21: Question[] = [
             "D": "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu kể từ khi ký kết hợp đồng"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 17, khoản 3 của Luật Đấu thầu. Luật quy định rất rõ ràng về khoảng thời gian có thể áp dụng biện pháp hủy thầu, bắt đầu từ khi phát hành hồ sơ và kết thúc ngay trước thời điểm hợp đồng hoặc thỏa thuận khung được ký kết."
+        "explanation": "Căn cứ pháp lý: Điều 17, khoản 3 của Luật Đấu thầu. Luật quy định rất rõ ràng về khoảng thời gian có thể áp dụng biện pháp hủy thầu, bắt đầu từ khi phát hành hồ sơ và kết thúc ngay trước thời điểm hợp đồng hoặc thỏa thuận khung được ký kết.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 203,
@@ -35,7 +37,8 @@ export const set21: Question[] = [
             "D": "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu và yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản trước khi phê duyệt kết quả lựa chọn nhà thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1, điểm e của Luật Đấu thầu. Một trong các điều kiện về tư cách hợp lệ của nhà thầu là 'Không đang trong thời gian bị cấm tham dự thầu...'. Việc bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia là một hình thức thể hiện của việc bị cấm thầu. Do đó, tại thời điểm đánh giá, nhà thầu này không còn đủ tư cách hợp lệ, và hồ sơ dự thầu của họ sẽ không được xem xét, đánh giá nữa."
+        "explanation": "Căn cứ pháp lý: Điều 5, khoản 1, điểm e của Luật Đấu thầu. Một trong các điều kiện về tư cách hợp lệ của nhà thầu là 'Không đang trong thời gian bị cấm tham dự thầu...'. Việc bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia là một hình thức thể hiện của việc bị cấm thầu. Do đó, tại thời điểm đánh giá, nhà thầu này không còn đủ tư cách hợp lệ, và hồ sơ dự thầu của họ sẽ không được xem xét, đánh giá nữa.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 204,
@@ -47,7 +50,8 @@ export const set21: Question[] = [
             "D": "Hủy thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 17, khoản 1, điểm b của Luật Đấu thầu. Việc tăng giá gói thầu trên 30% và thay đổi tiêu chuẩn đánh giá quan trọng là những thay đổi cơ bản, làm cho hồ sơ mời thầu ban đầu không còn phù hợp. Để đảm bảo cạnh tranh và công bằng, việc hủy thầu để tổ chức lại theo các yêu cầu mới là bắt buộc."
+        "explanation": "Căn cứ pháp lý: Điều 17, khoản 1, điểm b của Luật Đấu thầu. Việc tăng giá gói thầu trên 30% và thay đổi tiêu chuẩn đánh giá quan trọng là những thay đổi cơ bản, làm cho hồ sơ mời thầu ban đầu không còn phù hợp. Để đảm bảo cạnh tranh và công bằng, việc hủy thầu để tổ chức lại theo các yêu cầu mới là bắt buộc.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 205,
@@ -59,7 +63,8 @@ export const set21: Question[] = [
             "D": "Đình chỉ cuộc thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 18, khoản 1, điểm b của Luật Đấu thầu. Khi nhà thầu trúng thầu vi phạm các trách nhiệm của mình sau khi có kết quả (như từ chối ký hợp đồng, không đáp ứng năng lực tại thời điểm ký kết), người có thẩm quyền/chủ đầu tư sẽ áp dụng biện pháp 'Không công nhận kết quả lựa chọn nhà thầu'. Biện pháp này sẽ hủy bỏ kết quả đã công bố và cho phép xem xét lựa chọn nhà thầu xếp hạng tiếp theo. Đồng thời, nhà thầu vi phạm sẽ không được hoàn trả bảo đảm dự thầu."
+        "explanation": "Căn cứ pháp lý: Điều 18, khoản 1, điểm b của Luật Đấu thầu. Khi nhà thầu trúng thầu vi phạm các trách nhiệm của mình sau khi có kết quả (như từ chối ký hợp đồng, không đáp ứng năng lực tại thời điểm ký kết), người có thẩm quyền/chủ đầu tư sẽ áp dụng biện pháp 'Không công nhận kết quả lựa chọn nhà thầu'. Biện pháp này sẽ hủy bỏ kết quả đã công bố và cho phép xem xét lựa chọn nhà thầu xếp hạng tiếp theo. Đồng thời, nhà thầu vi phạm sẽ không được hoàn trả bảo đảm dự thầu.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 206,
@@ -71,7 +76,8 @@ export const set21: Question[] = [
             "D": "Khi một thành viên liên danh đề nghị chuyển nhượng phần việc để tiết kiệm chi phí"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 70, khoản 1 của Luật Đấu thầu. Việc điều chỉnh phạm vi công việc giữa các thành viên là một hình thức sửa đổi hợp đồng. Việc này chỉ được thực hiện khi có lý do chính đáng, khách quan, nhằm mục đích mang lại lợi ích cho gói thầu (như đẩy nhanh tiến độ) và phải được các bên (chủ đầu tư và các thành viên liên danh) thỏa thuận. Các phương án A, B, D đều là các lý do chủ quan, không hợp lệ để sửa đổi hợp đồng."
+        "explanation": "Căn cứ pháp lý: Điều 70, khoản 1 của Luật Đấu thầu. Việc điều chỉnh phạm vi công việc giữa các thành viên là một hình thức sửa đổi hợp đồng. Việc này chỉ được thực hiện khi có lý do chính đáng, khách quan, nhằm mục đích mang lại lợi ích cho gói thầu (như đẩy nhanh tiến độ) và phải được các bên (chủ đầu tư và các thành viên liên danh) thỏa thuận. Các phương án A, B, D đều là các lý do chủ quan, không hợp lệ để sửa đổi hợp đồng.",
+        "category": "Hợp đồng"
     },
     {
         "id": 207,
@@ -83,7 +89,8 @@ export const set21: Question[] = [
             "D": "Có thể quy định nhưng phải được người có thẩm quyền chấp thuận"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 4 của Luật Đấu thầu. Luật quy định mức bảo đảm thực hiện hợp đồng là từ 2% đến 10% giá hợp đồng. Mặc dù có quy định cho phép tăng mức bảo đảm lên đến 30% trong trường hợp giá dự thầu thấp bất thường, nhưng mức 15% vẫn nằm ngoài khung quy định thông thường và không có cơ sở pháp lý để áp dụng trong trường hợp này."
+        "explanation": "Căn cứ pháp lý: Điều 68, khoản 4 của Luật Đấu thầu. Luật quy định mức bảo đảm thực hiện hợp đồng là từ 2% đến 10% giá hợp đồng. Mặc dù có quy định cho phép tăng mức bảo đảm lên đến 30% trong trường hợp giá dự thầu thấp bất thường, nhưng mức 15% vẫn nằm ngoài khung quy định thông thường và không có cơ sở pháp lý để áp dụng trong trường hợp này.",
+        "category": "Hợp đồng"
     },
     {
         "id": 208,
@@ -95,7 +102,8 @@ export const set21: Question[] = [
             "D": "Mời nhà thầu xếp hạng tiếp theo vào hoàn thiện hợp đồng"
         },
         "correctAnswer": "A",
-        "explanation": "Đây là quy trình xử lý tiêu chuẩn trong đấu thầu. Nếu nhà thầu xếp hạng thứ nhất từ chối hoặc không đạt được thỏa thuận khi thương thảo hợp đồng, chủ đầu tư có quyền mời nhà thầu xếp hạng tiếp theo trong danh sách xếp hạng vào thương thảo."
+        "explanation": "Đây là quy trình xử lý tiêu chuẩn trong đấu thầu. Nếu nhà thầu xếp hạng thứ nhất từ chối hoặc không đạt được thỏa thuận khi thương thảo hợp đồng, chủ đầu tư có quyền mời nhà thầu xếp hạng tiếp theo trong danh sách xếp hạng vào thương thảo.",
+        "category": "Hợp đồng"
     },
     {
         "id": 209,
@@ -107,7 +115,8 @@ export const set21: Question[] = [
             "D": "Phương án A và B đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 4 của Luật Đấu thầu. Hồ sơ dự thầu không cân bằng tiềm ẩn rủi ro cho chủ đầu tư. Để xử lý, chủ đầu tư có quyền: Yêu cầu nhà thầu làm rõ bằng văn bản về các chi phí cấu thành giá dự thầu để đánh giá tính hợp lý (Phương án A). Yêu cầu một mức bảo đảm thực hiện hợp đồng cao hơn (tối đa 30%) để phòng ngừa rủi ro nhà thầu bỏ dở hợp đồng sau khi đã thực hiện xong các hạng mục có đơn giá cao (Phương án B). Do đó, cả hai biện pháp đều có thể được áp dụng."
+        "explanation": "Căn cứ pháp lý: Điều 68, khoản 4 của Luật Đấu thầu. Hồ sơ dự thầu không cân bằng tiềm ẩn rủi ro cho chủ đầu tư. Để xử lý, chủ đầu tư có quyền: Yêu cầu nhà thầu làm rõ bằng văn bản về các chi phí cấu thành giá dự thầu để đánh giá tính hợp lý (Phương án A). Yêu cầu một mức bảo đảm thực hiện hợp đồng cao hơn (tối đa 30%) để phòng ngừa rủi ro nhà thầu bỏ dở hợp đồng sau khi đã thực hiện xong các hạng mục có đơn giá cao (Phương án B). Do đó, cả hai biện pháp đều có thể được áp dụng.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 210,
@@ -119,6 +128,7 @@ export const set21: Question[] = [
             "D": "Chỉ được kế thừa về năng lực của xí nghiệp X"
         },
         "correctAnswer": "B",
-        "explanation": "Theo quy định của pháp luật về doanh nghiệp liên quan đến chia, tách, hợp nhất, sáp nhập, pháp nhân mới sẽ kế thừa các quyền và nghĩa vụ của pháp nhân cũ. Điều này bao gồm cả việc kế thừa năng lực, kinh nghiệm (thể hiện qua các hợp đồng đã thực hiện, nhân sự, máy móc thiết bị...) của bộ phận được tách ra."
+        "explanation": "Theo quy định của pháp luật về doanh nghiệp liên quan đến chia, tách, hợp nhất, sáp nhập, pháp nhân mới sẽ kế thừa các quyền và nghĩa vụ của pháp nhân cũ. Điều này bao gồm cả việc kế thừa năng lực, kinh nghiệm (thể hiện qua các hợp đồng đã thực hiện, nhân sự, máy móc thiết bị...) của bộ phận được tách ra.",
+        "category": "Quy định chung"
     }
 ];

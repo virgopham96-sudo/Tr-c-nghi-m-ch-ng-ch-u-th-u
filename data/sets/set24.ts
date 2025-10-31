@@ -11,7 +11,8 @@ export const set24: Question[] = [
             "D": "Cả 3 đáp án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Khi tham gia đấu thầu qua mạng, nhà thầu phải chịu trách nhiệm về tính chính xác của thông tin kê khai (A), chỉ cần nộp một bộ E-HSDT duy nhất cho một E-TBMT (B), và có quyền rút, sửa, nộp lại hồ sơ trước thời điểm đóng thầu (C). Cả ba đều là những quy định cơ bản và đúng đắn."
+        "explanation": "Khi tham gia đấu thầu qua mạng, nhà thầu phải chịu trách nhiệm về tính chính xác của thông tin kê khai (A), chỉ cần nộp một bộ E-HSDT duy nhất cho một E-TBMT (B), và có quyền rút, sửa, nộp lại hồ sơ trước thời điểm đóng thầu (C). Cả ba đều là những quy định cơ bản và đúng đắn.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 232,
@@ -23,7 +24,8 @@ export const set24: Question[] = [
             "D": "Các phương án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Khi E-HSMT (hồ sơ mời thầu) được sửa đổi, các yêu cầu của gói thầu đã thay đổi. Để đảm bảo hồ sơ dự thầu của mình đáp ứng các yêu cầu mới, nhà thầu cần phải rút hồ sơ cũ và nộp lại một bộ hồ sơ mới đã được cập nhật theo E-HSMT sửa đổi."
+        "explanation": "Khi E-HSMT (hồ sơ mời thầu) được sửa đổi, các yêu cầu của gói thầu đã thay đổi. Để đảm bảo hồ sơ dự thầu của mình đáp ứng các yêu cầu mới, nhà thầu cần phải rút hồ sơ cũ và nộp lại một bộ hồ sơ mới đã được cập nhật theo E-HSMT sửa đổi.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 233,
@@ -35,7 +37,8 @@ export const set24: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Đây là một trong những cách xử lý tình huống để tăng cơ hội có nhà thầu tham gia mà không cần phải hủy thầu ngay lập tức. Việc gia hạn thời điểm đóng thầu cho phép các nhà thầu có thêm thời gian chuẩn bị hồ sơ."
+        "explanation": "Đây là một trong những cách xử lý tình huống để tăng cơ hội có nhà thầu tham gia mà không cần phải hủy thầu ngay lập tức. Việc gia hạn thời điểm đóng thầu cho phép các nhà thầu có thêm thời gian chuẩn bị hồ sơ.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 234,
@@ -47,7 +50,8 @@ export const set24: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "B",
-        "explanation": "Khi có sự không thống nhất giữa các phần của hồ sơ dự thầu, nguyên tắc xử lý là phải yêu cầu nhà thầu làm rõ. Việc làm rõ phải được thực hiện trên Hệ thống để đảm bảo tính minh bạch. Bên mời thầu sẽ căn cứ vào nội dung làm rõ và các tài liệu gốc để đưa ra kết luận cuối cùng."
+        "explanation": "Khi có sự không thống nhất giữa các phần của hồ sơ dự thầu, nguyên tắc xử lý là phải yêu cầu nhà thầu làm rõ. Việc làm rõ phải được thực hiện trên Hệ thống để đảm bảo tính minh bạch. Bên mời thầu sẽ căn cứ vào nội dung làm rõ và các tài liệu gốc để đưa ra kết luận cuối cùng.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 235,
@@ -59,7 +63,8 @@ export const set24: Question[] = [
             "D": "Chủ đầu tư dành cho nhà thầu tối thiểu 03 ngày làm việc để nhà thầu thực hiện việc làm rõ E-HSDT"
         },
         "correctAnswer": "A",
-        "explanation": "Nguyên tắc cơ bản của việc làm rõ hồ sơ dự thầu là làm rõ để minh bạch các thông tin đã kê khai, không được làm thay đổi bản chất của hồ sơ dự thầu. Nhà thầu được phép làm rõ các vấn đề về tư cách, năng lực, kinh nghiệm. Tuy nhiên, các đề xuất cơ bản về kỹ thuật và tài chính (giá chào) là không được phép thay đổi."
+        "explanation": "Nguyên tắc cơ bản của việc làm rõ hồ sơ dự thầu là làm rõ để minh bạch các thông tin đã kê khai, không được làm thay đổi bản chất của hồ sơ dự thầu. Nhà thầu được phép làm rõ các vấn đề về tư cách, năng lực, kinh nghiệm. Tuy nhiên, các đề xuất cơ bản về kỹ thuật và tài chính (giá chào) là không được phép thay đổi.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 236,
@@ -71,7 +76,8 @@ export const set24: Question[] = [
             "D": "Các file bị nhiễm virus, bị lỗi, hỏng"
         },
         "correctAnswer": "D",
-        "explanation": "Nếu một file đính kèm không thể mở được do lỗi kỹ thuật (nhiễm virus, file hỏng...), bên mời thầu sẽ không có cơ sở để xem xét, đánh giá nội dung bên trong. Nhà thầu phải chịu trách nhiệm về tính toàn vẹn của các file mình nộp."
+        "explanation": "Nếu một file đính kèm không thể mở được do lỗi kỹ thuật (nhiễm virus, file hỏng...), bên mời thầu sẽ không có cơ sở để xem xét, đánh giá nội dung bên trong. Nhà thầu phải chịu trách nhiệm về tính toàn vẹn của các file mình nộp.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 237,
@@ -83,7 +89,8 @@ export const set24: Question[] = [
             "D": "Các đáp án trên đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Hệ thống mạng đấu thầu quốc gia được lập trình để tự động đánh giá một số tiêu chí tài chính cơ bản dựa trên dữ liệu nhà thầu kê khai, trong đó có doanh thu bình quân 3 năm gần nhất. Các tiêu chí khác như bảo đảm dự thầu (A) và thỏa thuận liên danh (B) thường cần sự xem xét, đánh giá của tổ chuyên gia."
+        "explanation": "Hệ thống mạng đấu thầu quốc gia được lập trình để tự động đánh giá một số tiêu chí tài chính cơ bản dựa trên dữ liệu nhà thầu kê khai, trong đó có doanh thu bình quân 3 năm gần nhất. Các tiêu chí khác như bảo đảm dự thầu (A) và thỏa thuận liên danh (B) thường cần sự xem xét, đánh giá của tổ chuyên gia.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 238,
@@ -95,7 +102,8 @@ export const set24: Question[] = [
             "D": "Tất cả phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Hệ thống được thiết kế để xử lý dữ liệu tài chính theo các cách khác nhau: tự động trích xuất từ các nguồn dữ liệu được kết nối (A), cho phép nhà thầu tự kê khai đối với các dữ liệu cũ (B), và bỏ qua việc đánh giá đối với các đối tượng không có báo cáo tài chính theo chuẩn mực (hộ kinh doanh) (C). Cả ba đều là các cơ chế xử lý hợp lý của Hệ thống."
+        "explanation": "Hệ thống được thiết kế để xử lý dữ liệu tài chính theo các cách khác nhau: tự động trích xuất từ các nguồn dữ liệu được kết nối (A), cho phép nhà thầu tự kê khai đối với các dữ liệu cũ (B), và bỏ qua việc đánh giá đối với các đối tượng không có báo cáo tài chính theo chuẩn mực (hộ kinh doanh) (C). Cả ba đều là các cơ chế xử lý hợp lý của Hệ thống.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 239,
@@ -107,7 +115,8 @@ export const set24: Question[] = [
             "D": "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, lịch sử không hoàn thành hợp đồng do lỗi của nhà thầu, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm"
         },
         "correctAnswer": "D",
-        "explanation": "Đây là các tiêu chí cơ bản, được Hệ thống đánh giá tự động dựa trên dữ liệu có sẵn (kết nối từ cơ sở dữ liệu thuế, đăng ký kinh doanh...) hoặc kê khai trên webform. Kết quả đánh giá tự động này được coi là 'cứng' và tổ chuyên gia không thể can thiệp, sửa đổi để đảm bảo tính khách quan."
+        "explanation": "Đây là các tiêu chí cơ bản, được Hệ thống đánh giá tự động dựa trên dữ liệu có sẵn (kết nối từ cơ sở dữ liệu thuế, đăng ký kinh doanh...) hoặc kê khai trên webform. Kết quả đánh giá tự động này được coi là 'cứng' và tổ chuyên gia không thể can thiệp, sửa đổi để đảm bảo tính khách quan.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 240,
@@ -119,6 +128,7 @@ export const set24: Question[] = [
             "D": "Gói thầu máy đặt, máy mượn áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT chào ưu đãi như nhau"
         },
         "correctAnswer": "A",
-        "explanation": "Quy trình 02 là quy trình rút gọn, áp dụng cho các gói thầu mua sắm hàng hóa thông thường, đơn giản, sử dụng phương pháp giá thấp nhất và không có yếu tố phức tạp như ưu đãi."
+        "explanation": "Quy trình 02 là quy trình rút gọn, áp dụng cho các gói thầu mua sắm hàng hóa thông thường, đơn giản, sử dụng phương pháp giá thấp nhất và không có yếu tố phức tạp như ưu đãi.",
+        "category": "Đấu thầu qua mạng"
     }
 ];

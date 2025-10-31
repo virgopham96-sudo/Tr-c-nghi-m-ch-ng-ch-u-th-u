@@ -11,7 +11,8 @@ export const set15: Question[] = [
             "D": "Không phải đăng tải thông tin"
         },
         "correctAnswer": "A",
-        "explanation": "Đơn vị có nhu cầu mua sắm là bên ký kết và trực tiếp quản lý việc thực hiện hợp đồng với nhà thầu. Do đó, họ là bên nắm rõ nhất kết quả thực hiện và có trách nhiệm báo cáo, cung cấp thông tin này."
+        "explanation": "Đơn vị có nhu cầu mua sắm là bên ký kết và trực tiếp quản lý việc thực hiện hợp đồng với nhà thầu. Do đó, họ là bên nắm rõ nhất kết quả thực hiện và có trách nhiệm báo cáo, cung cấp thông tin này.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 142,
@@ -23,7 +24,8 @@ export const set15: Question[] = [
             "D": "Đấu thầu rộng rãi hoặc chỉ định thầu hoặc đàm phán giá"
         },
         "correctAnswer": "C",
-        "explanation": "Gói thầu này là hàng hóa thông dụng, sẵn có trên thị trường, có giá trị 03 tỷ đồng, nằm trong hạn mức áp dụng của chào hàng cạnh tranh. Đồng thời, chủ đầu tư luôn có thể chọn hình thức cạnh tranh hơn là đấu thầu rộng rãi."
+        "explanation": "Gói thầu này là hàng hóa thông dụng, sẵn có trên thị trường, có giá trị 03 tỷ đồng, nằm trong hạn mức áp dụng của chào hàng cạnh tranh. Đồng thời, chủ đầu tư luôn có thể chọn hình thức cạnh tranh hơn là đấu thầu rộng rãi.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 143,
@@ -35,7 +37,8 @@ export const set15: Question[] = [
             "D": "Đơn vị mua sắm tập trung thực hiện trách nhiệm của tổ chuyên gia theo quy định của Luật Đấu thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Trong quy trình mua sắm tập trung, Đơn vị mua sắm tập trung đóng vai trò là 'chủ đầu tư' của gói thầu tổng hợp, chịu trách nhiệm tổ chức lựa chọn nhà thầu."
+        "explanation": "Trong quy trình mua sắm tập trung, Đơn vị mua sắm tập trung đóng vai trò là 'chủ đầu tư' của gói thầu tổng hợp, chịu trách nhiệm tổ chức lựa chọn nhà thầu.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 144,
@@ -47,7 +50,8 @@ export const set15: Question[] = [
             "D": "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
         },
         "correctAnswer": "B",
-        "explanation": "Đây là một hành vi vi phạm nghiêm trọng cam kết. Việc từ chối ký hợp đồng sau khi đã trúng thầu và ký thỏa thuận khung sẽ bị xử lý bằng các biện pháp mạnh như cấm thầu (thể hiện qua việc khóa tài khoản trên Hệ thống). Thời hạn 06 tháng là một mức phạt phổ biến."
+        "explanation": "Đây là một hành vi vi phạm nghiêm trọng cam kết. Việc từ chối ký hợp đồng sau khi đã trúng thầu và ký thỏa thuận khung sẽ bị xử lý bằng các biện pháp mạnh như cấm thầu (thể hiện qua việc khóa tài khoản trên Hệ thống). Thời hạn 06 tháng là một mức phạt phổ biến.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 145,
@@ -59,7 +63,8 @@ export const set15: Question[] = [
             "D": "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đánh giá của gói thầu là thấp nhất"
         },
         "correctAnswer": "C",
-        "explanation": "Khi lựa chọn nhiều nhà thầu cho một gói thầu MSTT, mục tiêu kép là phải đảm bảo đủ tổng số lượng hàng hóa cần mua và tổng chi phí cho việc mua sắm đó phải là thấp nhất có thể."
+        "explanation": "Khi lựa chọn nhiều nhà thầu cho một gói thầu MSTT, mục tiêu kép là phải đảm bảo đủ tổng số lượng hàng hóa cần mua và tổng chi phí cho việc mua sắm đó phải là thấp nhất có thể.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 146,
@@ -71,7 +76,8 @@ export const set15: Question[] = [
             "D": "Danh sách chính (nhà thầu xếp thứ nhất và nhà thầu xếp thứ 2) và danh sách dự bị (nhà thầu xếp thứ 3 trở đi)"
         },
         "correctAnswer": "A",
-        "explanation": "Việc phê duyệt danh sách trúng thầu thường bao gồm cả danh sách chính (các nhà thầu được lựa chọn để ký thỏa thuận khung/hợp đồng) và danh sách dự bị để trong trường hợp nhà thầu chính từ chối hoặc không thể thực hiện, chủ đầu tư có thể làm việc với nhà thầu dự bị mà không cần tổ chức đấu thầu lại."
+        "explanation": "Việc phê duyệt danh sách trúng thầu thường bao gồm cả danh sách chính (các nhà thầu được lựa chọn để ký thỏa thuận khung/hợp đồng) và danh sách dự bị để trong trường hợp nhà thầu chính từ chối hoặc không thể thực hiện, chủ đầu tư có thể làm việc với nhà thầu dự bị mà không cần tổ chức đấu thầu lại.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 147,
@@ -83,7 +89,8 @@ export const set15: Question[] = [
             "D": "Các cơ quan, tổ chức, đơn vị báo cáo lên người có thẩm quyền để phê duyệt kế hoạch chọn nhà thầu theo hình thức mua sắm tập trung đối với các hàng hóa, dịch vụ này"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 53, khoản 5 của Luật Đấu thầu. Đây chính là quy định về việc tổng hợp nhu cầu mua sắm để tăng tính hiệu quả và tiết kiệm chi phí, ngay cả khi hàng hóa, dịch vụ đó không nằm trong danh mục MSTT bắt buộc."
+        "explanation": "Căn cứ pháp lý: Điều 53, khoản 5 của Luật Đấu thầu. Đây chính là quy định về việc tổng hợp nhu cầu mua sắm để tăng tính hiệu quả và tiết kiệm chi phí, ngay cả khi hàng hóa, dịch vụ đó không nằm trong danh mục MSTT bắt buộc.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 148,
@@ -95,7 +102,8 @@ export const set15: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 43, khoản 1 của Luật Đấu thầu. Quy trình chỉ định thầu thông thường bao gồm các bước: chuẩn bị, gửi dự thảo hợp đồng (hoặc hồ sơ yêu cầu), nhà thầu chuẩn bị hồ sơ đề xuất, đánh giá hồ sơ đề xuất và thương thảo, trình duyệt và ký kết hợp đồng. Do đó, đánh giá và thương thảo là một bước cốt lõi."
+        "explanation": "Căn cứ pháp lý: Điều 43, khoản 1 của Luật Đấu thầu. Quy trình chỉ định thầu thông thường bao gồm các bước: chuẩn bị, gửi dự thảo hợp đồng (hoặc hồ sơ yêu cầu), nhà thầu chuẩn bị hồ sơ đề xuất, đánh giá hồ sơ đề xuất và thương thảo, trình duyệt và ký kết hợp đồng. Do đó, đánh giá và thương thảo là một bước cốt lõi.",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 149,
@@ -107,7 +115,8 @@ export const set15: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "C",
-        "explanation": "Khi một đơn vị (chủ đầu tư/bên mời thầu) không có đủ năng lực chuyên môn về đấu thầu, pháp luật cho phép họ thuê một đơn vị tư vấn đấu thầu chuyên nghiệp để thực hiện một phần hoặc toàn bộ các công việc trong quá trình lựa chọn nhà thầu."
+        "explanation": "Khi một đơn vị (chủ đầu tư/bên mời thầu) không có đủ năng lực chuyên môn về đấu thầu, pháp luật cho phép họ thuê một đơn vị tư vấn đấu thầu chuyên nghiệp để thực hiện một phần hoặc toàn bộ các công việc trong quá trình lựa chọn nhà thầu.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 150,
@@ -119,6 +128,7 @@ export const set15: Question[] = [
             "D": "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn, chủ đầu tư báo cáo người có thẩm quyền để điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn một mức phù hợp"
         },
         "correctAnswer": "C",
-        "explanation": "Để tăng tính cạnh tranh cho các gói thầu mua sắm tập trung hoặc các gói thầu có quy mô lớn, pháp luật về đấu thầu cho phép linh hoạt trong việc quy định yêu cầu về hợp đồng tương tự. Cụ thể, có thể giảm yêu cầu về quy mô (giá trị) của hợp đồng tương tự hoặc chia gói thầu thành các phần nhỏ hơn để tạo điều kiện cho nhiều nhà thầu, bao gồm cả các doanh nghiệp nhỏ và vừa, có thể tham gia."
+        "explanation": "Để tăng tính cạnh tranh cho các gói thầu mua sắm tập trung hoặc các gói thầu có quy mô lớn, pháp luật về đấu thầu cho phép linh hoạt trong việc quy định yêu cầu về hợp đồng tương tự. Cụ thể, có thể giảm yêu cầu về quy mô (giá trị) của hợp đồng tương tự hoặc chia gói thầu thành các phần nhỏ hơn để tạo điều kiện cho nhiều nhà thầu, bao gồm cả các doanh nghiệp nhỏ và vừa, có thể tham gia.",
+        "category": "Mua sắm đặc thù"
     }
 ];

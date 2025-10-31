@@ -11,7 +11,8 @@ export const set2: Question[] = [
             "D": "Tất cả các phương án trên đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 10, khoản 1, các điểm c, đ, h của Luật Đấu thầu. Luật quy định các đối tượng nhà thầu trong nước được hưởng ưu đãi bao gồm: Nhà thầu trong nước sản xuất hàng hóa có xuất xứ Việt Nam (điểm c). Nhà thầu trong nước tham dự thầu với tư cách độc lập hoặc liên danh... khi tham dự đấu thầu quốc tế (điểm đ). Nhà thầu có sử dụng lao động nữ, thương binh, người khuyết tật hoặc người dân tộc thiểu số (điểm h). Cả 3 phương án A, B, C đều là các đối tượng được hưởng ưu đãi."
+        "explanation": "Căn cứ pháp lý: Điều 10, khoản 1, các điểm c, đ, h của Luật Đấu thầu. Luật quy định các đối tượng nhà thầu trong nước được hưởng ưu đãi bao gồm: Nhà thầu trong nước sản xuất hàng hóa có xuất xứ Việt Nam (điểm c). Nhà thầu trong nước tham dự thầu với tư cách độc lập hoặc liên danh... khi tham dự đấu thầu quốc tế (điểm đ). Nhà thầu có sử dụng lao động nữ, thương binh, người khuyết tật hoặc người dân tộc thiểu số (điểm h). Cả 3 phương án A, B, C đều là các đối tượng được hưởng ưu đãi.",
+        "category": "Quy định chung"
     },
     {
         "id": 12,
@@ -23,7 +24,8 @@ export const set2: Question[] = [
             "D": "Lựa chọn nhà thầu của doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên và chi đầu tư, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên không sử dụng ngân sách nhà nước"
         },
         "correctAnswer": "D",
-        "explanation": "Căn cứ pháp lý: Điều 3, khoản 7, điểm d của Luật Đấu thầu. Điểm d, khoản 7, Điều 3 quy định rõ các đối tượng này được tự quyết định việc mua sắm. Các phương án A, B, C đều liên quan đến vốn đầu tư công hoặc vốn ngân sách nhà nước, do đó bắt buộc phải áp dụng Luật Đấu thầu theo Điều 2."
+        "explanation": "Căn cứ pháp lý: Điều 3, khoản 7, điểm d của Luật Đấu thầu. Điểm d, khoản 7, Điều 3 quy định rõ các đối tượng này được tự quyết định việc mua sắm. Các phương án A, B, C đều liên quan đến vốn đầu tư công hoặc vốn ngân sách nhà nước, do đó bắt buộc phải áp dụng Luật Đấu thầu theo Điều 2.",
+        "category": "Quy định chung"
     },
     {
         "id": 13,
@@ -35,7 +37,8 @@ export const set2: Question[] = [
             "D": "Tiếng Đức hoặc tiếng Anh"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 12, khoản 2 của Luật Đấu thầu. Luật quy định: 'Ngôn ngữ sử dụng đối với đấu thầu quốc tế là tiếng Anh hoặc tiếng Việt và tiếng Anh.'"
+        "explanation": "Căn cứ pháp lý: Điều 12, khoản 2 của Luật Đấu thầu. Luật quy định: 'Ngôn ngữ sử dụng đối với đấu thầu quốc tế là tiếng Anh hoặc tiếng Việt và tiếng Anh.'",
+        "category": "Quy định chung"
     },
     {
         "id": 14,
@@ -47,7 +50,8 @@ export const set2: Question[] = [
             "D": "Bắt buộc cả tiếng Việt và tiếng Anh"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 12, khoản 2 của Luật Đấu thầu. Luật quy định: '...Trường hợp ngôn ngữ sử dụng trong hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu là tiếng Việt và tiếng Anh thì nhà thầu, nhà đầu tư được lựa chọn tiếng Việt hoặc tiếng Anh để tham dự thầu.'"
+        "explanation": "Căn cứ pháp lý: Điều 12, khoản 2 của Luật Đấu thầu. Luật quy định: '...Trường hợp ngôn ngữ sử dụng trong hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu là tiếng Việt và tiếng Anh thì nhà thầu, nhà đầu tư được lựa chọn tiếng Việt hoặc tiếng Anh để tham dự thầu.'",
+        "category": "Quy định chung"
     },
     {
         "id": 15,
@@ -59,7 +63,8 @@ export const set2: Question[] = [
             "D": "Gói thầu mua sắm hàng hóa thông dụng đã được nhập khẩu và chào bán tại Việt Nam nhưng hàng hóa đó trong nước không sản xuất được"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 11, khoản 1, điểm d của Luật Đấu thầu. Điểm d, khoản 1, Điều 11 quy định rõ điều kiện này để tổ chức đấu thầu quốc tế. Phương án A và D (hàng hóa thông dụng, có sẵn) không phải là điều kiện để đấu thầu quốc tế. Phương án B là trường hợp không được tổ chức đấu thầu quốc tế."
+        "explanation": "Căn cứ pháp lý: Điều 11, khoản 1, điểm d của Luật Đấu thầu. Điểm d, khoản 1, Điều 11 quy định rõ điều kiện này để tổ chức đấu thầu quốc tế. Phương án A và D (hàng hóa thông dụng, có sẵn) không phải là điều kiện để đấu thầu quốc tế. Phương án B là trường hợp không được tổ chức đấu thầu quốc tế.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 16,
@@ -71,7 +76,8 @@ export const set2: Question[] = [
             "D": "Có cần lưu trữ, trong thời hạn 03 năm kể từ ngày quyết định hủy thầu được ban hành"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 9, khoản 4 của Luật Đấu thầu. Luật quy định: 'Trường hợp hủy thầu, hồ sơ liên quan được lưu trữ trong thời hạn 05 năm kể từ ngày quyết định hủy thầu được ban hành.'"
+        "explanation": "Căn cứ pháp lý: Điều 9, khoản 4 của Luật Đấu thầu. Luật quy định: 'Trường hợp hủy thầu, hồ sơ liên quan được lưu trữ trong thời hạn 05 năm kể từ ngày quyết định hủy thầu được ban hành.'",
+        "category": "Quy định chung"
     },
     {
         "id": 17,
@@ -83,7 +89,8 @@ export const set2: Question[] = [
             "D": "Tất cả các phương án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 9, khoản 3 của Luật Đấu thầu. Luật quy định rằng trong trường hợp nhà thầu không nhận lại hồ sơ, chủ đầu tư sẽ 'xem xét, quyết định việc hủy hồ sơ nhưng phải bảo đảm thông tin không bị tiết lộ'. Do đó, phương án A mô tả chính xác hành động mà chủ đầu tư cần thực hiện."
+        "explanation": "Căn cứ pháp lý: Điều 9, khoản 3 của Luật Đấu thầu. Luật quy định rằng trong trường hợp nhà thầu không nhận lại hồ sơ, chủ đầu tư sẽ 'xem xét, quyết định việc hủy hồ sơ nhưng phải bảo đảm thông tin không bị tiết lộ'. Do đó, phương án A mô tả chính xác hành động mà chủ đầu tư cần thực hiện.",
+        "category": "Quy định chung"
     },
     {
         "id": 18,
@@ -95,7 +102,8 @@ export const set2: Question[] = [
             "D": "Tất cả phương án trên đều sai"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 9, khoản 5 của Luật Đấu thầu. Luật quy định: 'Hồ sơ quyết toán, hồ sơ hoàn công và tài liệu liên quan đến nhà thầu trúng thầu của gói thầu được lưu trữ theo quy định của pháp luật về lưu trữ.'"
+        "explanation": "Căn cứ pháp lý: Điều 9, khoản 5 của Luật Đấu thầu. Luật quy định: 'Hồ sơ quyết toán, hồ sơ hoàn công và tài liệu liên quan đến nhà thầu trúng thầu của gói thầu được lưu trữ theo quy định của pháp luật về lưu trữ.'",
+        "category": "Quy định chung"
     },
     {
         "id": 19,
@@ -107,7 +115,8 @@ export const set2: Question[] = [
             "D": "Khi ký hợp đồng"
         },
         "correctAnswer": "C",
-        "explanation": "Căn cứ pháp lý: Điều 9, khoản 1, điểm b của Luật Đấu thầu. Luật quy định đối với gói thầu phi tư vấn, mua sắm hàng hóa, xây lắp, hỗn hợp áp dụng phương thức một giai đoạn hai túi hồ sơ, hồ sơ tài chính sẽ được trả lại 'khi hoàn trả hoặc giải tỏa bảo đảm dự thầu của nhà thầu không được lựa chọn hoặc khi đăng tải kết quả lựa chọn nhà thầu.'"
+        "explanation": "Căn cứ pháp lý: Điều 9, khoản 1, điểm b của Luật Đấu thầu. Luật quy định đối với gói thầu phi tư vấn, mua sắm hàng hóa, xây lắp, hỗn hợp áp dụng phương thức một giai đoạn hai túi hồ sơ, hồ sơ tài chính sẽ được trả lại 'khi hoàn trả hoặc giải tỏa bảo đảm dự thầu của nhà thầu không được lựa chọn hoặc khi đăng tải kết quả lựa chọn nhà thầu.'",
+        "category": "Quy định chung"
     },
     {
         "id": 20,
@@ -119,6 +128,7 @@ export const set2: Question[] = [
             "D": "Phương án A và B đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Theo quy định của Luật Đấu thầu mới, việc phát hành hồ sơ mời thầu qua mạng trên Hệ thống mạng đấu thầu quốc gia là hình thức bắt buộc đối với hầu hết các gói thầu, bao gồm cả đấu thầu quốc tế, nhằm tăng cường tính minh bạch và cạnh tranh. Đối với đấu thầu quốc tế, nhà thầu phải nộp một khoản phí để tải bản điện tử của hồ sơ mời thầu."
+        "explanation": "Theo quy định của Luật Đấu thầu mới, việc phát hành hồ sơ mời thầu qua mạng trên Hệ thống mạng đấu thầu quốc gia là hình thức bắt buộc đối với hầu hết các gói thầu, bao gồm cả đấu thầu quốc tế, nhằm tăng cường tính minh bạch và cạnh tranh. Đối với đấu thầu quốc tế, nhà thầu phải nộp một khoản phí để tải bản điện tử của hồ sơ mời thầu.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     }
 ];

@@ -11,7 +11,8 @@ export const set8: Question[] = [
             "D": "Phương án A và C đều đúng"
         },
         "correctAnswer": "D",
-        "explanation": "Trong đấu thầu quốc tế, để bảo hộ lao động trong nước và tận dụng cơ hội học hỏi, hồ sơ mời thầu thường yêu cầu nhà thầu nước ngoài phải ưu tiên sử dụng lao động địa phương cho những vị trí mà họ có thể đáp ứng được (A), đặc biệt là các vị trí lao động phổ thông (C). Do đó, cả A và C đều là các trường hợp phổ biến."
+        "explanation": "Trong đấu thầu quốc tế, để bảo hộ lao động trong nước và tận dụng cơ hội học hỏi, hồ sơ mời thầu thường yêu cầu nhà thầu nước ngoài phải ưu tiên sử dụng lao động địa phương cho những vị trí mà họ có thể đáp ứng được (A), đặc biệt là các vị trí lao động phổ thông (C). Do đó, cả A và C đều là các trường hợp phổ biến.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 72,
@@ -23,7 +24,8 @@ export const set8: Question[] = [
             "D": "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu, không phải đáp ứng cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Nhà thầu phải tuân thủ tuyệt đối các yêu cầu của hồ sơ mời thầu. Nếu HSMT đã quy định rõ về xuất xứ hàng hóa (dù việc quy định này có thể hạn chế cạnh tranh) và hàng hóa nhà thầu chào không thuộc danh mục xuất xứ cho phép, thì hàng hóa đó sẽ bị coi là không đáp ứng yêu cầu và bị loại."
+        "explanation": "Nhà thầu phải tuân thủ tuyệt đối các yêu cầu của hồ sơ mời thầu. Nếu HSMT đã quy định rõ về xuất xứ hàng hóa (dù việc quy định này có thể hạn chế cạnh tranh) và hàng hóa nhà thầu chào không thuộc danh mục xuất xứ cho phép, thì hàng hóa đó sẽ bị coi là không đáp ứng yêu cầu và bị loại.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 73,
@@ -35,7 +37,8 @@ export const set8: Question[] = [
             "D": "Tất cả đáp án trên đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Để đảm bảo tính cạnh tranh rộng rãi, yêu cầu về hợp đồng tương tự thường được quy định một cách linh hoạt. Việc yêu cầu hàng hóa thuộc cùng 'lĩnh vực tổng quát' (ví dụ: thiết bị điện, thiết bị văn phòng) cho phép nhiều nhà thầu có kinh nghiệm liên quan tham gia, thay vì giới hạn quá hẹp vào một mã HS cụ thể."
+        "explanation": "Để đảm bảo tính cạnh tranh rộng rãi, yêu cầu về hợp đồng tương tự thường được quy định một cách linh hoạt. Việc yêu cầu hàng hóa thuộc cùng 'lĩnh vực tổng quát' (ví dụ: thiết bị điện, thiết bị văn phòng) cho phép nhiều nhà thầu có kinh nghiệm liên quan tham gia, thay vì giới hạn quá hẹp vào một mã HS cụ thể.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 74,
@@ -47,7 +50,8 @@ export const set8: Question[] = [
             "D": "Tất cả đáp án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Uy tín của nhà thầu là một tiêu chí thuộc về đánh giá năng lực và kinh nghiệm, không phải là một tiêu chuẩn đánh giá về kỹ thuật của giải pháp, phương pháp luận mà nhà thầu đề xuất cho gói thầu. Các tiêu chuẩn kỹ thuật tập trung vào cách thức thực hiện dịch vụ."
+        "explanation": "Uy tín của nhà thầu là một tiêu chí thuộc về đánh giá năng lực và kinh nghiệm, không phải là một tiêu chuẩn đánh giá về kỹ thuật của giải pháp, phương pháp luận mà nhà thầu đề xuất cho gói thầu. Các tiêu chuẩn kỹ thuật tập trung vào cách thức thực hiện dịch vụ.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 75,
@@ -59,7 +63,8 @@ export const set8: Question[] = [
             "D": "Hợp đồng tương tự được xác định trên cơ sở tương tự cả về tính chất và quy mô (giá trị hợp đồng)"
         },
         "correctAnswer": "D",
-        "explanation": "Đây là nguyên tắc cơ bản khi xác định hợp đồng tương tự. 'Tương tự' phải được hiểu là tương tự về cả bản chất công việc (tính chất) và độ lớn, phức tạp của công việc (quy mô, thường được thể hiện qua giá trị). A và B sai vì năng lực và kinh nghiệm là yêu cầu bắt buộc đối với gói thầu tư vấn. C sai vì uy tín là một tiêu chí có thể được sử dụng để đánh giá."
+        "explanation": "Đây là nguyên tắc cơ bản khi xác định hợp đồng tương tự. 'Tương tự' phải được hiểu là tương tự về cả bản chất công việc (tính chất) và độ lớn, phức tạp của công việc (quy mô, thường được thể hiện qua giá trị). A và B sai vì năng lực và kinh nghiệm là yêu cầu bắt buộc đối với gói thầu tư vấn. C sai vì uy tín là một tiêu chí có thể được sử dụng để đánh giá.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 76,
@@ -71,7 +76,8 @@ export const set8: Question[] = [
             "D": "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND, trong đó phải bao gồm hạng mục hàng rào bảo vệ, nhà bảo vệ"
         },
         "correctAnswer": "A",
-        "explanation": "Nguyên tắc xác định công trình tương tự là phải tương tự về cấp công trình và quy mô. Gói thầu đang xét có công trình chính là Nhà A1, cấp II. Do đó, yêu cầu về công trình tương tự phải là công trình cấp II. Về quy mô, yêu cầu giá trị tối thiểu bằng 50% giá trị của công trình chính (Nhà A1) là hợp lý. Các phương án khác sai về cấp công trình (C, D) hoặc yêu cầu không cần thiết (B)."
+        "explanation": "Nguyên tắc xác định công trình tương tự là phải tương tự về cấp công trình và quy mô. Gói thầu đang xét có công trình chính là Nhà A1, cấp II. Do đó, yêu cầu về công trình tương tự phải là công trình cấp II. Về quy mô, yêu cầu giá trị tối thiểu bằng 50% giá trị của công trình chính (Nhà A1) là hợp lý. Các phương án khác sai về cấp công trình (C, D) hoặc yêu cầu không cần thiết (B).",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 77,
@@ -83,7 +89,8 @@ export const set8: Question[] = [
             "D": "Chỉ cần yêu cầu nhà thầu cam kết đáp ứng yêu cầu về kỹ thuật"
         },
         "correctAnswer": "A",
-        "explanation": "Chào hàng cạnh tranh là hình thức lựa chọn nhà thầu đơn giản, áp dụng cho các gói thầu có yêu cầu kỹ thuật không phức tạp. Do đó, phương pháp đánh giá kỹ thuật thường là 'đạt' hoặc 'không đạt' theo các yêu cầu cơ bản đã nêu trong hồ sơ yêu cầu."
+        "explanation": "Chào hàng cạnh tranh là hình thức lựa chọn nhà thầu đơn giản, áp dụng cho các gói thầu có yêu cầu kỹ thuật không phức tạp. Do đó, phương pháp đánh giá kỹ thuật thường là 'đạt' hoặc 'không đạt' theo các yêu cầu cơ bản đã nêu trong hồ sơ yêu cầu.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 78,
@@ -95,7 +102,8 @@ export const set8: Question[] = [
             "D": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 07 tỷ đồng"
         },
         "correctAnswer": "B",
-        "explanation": "Tổng giá trị của các hàng hóa có cùng mã HS 9035 là 10 tỷ đồng. Yêu cầu về giá trị hợp đồng tương tự thường được đặt ở một mức hợp lý để vừa đảm bảo nhà thầu có kinh nghiệm, vừa không quá hạn chế cạnh tranh. Mức 30% của tổng giá trị (tức là 3 tỷ đồng) là một yêu cầu phổ biến và phù hợp."
+        "explanation": "Tổng giá trị của các hàng hóa có cùng mã HS 9035 là 10 tỷ đồng. Yêu cầu về giá trị hợp đồng tương tự thường được đặt ở một mức hợp lý để vừa đảm bảo nhà thầu có kinh nghiệm, vừa không quá hạn chế cạnh tranh. Mức 30% của tổng giá trị (tức là 3 tỷ đồng) là một yêu cầu phổ biến và phù hợp.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 79,
@@ -107,7 +115,8 @@ export const set8: Question[] = [
             "D": "Có giá trị tối thiểu bằng 50% giá gói thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Đối với các gói thầu có tính chất lặp lại theo chu kỳ nhiều năm, yêu cầu về kinh nghiệm (hợp đồng tương tự) thường được tính trên cơ sở quy mô của một chu kỳ (thường là 1 năm) để không gây hạn chế cạnh tranh, cho phép các nhà thầu có quy mô nhỏ hơn tham gia. Tỷ lệ 50% là một tỷ lệ phổ biến."
+        "explanation": "Đối với các gói thầu có tính chất lặp lại theo chu kỳ nhiều năm, yêu cầu về kinh nghiệm (hợp đồng tương tự) thường được tính trên cơ sở quy mô của một chu kỳ (thường là 1 năm) để không gây hạn chế cạnh tranh, cho phép các nhà thầu có quy mô nhỏ hơn tham gia. Tỷ lệ 50% là một tỷ lệ phổ biến.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 80,
@@ -119,6 +128,7 @@ export const set8: Question[] = [
             "D": "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ được chủ đầu tư chấp thuận để tham gia thực hiện cung cấp dịch vụ liên quan"
         },
         "correctAnswer": "D",
-        "explanation": "Nhà thầu chính phải kê khai danh sách nhà thầu phụ dự kiến trong E-HSDT. Nhà thầu chính chỉ được sử dụng các nhà thầu phụ có trong danh sách đã kê khai và không được thay đổi nếu không có sự chấp thuận của chủ đầu tư. Phương án D ngụ ý rằng chủ đầu tư có thể chấp thuận một nhà thầu phụ bất kỳ ngoài danh sách, điều này không hoàn toàn chính xác theo quy trình."
+        "explanation": "Nhà thầu chính phải kê khai danh sách nhà thầu phụ dự kiến trong E-HSDT. Nhà thầu chính chỉ được sử dụng các nhà thầu phụ có trong danh sách đã kê khai và không được thay đổi nếu không có sự chấp thuận của chủ đầu tư. Phương án D ngụ ý rằng chủ đầu tư có thể chấp thuận một nhà thầu phụ bất kỳ ngoài danh sách, điều này không hoàn toàn chính xác theo quy trình.",
+        "category": "Quy định chung"
     }
 ];

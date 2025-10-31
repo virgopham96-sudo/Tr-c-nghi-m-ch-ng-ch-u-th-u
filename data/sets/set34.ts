@@ -11,7 +11,8 @@ export const set34: Question[] = [
             "D": "Các nước ASEAN chưa gia nhập Hiệp định CPTPP"
         },
         "correctAnswer": "D",
-        "explanation": "Khái niệm 'Nước thành viên' trong bối cảnh của Nghị định 95 (hướng dẫn đấu thầu theo các hiệp định) chỉ bao gồm các quốc gia đã là thành viên chính thức của các hiệp định mà Việt Nam tham gia (như CPTPP, EU, Vương quốc Anh). Các nước ASEAN chưa gia nhập CPTPP không được coi là 'Nước thành viên' theo nghĩa này."
+        "explanation": "Khái niệm 'Nước thành viên' trong bối cảnh của Nghị định 95 (hướng dẫn đấu thầu theo các hiệp định) chỉ bao gồm các quốc gia đã là thành viên chính thức của các hiệp định mà Việt Nam tham gia (như CPTPP, EU, Vương quốc Anh). Các nước ASEAN chưa gia nhập CPTPP không được coi là 'Nước thành viên' theo nghĩa này.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 332,
@@ -23,7 +24,8 @@ export const set34: Question[] = [
             "D": "Bất kỳ ngôn ngữ nào của các nước thành viên"
         },
         "correctAnswer": "C",
-        "explanation": "Đối với đấu thầu quốc tế (bao gồm cả đấu thầu nội khối), ngôn ngữ sử dụng là tiếng Anh hoặc tiếng Việt và tiếng Anh. Điều này cho phép cả nhà thầu trong nước và nhà thầu nước ngoài (trong khối) đều có thể tham gia một cách thuận lợi."
+        "explanation": "Đối với đấu thầu quốc tế (bao gồm cả đấu thầu nội khối), ngôn ngữ sử dụng là tiếng Anh hoặc tiếng Việt và tiếng Anh. Điều này cho phép cả nhà thầu trong nước và nhà thầu nước ngoài (trong khối) đều có thể tham gia một cách thuận lợi.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 333,
@@ -35,7 +37,8 @@ export const set34: Question[] = [
             "D": "Yêu cầu về chất lượng dịch vụ"
         },
         "correctAnswer": "C",
-        "explanation": "Đây là một yêu cầu gây hạn chế cạnh tranh không cần thiết và vi phạm các nguyên tắc không phân biệt đối xử trong các hiệp định thương mại. Kinh nghiệm của nhà thầu cần được đánh giá dựa trên bản chất công việc đã thực hiện, không phân biệt địa điểm thực hiện."
+        "explanation": "Đây là một yêu cầu gây hạn chế cạnh tranh không cần thiết và vi phạm các nguyên tắc không phân biệt đối xử trong các hiệp định thương mại. Kinh nghiệm của nhà thầu cần được đánh giá dựa trên bản chất công việc đã thực hiện, không phân biệt địa điểm thực hiện.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 334,
@@ -47,7 +50,8 @@ export const set34: Question[] = [
             "D": "Tùy quy mô, tính chất từng gói thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Hiệp định CPTPP cho phép Việt Nam có một giai đoạn chuyển tiếp để dần dần mở cửa thị trường và điều chỉnh các quy định trong nước. Trong thời gian này, Việt Nam vẫn được phép áp dụng một số biện pháp ưu đãi cho nhà thầu trong nước đối với một số gói thầu nhất định."
+        "explanation": "Hiệp định CPTPP cho phép Việt Nam có một giai đoạn chuyển tiếp để dần dần mở cửa thị trường và điều chỉnh các quy định trong nước. Trong thời gian này, Việt Nam vẫn được phép áp dụng một số biện pháp ưu đãi cho nhà thầu trong nước đối với một số gói thầu nhất định.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 335,
@@ -59,7 +63,8 @@ export const set34: Question[] = [
             "D": "Chỉ có đấu thầu rộng rãi"
         },
         "correctAnswer": "C",
-        "explanation": "Các hiệp định thương mại tự do thế hệ mới đều đề cao tính cạnh tranh, do đó hình thức lựa chọn nhà thầu chính được quy định là đấu thầu rộng rãi. Bên cạnh đó, hiệp định cũng công nhận và quy định các trường hợp cụ thể được phép áp dụng chỉ định thầu (tương tự như trong Luật Đấu thầu của Việt Nam)."
+        "explanation": "Các hiệp định thương mại tự do thế hệ mới đều đề cao tính cạnh tranh, do đó hình thức lựa chọn nhà thầu chính được quy định là đấu thầu rộng rãi. Bên cạnh đó, hiệp định cũng công nhận và quy định các trường hợp cụ thể được phép áp dụng chỉ định thầu (tương tự như trong Luật Đấu thầu của Việt Nam).",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 336,
@@ -71,7 +76,8 @@ export const set34: Question[] = [
             "D": "Tùy quy mô, tính chất từng gói thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Hiệp định CPTPP không có điều khoản bắt buộc hay khuyến khích việc áp dụng đấu thầu qua mạng. Việc này được để cho pháp luật của từng quốc gia thành viên tự quy định. Do đó, hiệp định không cho phép một cách rõ ràng, mà để ngỏ cho quy định nội địa."
+        "explanation": "Hiệp định CPTPP không có điều khoản bắt buộc hay khuyến khích việc áp dụng đấu thầu qua mạng. Việc này được để cho pháp luật của từng quốc gia thành viên tự quy định. Do đó, hiệp định không cho phép một cách rõ ràng, mà để ngỏ cho quy định nội địa.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 337,
@@ -83,7 +89,8 @@ export const set34: Question[] = [
             "D": "Gói thầu xây lắp"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 4, khoản 17 của Luật Đấu thầu. Luật định nghĩa rõ: 'Hàng hóa gồm... thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế...'. Do đó, gói thầu mua thuốc được phân loại là gói thầu mua sắm hàng hóa."
+        "explanation": "Căn cứ pháp lý: Điều 4, khoản 17 của Luật Đấu thầu. Luật định nghĩa rõ: 'Hàng hóa gồm... thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế...'. Do đó, gói thầu mua thuốc được phân loại là gói thầu mua sắm hàng hóa.",
+        "category": "Quy định chung"
     },
     {
         "id": 338,
@@ -95,7 +102,8 @@ export const set34: Question[] = [
             "D": "Mua hàng hóa chỉ có 01 hoặc 02 hãng sản xuất"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 28, khoản 1, điểm b của Luật Đấu thầu. Đàm phán giá là hình thức lựa chọn nhà thầu đặc thù, áp dụng trong các trường hợp có tính cạnh tranh hạn chế do chỉ có một hoặc một vài nhà cung cấp. Luật quy định rõ trường hợp này là 'Mua thuốc, thiết bị y tế, vật tư xét nghiệm chỉ có 01 hoặc 02 hãng sản xuất.'"
+        "explanation": "Căn cứ pháp lý: Điều 28, khoản 1, điểm b của Luật Đấu thầu. Đàm phán giá là hình thức lựa chọn nhà thầu đặc thù, áp dụng trong các trường hợp có tính cạnh tranh hạn chế do chỉ có một hoặc một vài nhà cung cấp. Luật quy định rõ trường hợp này là 'Mua thuốc, thiết bị y tế, vật tư xét nghiệm chỉ có 01 hoặc 02 hãng sản xuất.'",
+        "category": "Hình thức và Phương thức LCNT"
     },
     {
         "id": 339,
@@ -107,7 +115,8 @@ export const set34: Question[] = [
             "D": "Tất cả các đáp án trên đều sai"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Trang 1 của văn bản Luật hợp nhất. Văn bản ghi rõ: 'Luật số 90/2025/QH15... có hiệu lực kể từ ngày 01 tháng 7 năm 2025.'"
+        "explanation": "Căn cứ pháp lý: Trang 1 của văn bản Luật hợp nhất. Văn bản ghi rõ: 'Luật số 90/2025/QH15... có hiệu lực kể từ ngày 01 tháng 7 năm 2025.'",
+        "category": "Quy định chung"
     },
     {
         "id": 340,
@@ -119,6 +128,7 @@ export const set34: Question[] = [
             "D": "Ngày 01/7/2025"
         },
         "correctAnswer": "A",
-        "explanation": "Thông tư số 80/2025/TT-BTC có hiệu lực thi hành từ ngày 08 tháng 8 năm 2025. Văn bản này thay thế Thông tư 23/2024/TT-BKHĐT và quy định chi tiết về mẫu hồ sơ yêu cầu, báo cáo thẩm định, kiểm tra trong đấu thầu."
+        "explanation": "Thông tư số 80/2025/TT-BTC có hiệu lực thi hành từ ngày 08 tháng 8 năm 2025. Văn bản này thay thế Thông tư 23/2024/TT-BKHĐT và quy định chi tiết về mẫu hồ sơ yêu cầu, báo cáo thẩm định, kiểm tra trong đấu thầu.",
+        "category": "Quy định chung"
     }
 ];

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { Question, UserAnswers } from '../types';
 import { CheckIcon, XIcon, ArrowUpIcon, ChevronLeftIcon, ChevronRightIcon } from './icons';
 
@@ -7,6 +7,18 @@ interface PracticeAllProps {
     onBack: () => void;
 }
 
+const categories = [
+    'Quy định chung',
+    'Hình thức và Phương thức LCNT',
+    'Kế hoạch và Quy trình LCNT',
+    'Hồ sơ mời thầu và Đánh giá HSDT',
+    'Hợp đồng',
+    'Đấu thầu qua mạng',
+    'Trách nhiệm và Xử lý vi phạm',
+    'Mua sắm đặc thù',
+];
+
+
 const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [userAnswers, setUserAnswers] = useState<UserAnswers>({});
@@ -14,6 +26,19 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     const [showGoToTop, setShowGoToTop] = useState(false);
     const [isGridVisible, setIsGridVisible] = useState(false);
     const [showHint, setShowHint] = useState(false);
+    const [selectedCategory, setSelectedCategory] = useState<string>('all');
+
+    const filteredQuestions = useMemo(() => {
+        if (selectedCategory === 'all') {
+            return questions;
+        }
+        return questions.filter(q => q.category === selectedCategory);
+    }, [questions, selectedCategory]);
+
+    useEffect(() => {
+        setCurrentQuestionIndex(0);
+        setShowHint(false);
+    }, [selectedCategory]);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -36,7 +61,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     };
 
     const handleJumpToQuestion = useCallback((index: number) => {
-        if (index >= 0 && index < questions.length && index !== currentQuestionIndex) {
+        if (index >= 0 && index < filteredQuestions.length && index !== currentQuestionIndex) {
             setIsFading(true);
             setShowHint(false);
             setTimeout(() => {
@@ -44,7 +69,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                 setIsFading(false);
             }, 150);
         }
-    }, [currentQuestionIndex, questions.length]);
+    }, [currentQuestionIndex, filteredQuestions.length]);
     
     const handleNextQuestion = useCallback(() => {
         handleJumpToQuestion(currentQuestionIndex + 1);
@@ -69,7 +94,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
             const keyMap = { '1': 'A', '2': 'B', '3': 'C', '4': 'D' };
             const option = keyMap[event.key as keyof typeof keyMap];
             if (option) {
-                const currentQuestion = questions[currentQuestionIndex];
+                const currentQuestion = filteredQuestions[currentQuestionIndex];
                 if (currentQuestion) {
                     handleOptionChange(currentQuestion.id, option as 'A' | 'B' | 'C' | 'D');
                 }
@@ -89,14 +114,14 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
         return () => {
             window.removeEventListener('keydown', handleKeyDown);
         };
-    }, [handlePrevQuestion, handleNextQuestion, questions, currentQuestionIndex, handleOptionChange]);
+    }, [handlePrevQuestion, handleNextQuestion, filteredQuestions, currentQuestionIndex, handleOptionChange]);
 
     const getQuestionNavClasses = (index: number) => {
         let baseClasses = "w-10 h-10 flex items-center justify-center rounded-lg font-bold text-sm transition-all duration-200 border transform hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400";
         if (index === currentQuestionIndex) {
             return `${baseClasses} bg-cyan-500 text-white border-cyan-600 shadow-md scale-110`;
         }
-        const question = questions[index];
+        const question = filteredQuestions[index];
         const userAnswer = userAnswers[question.id];
         if (userAnswer !== undefined) {
             const isCorrect = userAnswer === question.correctAnswer;
@@ -130,12 +155,12 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
         return `${baseClasses} bg-white border-slate-200 text-slate-500 opacity-60`;
     };
 
-    const currentQuestion = questions[currentQuestionIndex];
+    const currentQuestion = filteredQuestions[currentQuestionIndex];
     const isAnswered = currentQuestion && userAnswers[currentQuestion.id] !== undefined;
     
     return (
         <div className="p-4 md:p-8 max-w-7xl mx-auto animate-fade-in">
-            <div className="relative flex justify-center items-center mb-8">
+            <div className="relative flex justify-center items-center mb-6">
                 <button
                     onClick={onBack}
                     className="absolute left-0 bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-4 rounded-full transition-colors flex items-center gap-2 border border-slate-200 shadow-sm"
@@ -148,19 +173,36 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                 <h2 className="text-3xl font-bold text-slate-900">Luyện tập tổng hợp</h2>
             </div>
             
+             <div className="mb-6 flex justify-center items-center gap-4">
+                 <label htmlFor="category-filter" className="font-semibold text-slate-700 shrink-0">Lọc theo chủ đề:</label>
+                 <select
+                    id="category-filter"
+                    value={selectedCategory}
+                    onChange={(e) => setSelectedCategory(e.target.value)}
+                    className="w-full max-w-xs p-2 border border-slate-300 rounded-lg shadow-sm focus:ring-cyan-500 focus:border-cyan-500 bg-white"
+                 >
+                    <option value="all">Tất cả ({questions.length} câu)</option>
+                    {categories.map(cat => (
+                        <option key={cat} value={cat}>
+                            {cat} ({questions.filter(q => q.category === cat).length} câu)
+                        </option>
+                    ))}
+                 </select>
+            </div>
+            
              <div className="text-center mb-6">
                 <button
                     onClick={toggleGridVisibility}
                     className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-5 rounded-full transition-colors border border-slate-200 shadow-sm"
                 >
-                    {isGridVisible ? 'Ẩn danh sách câu hỏi' : 'Hiển thị danh sách câu hỏi'}
+                    {isGridVisible ? 'Ẩn danh sách câu hỏi' : `Hiển thị danh sách câu hỏi (${filteredQuestions.length})`}
                 </button>
             </div>
 
             {isGridVisible && (
                  <div className="mb-8 p-4 bg-white/50 rounded-xl border border-slate-200 animate-fade-in">
                     <div className="flex flex-wrap justify-center gap-2">
-                        {questions.map((q, index) => (
+                        {filteredQuestions.map((q, index) => (
                             <button
                                 key={q.id}
                                 onClick={() => handleJumpToQuestion(index)}
@@ -174,78 +216,86 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
             )}
 
             {/* Question Display */}
-            {currentQuestion && (
-                <div className={`bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 transition-opacity duration-150 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
-                    <div className="max-h-[60vh] overflow-y-auto pr-2">
-                        <p className="text-lg font-semibold mb-4 text-slate-800">
-                            <span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}
-                        </p>
-                        <div className="space-y-3">
-                            {Object.entries(currentQuestion.options).map(([key, value]) => {
-                                const optionKey = key as 'A' | 'B' | 'C' | 'D';
-                                const isCorrectAnswer = optionKey === currentQuestion.correctAnswer;
-                                const isSelectedAnswer = userAnswers[currentQuestion.id] === optionKey;
+            {filteredQuestions.length > 0 ? (
+                currentQuestion && (
+                    <div className={`bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 transition-opacity duration-150 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
+                        <div className="max-h-[60vh] overflow-y-auto pr-2">
+                            <p className="text-lg font-semibold mb-4 text-slate-800">
+                                <span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}
+                            </p>
+                            <div className="space-y-3">
+                                {Object.entries(currentQuestion.options).map(([key, value]) => {
+                                    const optionKey = key as 'A' | 'B' | 'C' | 'D';
+                                    const isCorrectAnswer = optionKey === currentQuestion.correctAnswer;
+                                    const isSelectedAnswer = userAnswers[currentQuestion.id] === optionKey;
 
-                                return (
-                                    <div 
-                                        key={key} 
-                                        className={getOptionClasses(currentQuestion, optionKey)}
-                                        onClick={() => { if (!isAnswered) handleOptionChange(currentQuestion.id, optionKey); }}
-                                    >
-                                        <span>{key}. {value}</span>
-                                         {isAnswered && (
-                                            <div className="shrink-0">
-                                                { isSelectedAnswer && !isCorrectAnswer ? <XIcon /> : (isCorrectAnswer ? <CheckIcon /> : null) }
-                                            </div>
-                                        )}
+                                    return (
+                                        <div 
+                                            key={key} 
+                                            className={getOptionClasses(currentQuestion, optionKey)}
+                                            onClick={() => { if (!isAnswered) handleOptionChange(currentQuestion.id, optionKey); }}
+                                        >
+                                            <span>{key}. {value}</span>
+                                             {isAnswered && (
+                                                <div className="shrink-0">
+                                                    { isSelectedAnswer && !isCorrectAnswer ? <XIcon /> : (isCorrectAnswer ? <CheckIcon /> : null) }
+                                                </div>
+                                            )}
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                            {isAnswered && (
+                                <>
+                                    <div className="mt-6 text-right">
+                                        <button
+                                            onClick={toggleHint}
+                                            className="text-cyan-600 hover:text-cyan-800 font-semibold text-sm py-1 px-3 rounded-full bg-cyan-50 hover:bg-cyan-100 transition-all"
+                                        >
+                                            {showHint ? 'Ẩn gợi ý' : 'Xem gợi ý'}
+                                        </button>
                                     </div>
-                                );
-                            })}
+                                    {showHint && (
+                                        <div className="mt-4 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200 animate-fade-in">
+                                           <p className="font-bold text-cyan-700">Lý giải:</p>
+                                           <p className="text-slate-800">{currentQuestion.explanation}</p>
+                                        </div>
+                                    )}
+                                </>
+                            )}
                         </div>
-                        {isAnswered && (
-                            <>
-                                <div className="mt-6 text-right">
-                                    <button
-                                        onClick={toggleHint}
-                                        className="text-cyan-600 hover:text-cyan-800 font-semibold text-sm py-1 px-3 rounded-full bg-cyan-50 hover:bg-cyan-100 transition-all"
-                                    >
-                                        {showHint ? 'Ẩn gợi ý' : 'Xem gợi ý'}
-                                    </button>
-                                </div>
-                                {showHint && (
-                                    <div className="mt-4 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200 animate-fade-in">
-                                       <p className="font-bold text-cyan-700">Lý giải:</p>
-                                       <p className="text-slate-800">{currentQuestion.explanation}</p>
-                                    </div>
-                                )}
-                            </>
-                        )}
                     </div>
+                )
+            ) : (
+                 <div className="text-center p-8 bg-white rounded-xl shadow-lg border border-slate-200">
+                    <p className="text-lg text-slate-600">Không có câu hỏi nào cho chủ đề này.</p>
                 </div>
             )}
             
              {/* Sequential Navigation */}
-            <div className="flex justify-between items-center mt-6">
-                 <button
-                        onClick={handlePrevQuestion}
-                        disabled={currentQuestionIndex === 0}
-                        className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-2"
-                    >
-                        <ChevronLeftIcon />
-                        Câu trước
-                    </button>
-                    <span className="font-semibold text-lg text-slate-600">
-                        {currentQuestionIndex + 1} / {questions.length}
-                    </span>
-                    <button
-                        onClick={handleNextQuestion}
-                        disabled={currentQuestionIndex === questions.length - 1}
-                        className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-2"
-                    >
-                        Câu tiếp theo
-                        <ChevronRightIcon />
-                    </button>
-            </div>
+            {filteredQuestions.length > 0 && (
+                <div className="flex justify-between items-center mt-6">
+                     <button
+                            onClick={handlePrevQuestion}
+                            disabled={currentQuestionIndex === 0}
+                            className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-2"
+                        >
+                            <ChevronLeftIcon />
+                            Câu trước
+                        </button>
+                        <span className="font-semibold text-lg text-slate-600">
+                            {filteredQuestions.length > 0 ? currentQuestionIndex + 1 : 0} / {filteredQuestions.length}
+                        </span>
+                        <button
+                            onClick={handleNextQuestion}
+                            disabled={currentQuestionIndex === filteredQuestions.length - 1}
+                            className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-2"
+                        >
+                            Câu tiếp theo
+                            <ChevronRightIcon />
+                        </button>
+                </div>
+            )}
 
             {showGoToTop && (
                 <button

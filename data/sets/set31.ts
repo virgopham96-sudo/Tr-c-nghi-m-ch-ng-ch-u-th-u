@@ -11,7 +11,8 @@ export const set31: Question[] = [
             "D": "Các phương án trên đều sai"
         },
         "correctAnswer": "D",
-        "explanation": "Trong đấu thầu qua mạng, không có khái niệm 'bản gốc' và 'bản chụp' như đấu thầu truyền thống. Tất cả dữ liệu được nộp trên hệ thống đều là dữ liệu điện tử và có giá trị pháp lý như nhau. Hệ thống sẽ tự động ghi nhận và lưu trữ, việc đánh giá sẽ dựa hoàn toàn trên dữ liệu đã nộp trên hệ thống. Do đó, các phương án A, B, C đều không phù hợp."
+        "explanation": "Trong đấu thầu qua mạng, không có khái niệm 'bản gốc' và 'bản chụp' như đấu thầu truyền thống. Tất cả dữ liệu được nộp trên hệ thống đều là dữ liệu điện tử và có giá trị pháp lý như nhau. Hệ thống sẽ tự động ghi nhận và lưu trữ, việc đánh giá sẽ dựa hoàn toàn trên dữ liệu đã nộp trên hệ thống. Do đó, các phương án A, B, C đều không phù hợp.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 302,
@@ -23,7 +24,8 @@ export const set31: Question[] = [
             "D": "Bất kỳ thành viên nào trong liên danh cũng có thể đại diện ký, đóng dấu (nếu có)"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 67, khoản 3 của Luật Đấu thầu. Luật quy định rất rõ ràng rằng: 'Đối với nhà thầu liên danh, tất cả thành viên tham gia liên danh phải trực tiếp ký, đóng dấu (nếu có) vào văn bản hợp đồng...'. Điều này nhằm đảm bảo trách nhiệm pháp lý của tất cả các thành viên trong việc thực hiện hợp đồng. Việc ủy quyền cho một thành viên ký thay là không đúng quy định."
+        "explanation": "Căn cứ pháp lý: Điều 67, khoản 3 của Luật Đấu thầu. Luật quy định rất rõ ràng rằng: 'Đối với nhà thầu liên danh, tất cả thành viên tham gia liên danh phải trực tiếp ký, đóng dấu (nếu có) vào văn bản hợp đồng...'. Điều này nhằm đảm bảo trách nhiệm pháp lý của tất cả các thành viên trong việc thực hiện hợp đồng. Việc ủy quyền cho một thành viên ký thay là không đúng quy định.",
+        "category": "Hợp đồng"
     },
     {
         "id": 303,
@@ -35,7 +37,8 @@ export const set31: Question[] = [
             "D": "Chào hàng cạnh tranh"
         },
         "correctAnswer": "B",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 2, điểm b của Luật Đấu thầu. Luật quy định các trường hợp được miễn bảo đảm thực hiện hợp đồng. Theo đó, 'Nhà thầu được lựa chọn theo hình thức tự thực hiện hoặc hình thức tham gia thực hiện của cộng đồng' không phải thực hiện biện pháp này."
+        "explanation": "Căn cứ pháp lý: Điều 68, khoản 2, điểm b của Luật Đấu thầu. Luật quy định các trường hợp được miễn bảo đảm thực hiện hợp đồng. Theo đó, 'Nhà thầu được lựa chọn theo hình thức tự thực hiện hoặc hình thức tham gia thực hiện của cộng đồng' không phải thực hiện biện pháp này.",
+        "category": "Hợp đồng"
     },
     {
         "id": 304,
@@ -47,7 +50,8 @@ export const set31: Question[] = [
             "D": "Bước đánh giá hồ sơ đề xuất kỹ thuật"
         },
         "correctAnswer": "B",
-        "explanation": "Chào giá trực tuyến là một hình thức cạnh tranh về giá. Nó được tiến hành sau khi các nhà thầu đã được đánh giá đáp ứng yêu cầu về kỹ thuật. Các nhà thầu đủ điều kiện kỹ thuật sẽ được mời tham gia một phiên chào giá trực tuyến để cạnh tranh và đưa ra mức giá cuối cùng của mình. Do đó, đây là một hoạt động thuộc bước đánh giá về tài chính."
+        "explanation": "Chào giá trực tuyến là một hình thức cạnh tranh về giá. Nó được tiến hành sau khi các nhà thầu đã được đánh giá đáp ứng yêu cầu về kỹ thuật. Các nhà thầu đủ điều kiện kỹ thuật sẽ được mời tham gia một phiên chào giá trực tuyến để cạnh tranh và đưa ra mức giá cuối cùng của mình. Do đó, đây là một hoạt động thuộc bước đánh giá về tài chính.",
+        "category": "Hình thức và Phương thức LCNT"
     },
     {
         "id": 305,
@@ -59,7 +63,8 @@ export const set31: Question[] = [
             "D": "Thời gian còn lại của phiên chào giá"
         },
         "correctAnswer": "B",
-        "explanation": "Để đảm bảo tính cạnh tranh khách quan và tránh các hành vi thông đồng, trong phiên chào giá trực tuyến, danh tính của các nhà thầu sẽ được ẩn đi. Hệ thống chỉ hiển thị các mức giá được chào và thời gian còn lại của phiên. Tên nhà thầu chỉ được công khai sau khi phiên chào giá kết thúc."
+        "explanation": "Để đảm bảo tính cạnh tranh khách quan và tránh các hành vi thông đồng, trong phiên chào giá trực tuyến, danh tính của các nhà thầu sẽ được ẩn đi. Hệ thống chỉ hiển thị các mức giá được chào và thời gian còn lại của phiên. Tên nhà thầu chỉ được công khai sau khi phiên chào giá kết thúc.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 306,
@@ -71,7 +76,8 @@ export const set31: Question[] = [
             "D": "Chỉ phải phê duyệt trong kế hoạch lựa chọn nhà thầu đối với các gói thầu thuộc dự án đầu tư"
         },
         "correctAnswer": "B",
-        "explanation": "Mua sắm trực tuyến là một trong các hình thức lựa chọn nhà thầu. Theo quy định tại Điều 37, tất cả các gói thầu đều phải được lập kế hoạch lựa chọn nhà thầu và được người có thẩm quyền phê duyệt trước khi tổ chức. Kế hoạch này phải nêu rõ hình thức lựa chọn nhà thầu được áp dụng."
+        "explanation": "Mua sắm trực tuyến là một trong các hình thức lựa chọn nhà thầu. Theo quy định tại Điều 37, tất cả các gói thầu đều phải được lập kế hoạch lựa chọn nhà thầu và được người có thẩm quyền phê duyệt trước khi tổ chức. Kế hoạch này phải nêu rõ hình thức lựa chọn nhà thầu được áp dụng.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 307,
@@ -83,7 +89,8 @@ export const set31: Question[] = [
             "D": "Đơn vị mua sắm tập trung"
         },
         "correctAnswer": "B",
-        "explanation": "Mua sắm trực tuyến thường được thực hiện dựa trên kết quả của mua sắm tập trung đã được tổ chức trước đó. Khi một đơn vị có nhu cầu đặt hàng, hệ thống sẽ tự động gửi thông báo đến nhà thầu đã được lựa chọn và ký thỏa thuận khung trong đợt mua sắm tập trung đó."
+        "explanation": "Mua sắm trực tuyến thường được thực hiện dựa trên kết quả của mua sắm tập trung đã được tổ chức trước đó. Khi một đơn vị có nhu cầu đặt hàng, hệ thống sẽ tự động gửi thông báo đến nhà thầu đã được lựa chọn và ký thỏa thuận khung trong đợt mua sắm tập trung đó.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 308,
@@ -95,7 +102,8 @@ export const set31: Question[] = [
             "D": "05 ngày làm việc"
         },
         "correctAnswer": "B",
-        "explanation": "Mua sắm trực tuyến là quy trình nhanh gọn. Để đảm bảo tiến độ, các quy định thường yêu cầu nhà thầu phải phản hồi (xác nhận hoặc từ chối) yêu cầu đặt hàng trong một khoảng thời gian hợp lý. 03 ngày làm việc là khoảng thời gian tiêu chuẩn để nhà thầu xem xét và xác nhận đơn hàng."
+        "explanation": "Mua sắm trực tuyến là quy trình nhanh gọn. Để đảm bảo tiến độ, các quy định thường yêu cầu nhà thầu phải phản hồi (xác nhận hoặc từ chối) yêu cầu đặt hàng trong một khoảng thời gian hợp lý. 03 ngày làm việc là khoảng thời gian tiêu chuẩn để nhà thầu xem xét và xác nhận đơn hàng.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 309,
@@ -107,7 +115,8 @@ export const set31: Question[] = [
             "D": "Yêu cầu các nhà thầu này chào lại giá"
         },
         "correctAnswer": "B",
-        "explanation": "Đây là nguyên tắc xử lý tình huống 'bằng giá' trong các phiên đấu giá điện tử. Để khuyến khích nhà thầu chào giá sớm, hệ thống sẽ ưu tiên xếp hạng cho nhà thầu nào đưa ra mức giá thấp đó trước."
+        "explanation": "Đây là nguyên tắc xử lý tình huống 'bằng giá' trong các phiên đấu giá điện tử. Để khuyến khích nhà thầu chào giá sớm, hệ thống sẽ ưu tiên xếp hạng cho nhà thầu nào đưa ra mức giá thấp đó trước.",
+        "category": "Đấu thầu qua mạng"
     },
     {
         "id": 310,
@@ -119,6 +128,7 @@ export const set31: Question[] = [
             "D": "05 ngày làm việc"
         },
         "correctAnswer": "B",
-        "explanation": "Để nhà thầu có đủ thời gian chuẩn bị cần thiết (về nhân sự, chiến lược giá) cho phiên chào giá, pháp luật quy định một khoảng thời gian tối thiểu từ khi gửi thông báo mời đến khi bắt đầu chào giá. Đối với quy trình thông thường, thời gian này là 03 ngày làm việc."
+        "explanation": "Để nhà thầu có đủ thời gian chuẩn bị cần thiết (về nhân sự, chiến lược giá) cho phiên chào giá, pháp luật quy định một khoảng thời gian tối thiểu từ khi gửi thông báo mời đến khi bắt đầu chào giá. Đối với quy trình thông thường, thời gian này là 03 ngày làm việc.",
+        "category": "Đấu thầu qua mạng"
     }
 ];

@@ -11,7 +11,8 @@ export const set33: Question[] = [
             "D": "Hiệp định Đối tác Kinh tế Toàn diện Khu vực (RCEP)"
         },
         "correctAnswer": "D",
-        "explanation": "Các hiệp định CPTPP, EVFTA, UKVFTA đều có các chương riêng về mua sắm của Chính phủ, trong đó có các quy định chi tiết về các hình thức lựa chọn nhà thầu, bao gồm cả các trường hợp được phép chỉ định thầu. Hiệp định RCEP có phạm vi cam kết hẹp hơn và không có chương riêng về mua sắm chính phủ với các quy định chi tiết như vậy."
+        "explanation": "Các hiệp định CPTPP, EVFTA, UKVFTA đều có các chương riêng về mua sắm của Chính phủ, trong đó có các quy định chi tiết về các hình thức lựa chọn nhà thầu, bao gồm cả các trường hợp được phép chỉ định thầu. Hiệp định RCEP có phạm vi cam kết hẹp hơn và không có chương riêng về mua sắm chính phủ với các quy định chi tiết như vậy.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 322,
@@ -23,7 +24,8 @@ export const set33: Question[] = [
             "D": "Mua sắm vật tư y tế"
         },
         "correctAnswer": "C",
-        "explanation": "Nghị định 95/2020/NĐ-CP hướng dẫn về đấu thầu theo các hiệp định thương mại tự do. Phạm vi của các hiệp định này thường bao gồm mua sắm hàng hóa, dịch vụ, xây lắp. Việc thuê quyền sử dụng đất là một lĩnh vực riêng, được điều chỉnh bởi Luật Đất đai và các văn bản liên quan, không thuộc phạm vi mua sắm chính phủ theo các hiệp định này."
+        "explanation": "Nghị định 95/2020/NĐ-CP hướng dẫn về đấu thầu theo các hiệp định thương mại tự do. Phạm vi của các hiệp định này thường bao gồm mua sắm hàng hóa, dịch vụ, xây lắp. Việc thuê quyền sử dụng đất là một lĩnh vực riêng, được điều chỉnh bởi Luật Đất đai và các văn bản liên quan, không thuộc phạm vi mua sắm chính phủ theo các hiệp định này.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 323,
@@ -35,7 +37,8 @@ export const set33: Question[] = [
             "D": "Gói thầu có giá trị lớn, phức tạp"
         },
         "correctAnswer": "C",
-        "explanation": "Cam kết mở cửa thị trường mua sắm chính phủ của Việt Nam trong các hiệp định là có chọn lọc và theo lộ trình. Nhà thầu nước ngoài chỉ được phép tham gia các gói thầu mà Việt Nam đã cam kết mở cửa, tức là các gói thầu thuộc phạm vi điều chỉnh của hiệp định đó (thường là các gói thầu của một số cơ quan trung ương và có giá trị trên một ngưỡng nhất định)."
+        "explanation": "Cam kết mở cửa thị trường mua sắm chính phủ của Việt Nam trong các hiệp định là có chọn lọc và theo lộ trình. Nhà thầu nước ngoài chỉ được phép tham gia các gói thầu mà Việt Nam đã cam kết mở cửa, tức là các gói thầu thuộc phạm vi điều chỉnh của hiệp định đó (thường là các gói thầu của một số cơ quan trung ương và có giá trị trên một ngưỡng nhất định).",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 324,
@@ -47,7 +50,8 @@ export const set33: Question[] = [
             "D": "Đấu thầu trong nước"
         },
         "correctAnswer": "A",
-        "explanation": "'Đấu thầu nội khối' là một thuật ngữ được sử dụng trong khuôn khổ các hiệp định để chỉ các cuộc đấu thầu chỉ dành cho các nhà thầu đến từ các quốc gia thành viên của hiệp định đó. Ví dụ, đấu thầu nội khối CPTPP chỉ cho phép nhà thầu từ 11 nước thành viên tham gia."
+        "explanation": "'Đấu thầu nội khối' là một thuật ngữ được sử dụng trong khuôn khổ các hiệp định để chỉ các cuộc đấu thầu chỉ dành cho các nhà thầu đến từ các quốc gia thành viên của hiệp định đó. Ví dụ, đấu thầu nội khối CPTPP chỉ cho phép nhà thầu từ 11 nước thành viên tham gia.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 325,
@@ -59,7 +63,8 @@ export const set33: Question[] = [
             "D": "Hàng hóa thuộc gói thầu quá phức tạp mà nhà thầu trong nước không đáp ứng được"
         },
         "correctAnswer": "C",
-        "explanation": "Mặc dù gói thầu thuộc phạm vi phải đấu thầu nội khối, nhưng nếu người có thẩm quyền nhận thấy việc mở rộng ra đấu thầu quốc tế (cho cả các nhà thầu ngoài khối) sẽ mang lại lợi ích lớn hơn (về công nghệ, giá cả, chất lượng), họ có quyền quyết định tổ chức đấu thầu quốc tế."
+        "explanation": "Mặc dù gói thầu thuộc phạm vi phải đấu thầu nội khối, nhưng nếu người có thẩm quyền nhận thấy việc mở rộng ra đấu thầu quốc tế (cho cả các nhà thầu ngoài khối) sẽ mang lại lợi ích lớn hơn (về công nghệ, giá cả, chất lượng), họ có quyền quyết định tổ chức đấu thầu quốc tế.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 326,
@@ -71,7 +76,8 @@ export const set33: Question[] = [
             "D": "Khi có yêu cầu của nhà thầu"
         },
         "correctAnswer": "C",
-        "explanation": "Đối với các dịch vụ phi tư vấn đơn giản, việc thực hiện không phụ thuộc nhiều vào năng lực của một vài cá nhân cụ thể. Do đó, việc yêu cầu kê khai nhân sự chủ chốt là không cần thiết và có thể gây hạn chế cạnh tranh. Yêu cầu này chỉ được đưa ra đối với các dịch vụ phức tạp, đòi hỏi chuyên môn sâu của các cá nhân thực hiện."
+        "explanation": "Đối với các dịch vụ phi tư vấn đơn giản, việc thực hiện không phụ thuộc nhiều vào năng lực của một vài cá nhân cụ thể. Do đó, việc yêu cầu kê khai nhân sự chủ chốt là không cần thiết và có thể gây hạn chế cạnh tranh. Yêu cầu này chỉ được đưa ra đối với các dịch vụ phức tạp, đòi hỏi chuyên môn sâu của các cá nhân thực hiện.",
+        "category": "Hồ sơ mời thầu và Đánh giá HSDT"
     },
     {
         "id": 327,
@@ -83,7 +89,8 @@ export const set33: Question[] = [
             "D": "01/10/2020"
         },
         "correctAnswer": "B",
-        "explanation": "Đây là một mốc thời gian lịch sử. Hiệp định EVFTA chính thức có hiệu lực từ ngày 01 tháng 8 năm 2020."
+        "explanation": "Đây là một mốc thời gian lịch sử. Hiệp định EVFTA chính thức có hiệu lực từ ngày 01 tháng 8 năm 2020.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 328,
@@ -95,7 +102,8 @@ export const set33: Question[] = [
             "D": "Thông tư số 20/2022/TT-BKHĐT"
         },
         "correctAnswer": "B",
-        "explanation": "Bộ Kế hoạch và Đầu tư ban hành các Thông tư kèm theo mẫu hồ sơ mời thầu để áp dụng cho các gói thầu thuộc phạm vi điều chỉnh của các hiệp định. Thông tư số 12/2022/TT-BKHĐT là văn bản quy định về mẫu HSMT cho các gói thầu mua sắm hàng hóa thuộc phạm vi của Hiệp định UKVFTA."
+        "explanation": "Bộ Kế hoạch và Đầu tư ban hành các Thông tư kèm theo mẫu hồ sơ mời thầu để áp dụng cho các gói thầu thuộc phạm vi điều chỉnh của các hiệp định. Thông tư số 12/2022/TT-BKHĐT là văn bản quy định về mẫu HSMT cho các gói thầu mua sắm hàng hóa thuộc phạm vi của Hiệp định UKVFTA.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 329,
@@ -107,7 +115,8 @@ export const set33: Question[] = [
             "D": "Bộ Công Thương"
         },
         "correctAnswer": "B",
-        "explanation": "Đấu thầu thuốc là một lĩnh vực chuyên ngành, phức tạp. Bộ Y tế là cơ quan quản lý nhà nước chuyên ngành về y tế, dược phẩm, do đó được Chính phủ giao trách nhiệm chủ trì, hướng dẫn việc thực hiện các cam kết về đấu thầu thuốc trong Hiệp định EVFTA."
+        "explanation": "Đấu thầu thuốc là một lĩnh vực chuyên ngành, phức tạp. Bộ Y tế là cơ quan quản lý nhà nước chuyên ngành về y tế, dược phẩm, do đó được Chính phủ giao trách nhiệm chủ trì, hướng dẫn việc thực hiện các cam kết về đấu thầu thuốc trong Hiệp định EVFTA.",
+        "category": "Mua sắm đặc thù"
     },
     {
         "id": 330,
@@ -119,6 +128,7 @@ export const set33: Question[] = [
             "D": "Việt Nam chưa phải là thành viên của GPA"
         },
         "correctAnswer": "D",
-        "explanation": "Tính đến thời điểm hiện tại, Việt Nam mới chỉ là quan sát viên của Hiệp định Mua sắm Chính phủ (GPA) của WTO và đang trong quá trình đàm phán gia nhập, chứ chưa phải là thành viên chính thức."
+        "explanation": "Tính đến thời điểm hiện tại, Việt Nam mới chỉ là quan sát viên của Hiệp định Mua sắm Chính phủ (GPA) của WTO và đang trong quá trình đàm phán gia nhập, chứ chưa phải là thành viên chính thức.",
+        "category": "Mua sắm đặc thù"
     }
 ];

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Question, UserAnswers } from '../types';
-import { CheckIcon, XIcon, TrophyIcon, ClockIcon } from './icons';
+import { CheckIcon, XIcon, TrophyIcon, ClockIcon, ChevronLeftIcon, ChevronRightIcon } from './icons';
 
 interface ResultsProps {
     questions: Question[];
@@ -167,13 +167,15 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
             )}
             
             {/* Sequential Navigation */}
-            <div className="flex justify-center items-center mt-8 gap-x-8 md:gap-x-16">
+            <div className="flex justify-between items-center mt-8">
                 <button
                     onClick={handlePrevQuestion}
                     disabled={currentQuestionIndex === 0}
-                    className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-6 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed"
+                    className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:-translate-x-1 flex items-center gap-2"
+                    aria-label="Câu hỏi trước"
                 >
-                    Câu trước
+                    <ChevronLeftIcon />
+                    <span className="hidden sm:inline">Câu trước</span>
                 </button>
                 <span className="font-semibold text-lg text-slate-600">
                     {currentQuestionIndex + 1} / {questions.length}
@@ -181,9 +183,11 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
                 <button
                     onClick={handleNextQuestion}
                     disabled={currentQuestionIndex === questions.length - 1}
-                    className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-6 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed"
+                    className="bg-white hover:bg-slate-100 text-slate-700 font-bold py-2 px-4 rounded-full transition-colors border border-slate-200 shadow-sm disabled:bg-slate-100/50 disabled:text-slate-400 disabled:cursor-not-allowed disabled:transform-none transform hover:translate-x-1 flex items-center gap-2"
+                    aria-label="Câu hỏi tiếp theo"
                 >
-                    Câu tiếp theo
+                    <span className="hidden sm:inline">Câu tiếp theo</span>
+                    <ChevronRightIcon />
                 </button>
             </div>
         </div>

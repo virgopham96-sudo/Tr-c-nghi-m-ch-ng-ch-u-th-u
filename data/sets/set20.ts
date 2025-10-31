@@ -11,7 +11,8 @@ export const set20: Question[] = [
             "D": "45% giá hợp đồng"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 68, khoản 4 của Luật Đấu thầu. Luật quy định mức bảo đảm thực hiện hợp đồng là từ 2% đến 10% giá hợp đồng. Tuy nhiên, trong trường hợp giá dự thầu thấp bất thường, để phòng ngừa rủi ro nhà thầu bỏ thầu, chủ đầu tư có quyền yêu cầu một mức bảo đảm cao hơn, và mức tối đa được phép là 30% giá hợp đồng."
+        "explanation": "Căn cứ pháp lý: Điều 68, khoản 4 của Luật Đấu thầu. Luật quy định mức bảo đảm thực hiện hợp đồng là từ 2% đến 10% giá hợp đồng. Tuy nhiên, trong trường hợp giá dự thầu thấp bất thường, để phòng ngừa rủi ro nhà thầu bỏ thầu, chủ đầu tư có quyền yêu cầu một mức bảo đảm cao hơn, và mức tối đa được phép là 30% giá hợp đồng.",
+        "category": "Hợp đồng"
     },
     {
         "id": 192,
@@ -23,7 +24,8 @@ export const set20: Question[] = [
             "D": "Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá của phần đó trong giá gói thầu"
         },
         "correctAnswer": "B",
-        "explanation": "Gói thầu chia phần cho phép các nhà thầu khác nhau trúng các phần khác nhau. Chủ đầu tư có thể phê duyệt kết quả cho từng phần, miễn là tổng giá trị của tất cả các phần trúng thầu không vượt giá gói thầu đã được duyệt."
+        "explanation": "Gói thầu chia phần cho phép các nhà thầu khác nhau trúng các phần khác nhau. Chủ đầu tư có thể phê duyệt kết quả cho từng phần, miễn là tổng giá trị của tất cả các phần trúng thầu không vượt giá gói thầu đã được duyệt.",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 193,
@@ -35,7 +37,8 @@ export const set20: Question[] = [
             "D": "Phương án B và C đều đúng"
         },
         "correctAnswer": "A",
-        "explanation": "Khi một phần không có nhà thầu tham dự, phần đó được coi là đấu thầu không thành công. Chủ đầu tư phải xử lý phần này như một gói thầu độc lập, có thể tổ chức đấu thầu lại hoặc áp dụng hình thức lựa chọn nhà thầu khác phù hợp."
+        "explanation": "Khi một phần không có nhà thầu tham dự, phần đó được coi là đấu thầu không thành công. Chủ đầu tư phải xử lý phần này như một gói thầu độc lập, có thể tổ chức đấu thầu lại hoặc áp dụng hình thức lựa chọn nhà thầu khác phù hợp.",
+        "category": "Kế hoạch và Quy trình LCNT"
     },
     {
         "id": 194,
@@ -47,7 +50,8 @@ export const set20: Question[] = [
             "D": "Người có thẩm quyền quyết định xử lý tình huống sau khi có ý kiến của chủ đầu tư và Tổ chuyên gia"
         },
         "correctAnswer": "A",
-        "explanation": "Căn cứ pháp lý: Điều 88, khoản 3, điểm a của Luật Đấu thầu. Luật quy định rõ: 'Đối với lựa chọn nhà thầu, người quyết định xử lý tình huống là chủ đầu tư. Trong trường hợp phức tạp, chủ đầu tư quyết định xử lý tình huống sau khi có ý kiến của người có thẩm quyền'."
+        "explanation": "Căn cứ pháp lý: Điều 88, khoản 3, điểm a của Luật Đấu thầu. Luật quy định rõ: 'Đối với lựa chọn nhà thầu, người quyết định xử lý tình huống là chủ đầu tư. Trong trường hợp phức tạp, chủ đầu tư quyết định xử lý tình huống sau khi có ý kiến của người có thẩm quyền'.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 195,
@@ -59,7 +63,8 @@ export const set20: Question[] = [
             "D": "Nhà thầu liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị bên mời thầu đăng tải thông tin nhà thầu liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia"
         },
         "correctAnswer": "B",
-        "explanation": "Mặc dù liên danh chịu trách nhiệm chung về việc thực hiện hợp đồng, nhưng khi đánh giá uy tín để xử lý cho các gói thầu sau này, chỉ những thành viên trực tiếp vi phạm, không hoàn thành phần việc của mình mới bị đánh giá là không hoàn thành hợp đồng và bị công khai thông tin vi phạm."
+        "explanation": "Mặc dù liên danh chịu trách nhiệm chung về việc thực hiện hợp đồng, nhưng khi đánh giá uy tín để xử lý cho các gói thầu sau này, chỉ những thành viên trực tiếp vi phạm, không hoàn thành phần việc của mình mới bị đánh giá là không hoàn thành hợp đồng và bị công khai thông tin vi phạm.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 196,
@@ -71,7 +76,8 @@ export const set20: Question[] = [
             "D": "Bằng giá trị ghi trong hợp đồng trừ đi giá trị của phần công việc đã thực hiện trước đó theo dự toán được duyệt"
         },
         "correctAnswer": "A",
-        "explanation": "Khi chỉ định thầu cho phần công việc còn lại, giá trị của phần việc này được xác định bằng cách lấy giá trị hợp đồng ban đầu trừ đi giá trị phần công việc đã được nhà thầu cũ thực hiện và nghiệm thu. Điều này đảm bảo tổng chi phí của gói thầu không vượt quá giá trị hợp đồng đã ký ban đầu."
+        "explanation": "Khi chỉ định thầu cho phần công việc còn lại, giá trị của phần việc này được xác định bằng cách lấy giá trị hợp đồng ban đầu trừ đi giá trị phần công việc đã được nhà thầu cũ thực hiện và nghiệm thu. Điều này đảm bảo tổng chi phí của gói thầu không vượt quá giá trị hợp đồng đã ký ban đầu.",
+        "category": "Hợp đồng"
     },
     {
         "id": 197,
@@ -83,7 +89,8 @@ export const set20: Question[] = [
             "D": "Chủ đầu tư và nhà thầu được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh phù hợp với tiến độ hoặc tiến độ được rút ngắn"
         },
         "correctAnswer": "D",
-        "explanation": "Việc điều chỉnh phạm vi công việc giữa các thành viên liên danh là một sửa đổi hợp đồng. Việc này cần có sự thỏa thuận giữa các bên ký kết hợp đồng (chủ đầu tư và các thành viên liên danh) để đảm bảo tính pháp lý."
+        "explanation": "Việc điều chỉnh phạm vi công việc giữa các thành viên liên danh là một sửa đổi hợp đồng. Việc này cần có sự thỏa thuận giữa các bên ký kết hợp đồng (chủ đầu tư và các thành viên liên danh) để đảm bảo tính pháp lý.",
+        "category": "Hợp đồng"
     },
     {
         "id": 198,
@@ -95,7 +102,8 @@ export const set20: Question[] = [
             "D": "Nhà thầu vẫn được tiếp tục tham dự thầu"
         },
         "correctAnswer": "D",
-        "explanation": "Theo nguyên tắc suy đoán vô tội, một cá nhân chỉ bị coi là có tội khi có bản án kết tội của Tòa án đã có hiệu lực pháp luật. Tương tự, một nhà thầu chỉ bị cấm thầu khi có quyết định cấm thầu của người có thẩm quyền. Kết luận của cơ quan điều tra chưa phải là căn cứ pháp lý cuối cùng để tước quyền tham dự thầu của nhà thầu."
+        "explanation": "Theo nguyên tắc suy đoán vô tội, một cá nhân chỉ bị coi là có tội khi có bản án kết tội của Tòa án đã có hiệu lực pháp luật. Tương tự, một nhà thầu chỉ bị cấm thầu khi có quyết định cấm thầu của người có thẩm quyền. Kết luận của cơ quan điều tra chưa phải là căn cứ pháp lý cuối cùng để tước quyền tham dự thầu của nhà thầu.",
+        "category": "Trách nhiệm và Xử lý vi phạm"
     },
     {
         "id": 199,
@@ -107,7 +115,8 @@ export const set20: Question[] = [
             "D": "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng nhưng không bắt buộc cùng hãng sản xuất và cùng xuất xứ"
         },
         "correctAnswer": "A",
-        "explanation": "Khi thay đổi hàng hóa sang phiên bản mới hơn, điều kiện tiên quyết là các tính năng kỹ thuật phải tương đương hoặc tốt hơn. Để đảm bảo tính đồng bộ, tương thích và chất lượng đã được đánh giá ban đầu, việc giữ nguyên hãng sản xuất và xuất xứ là một yêu cầu hợp lý và thường được đặt ra."
+        "explanation": "Khi thay đổi hàng hóa sang phiên bản mới hơn, điều kiện tiên quyết là các tính năng kỹ thuật phải tương đương hoặc tốt hơn. Để đảm bảo tính đồng bộ, tương thích và chất lượng đã được đánh giá ban đầu, việc giữ nguyên hãng sản xuất và xuất xứ là một yêu cầu hợp lý và thường được đặt ra.",
+        "category": "Hợp đồng"
     },
     {
         "id": 200,
@@ -119,6 +128,7 @@ export const set20: Question[] = [
             "D": "Hủy thầu"
         },
         "correctAnswer": "A",
-        "explanation": "Đối với các gói thầu có tính chất đặc thù, phức tạp, hoặc trong các trường hợp đặc biệt, pháp luật có thể cho phép một số ngoại lệ. Nếu nhà thầu nước ngoài có lý do chính đáng và việc đăng ký trên hệ thống là một rào cản không cần thiết, chủ đầu tư có thể xem xét và không bắt buộc yêu cầu này, miễn là vẫn đảm bảo các nguyên tắc cơ bản của đấu thầu."
+        "explanation": "Đối với các gói thầu có tính chất đặc thù, phức tạp, hoặc trong các trường hợp đặc biệt, pháp luật có thể cho phép một số ngoại lệ. Nếu nhà thầu nước ngoài có lý do chính đáng và việc đăng ký trên hệ thống là một rào cản không cần thiết, chủ đầu tư có thể xem xét và không bắt buộc yêu cầu này, miễn là vẫn đảm bảo các nguyên tắc cơ bản của đấu thầu.",
+        "category": "Đấu thầu qua mạng"
     }
 ];

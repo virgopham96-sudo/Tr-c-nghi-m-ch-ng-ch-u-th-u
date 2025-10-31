@@ -9,6 +9,7 @@ export interface Question {
   };
   correctAnswer: 'A' | 'B' | 'C' | 'D';
   explanation: string;
+  category: string;
 }
 
 export type UserAnswers = Record<number, 'A' | 'B' | 'C' | 'D'>;

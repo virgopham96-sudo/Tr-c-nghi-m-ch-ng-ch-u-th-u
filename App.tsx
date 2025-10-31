@@ -1,5 +1,4 @@
 
-
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import ModeSelector from './components/ModeSelector';
 import SetSelector from './components/SetSelector';
@@ -7,6 +6,7 @@ import Quiz from './components/Quiz';
 import Results from './components/Results';
 import PracticeAll from './components/PracticeAll';
 import History from './components/History';
+import Search from './components/Search';
 import { allSetsData } from './data/sets';
 import { Question, UserAnswers } from './types';
 
@@ -20,7 +20,7 @@ const shuffleArray = (array: Question[]): Question[] => {
     return newArray;
 };
 
-type View = 'mode-select' | 'set-select' | 'quiz' | 'results' | 'practice-all' | 'history';
+type View = 'mode-select' | 'set-select' | 'quiz' | 'results' | 'practice-all' | 'history' | 'search';
 
 function App() {
     const [view, setView] = useState<View>('mode-select');
@@ -59,6 +59,10 @@ function App() {
 
     const handleSelectPracticeAll = () => {
         setView('practice-all');
+    };
+    
+    const handleSelectSearch = () => {
+        setView('search');
     };
 
     const handleSelectTestBySet = () => {
@@ -104,6 +108,8 @@ function App() {
 
     const renderContent = () => {
         switch (view) {
+            case 'search':
+                return <Search questions={allQuestions} onBack={handleGoBackToMainMenu} />;
             case 'history':
                  return <History onBack={handleGoBackToMainMenu} />;
             case 'practice-all':
@@ -151,6 +157,7 @@ function App() {
                         onSelectTestBySet={handleSelectTestBySet}
                         onSelectTestRandom={handleSelectTestRandom}
                         onSelectSupport={handleSelectSupport}
+                        onSelectSearch={handleSelectSearch}
                     />
                 );
         }

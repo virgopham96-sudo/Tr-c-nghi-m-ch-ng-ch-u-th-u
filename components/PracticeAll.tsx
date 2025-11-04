@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { Question, UserAnswers } from '../types';
 import { CheckIcon, XIcon, ArrowUpIcon, ChevronLeftIcon, ChevronRightIcon } from './icons';
@@ -25,7 +26,6 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     const [isFading, setIsFading] = useState(false);
     const [showGoToTop, setShowGoToTop] = useState(false);
     const [isGridVisible, setIsGridVisible] = useState(false);
-    const [showHint, setShowHint] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
     const filteredQuestions = useMemo(() => {
@@ -37,7 +37,6 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
 
     useEffect(() => {
         setCurrentQuestionIndex(0);
-        setShowHint(false);
     }, [selectedCategory]);
 
     useEffect(() => {
@@ -52,10 +51,6 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
         setIsGridVisible(prev => !prev);
     };
 
-    const toggleHint = () => {
-        setShowHint(prev => !prev);
-    };
-
     const handleGoToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
@@ -63,11 +58,10 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     const handleJumpToQuestion = useCallback((index: number) => {
         if (index >= 0 && index < filteredQuestions.length && index !== currentQuestionIndex) {
             setIsFading(true);
-            setShowHint(false);
             setTimeout(() => {
                 setCurrentQuestionIndex(index);
                 setIsFading(false);
-            }, 150);
+            }, 200);
         }
     }, [currentQuestionIndex, filteredQuestions.length]);
     
@@ -135,7 +129,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     };
 
     const getOptionClasses = (question: Question, optionKey: 'A' | 'B' | 'C' | 'D'): string => {
-        const baseClasses = "flex items-center justify-between p-4 rounded-lg border-2 transition-all duration-300";
+        const baseClasses = "flex justify-between items-start p-4 rounded-lg border-2 transition-all duration-300";
         const userAnswer = userAnswers[question.id];
         const isAnswered = userAnswer !== undefined;
 
@@ -160,17 +154,17 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     
     return (
         <div className="p-4 md:p-8 max-w-7xl mx-auto animate-fade-in">
-            <div className="relative flex justify-center items-center mb-6">
+            <div className="flex items-center gap-4 mb-6">
                 <button
                     onClick={onBack}
-                    className="absolute left-0 bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-4 rounded-full transition-colors flex items-center gap-2 border border-slate-200 shadow-sm"
+                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-4 rounded-full transition-colors flex items-center gap-2 border border-slate-200 shadow-sm"
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     Quay lại
                 </button>
-                <h2 className="text-3xl font-bold text-slate-900">Luyện tập tổng hợp</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-slate-900 text-center flex-1">Luyện tập tổng hợp</h2>
             </div>
             
              <div className="mb-6 flex justify-center items-center gap-4">
@@ -218,12 +212,12 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
             {/* Question Display */}
             {filteredQuestions.length > 0 ? (
                 currentQuestion && (
-                    <div className={`bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 transition-opacity duration-150 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
-                        <div className="max-h-[60vh] overflow-y-auto pr-2">
-                            <p className="text-lg font-semibold mb-4 text-slate-800">
-                                <span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}
+                    <div className={`bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-3' : 'opacity-100 translate-y-0'}`}>
+                        <div className="max-h-[65vh] overflow-y-auto pr-2">
+                            <p className="text-xl font-semibold mb-6 text-slate-800">
+                                <span className="font-bold text-cyan-600 mr-2">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}
                             </p>
-                            <div className="space-y-3">
+                            <div className="space-y-4">
                                 {Object.entries(currentQuestion.options).map(([key, value]) => {
                                     const optionKey = key as 'A' | 'B' | 'C' | 'D';
                                     const isCorrectAnswer = optionKey === currentQuestion.correctAnswer;
@@ -235,9 +229,12 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                                             className={getOptionClasses(currentQuestion, optionKey)}
                                             onClick={() => { if (!isAnswered) handleOptionChange(currentQuestion.id, optionKey); }}
                                         >
-                                            <span>{key}. {value}</span>
+                                            <div className="flex items-start flex-grow">
+                                                <span className="font-bold text-cyan-700 w-7 shrink-0">{key}.</span>
+                                                <span className="text-slate-800 text-base">{value}</span>
+                                            </div>
                                              {isAnswered && (
-                                                <div className="shrink-0">
+                                                <div className="shrink-0 ml-4">
                                                     { isSelectedAnswer && !isCorrectAnswer ? <XIcon /> : (isCorrectAnswer ? <CheckIcon /> : null) }
                                                 </div>
                                             )}
@@ -246,22 +243,10 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                                 })}
                             </div>
                             {isAnswered && (
-                                <>
-                                    <div className="mt-6 text-right">
-                                        <button
-                                            onClick={toggleHint}
-                                            className="text-cyan-600 hover:text-cyan-800 font-semibold text-sm py-1 px-3 rounded-full bg-cyan-50 hover:bg-cyan-100 transition-all"
-                                        >
-                                            {showHint ? 'Ẩn gợi ý' : 'Xem gợi ý'}
-                                        </button>
-                                    </div>
-                                    {showHint && (
-                                        <div className="mt-4 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200 animate-fade-in">
-                                           <p className="font-bold text-cyan-700">Lý giải:</p>
-                                           <p className="text-slate-800">{currentQuestion.explanation}</p>
-                                        </div>
-                                    )}
-                                </>
+                                <div className="mt-6 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200 animate-fade-in">
+                                   <p className="font-bold text-cyan-700">Lý giải:</p>
+                                   <p className="text-slate-800">{currentQuestion.explanation}</p>
+                                </div>
                             )}
                         </div>
                     </div>

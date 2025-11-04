@@ -46,7 +46,8 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
         const lowercasedTerm = searchTerm.toLowerCase();
         const results = questions.filter(q =>
             q.question.toLowerCase().includes(lowercasedTerm) ||
-            Object.values(q.options).some(opt => opt.toLowerCase().includes(lowercasedTerm)) ||
+            // Fix: Cast 'opt' to string to resolve 'toLowerCase' does not exist on type 'unknown' error.
+            Object.values(q.options).some(opt => (opt as string).toLowerCase().includes(lowercasedTerm)) ||
             q.explanation.toLowerCase().includes(lowercasedTerm)
         );
         setSearchResults(results);
@@ -54,17 +55,17 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
 
     return (
         <div className="p-4 md:p-8 max-w-7xl mx-auto animate-fade-in">
-            <div className="relative flex justify-center items-center mb-8">
+            <div className="flex items-center gap-4 mb-8">
                 <button
                     onClick={onBack}
-                    className="absolute left-0 bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-4 rounded-full transition-colors flex items-center gap-2 border border-slate-200 shadow-sm"
+                    className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-4 rounded-full transition-colors flex items-center gap-2 border border-slate-200 shadow-sm"
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     Quay lại
                 </button>
-                <h2 className="text-3xl font-bold text-slate-900">Tra cứu câu hỏi</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-slate-900 text-center flex-1">Tra cứu câu hỏi</h2>
             </div>
 
             <form onSubmit={handleSearch} className="mb-8 flex flex-col sm:flex-row gap-3">
@@ -108,7 +109,8 @@ const Search: React.FC<SearchProps> = ({ questions, onBack }) => {
                         <div className="space-y-3 mb-6">
                              {Object.entries(q.options).map(([key, value]) => (
                                 <div key={key} className={`flex items-center justify-between p-3 rounded-lg border-2 ${key === q.correctAnswer ? 'bg-green-50 border-green-400' : 'border-slate-200'}`}>
-                                    <span>{key}. {highlightText(value, searchTerm)}</span>
+                                    {/* Fix: Cast 'value' to string to resolve argument of type 'unknown' is not assignable to parameter of type 'string' error. */}
+                                    <span>{key}. {highlightText(value as string, searchTerm)}</span>
                                      {key === q.correctAnswer && <div className="shrink-0"><CheckIcon /></div>}
                                 </div>
                              ))}

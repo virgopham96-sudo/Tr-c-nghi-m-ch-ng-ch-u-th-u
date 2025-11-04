@@ -14,6 +14,8 @@ interface ResultsProps {
 const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, setTitle, isPracticeMode, completionTime }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
+    const isSetMode = setTitle.includes('bộ đề');
+
     const score = questions.reduce((acc, q) => {
         return acc + (userAnswers[q.id] === q.correctAnswer ? 1 : 0);
     }, 0);
@@ -133,7 +135,7 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
                             onClick={() => handleJumpToQuestion(index)}
                             className={getQuestionNavClasses(index)}
                         >
-                            {index + 1}
+                            {isSetMode ? questions[index].id : index + 1}
                         </button>
                     ))}
                 </div>
@@ -143,7 +145,7 @@ const Results: React.FC<ResultsProps> = ({ questions, userAnswers, onRestart, se
             {currentQuestion && (
                 <div key={currentQuestion.id} className="bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 animate-fade-in">
                     <div className="max-h-[60vh] overflow-y-auto pr-2">
-                        <p className="text-lg font-semibold mb-4 text-slate-800"><span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}</p>
+                        <p className="text-lg font-semibold mb-4 text-slate-800"><span className="font-bold text-cyan-600">Câu {isSetMode ? currentQuestion.id : currentQuestionIndex + 1}:</span> {currentQuestion.question}</p>
                         <div className="space-y-3 mb-6">
                             {Object.entries(currentQuestion.options).map(([key, value]) => {
                                  const isCorrectAnswer = key === currentQuestion.correctAnswer;

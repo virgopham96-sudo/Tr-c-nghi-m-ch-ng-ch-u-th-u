@@ -21,6 +21,8 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
     const [autoNext, setAutoNext] = useState(false);
     const [isGridVisible, setIsGridVisible] = useState(false);
 
+    const isSetMode = setTitle.includes('bộ đề');
+
     // Ref to hold the latest answers to avoid stale closure in setInterval
     const answersRef = useRef(selectedAnswers);
     answersRef.current = selectedAnswers;
@@ -69,7 +71,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
             setTimeout(() => {
                 setCurrentQuestionIndex(index);
                 setIsFading(false);
-            }, 150);
+            }, 200);
         }
     }, [currentQuestionIndex, questions.length]);
 
@@ -257,7 +259,7 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
                                     onClick={() => handleJumpToQuestion(index)}
                                     className={getQuestionNavClasses(index)}
                                 >
-                                    {index + 1}
+                                    {isSetMode ? questions[index].id : index + 1}
                                 </button>
                             ))}
                         </div>
@@ -266,16 +268,20 @@ const Quiz: React.FC<QuizProps> = ({ questions, onSubmit, onBack, setTitle, isPr
 
                 <div className="">
                     {currentQuestion && (
-                        <div className={`bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 transition-opacity duration-150 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
-                            <div className="max-h-[55vh] overflow-y-auto pr-2">
-                                <p className="text-lg font-semibold mb-4 text-slate-800"><span className="font-bold text-cyan-600">Câu {currentQuestionIndex + 1}:</span> {currentQuestion.question}</p>
-                                <div className="space-y-3 quiz-options-container">
+                        <div className={`bg-white rounded-xl p-4 sm:p-6 shadow-xl border border-slate-200 transition-all duration-200 ease-in-out ${isFading ? 'opacity-0 -translate-y-3' : 'opacity-100 translate-y-0'}`}>
+                            <div className="max-h-[60vh] overflow-y-auto pr-2">
+                                <p className="text-xl font-semibold mb-6 text-slate-800">
+                                    <span className="font-bold text-cyan-600 mr-2">Câu {isSetMode ? currentQuestion.id : currentQuestionIndex + 1}:</span>
+                                    {currentQuestion.question}
+                                </p>
+                                <div className="space-y-4 quiz-options-container">
                                     {Object.entries(currentQuestion.options).map(([key, value]) => (
                                         <div
                                             key={key}
                                             onClick={() => handleOptionChange(currentQuestion.id, key as 'A' | 'B' | 'C' | 'D')}
-                                            className={`flex items-center p-4 rounded-lg border-2 transition-all cursor-pointer ${selectedAnswers[currentQuestion.id] === key ? 'bg-cyan-50 border-cyan-500 ring-2 ring-cyan-200' : 'bg-white border-slate-200 hover:bg-cyan-50/50 hover:border-cyan-300'}`}>
-                                            <span className="text-slate-700">{key}. {value}</span>
+                                            className={`flex items-start p-4 rounded-lg border-2 transition-all cursor-pointer ${selectedAnswers[currentQuestion.id] === key ? 'bg-cyan-50 border-cyan-500 ring-2 ring-cyan-200' : 'bg-white border-slate-200 hover:bg-cyan-50/50 hover:border-cyan-300'}`}>
+                                            <span className="font-bold text-cyan-700 w-7 shrink-0">{key}.</span>
+                                            <span className="text-slate-800 text-base">{value}</span>
                                         </div>
                                     ))}
                                 </div>

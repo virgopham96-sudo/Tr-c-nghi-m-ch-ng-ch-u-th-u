@@ -19,25 +19,68 @@ const categories = [
     'Mua sắm đặc thù',
 ];
 
+const LOCAL_STORAGE_KEY = 'practiceAllAnswers';
 
 const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-    const [userAnswers, setUserAnswers] = useState<UserAnswers>({});
+    const [userAnswers, setUserAnswers] = useState<UserAnswers>(() => {
+        try {
+            const savedAnswers = window.localStorage.getItem(LOCAL_STORAGE_KEY);
+            return savedAnswers ? JSON.parse(savedAnswers) : {};
+        } catch (error) {
+            console.error("Failed to parse practice answers from localStorage", error);
+            return {};
+        }
+    });
+    const [sessionAnswers, setSessionAnswers] = useState<UserAnswers>({});
     const [isFading, setIsFading] = useState(false);
     const [showGoToTop, setShowGoToTop] = useState(false);
     const [isGridVisible, setIsGridVisible] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState<string>('all');
-
-    const filteredQuestions = useMemo(() => {
-        if (selectedCategory === 'all') {
-            return questions;
-        }
-        return questions.filter(q => q.category === selectedCategory);
-    }, [questions, selectedCategory]);
+    const [viewMode, setViewMode] = useState<'all' | 'incorrect'>('all');
 
     useEffect(() => {
+        try {
+            window.localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(userAnswers));
+        } catch (error) {
+            console.error("Failed to save practice answers to localStorage", error);
+        }
+    }, [userAnswers]);
+
+    const filteredQuestions = useMemo(() => {
+        let baseQuestions = questions;
+        if (selectedCategory !== 'all') {
+            baseQuestions = questions.filter(q => q.category === selectedCategory);
+        }
+
+        if (viewMode === 'incorrect') {
+            return baseQuestions.filter(q => userAnswers[q.id] && userAnswers[q.id] !== q.correctAnswer);
+        }
+
+        return baseQuestions;
+    }, [questions, selectedCategory, userAnswers, viewMode]);
+
+    const answeredCountForFiltered = useMemo(() => {
+        const filteredQuestionIds = new Set(filteredQuestions.map(q => q.id));
+        return Object.keys(userAnswers).reduce((count, answerId) => {
+            if (filteredQuestionIds.has(Number(answerId))) {
+                return count + 1;
+            }
+            return count;
+        }, 0);
+    }, [filteredQuestions, userAnswers]);
+    
+    useEffect(() => {
         setCurrentQuestionIndex(0);
-    }, [selectedCategory]);
+        setSessionAnswers({});
+    }, [selectedCategory, viewMode]);
+
+    // Safeguard against index out of bounds when filteredQuestions shrinks
+    useEffect(() => {
+        if (filteredQuestions.length > 0 && currentQuestionIndex >= filteredQuestions.length) {
+            setCurrentQuestionIndex(filteredQuestions.length - 1);
+        }
+    }, [filteredQuestions, currentQuestionIndex]);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -74,13 +117,20 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     }, [currentQuestionIndex, handleJumpToQuestion]);
 
     const handleOptionChange = useCallback((questionId: number, option: 'A' | 'B' | 'C' | 'D') => {
-        if (!userAnswers[questionId]) { // Only allow answering once
-            setUserAnswers(prev => ({
-                ...prev,
-                [questionId]: option
-            }));
+        if ((viewMode === 'all' && userAnswers[questionId]) || (viewMode === 'incorrect' && sessionAnswers[questionId])) {
+            return;
         }
-    }, [userAnswers]);
+
+        if (viewMode === 'incorrect') {
+            setSessionAnswers(prev => ({ ...prev, [questionId]: option }));
+        }
+        
+        // Always update the main userAnswers to persist the progress
+        setUserAnswers(prev => ({
+            ...prev,
+            [questionId]: option
+        }));
+    }, [userAnswers, sessionAnswers, viewMode]);
     
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
@@ -130,15 +180,16 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
 
     const getOptionClasses = (question: Question, optionKey: 'A' | 'B' | 'C' | 'D'): string => {
         const baseClasses = "flex justify-between items-start p-4 rounded-lg border-2 transition-all duration-300";
-        const userAnswer = userAnswers[question.id];
-        const isAnswered = userAnswer !== undefined;
-
-        if (!isAnswered) {
+        
+        const isEffectivelyAnswered = question && (viewMode === 'incorrect' ? sessionAnswers[question.id] !== undefined : userAnswers[question.id] !== undefined);
+        const effectiveAnswer = viewMode === 'incorrect' ? sessionAnswers[question.id] : userAnswers[question.id];
+        
+        if (!isEffectivelyAnswered) {
             return `${baseClasses} bg-white border-slate-200 hover:bg-cyan-50/50 hover:border-cyan-300 cursor-pointer`;
         }
 
         const isCorrectAnswer = optionKey === question.correctAnswer;
-        const isSelected = userAnswer === optionKey;
+        const isSelected = effectiveAnswer === optionKey;
 
         if (isCorrectAnswer) {
             return `${baseClasses} bg-green-100 border-green-500 text-green-900 ring-2 ring-green-300`;
@@ -150,11 +201,15 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
     };
 
     const currentQuestion = filteredQuestions[currentQuestionIndex];
-    const isAnswered = currentQuestion && userAnswers[currentQuestion.id] !== undefined;
+    const isDisplayedAsAnswered = currentQuestion && (
+        viewMode === 'incorrect' 
+        ? sessionAnswers[currentQuestion.id] !== undefined 
+        : userAnswers[currentQuestion.id] !== undefined
+    );
     
     return (
         <div className="p-4 md:p-8 max-w-7xl mx-auto animate-fade-in">
-            <div className="flex items-center gap-4 mb-6">
+            <div className="flex items-center gap-4 mb-2">
                 <button
                     onClick={onBack}
                     className="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-2 px-4 rounded-full transition-colors flex items-center gap-2 border border-slate-200 shadow-sm"
@@ -166,22 +221,52 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                 </button>
                 <h2 className="text-2xl md:text-3xl font-bold text-slate-900 text-center flex-1">Luyện tập tổng hợp</h2>
             </div>
+            <p className="text-center text-slate-600 mb-4 font-medium">
+                {viewMode === 'incorrect'
+                    ? `Tổng số câu sai: ${filteredQuestions.length}`
+                    : `Đã hoàn thành: ${answeredCountForFiltered} / ${filteredQuestions.length} câu`
+                }
+            </p>
             
-             <div className="mb-6 flex justify-center items-center gap-4">
-                 <label htmlFor="category-filter" className="font-semibold text-slate-700 shrink-0">Lọc theo chủ đề:</label>
-                 <select
-                    id="category-filter"
-                    value={selectedCategory}
-                    onChange={(e) => setSelectedCategory(e.target.value)}
-                    className="w-full max-w-xs p-2 border border-slate-300 rounded-lg shadow-sm focus:ring-cyan-500 focus:border-cyan-500 bg-white"
-                 >
-                    <option value="all">Tất cả ({questions.length} câu)</option>
-                    {categories.map(cat => (
-                        <option key={cat} value={cat}>
-                            {cat} ({questions.filter(q => q.category === cat).length} câu)
-                        </option>
-                    ))}
-                 </select>
+            <div className="mb-6 flex flex-col sm:flex-row justify-center items-center gap-4">
+                <div className="flex items-center gap-2">
+                     <label htmlFor="category-filter" className="font-semibold text-slate-700 shrink-0">Chủ đề:</label>
+                     <select
+                        id="category-filter"
+                        value={selectedCategory}
+                        onChange={(e) => setSelectedCategory(e.target.value)}
+                        className="w-full max-w-xs p-2 border border-slate-300 rounded-lg shadow-sm focus:ring-cyan-500 focus:border-cyan-500 bg-white"
+                     >
+                        <option value="all">Tất cả ({questions.length} câu)</option>
+                        {categories.map(cat => (
+                            <option key={cat} value={cat}>
+                                {cat} ({questions.filter(q => q.category === cat).length} câu)
+                            </option>
+                        ))}
+                     </select>
+                </div>
+                 <div className="flex items-center gap-2 bg-slate-100 p-1 rounded-lg">
+                    <button
+                        onClick={() => setViewMode('all')}
+                        className={`px-4 py-1.5 rounded-md font-semibold text-sm transition-colors ${
+                            viewMode === 'all' 
+                                ? 'bg-white text-cyan-600 shadow' 
+                                : 'text-slate-600 hover:bg-slate-200'
+                        }`}
+                    >
+                        Tất cả câu hỏi
+                    </button>
+                    <button
+                        onClick={() => setViewMode('incorrect')}
+                        className={`px-4 py-1.5 rounded-md font-semibold text-sm transition-colors ${
+                            viewMode === 'incorrect' 
+                                ? 'bg-white text-rose-600 shadow' 
+                                : 'text-slate-600 hover:bg-slate-200'
+                        }`}
+                    >
+                        Xem câu sai
+                    </button>
+                </div>
             </div>
             
              <div className="text-center mb-6">
@@ -220,20 +305,21 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                             <div className="space-y-4">
                                 {Object.entries(currentQuestion.options).map(([key, value]) => {
                                     const optionKey = key as 'A' | 'B' | 'C' | 'D';
+                                    const effectiveAnswer = viewMode === 'incorrect' ? sessionAnswers[currentQuestion.id] : userAnswers[currentQuestion.id];
                                     const isCorrectAnswer = optionKey === currentQuestion.correctAnswer;
-                                    const isSelectedAnswer = userAnswers[currentQuestion.id] === optionKey;
+                                    const isSelectedAnswer = effectiveAnswer === optionKey;
 
                                     return (
                                         <div 
                                             key={key} 
                                             className={getOptionClasses(currentQuestion, optionKey)}
-                                            onClick={() => { if (!isAnswered) handleOptionChange(currentQuestion.id, optionKey); }}
+                                            onClick={() => handleOptionChange(currentQuestion.id, optionKey)}
                                         >
                                             <div className="flex items-start flex-grow">
                                                 <span className="font-bold text-cyan-700 w-7 shrink-0">{key}.</span>
                                                 <span className="text-slate-800 text-base">{value}</span>
                                             </div>
-                                             {isAnswered && (
+                                             {isDisplayedAsAnswered && (
                                                 <div className="shrink-0 ml-4">
                                                     { isSelectedAnswer && !isCorrectAnswer ? <XIcon /> : (isCorrectAnswer ? <CheckIcon /> : null) }
                                                 </div>
@@ -242,7 +328,7 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                                     );
                                 })}
                             </div>
-                            {isAnswered && (
+                            {isDisplayedAsAnswered && (
                                 <div className="mt-6 p-4 bg-cyan-50/70 rounded-lg border border-cyan-200 animate-fade-in">
                                    <p className="font-bold text-cyan-700">Lý giải:</p>
                                    <p className="text-slate-800">{currentQuestion.explanation}</p>
@@ -253,7 +339,12 @@ const PracticeAll: React.FC<PracticeAllProps> = ({ questions, onBack }) => {
                 )
             ) : (
                  <div className="text-center p-8 bg-white rounded-xl shadow-lg border border-slate-200">
-                    <p className="text-lg text-slate-600">Không có câu hỏi nào cho chủ đề này.</p>
+                    <p className="text-lg text-slate-600">
+                        {viewMode === 'incorrect'
+                            ? 'Tuyệt vời! Bạn chưa làm sai câu nào trong chủ đề này.'
+                            : 'Không có câu hỏi nào cho chủ đề này.'
+                        }
+                    </p>
                 </div>
             )}
             

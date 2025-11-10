@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 export const CheckIcon = () => (
@@ -91,5 +92,11 @@ export const QuestionMarkIcon = ({ className = "h-6 w-6" }: { className?: string
 export const CloseIcon = ({ className = "h-6 w-6" }: { className?: string }) => (
     <svg xmlns="http://www.w3.org/2000/svg" className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+    </svg>
+);
+
+export const RefreshIcon = ({ className = "h-5 w-5" }: { className?: string }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h5m-5-5a9 9 0 0115.55 5.55M20 20v-5h-5m5 5a9 9 0 01-15.55-5.55" />
     </svg>
 );
